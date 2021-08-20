@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>滚动 on Li Mee 的小窝</title>
+    <link>http://LiMeea.github.io/tags/%E6%BB%9A%E5%8A%A8/</link>
+    <description>Recent content in 滚动 on Li Mee 的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://LiMeea.github.io/tags/%E6%BB%9A%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决 Office 滚动卡顿</title>
+      <link>http://LiMeea.github.io/p/fix-office-scroll-delay/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://LiMeea.github.io/p/fix-office-scroll-delay/</guid>
+      <description>问题概述 从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。
+2021 年 6 月 24 日， Li Mee 做了一个 PPT ，发现 PPT 幻灯片列表的滚动居然也是卡顿的，因此将标题修改为「解决 Office Word 滚动卡顿」
+解决方案 这已经是 Li Mee 第 N 次修改这个文章了，目前为止已经找到了很稳定的方法，应该不会再改了…吧。
+手动方法  定位到注册表项：HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides 选择需要修复卡顿的软件 新建字符串值，名称分别为： Microsoft.Office.AirSpace.UseWincompInArm64 和 Microsoft.Office.AirSpace.UseWinCompInWin32 ；值为： false  如图所示
+省事的方法 下载此注册表 （ reg ）文件，双击导入即可。
+点击下载
+此注册表可以修复 Microsoft Office 365 所包含的所有软件。</description>
+    </item>
+    
+  </channel>
+</rss>

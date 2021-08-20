@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Li Mee 的小窝</title>
+        <link>http://LiMeea.github.io/</link>
+        <description>Recent content on Li Mee 的小窝</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Fri, 20 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://LiMeea.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>解决 Office 滚动卡顿</title>
+        <link>http://LiMeea.github.io/p/fix-office-scroll-delay/</link>
+        <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>http://LiMeea.github.io/p/fix-office-scroll-delay/</guid>
+        <description>&lt;h2 id=&#34;问题概述&#34;&gt;问题概述&lt;/h2&gt;
+&lt;p&gt;从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。&lt;/p&gt;
+&lt;p&gt;2021 年 6 月 24 日， Li Mee 做了一个 PPT ，发现 PPT 幻灯片列表的滚动居然也是卡顿的，因此将标题修改为「解决 Office &lt;del&gt;Word&lt;/del&gt; 滚动卡顿」&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;p&gt;这已经是 Li Mee 第 N 次修改这个文章了，目前为止已经找到了很稳定的方法，应该不会再改了…吧。&lt;/p&gt;
+&lt;h3 id=&#34;手动方法&#34;&gt;手动方法&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;定位到注册表项：&lt;code&gt;HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;选择需要修复卡顿的软件&lt;/li&gt;
+&lt;li&gt;新建字符串值，名称分别为： &lt;code&gt;Microsoft.Office.AirSpace.UseWincompInArm64&lt;/code&gt; 和 &lt;code&gt;Microsoft.Office.AirSpace.UseWinCompInWin32&lt;/code&gt; ；值为： false&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 188; flex-basis: 451px&#34;&gt;
+		&lt;a href=&#34;http://LiMeea.github.io/p/fix-office-scroll-delay/edit-reg.png&#34; data-size=&#34;1920x1020&#34;&gt;&lt;img src=&#34;http://LiMeea.github.io/p/fix-office-scroll-delay/edit-reg.png&#34;
+				srcset=&#34;http://LiMeea.github.io/p/fix-office-scroll-delay/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_480x0_resize_box_3.png 480w, http://LiMeea.github.io/p/fix-office-scroll-delay/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_1024x0_resize_box_3.png 1024w&#34;
+				width=&#34;1920&#34;
+				height=&#34;1020&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;如图所示&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;如图所示&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;省事的方法&#34;&gt;省事的方法&lt;/h3&gt;
+&lt;p&gt;下载此注册表 （ reg ）文件，双击导入即可。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wwa.lanzoui.com/iICeMrhbmif&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&#34;info&#34;&gt;
+此注册表可以修复 Microsoft Office 365 所包含的所有软件。
+&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Windows 语言变成「中文（新加坡）」</title>
+        <link>http://LiMeea.github.io/p/windows-oobe-language-singapore/</link>
+        <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>http://LiMeea.github.io/p/windows-oobe-language-singapore/</guid>
+        <description>&lt;img src="http://LiMeea.github.io/p/windows-oobe-language-singapore/title_image.jpg" alt="Featured image of post Windows 语言变成「中文（新加坡）」" /&gt;&lt;h2 id=&#34;问题概述&#34;&gt;问题概述&lt;/h2&gt;
+&lt;p&gt;西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。&lt;/p&gt;
+&lt;p&gt;关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……&lt;/p&gt;
+&lt;h2 id=&#34;临时解决方案&#34;&gt;临时解决方案&lt;/h2&gt;
+&lt;p class=&#34;info&#34;&gt;
+灵感来自于：&lt;a href=&#34;https://www.sysgeek.cn/windows-10-force-remove-language-pack&#34; target=&#34;_blank&#34;&gt;https://www.sysgeek.cn/windows-10-force-remove-language-pack&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;强制删除中文新加坡&#34;&gt;强制删除「中文（新加坡）」&lt;/h3&gt;
+&lt;p&gt;使用管理员模式打开 Windows Powershell，输入命令：&lt;code&gt;Get-WinUserLanguageList&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;观察所得信息中是否包含&lt;code&gt;LanguageTag     : zh-Hans-SG&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：&lt;br&gt;
+&lt;code&gt;$LangList = Get-WinUserLanguageList&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;$MarkedLang = $LangList | where LanguageTag -eq &amp;quot;zh-Hans-SG&amp;quot;&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;$LangList.Remove($MarkedLang)&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;Set-WinUserLanguageList $LangList -Force&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;添加中文中华人民共和国&#34;&gt;添加「中文（中华人民共和国）」&lt;/h3&gt;
+&lt;p&gt;打开设置——时间和语言——语言——添加语言——搜索Chinese，选择「中文（中华人民共和国）」即可。&lt;/p&gt;
+&lt;h2 id=&#34;完美解决方案&#34;&gt;完美解决方案&lt;/h2&gt;
+&lt;p&gt;如果多次重装系统，就会发现这样的问题会屡次发生。因此可以猜测此问题可能是「微软账户关于 Windows 设置同步的信息出现异常」导致的。&lt;/p&gt;
+&lt;p&gt;实际上也确实如此， Windows 10 系统的「同步你的设置」功能（位于“设置——账户——同步你的设置”）是造成此问题的元凶，不稳定的同步导致 OneDrive 上存放的用户设置出现了差错。&lt;/p&gt;
+&lt;p&gt;想要解决这个问题，就需要想办法从 OneDrive 上删除错误的用户设置同步信息。&lt;/p&gt;
+&lt;h3 id=&#34;删除用户设置&#34;&gt;删除用户设置&lt;/h3&gt;
+&lt;p&gt;打开 &lt;a class=&#34;link&#34; href=&#34;https://onedrive.live.com/win8personalsettingsprivacy/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;删除用户设置的网站&lt;/a&gt; （请在新标签页内打开，此外还需要&lt;strong&gt;魔法&lt;/strong&gt;），按步骤删除同步的用户设置即可。&lt;/p&gt;
+&lt;p class=&#34;warning&#34;&gt;
+注意：&lt;br&gt;
+删除同步的用户数据，并不会让系统内的语言“改邪归正”，还需要配合「临时解决方案」或选择重装系统。
+&lt;/p&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;p&gt;用户设置同步出现的差错还可能导致其他问题，目前还已知的有：「登录微软账户后，鼠标左右键被对调」&lt;/p&gt;
+&lt;p&gt;截至目前，如果发现登陆微软账户后设置发生了无法预知的错误更改，基本可以怀疑是「用户设置同步出错」导致的。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
