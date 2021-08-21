@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bug on Li Mee 的小窝</title>
-    <link>http://LiMeea.github.io/tags/bug/</link>
+    <link>https://limeea.github.io/tags/bug/</link>
     <description>Recent content in bug on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://LiMeea.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决 Office 滚动卡顿</title>
-      <link>http://LiMeea.github.io/p/fix-office-scroll-delay/</link>
+      <link>https://limeea.github.io/p/fix-office-scroll-delay/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://LiMeea.github.io/p/fix-office-scroll-delay/</guid>
+      <guid>https://limeea.github.io/p/fix-office-scroll-delay/</guid>
       <description>问题概述 从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。
 2021 年 6 月 24 日， Li Mee 做了一个 PPT ，发现 PPT 幻灯片列表的滚动居然也是卡顿的，因此将标题修改为「解决 Office Word 滚动卡顿」
 解决方案 这已经是 Li Mee 第 N 次修改这个文章了，目前为止已经找到了很稳定的方法，应该不会再改了…吧。
@@ -24,10 +24,10 @@
     
     <item>
       <title>Windows 语言变成「中文（新加坡）」</title>
-      <link>http://LiMeea.github.io/p/windows-oobe-language-singapore/</link>
+      <link>https://limeea.github.io/p/windows-oobe-language-singapore/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://LiMeea.github.io/p/windows-oobe-language-singapore/</guid>
+      <guid>https://limeea.github.io/p/windows-oobe-language-singapore/</guid>
       <description>问题概述 西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。
 关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……
 临时解决方案 灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
