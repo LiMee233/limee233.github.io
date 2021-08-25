@@ -7,6 +7,53 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Fri, 20 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>记更改 WD 硬盘休眠时间的历程</title>
+        <link>https://limeea.github.io/p/wd-hard-disk-apmtimer/</link>
+        <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://limeea.github.io/p/wd-hard-disk-apmtimer/</guid>
+        <description>&lt;h2 id=&#34;硬盘的来历&#34;&gt;硬盘的来历&lt;/h2&gt;
+&lt;p&gt;是 Li Mee 高考完的那个暑假，emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。&lt;/p&gt;
+&lt;h2 id=&#34;硬伤&#34;&gt;硬伤&lt;/h2&gt;
+&lt;p&gt;自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。&lt;/p&gt;
+&lt;p&gt;哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？&lt;/p&gt;
+&lt;h2 id=&#34;尝试解决&#34;&gt;尝试解决&lt;/h2&gt;
+&lt;h3 id=&#34;硬盘盒的自动休眠&#34;&gt;硬盘盒的自动休眠&lt;/h3&gt;
+&lt;p&gt;一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。&lt;/p&gt;
+&lt;p&gt;于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， &lt;strong&gt;Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号&lt;/strong&gt;，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了&lt;/p&gt;
+&lt;p&gt;后来又买了个新的ww…&lt;/p&gt;
+&lt;p&gt;不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。&lt;/p&gt;
+&lt;h3 id=&#34;crystal-disk-info&#34;&gt;Crystal Disk Info&lt;/h3&gt;
+&lt;p&gt;后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。&lt;/p&gt;
+&lt;p&gt;但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。&lt;/p&gt;
+&lt;h3 id=&#34;wdidle3&#34;&gt;WDIDLE3&lt;/h3&gt;
+&lt;p&gt;Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过&lt;strong&gt;还是没用&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;apmtimer&#34;&gt;apmtimer&lt;/h3&gt;
+&lt;p&gt;Li Mee 没什么事情做，于是又来研究这个问题了。&lt;/p&gt;
+&lt;p&gt;在 Bing 上搜索「WD10SPCX C1」后，有一个 &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/read/cv10232535&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;哔哩哔哩专栏&lt;/a&gt; 吸引了 Li Mee 的注意，打开后就引导到了一个 &lt;a class=&#34;link&#34; href=&#34;http://lxf.me/?p=428&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;手搓代码的大佬&lt;/a&gt; 的地方，下面有这样的一则评论：&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 237; 
+			flex-basis: 569px&#34;
+	&gt;
+	&lt;a href=&#34;https://limeea.github.io/p/wd-hard-disk-apmtimer/Comment.png&#34; data-size=&#34;748x315&#34;&gt;
+		&lt;img src=&#34;https://limeea.github.io/p/wd-hard-disk-apmtimer/Comment.png&#34;
+			width=&#34;748&#34;
+			height=&#34;315&#34;
+			srcset=&#34;https://limeea.github.io/p/wd-hard-disk-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_480x0_resize_box_3.png 480w, https://limeea.github.io/p/wd-hard-disk-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;So ，装 Ubuntu ，运行 apmtimer 一气呵成，关机后再将硬盘插入硬盘盒，连上笔记本电脑，这问题总算是彻底解决了！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>解决 Office 滚动卡顿</title>
         <link>https://limeea.github.io/p/fix-office-scroll-delay/</link>
         <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>

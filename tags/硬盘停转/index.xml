@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>硬盘停转 on Li Mee 的小窝</title>
+    <link>https://limeea.github.io/tags/%E7%A1%AC%E7%9B%98%E5%81%9C%E8%BD%AC/</link>
+    <description>Recent content in 硬盘停转 on Li Mee 的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/%E7%A1%AC%E7%9B%98%E5%81%9C%E8%BD%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>记更改 WD 硬盘休眠时间的历程</title>
+      <link>https://limeea.github.io/p/wd-hard-disk-apmtimer/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/p/wd-hard-disk-apmtimer/</guid>
+      <description>硬盘的来历 是 Li Mee 高考完的那个暑假，emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。
+硬伤 自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。
+哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？
+尝试解决 硬盘盒的自动休眠 一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。
+于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了
+后来又买了个新的ww…
+不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。
+Crystal Disk Info 后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。
+但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。
+WDIDLE3 Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过还是没用。</description>
+    </item>
+    
+  </channel>
+</rss>

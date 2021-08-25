@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='欢迎来到 Li Mee 的小窝，很高兴遇见你！🤝'><title>关于</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='硬盘的来历 是 Li Mee 高考完的那个暑假，emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。
+硬伤 自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。
+哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？
+尝试解决 硬盘盒的自动休眠 一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。
+于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了
+后来又买了个新的ww…
+不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。
+Crystal Disk Info 后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。
+但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。
+WDIDLE3 Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过还是没用。'><title>记更改 WD 硬盘休眠时间的历程</title>
 
-<link rel='canonical' href='https://limeea.github.io/about/'>
+<link rel='canonical' href='https://limeea.github.io/p/wd-hard-disk-apmtimer/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='关于'>
-<meta property='og:description' content='欢迎来到 Li Mee 的小窝，很高兴遇见你！🤝'>
-<meta property='og:url' content='https://limeea.github.io/about/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='记更改 WD 硬盘休眠时间的历程'>
+<meta property='og:description' content='硬盘的来历 是 Li Mee 高考完的那个暑假，emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。
+硬伤 自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。
+哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？
+尝试解决 硬盘盒的自动休眠 一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。
+于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了
+后来又买了个新的ww…
+不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。
+Crystal Disk Info 后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。
+但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。
+WDIDLE3 Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过还是没用。'>
+<meta property='og:url' content='https://limeea.github.io/p/wd-hard-disk-apmtimer/'>
 <meta property='og:site_name' content='Li Mee 的小窝'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2021-08-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-08-25T22:04:00&#43;08:00'/>
-<meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="欢迎来到 Li Mee 的小窝，很高兴遇见你！🤝">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='APMTIMER' /><meta property='article:tag' content='硬盘停转' /><meta property='article:published_time' content='2021-07-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-08-25T14:21:00&#43;08:00'/>
+<meta name="twitter:title" content="记更改 WD 硬盘休眠时间的历程">
+<meta name="twitter:description" content="硬盘的来历 是 Li Mee 高考完的那个暑假，emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。
+硬伤 自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。
+哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？
+尝试解决 硬盘盒的自动休眠 一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。
+于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了
+后来又买了个新的ww…
+不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。
+Crystal Disk Info 后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。
+但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。
+WDIDLE3 Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过还是没用。">
     <link rel="shortcut icon" href="/img/icon.png" />
 
     </head>
@@ -139,7 +166,7 @@
         
         
 
-        <li  class='current' >
+        <li >
             <a href='/about/' >
                 
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -188,13 +215,9 @@
     
 
     <h2 class="article-title">
-        <a href="/about/">关于</a>
+        <a href="/p/wd-hard-disk-apmtimer/">记更改 WD 硬盘休眠时间的历程</a>
     </h2>
 
-    
-    <h3 class="article-subtitle">
-        欢迎来到 Li Mee 的小窝，很高兴遇见你！🤝
-    </h3>
     
 
     
@@ -210,7 +233,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2021/08/20</time>
+                <time class="article-time--published">2021/07/20</time>
             </div>
         
 
@@ -221,42 +244,59 @@
 </header>
 
     <section class="article-content">
-    <p class="warning">「关于」界面会不定期更新，不要因为此页面某一时间的呈现而对 Li Mee 产生刻板印象哦~</p>
-<h2 id="-关于网站">👨‍💻 关于网站</h2>
-<h3 id="-历史">🔍 历史</h3>
-<p>Li Mee 的网站最初是建立在 Gridea 上的，但后来 Li Mee 逐渐发现了 Gridea 的诸如主题自定义程度较低、书写体验较卡顿、废弃的图片难以处理、不用手机开 VPN 热点基本无法同步成功等缺点，因此开始寻找 Gridea 之外的替代品。</p>
-<p>一开始发现了流行的 Hexo ，但实际体验下来， <del>Li Mee 深刻认识到了自己的 vegetable</del> ，主题的定义涉及太多未知的领域了，根本看不懂qwq</p>
-<p>后来 Li Mee 通过 <a class="link" href="https://mtf.wiki/zh-cn/"  target="_blank" rel="noopener"
-    >MtF WiKi</a> 了解到了 Hugo ，其中的 <a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack"  target="_blank" rel="noopener"
-    >Stack</a> 主题一下子就打动了 Li Mee 的心——这就是 Li Mee 想要的主题！用了亿点点时间修改后， Li Mee 的小窝总算走上了迁移的正轨。</p>
-<h3 id="-目标">🚀 目标</h3>
-<ol>
-<li>分享各种经验，来帮助更多人</li>
-<li>记录一些观点以供思考和借鉴（鸽）</li>
-<li>当作可以公开的日记本，不公开的写 OneNote 里面</li>
-<li><del>锻炼建站能力（雾）</del></li>
-</ol>
-<h2 id="-关于-li-mee">😀 关于 Li Mee</h2>
-<p>很闲的闲鱼，平常喜欢追求一些计算机（包括手机）上的新技术。不过目的仅仅是能够满足 Li Mee 的需要即可，因此导致「什么都会一点，什么都不精通」的结果。</p>
-<p>曾经的刷机、 root 、 Xposed 狂热爱好者，现在已经“退化”成为 Pixel Experience （后简称 PE ）的“忠实用户”，由于当前主力机的 PE 无人维护，所以 Li Mee 也花了亿点时间学习 Android 编译，变成了非官方的维护者 <del>抄代码的</del>。</p>
-<p>会写一点点 C# ，不过主要是用来写「实用程序」，帮助 Li Mee 减少重复劳动的那种；而至于高深的算法什么的吗，就真的不会了……说来惭愧，高中的时候差点就成了OIer，之后因为学不会 + 耽误上课和考试而弃坑w</p>
-<p>乐于助人且内向，如果有人向 Li Mee 求助，那 Li Mee 绝对会尽自己所能帮助 Ta ；但当 Li Mee 需要别人帮助的时候就会 99% 说不出口，宁可自己花很多倍的时间，也不愿意问别人，同时在受到别人帮助之后也不知道该如何道谢。</p>
-<p>是 INFP-T ，常常陷入沉思，思考方式和大多数人不同；容易观察到人们敏感的情绪，并把别人一切“不好”的表现归咎于自己，给自己造成不小的压力。所以 Li Mee 希望大家能正常看待“不一样”、也希望终有一天不再总是认为自己错了。</p>
-<p>是一只含糖🍥<font color ="#55CDFC">M</font>t<font color="#F7A8B8">F</font>，目前无证飙车，打算本学期出柜ww（不然未来太迷茫了好吧）。契机就很简单：在网上见到了另一只MtF，一开始不懂，后来emm……这不就是 Li Mee 想成为的样子吗？！怪不得有那么多方面都和大部分男生不一样……然后纠结了将近一年，<del>成功翻车</del>，目前不后悔，以后也不可能！</p>
-<h2 id="-联系-li-mee">📬 联系 Li Mee</h2>
-<p>Telegram: <a class="link" href="https://t.me/LiMeen"  target="_blank" rel="noopener"
-    >@LiMeen</a><br>
-Twitter: <a class="link" href="https://twitter.com/limee996"  target="_blank" rel="noopener"
-    >@LiMee996</a><br>
-GitHub: <a class="link" href="https://github.com/LiMeea"  target="_blank" rel="noopener"
-    >@LiMeea</a></p>
-<p><em>Chinese chatting software (especially Tencent) is considered by me to be insecure, so I do not provide such contacts. AND <strong>DO NOT</strong> ask me for that.</em></p>
+    <h2 id="硬盘的来历">硬盘的来历</h2>
+<p>是 Li Mee 高考完的那个暑假，emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。</p>
+<h2 id="硬伤">硬伤</h2>
+<p>自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。</p>
+<p>哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？</p>
+<h2 id="尝试解决">尝试解决</h2>
+<h3 id="硬盘盒的自动休眠">硬盘盒的自动休眠</h3>
+<p>一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。</p>
+<p>于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， <strong>Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号</strong>，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了</p>
+<p>后来又买了个新的ww…</p>
+<p>不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。</p>
+<h3 id="crystal-disk-info">Crystal Disk Info</h3>
+<p>后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。</p>
+<p>但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。</p>
+<h3 id="wdidle3">WDIDLE3</h3>
+<p>Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过<strong>还是没用</strong>。</p>
+<h3 id="apmtimer">apmtimer</h3>
+<p>Li Mee 没什么事情做，于是又来研究这个问题了。</p>
+<p>在 Bing 上搜索「WD10SPCX C1」后，有一个 <a class="link" href="https://www.bilibili.com/read/cv10232535"  target="_blank" rel="noopener"
+    >哔哩哔哩专栏</a> 吸引了 Li Mee 的注意，打开后就引导到了一个 <a class="link" href="http://lxf.me/?p=428"  target="_blank" rel="noopener"
+    >手搓代码的大佬</a> 的地方，下面有这样的一则评论：</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 237; 
+			flex-basis: 569px"
+	>
+	<a href="/p/wd-hard-disk-apmtimer/Comment.png" data-size="748x315">
+		<img src="/p/wd-hard-disk-apmtimer/Comment.png"
+			width="748"
+			height="315"
+			srcset="/p/wd-hard-disk-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_480x0_resize_box_3.png 480w, /p/wd-hard-disk-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>So ，装 Ubuntu ，运行 apmtimer 一气呵成，关机后再将硬盘插入硬盘盒，连上笔记本电脑，这问题总算是彻底解决了！</p>
 
 </section>
 
 
     <footer class="article-footer">
     
+    <section class="article-tags">
+        
+            <a href="/tags/apmtimer/">APMTIMER</a>
+        
+            <a href="/tags/%E7%A1%AC%E7%9B%98%E5%81%9C%E8%BD%AC/">硬盘停转</a>
+        
+    </section>
+
 
     
     <section class="article-copyright">
@@ -284,7 +324,7 @@ GitHub: <a class="link" href="https://github.com/LiMeea"  target="_blank" rel="n
 
 
         <span>
-            最后更新于 2021/08/25 22:04 CST
+            最后更新于 2021/08/25 14:21 CST
         </span>
     </section></footer>
 
@@ -417,14 +457,16 @@ GitHub: <a class="link" href="https://github.com/LiMeea"  target="_blank" rel="n
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ol>
-    <li><a href="#-关于网站">👨‍💻 关于网站</a>
+    <li><a href="#硬盘的来历">硬盘的来历</a></li>
+    <li><a href="#硬伤">硬伤</a></li>
+    <li><a href="#尝试解决">尝试解决</a>
       <ol>
-        <li><a href="#-历史">🔍 历史</a></li>
-        <li><a href="#-目标">🚀 目标</a></li>
+        <li><a href="#硬盘盒的自动休眠">硬盘盒的自动休眠</a></li>
+        <li><a href="#crystal-disk-info">Crystal Disk Info</a></li>
+        <li><a href="#wdidle3">WDIDLE3</a></li>
+        <li><a href="#apmtimer">apmtimer</a></li>
       </ol>
     </li>
-    <li><a href="#-关于-li-mee">😀 关于 Li Mee</a></li>
-    <li><a href="#-联系-li-mee">📬 联系 Li Mee</a></li>
   </ol>
 </nav>
                 </div>
