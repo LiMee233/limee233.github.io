@@ -23,6 +23,23 @@
     </item>
     
     <item>
+      <title>AMD 集显中 XAML 设计器花屏</title>
+      <link>https://limeea.github.io/p/amd-xaml-designer-display-error/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/p/amd-xaml-designer-display-error/</guid>
+      <description>详细描述 在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML 设计器花屏，无法正常使用的问题。
+花屏现象如图所示
+解决方案 在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」为游戏，并且调节「抗锯齿」为「覆盖应用程序设置」，抗锯齿级别为任意项即可（此处推荐2X）
+
+如果没有调整 Visual Studio 的安装位置，则「 Microsoft Visual Studio XAML Designer 」应该位于“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\XDesProc.exe”；如果不知道具体位置，可以在打开 XAML 设计器的前提下去任务管理器寻找位置。需要注意的是，其进程可能归于应用「 Microsoft Visual Studio 2019/2017 」中，也可能是一个单独的后台进程。
+调整完抗锯齿设置后，重新启动「 Microsoft Visual Studio XAML Designer 」或者 Visual Studio 即可生效。
+注意：
+1. 仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用
+2. 如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X</description>
+    </item>
+    
+    <item>
       <title>Windows 语言变成「中文（新加坡）」</title>
       <link>https://limeea.github.io/p/windows-oobe-language-singapore/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
@@ -33,11 +50,10 @@
 临时解决方案 灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
 观察所得信息中是否包含LanguageTag : zh-Hans-SG
 若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：
-$LangList = Get-WinUserLanguageList
-$MarkedLang = $LangList | where LanguageTag -eq &amp;quot;zh-Hans-SG&amp;quot;
-$LangList.Remove($MarkedLang)
-Set-WinUserLanguageList $LangList -Force
-添加「中文（中华人民共和国）」 打开设置——时间和语言——语言——添加语言——搜索Chinese，选择「中文（中华人民共和国）」即可。
+ $LangList = Get-WinUserLanguageList
+ $MarkedLang = $LangList | where LanguageTag -eq &amp;quot;zh-Hans-SG&amp;quot;
+ $LangList.Remove($MarkedLang)
+ Set-WinUserLanguageList $LangList -Force  添加「中文（中华人民共和国）」 打开设置——时间和语言——语言——添加语言——搜索Chinese，选择「中文（中华人民共和国）」即可。
 完美解决方案 如果多次重装系统，就会发现这样的问题会屡次发生。因此可以猜测此问题可能是「微软账户关于 Windows 设置同步的信息出现异常」导致的。
 实际上也确实如此， Windows 10 系统的「同步你的设置」功能（位于“设置——账户——同步你的设置”）是造成此问题的元凶，不稳定的同步导致 OneDrive 上存放的用户设置出现了差错。
 想要解决这个问题，就需要想办法从 OneDrive 上删除错误的用户设置同步信息。

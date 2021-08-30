@@ -98,6 +98,60 @@
 &lt;/p&gt;</description>
         </item>
         <item>
+        <title>AMD 集显中 XAML 设计器花屏</title>
+        <link>https://limeea.github.io/p/amd-xaml-designer-display-error/</link>
+        <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://limeea.github.io/p/amd-xaml-designer-display-error/</guid>
+        <description>&lt;h2 id=&#34;详细描述&#34;&gt;详细描述&lt;/h2&gt;
+&lt;p&gt;在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML 设计器花屏，无法正常使用的问题。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 186; 
+			flex-basis: 447px&#34;
+	&gt;
+	&lt;a href=&#34;https://limeea.github.io/p/amd-xaml-designer-display-error/XAML-bug.jpg&#34; data-size=&#34;1920x1030&#34;&gt;
+		&lt;img src=&#34;https://limeea.github.io/p/amd-xaml-designer-display-error/XAML-bug.jpg&#34;
+			width=&#34;1920&#34;
+			height=&#34;1030&#34;
+			srcset=&#34;https://limeea.github.io/p/amd-xaml-designer-display-error/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_480x0_resize_q75_box.jpg 480w, https://limeea.github.io/p/amd-xaml-designer-display-error/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;花屏现象如图所示&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;花屏现象如图所示&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;p&gt;在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」为游戏，并且调节「抗锯齿」为「覆盖应用程序设置」，抗锯齿级别为任意项即可（此处推荐2X）&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 182; 
+			flex-basis: 437px&#34;
+	&gt;
+	&lt;a href=&#34;https://limeea.github.io/p/amd-xaml-designer-display-error/adjust-AMD-Software.jpg&#34; data-size=&#34;1618x887&#34;&gt;
+		&lt;img src=&#34;https://limeea.github.io/p/amd-xaml-designer-display-error/adjust-AMD-Software.jpg&#34;
+			width=&#34;1618&#34;
+			height=&#34;887&#34;
+			srcset=&#34;https://limeea.github.io/p/amd-xaml-designer-display-error/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_480x0_resize_q75_box.jpg 480w, https://limeea.github.io/p/amd-xaml-designer-display-error/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;如果没有调整 Visual Studio 的安装位置，则「 Microsoft Visual Studio XAML Designer 」应该位于“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\XDesProc.exe”；如果不知道具体位置，可以在打开 XAML 设计器的前提下去任务管理器寻找位置。需要注意的是，其进程可能归于应用「 Microsoft Visual Studio 2019/2017 」中，也可能是一个单独的后台进程。&lt;/p&gt;
+&lt;p&gt;调整完抗锯齿设置后，重新启动「 Microsoft Visual Studio XAML Designer 」或者 Visual Studio 即可生效。&lt;/p&gt;
+&lt;p class=&#34;warning&#34;&gt;
+注意：&lt;br&gt;
+1. 仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用&lt;br&gt;
+2. 如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X
+&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Windows 语言变成「中文（新加坡）」</title>
         <link>https://limeea.github.io/p/windows-oobe-language-singapore/</link>
         <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
@@ -113,11 +167,13 @@
 &lt;h3 id=&#34;强制删除中文新加坡&#34;&gt;强制删除「中文（新加坡）」&lt;/h3&gt;
 &lt;p&gt;使用管理员模式打开 Windows Powershell，输入命令：&lt;code&gt;Get-WinUserLanguageList&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;观察所得信息中是否包含&lt;code&gt;LanguageTag     : zh-Hans-SG&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：&lt;br&gt;
-&lt;code&gt;$LangList = Get-WinUserLanguageList&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;$MarkedLang = $LangList | where LanguageTag -eq &amp;quot;zh-Hans-SG&amp;quot;&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;$LangList.Remove($MarkedLang)&lt;/code&gt;&lt;br&gt;
-&lt;code&gt;Set-WinUserLanguageList $LangList -Force&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;$LangList = Get-WinUserLanguageList&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$MarkedLang = $LangList | where LanguageTag -eq &amp;quot;zh-Hans-SG&amp;quot;&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;$LangList.Remove($MarkedLang)&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Set-WinUserLanguageList $LangList -Force&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;添加中文中华人民共和国&#34;&gt;添加「中文（中华人民共和国）」&lt;/h3&gt;
 &lt;p&gt;打开设置——时间和语言——语言——添加语言——搜索Chinese，选择「中文（中华人民共和国）」即可。&lt;/p&gt;
 &lt;h2 id=&#34;完美解决方案&#34;&gt;完美解决方案&lt;/h2&gt;
