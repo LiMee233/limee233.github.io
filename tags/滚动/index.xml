@@ -19,6 +19,7 @@
 手动方法  定位到注册表项：HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides 选择需要修复卡顿的软件 新建字符串值，名称分别为： Microsoft.Office.AirSpace.UseWincompInArm64 和 Microsoft.Office.AirSpace.UseWinCompInWin32 ；值为： false  如图所示
 省事的方法 下载此注册表 （ reg ）文件，双击导入即可。
 点击下载
+信息
 此注册表可以修复 Microsoft Office 365 所包含的所有软件。</description>
     </item>
     

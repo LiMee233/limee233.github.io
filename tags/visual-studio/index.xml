@@ -19,7 +19,7 @@
 
 如果没有调整 Visual Studio 的安装位置，则「 Microsoft Visual Studio XAML Designer 」应该位于“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\XDesProc.exe”；如果不知道具体位置，可以在打开 XAML 设计器的前提下去任务管理器寻找位置。需要注意的是，其进程可能归于应用「 Microsoft Visual Studio 2019/2017 」中，也可能是一个单独的后台进程。
 调整完抗锯齿设置后，重新启动「 Microsoft Visual Studio XAML Designer 」或者 Visual Studio 即可生效。
-注意：
+注意
 1. 仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用
 2. 如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X</description>
     </item>

@@ -14,14 +14,14 @@
         <guid>https://limeea.github.io/p/hebut-military-training/</guid>
         <description>&lt;p&gt;不打算藏了，我就在河北工业大学，来找我呀~&lt;/p&gt;
 &lt;p class=&#34;warning&#34;&gt;
-注意：&lt;br&gt;
+注意&lt;br&gt;
 本文仅记录了2020级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。
 &lt;/p&gt;
 &lt;h2 id=&#34;基本信息&#34;&gt;基本信息&lt;/h2&gt;
 &lt;p&gt;本人机械工程学院，测控技术与仪器专业 &lt;del&gt;（为了学校妥协了专业，后悔至今）&lt;/del&gt; ，2020级学生。&lt;/p&gt;
 &lt;p&gt;大学军训本应在大一进行，但由于疫情原因，推迟到了大二。&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息：&lt;br&gt;
+信息&lt;br&gt;
 已知2021级军训没有推迟
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;军训时间&lt;/strong&gt;：14天（实际 13天 + 2小时的检阅）&lt;br&gt;
@@ -40,12 +40,12 @@
 &lt;h3 id=&#34;基本项目&#34;&gt;基本项目&lt;/h3&gt;
 &lt;p&gt;包括军姿、稍息、转体、整理着装、敬礼、蹲下起立、齐步、正步等，其实没什么好说的，就是重复练习，重复再重复那种——实在没什么意思，但时间过得也挺快的，训练的强度决定于教官，有松有紧。&lt;/p&gt;
 &lt;p class=&#34;warning&#34;&gt;
-注意：&lt;br&gt;
+注意&lt;br&gt;
 齐步正步可能会被定动作，这确实很累，坚持不住记得摸鱼哦~
 &lt;/p&gt;
 &lt;p&gt;一部分教官是「学生教官团」，我们的教官有一位是同届的，另一个是大三的，管理算是相当轻松，划水摸鱼是常事。&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息：&lt;br&gt;
+信息&lt;br&gt;
 之所以有两个教官，是因为教官本来就比方队要多，应该多1.5~2倍，中途教官可能莫名消失或出现（薛定谔的教官）。
 &lt;/p&gt;
 &lt;p&gt;另一部分教官是「武警教官」，我们教官说他们管的挺松，但 Li Mee 并不清楚具体情况，只知道他们正步踢得确实很随便。&lt;/p&gt;
@@ -63,7 +63,7 @@
 &lt;p&gt;为期2天，完成后「哨子哥」会从每个方队中选择几个打的比较好的人，加入擒敌拳/应急棍的训练方队，这两个方队是需要上台表演的（甚至还要在2021级开幕式上表演，太惨了）。&lt;/p&gt;
 &lt;p&gt;这几个打的比较好的人，是教官提前选择的。我们的教官直接就问“谁想过去打棍？”，之后就培养想打棍的人了，算是比较自由。&lt;/p&gt;
 &lt;p class=&#34;danger&#34;&gt;
-警告：&lt;br&gt;
+警告&lt;br&gt;
 教官可能会说应急棍/军体拳很轻松，千万别信。
 &lt;/p&gt;
 &lt;h3 id=&#34;准备检阅&#34;&gt;准备检阅&lt;/h3&gt;
@@ -172,6 +172,7 @@
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wwa.lanzoui.com/iICeMrhbmif&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;点击下载&lt;/a&gt;&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
+信息&lt;br&gt;
 此注册表可以修复 Microsoft Office 365 所包含的所有软件。
 &lt;/p&gt;</description>
         </item>
@@ -224,7 +225,7 @@
 &lt;p&gt;如果没有调整 Visual Studio 的安装位置，则「 Microsoft Visual Studio XAML Designer 」应该位于“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\XDesProc.exe”；如果不知道具体位置，可以在打开 XAML 设计器的前提下去任务管理器寻找位置。需要注意的是，其进程可能归于应用「 Microsoft Visual Studio 2019/2017 」中，也可能是一个单独的后台进程。&lt;/p&gt;
 &lt;p&gt;调整完抗锯齿设置后，重新启动「 Microsoft Visual Studio XAML Designer 」或者 Visual Studio 即可生效。&lt;/p&gt;
 &lt;p class=&#34;warning&#34;&gt;
-注意：&lt;br&gt;
+注意&lt;br&gt;
 1. 仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用&lt;br&gt;
 2. 如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X
 &lt;/p&gt;</description>
@@ -240,6 +241,7 @@
 &lt;p&gt;关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……&lt;/p&gt;
 &lt;h2 id=&#34;临时解决方案&#34;&gt;临时解决方案&lt;/h2&gt;
 &lt;p class=&#34;info&#34;&gt;
+信息&lt;br&gt;
 灵感来自于：&lt;a href=&#34;https://www.sysgeek.cn/windows-10-force-remove-language-pack&#34; target=&#34;_blank&#34;&gt;https://www.sysgeek.cn/windows-10-force-remove-language-pack&lt;/a&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;强制删除中文新加坡&#34;&gt;强制删除「中文（新加坡）」&lt;/h3&gt;
@@ -262,7 +264,7 @@
 &lt;p&gt;打开 &lt;a class=&#34;link&#34; href=&#34;https://onedrive.live.com/win8personalsettingsprivacy/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;删除用户设置的网站&lt;/a&gt; （请在新标签页内打开，此外还需要&lt;strong&gt;魔法&lt;/strong&gt;），按步骤删除同步的用户设置即可。&lt;/p&gt;
 &lt;p class=&#34;warning&#34;&gt;
-注意：&lt;br&gt;
+注意&lt;br&gt;
 删除同步的用户数据，并不会让系统内的语言“改邪归正”，还需要配合「临时解决方案」或选择重装系统。
 &lt;/p&gt;
 &lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;

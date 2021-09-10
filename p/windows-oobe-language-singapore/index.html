@@ -3,7 +3,8 @@
     <head><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='问题概述 西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。
 关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……
-临时解决方案 灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
+临时解决方案 信息
+灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
 观察所得信息中是否包含LanguageTag : zh-Hans-SG
 若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：
  $LangList = Get-WinUserLanguageList
@@ -14,7 +15,7 @@
 实际上也确实如此， Windows 10 系统的「同步你的设置」功能（位于“设置——账户——同步你的设置”）是造成此问题的元凶，不稳定的同步导致 OneDrive 上存放的用户设置出现了差错。
 想要解决这个问题，就需要想办法从 OneDrive 上删除错误的用户设置同步信息。
 删除用户设置 打开 删除用户设置的网站 （请在新标签页内打开，此外还需要魔法），按步骤删除同步的用户设置即可。
-注意：
+注意
 删除同步的用户数据，并不会让系统内的语言“改邪归正”，还需要配合「临时解决方案」或选择重装系统。其他 用户设置同步出现的差错还可能导致其他问题，目前还已知的有：「登录微软账户后，鼠标左右键被对调」
 截至目前，如果发现登陆微软账户后设置发生了无法预知的错误更改，基本可以怀疑是「用户设置同步出错」导致的。'><title>Windows 语言变成「中文（新加坡）」</title>
 
@@ -23,7 +24,8 @@
 <link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Windows 语言变成「中文（新加坡）」'>
 <meta property='og:description' content='问题概述 西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。
 关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……
-临时解决方案 灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
+临时解决方案 信息
+灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
 观察所得信息中是否包含LanguageTag : zh-Hans-SG
 若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：
  $LangList = Get-WinUserLanguageList
@@ -34,7 +36,7 @@
 实际上也确实如此， Windows 10 系统的「同步你的设置」功能（位于“设置——账户——同步你的设置”）是造成此问题的元凶，不稳定的同步导致 OneDrive 上存放的用户设置出现了差错。
 想要解决这个问题，就需要想办法从 OneDrive 上删除错误的用户设置同步信息。
 删除用户设置 打开 删除用户设置的网站 （请在新标签页内打开，此外还需要魔法），按步骤删除同步的用户设置即可。
-注意：
+注意
 删除同步的用户数据，并不会让系统内的语言“改邪归正”，还需要配合「临时解决方案」或选择重装系统。其他 用户设置同步出现的差错还可能导致其他问题，目前还已知的有：「登录微软账户后，鼠标左右键被对调」
 截至目前，如果发现登陆微软账户后设置发生了无法预知的错误更改，基本可以怀疑是「用户设置同步出错」导致的。'>
 <meta property='og:url' content='https://limeea.github.io/p/windows-oobe-language-singapore/'>
@@ -43,7 +45,8 @@
 <meta name="twitter:title" content="Windows 语言变成「中文（新加坡）」">
 <meta name="twitter:description" content="问题概述 西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。
 关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……
-临时解决方案 灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
+临时解决方案 信息
+灵感来自于：https://www.sysgeek.cn/windows-10-force-remove-language-pack强制删除「中文（新加坡）」 使用管理员模式打开 Windows Powershell，输入命令：Get-WinUserLanguageList
 观察所得信息中是否包含LanguageTag : zh-Hans-SG
 若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：
  $LangList = Get-WinUserLanguageList
@@ -54,7 +57,7 @@
 实际上也确实如此， Windows 10 系统的「同步你的设置」功能（位于“设置——账户——同步你的设置”）是造成此问题的元凶，不稳定的同步导致 OneDrive 上存放的用户设置出现了差错。
 想要解决这个问题，就需要想办法从 OneDrive 上删除错误的用户设置同步信息。
 删除用户设置 打开 删除用户设置的网站 （请在新标签页内打开，此外还需要魔法），按步骤删除同步的用户设置即可。
-注意：
+注意
 删除同步的用户数据，并不会让系统内的语言“改邪归正”，还需要配合「临时解决方案」或选择重装系统。其他 用户设置同步出现的差错还可能导致其他问题，目前还已知的有：「登录微软账户后，鼠标左右键被对调」
 截至目前，如果发现登陆微软账户后设置发生了无法预知的错误更改，基本可以怀疑是「用户设置同步出错」导致的。"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://limeea.github.io/p/windows-oobe-language-singapore/title_image.jpg' />
@@ -232,41 +235,38 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/windows-oobe-language-singapore/">
-                <img src="/p/windows-oobe-language-singapore/title_image_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_800x0_resize_q75_box.jpg"
-                        srcset="/p/windows-oobe-language-singapore/title_image_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_800x0_resize_q75_box.jpg 800w, /p/windows-oobe-language-singapore/title_image_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1600x0_resize_q75_box.jpg 1600w"
-                        width="800" 
-                        height="600" 
-                        loading="lazy"
-                        alt="Featured image of post Windows 语言变成「中文（新加坡）」" />
-                
-            </a>
+            <img src="/p/windows-oobe-language-singapore/title_image_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_800x0_resize_q75_box.jpg"
+                    srcset="/p/windows-oobe-language-singapore/title_image_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_800x0_resize_q75_box.jpg 800w, /p/windows-oobe-language-singapore/title_image_hu45a5e3ad5e058da6a00650ed8fd40bea_15530_1600x0_resize_q75_box.jpg 1600w"
+                    width="800" 
+                    height="600" 
+                    loading="lazy"
+                    alt="Featured image of post Windows 语言变成「中文（新加坡）」" />
+            
         </div>
     
 
-    <a href="/p/windows-oobe-language-singapore/">
     <div class="article-details">
         
-        <header class="article-category">
-            
-            <object>
-                <a href="/categories/windows/" style="background-color: #0078D7; color: #fff;">
-                    Windows
-                </a>
-            </object>
-            
-        </header>
+            <header class="article-category">
+                
+                    <object>
+                        <a href="/categories/windows/" style="background-color: #0078D7; color: #fff;">
+                            Windows
+                        </a>
+                    </object>
+                
+            </header>
         
-
+    
         <h2 class="article-title">Windows 语言变成「中文（新加坡）」</h2>
-
+    
         
-
+    
         
-        <footer class="article-time">
-            
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <footer class="article-time">
+                
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
   <circle cx="18" cy="18" r="4" />
@@ -275,15 +275,14 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                    <time class="article-time--published">2021/05/16</time>
-                </div>
-            
-
-            
-        </footer>
+                        <time class="article-time--published">2021/05/16</time>
+                    </div>
+                
+    
+                
+            </footer>
         
     </div>
-</a>
 </header>
 
     <section class="article-content">
@@ -292,6 +291,7 @@
 <p>关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……</p>
 <h2 id="临时解决方案">临时解决方案</h2>
 <p class="info">
+信息<br>
 灵感来自于：<a href="https://www.sysgeek.cn/windows-10-force-remove-language-pack" target="_blank">https://www.sysgeek.cn/windows-10-force-remove-language-pack</a>
 </p>
 <h3 id="强制删除中文新加坡">强制删除「中文（新加坡）」</h3>
@@ -314,7 +314,7 @@
 <p>打开 <a class="link" href="https://onedrive.live.com/win8personalsettingsprivacy/"  target="_blank" rel="noopener"
     >删除用户设置的网站</a> （请在新标签页内打开，此外还需要<strong>魔法</strong>），按步骤删除同步的用户设置即可。</p>
 <p class="warning">
-注意：<br>
+注意<br>
 删除同步的用户数据，并不会让系统内的语言“改邪归正”，还需要配合「临时解决方案」或选择重装系统。
 </p>
 <h2 id="其他">其他</h2>
