@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://limeea.github.io/categories/</loc>
+    <lastmod>2021-09-04T14:21:00+08:00</lastmod>
+  </url><url>
+    <loc>https://limeea.github.io/tags/hebut/</loc>
+    <lastmod>2021-09-04T14:21:00+08:00</lastmod>
+  </url><url>
     <loc>https://limeea.github.io/</loc>
     <lastmod>2021-09-04T14:21:00+08:00</lastmod>
   </url><url>
@@ -14,7 +20,7 @@
     <loc>https://limeea.github.io/p/hebut-military-training/</loc>
     <lastmod>2021-09-04T14:21:00+08:00</lastmod>
   </url><url>
-    <loc>https://limeea.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://limeea.github.io/categories/record/</loc>
     <lastmod>2021-09-04T14:21:00+08:00</lastmod>
   </url><url>
     <loc>https://limeea.github.io/page/</loc>
@@ -34,9 +40,6 @@
   </url><url>
     <loc>https://limeea.github.io/p/wd-hard-disk-apmtimer/</loc>
     <lastmod>2021-08-25T14:21:00+08:00</lastmod>
-  </url><url>
-    <loc>https://limeea.github.io/categories/</loc>
-    <lastmod>2021-08-30T22:33:38+08:00</lastmod>
   </url><url>
     <loc>https://limeea.github.io/tags/office/</loc>
     <lastmod>2021-08-20T14:21:00+08:00</lastmod>
