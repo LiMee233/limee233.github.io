@@ -18,19 +18,17 @@
 &lt;h3 id=&#34;系统安装&#34;&gt;系统安装&lt;/h3&gt;
 &lt;p&gt;会提醒「需要 rtw88/rtw8822c_fw.bin 和 rtw8822c_wow_fw.bin 」， Li Mee 尝试将这两个文件放在移动硬盘和安装 U 盘里，均无法加载，尝试失败（或许有第二个 U 盘就能成功？），于是在无网络环境下安装 Debian.&lt;/p&gt;
 &lt;h3 id=&#34;安装网卡驱动&#34;&gt;安装网卡驱动&lt;/h3&gt;
-&lt;p&gt;在网上搜索「 firmware-realtek deb 」，可以找到&lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/firmware-realtek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;下载界面&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;从网络上下载此软件包：&lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/firmware-realtek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;firmware-realtek&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;将 &lt;code&gt;firmware-realtek_xxxxxxxx.deb&lt;/code&gt; 复制到 U 盘，回到 Debian.&lt;/p&gt;
 &lt;p&gt;使用 su 权限，执行 &lt;code&gt;mkdir /mnt/usb &amp;amp;&amp;amp; mount /dev/sdb1 /mnt/usb&lt;/code&gt; 挂载 U 盘（ &lt;code&gt;sdb1&lt;/code&gt; 自行调整）。&lt;/p&gt;
 &lt;p&gt;执行 &lt;code&gt;dpkg -i &amp;quot;firmware-realtek_xxxxxxxx.deb 所在位置&amp;quot;&lt;/code&gt;，安装驱动。&lt;/p&gt;
 &lt;p&gt;此时出现错误： &amp;lsquo;ldconfig&amp;rsquo; not found in PATH or not executable&lt;/p&gt;
-&lt;p&gt;使用 &lt;code&gt;vi /root/bash.rc&lt;/code&gt; 修改其中内容，添加 &lt;code&gt;export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin&lt;/code&gt; 后保存，再执行 &lt;code&gt;source /root/.bashrc&lt;/code&gt; 即可解决问题。再次执行 &lt;code&gt;dpkg&lt;/code&gt; 命令安装，驱动安装成功。&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;vi /root/.bashrc&lt;/code&gt; 修改其中内容，添加 &lt;code&gt;export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin&lt;/code&gt; 后保存，再执行 &lt;code&gt;source /root/.bashrc&lt;/code&gt; 即可解决问题。再次执行 &lt;code&gt;dpkg&lt;/code&gt; 命令安装，驱动安装成功。&lt;/p&gt;
 &lt;h3 id=&#34;连接网络&#34;&gt;连接网络&lt;/h3&gt;
 &lt;p&gt;从网络上下载如下软件包：
 &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/network-manager&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;nmcli(network-manager)&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/dhcp-client&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;dhcp(dhcpcd)&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/rfkill&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;rfkill&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/libbluetooth3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;network-manager&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/libbluetooth3&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;libbluetooth3&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/libmm-glib0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;libmm-glib0&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/libndp0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;libndp0&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/libnm0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -39,17 +37,14 @@
     &gt;policykit-1&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/libpolkit-gobject-1-0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;libpolkit-gobject-1-0&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://pkgs.org/download/libpolkit-agent-1-0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;libpolkit-agent-1-0&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;全部安装，如果提示缺失依赖，就从里面找，最后全部能够安装成功。&lt;/p&gt;
+&lt;p&gt;使用上一步的方法，全部安装。如果提示缺失依赖，就从里面找，最后全部能够安装成功。&lt;/p&gt;
 &lt;p&gt;使用 su 权限，执行以下命令连接 WiFi ：&lt;br&gt;
 &lt;code&gt;nmcli dev&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;nmcli r wifi on&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;nmcli dev wifi&lt;/code&gt;&lt;br&gt;
 &lt;code&gt;nmcli dev wifi connect &amp;quot;WiFi 名称&amp;quot; password &amp;quot;密码&amp;quot;&lt;/code&gt;（此句包括引号）&lt;/p&gt;
 &lt;p&gt;如果连接成功，可以看到绿色的已连接提示。&lt;/p&gt;
-&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
-dhcp 和 rfkill 软件包可能用不上，也可能用得上（废话一句）
-&lt;/p&gt;</description>
+</description>
         </item>
         <item>
         <title>河北工业大学军训记录</title>

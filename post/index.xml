@@ -15,12 +15,12 @@
       <guid>https://limeea.github.io/p/debian-wirelessnet-8822ce/</guid>
       <description>起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。
 解决过程记录 系统安装 会提醒「需要 rtw88/rtw8822c_fw.bin 和 rtw8822c_wow_fw.bin 」， Li Mee 尝试将这两个文件放在移动硬盘和安装 U 盘里，均无法加载，尝试失败（或许有第二个 U 盘就能成功？），于是在无网络环境下安装 Debian.
-安装网卡驱动 在网上搜索「 firmware-realtek deb 」，可以找到下载界面
+安装网卡驱动 从网络上下载此软件包：firmware-realtek
 将 firmware-realtek_xxxxxxxx.deb 复制到 U 盘，回到 Debian.
 使用 su 权限，执行 mkdir /mnt/usb &amp;amp;&amp;amp; mount /dev/sdb1 /mnt/usb 挂载 U 盘（ sdb1 自行调整）。
 执行 dpkg -i &amp;quot;firmware-realtek_xxxxxxxx.deb 所在位置&amp;quot;，安装驱动。
 此时出现错误： &amp;lsquo;ldconfig&amp;rsquo; not found in PATH or not executable
-使用 vi /root/bash.</description>
+使用 vi /root/.bashrc 修改其中内容，添加 export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin 后保存，再执行 source /root/.</description>
     </item>
     
     <item>
