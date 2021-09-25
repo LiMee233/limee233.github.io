@@ -16,7 +16,7 @@
       <description>问题概述 从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。
 2021 年 6 月 24 日， Li Mee 做了一个 PPT ，发现 PPT 幻灯片列表的滚动居然也是卡顿的，因此将标题修改为「解决 Office Word 滚动卡顿」
 解决方案 这已经是 Li Mee 第 N 次修改这个文章了，目前为止已经找到了很稳定的方法，应该不会再改了…吧。
-手动方法  定位到注册表项：HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides 选择需要修复卡顿的软件 新建字符串值，名称分别为： Microsoft.Office.AirSpace.UseWincompInArm64 和 Microsoft.Office.AirSpace.UseWinCompInWin32 ；值为： false  如图所示
+手动方法  定位到注册表项：HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides 选择需要修复卡顿的软件 新建字符串值，名称分别为： Microsoft.Office.AirSpace.UseWincompInArm64 和 Microsoft.Office.AirSpace.UseWinCompInWin32 ；值为： false   如图所示 
 省事的方法 下载此注册表 （ reg ）文件，双击导入即可。
 点击下载
 信息
@@ -30,9 +30,9 @@
       
       <guid>https://limeea.github.io/p/amd-xaml-designer-display-error/</guid>
       <description>详细描述 在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML 设计器花屏，无法正常使用的问题。
-花屏现象如图所示
+ 花屏现象如图所示 
 解决方案 在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」为游戏，并且调节「抗锯齿」为「覆盖应用程序设置」，抗锯齿级别为任意项即可（此处推荐2X）
-
+ 
 如果没有调整 Visual Studio 的安装位置，则「 Microsoft Visual Studio XAML Designer 」应该位于“C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\XDesProc.exe”；如果不知道具体位置，可以在打开 XAML 设计器的前提下去任务管理器寻找位置。需要注意的是，其进程可能归于应用「 Microsoft Visual Studio 2019/2017 」中，也可能是一个单独的后台进程。
 调整完抗锯齿设置后，重新启动「 Microsoft Visual Studio XAML Designer 」或者 Visual Studio 即可生效。
 注意

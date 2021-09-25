@@ -83,7 +83,7 @@
                     
                         
                         <a href="/">
-                            <img src="/img/avatar_local_hu07e385a1eb370a87961164db40da9887_866697_300x0_resize_box_3.png" width="300"
+                            <img src="/img/avatar_local_hu56cbbcc3a79aaae3dc970734484a238d_128431_300x0_resize_box_3.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                         </a>
                     
@@ -252,24 +252,29 @@
 <p>此时出现错误： &lsquo;ldconfig&rsquo; not found in PATH or not executable</p>
 <p>使用 <code>vi /root/.bashrc</code> 修改其中内容，添加 <code>export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin</code> 后保存，再执行 <code>source /root/.bashrc</code> 即可解决问题。再次执行 <code>dpkg</code> 命令安装，驱动安装成功。</p>
 <h3 id="连接网络">连接网络</h3>
-<p>从网络上下载如下软件包：
-<a class="link" href="https://pkgs.org/download/network-manager"  target="_blank" rel="noopener"
-    >network-manager</a> <a class="link" href="https://pkgs.org/download/libbluetooth3"  target="_blank" rel="noopener"
-    >libbluetooth3</a> <a class="link" href="https://pkgs.org/download/libmm-glib0"  target="_blank" rel="noopener"
-    >libmm-glib0</a> <a class="link" href="https://pkgs.org/download/libndp0"  target="_blank" rel="noopener"
-    >libndp0</a> <a class="link" href="https://pkgs.org/download/libnm0"  target="_blank" rel="noopener"
-    >libnm0</a> <a class="link" href="https://pkgs.org/download/libteamdctl0"  target="_blank" rel="noopener"
-    >libteamdctl0</a> <a class="link" href="https://pkgs.org/download/policykit-1"  target="_blank" rel="noopener"
-    >policykit-1</a> <a class="link" href="https://pkgs.org/download/libpolkit-gobject-1-0"  target="_blank" rel="noopener"
+<p>从网络上下载如下软件包：<br>
+<a class="link" href="https://pkgs.org/download/libpolkit-gobject-1-0"  target="_blank" rel="noopener"
     >libpolkit-gobject-1-0</a> <a class="link" href="https://pkgs.org/download/libpolkit-agent-1-0"  target="_blank" rel="noopener"
-    >libpolkit-agent-1-0</a></p>
-<p>使用上一步的方法，全部安装。如果提示缺失依赖，就从里面找，最后全部能够安装成功。</p>
+    >libpolkit-agent-1-0</a> <a class="link" href="https://pkgs.org/download/policykit-1"  target="_blank" rel="noopener"
+    >policykit-1</a> <a class="link" href="https://pkgs.org/download/libteamdctl0"  target="_blank" rel="noopener"
+    >libteamdctl0</a> <a class="link" href="https://pkgs.org/download/libnm0"  target="_blank" rel="noopener"
+    >libnm0</a> <a class="link" href="https://pkgs.org/download/libndp0"  target="_blank" rel="noopener"
+    >libndp0</a> <a class="link" href="https://pkgs.org/download/libmm-glib0"  target="_blank" rel="noopener"
+    >libmm-glib0</a> <a class="link" href="https://pkgs.org/download/libbluetooth3"  target="_blank" rel="noopener"
+    >libbluetooth3</a> <a class="link" href="https://pkgs.org/download/network-manager"  target="_blank" rel="noopener"
+    >network-manager</a></p>
+<p>使用上一步的方法，按照顺序全部安装。</p>
+<p class="info">
+信息<br>
+如果缺失依赖，可自行从上方所述网站中搜索依赖名称，选择对应的版本进行下载。
+</p>
 <p>使用 su 权限，执行以下命令连接 WiFi ：<br>
 <code>nmcli dev</code><br>
 <code>nmcli r wifi on</code><br>
 <code>nmcli dev wifi</code><br>
 <code>nmcli dev wifi connect &quot;WiFi 名称&quot; password &quot;密码&quot;</code>（此句包括引号）</p>
-<p>如果连接成功，可以看到绿色的已连接提示。</p>
+<h3 id="检测网络连接状态">检测网络连接状态</h3>
+<p>执行命令 <code>nmcli dev</code> ，如果网络连接成功，可以看到绿色 connected 样提示。</p>
 
 </section>
 
@@ -323,7 +328,7 @@
 </aside>
 
      
-     
+    
         
     
 
@@ -450,6 +455,7 @@
         <li><a href="#系统安装">系统安装</a></li>
         <li><a href="#安装网卡驱动">安装网卡驱动</a></li>
         <li><a href="#连接网络">连接网络</a></li>
+        <li><a href="#检测网络连接状态">检测网络连接状态</a></li>
       </ol>
     </li>
   </ol>
