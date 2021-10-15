@@ -5,14 +5,23 @@
     <link>https://limeea.github.io/categories/</link>
     <description>Recent content in Categories on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 04 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>记录</title>
-      <link>https://limeea.github.io/categories/record/</link>
+      <title>Linux</title>
+      <link>https://limeea.github.io/categories/linux/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>日常</title>
+      <link>https://limeea.github.io/categories/daily/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/categories/record/</guid>
+      <guid>https://limeea.github.io/categories/daily/</guid>
       <description></description>
     </item>
     

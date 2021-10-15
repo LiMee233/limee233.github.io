@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='注意 本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，'><title>在 Debian 系统驱动 Realtek 8822CE 无线网卡</title>
+
+<link rel='canonical' href='https://limeea.github.io/p/debian-realtek8822ce/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='在 Debian 系统驱动 Realtek 8822CE 无线网卡'>
+<meta property='og:description' content='注意 本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，'>
+<meta property='og:url' content='https://limeea.github.io/p/debian-realtek8822ce/'>
+<meta property='og:site_name' content='Li Mee 的小窝'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Linux' /><meta property='article:published_time' content='2021-09-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-10-15T17:11:00&#43;08:00'/>
+<meta name="twitter:title" content="在 Debian 系统驱动 Realtek 8822CE 无线网卡">
+<meta name="twitter:description" content="注意 本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，">
+    <link rel="shortcut icon" href="/img/favicon.png" />
+
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <a href="/">
+                            <img src="/img/avatar_hu5eeba800de3b6be1072b4b236a784a8f_532121_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        </a>
+                    
+                
+
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        <div display="flex" clss="site-text">
+            <div class="site-name"><a href="https://limeea.github.io">Li Mee 的小窝</a></div>
+            <div class="site-description">瞄~喵喵！</div>
+        </div>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+        
+            <header class="article-category">
+                
+                    <object>
+                        <a href="/categories/linux/" style="background-color: #FFCC40; color: #fff;">
+                            Linux
+                        </a>
+                    </object>
+                
+            </header>
+        
+    
+        <h2 class="article-title">在 Debian 系统驱动 Realtek 8822CE 无线网卡</h2>
+    
+        
+    
+        
+            <footer class="article-time">
+                
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                        <time class="article-time--published">2021/09/20</time>
+                    </div>
+                
+    
+                
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                        <time class="article-time--reading">
+                            阅读时长: 2 分钟
+                        </time>
+                    </div>
+                
+            </footer>
+        
+    </div>
+</header>
+
+    <section class="article-content">
+    <p class="warning">
+注意<br>
+本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。
+</p>
+<h2 id="起因">起因</h2>
+<p>因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。</p>
+<h2 id="解决过程记录">解决过程记录</h2>
+<h3 id="系统安装">系统安装</h3>
+<p>会提醒「需要 rtw88/rtw8822c_fw.bin 和 rtw8822c_wow_fw.bin 」， Li Mee 尝试将这两个文件放在移动硬盘和安装 U 盘里，均无法加载，尝试失败（或许有第二个 U 盘就能成功？），于是在无网络环境下安装 Debian.</p>
+<h3 id="安装网卡驱动">安装网卡驱动</h3>
+<p>从网络上下载此软件包： <a class="link" href="https://pkgs.org/download/firmware-realtek"  target="_blank" rel="noopener"
+    >firmware-realtek</a></p>
+<p>将 <code>firmware-realtek_xxxxxxxx.deb</code> 复制到 U 盘，回到 Debian.</p>
+<p>使用 su 权限，执行 <code>mkdir /mnt/usb &amp;&amp; mount /dev/sdb1 /mnt/usb</code> 挂载 U 盘（ sdb1 自行调整）。</p>
+<p>执行 <code>dpkg -i &quot;firmware-realtek_xxxxxxxx.deb 所在位置&quot;</code> ，安装驱动。</p>
+<p>此时出现错误： ‘ldconfig’ not found in PATH or not executable</p>
+<p>执行 <code>vi /root/.bashrc</code> 修改其中内容，添加 <code>export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin</code> 后保存，再执行 <code>source /root/.bashrc</code> 即可解决问题。再次执行 <code>dpkg -i xxx.deb</code> 命令安装，驱动安装成功。</p>
+<h3 id="连接网络">连接网络</h3>
+<p>从网络上下载如下软件包：</p>
+<p><a class="link" href="https://pkgs.org/download/libpolkit-gobject-1-0"  target="_blank" rel="noopener"
+    >libpolkit-gobject-1-0</a> <a class="link" href="https://pkgs.org/download/libpolkit-agent-1-0"  target="_blank" rel="noopener"
+    >libpolkit-agent-1-0</a> <a class="link" href="https://pkgs.org/download/policykit-1"  target="_blank" rel="noopener"
+    >policykit-1</a> <a class="link" href="https://pkgs.org/download/libteamdctl0"  target="_blank" rel="noopener"
+    >libteamdctl0</a> <a class="link" href="https://pkgs.org/download/libnm0"  target="_blank" rel="noopener"
+    >libnm0</a> <a class="link" href="https://pkgs.org/download/libndp0"  target="_blank" rel="noopener"
+    >libndp0</a> <a class="link" href="https://pkgs.org/download/libmm-glib0"  target="_blank" rel="noopener"
+    >libmm-glib0</a> <a class="link" href="https://pkgs.org/download/libbluetooth3"  target="_blank" rel="noopener"
+    >libbluetooth3</a> <a class="link" href="https://pkgs.org/download/network-manager"  target="_blank" rel="noopener"
+    >network-manager</a></p>
+<p>使用上一步的方法，按照顺序全部安装。</p>
+<p class="info">
+信息<br>
+如果缺失依赖，可自行从上方所述网站中搜索依赖名称，选择对应的版本进行下载。
+</p>
+<p>使用 su 权限，执行以下命令连接 WiFi ：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">nmcli dev
+nmcli r wifi on
+nmcli dev wifi
+nmcli dev wifi connect <span class="s2">&#34;WiFi 名称&#34;</span> password <span class="s2">&#34;密码&#34;</span>
+</code></pre></div><h3 id="检测网络连接状态">检测网络连接状态</h3>
+<p>执行命令 <code>nmcli dev</code> ，如果网络连接成功，可以看到绿色 connected 样提示。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/linux/">Linux</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span style='margin-right:10px;'>
+            此文章依据
+            CC BY-NC-SA 4.0
+            许可协议进行授权
+        </span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2020/10/15 17:11 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 Li Mee 的小窝
+    </section>
+    
+    <section class="powerby">
+        
+            永远相信美好的事情即将发生 <br/>
+        Built with <b><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a></b>.&nbsp;
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="flex">
+                    <div class="widget-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                    </div>
+                    <h2 class="widget-title section-title">目录</h2>
+                </div>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#起因">起因</a></li>
+    <li><a href="#解决过程记录">解决过程记录</a>
+      <ol>
+        <li><a href="#系统安装">系统安装</a></li>
+        <li><a href="#安装网卡驱动">安装网卡驱动</a></li>
+        <li><a href="#连接网络">连接网络</a></li>
+        <li><a href="#检测网络连接状态">检测网络连接状态</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

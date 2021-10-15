@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡'><title>删除「SIM n 支持高清」通知</title>
+
+<link rel='canonical' href='https://limeea.github.io/p/remove-hdicon/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='删除「SIM n 支持高清」通知'>
+<meta property='og:description' content='出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡'>
+<meta property='og:url' content='https://limeea.github.io/p/remove-hdicon/'>
+<meta property='og:site_name' content='Li Mee 的小窝'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='bug' /><meta property='article:tag' content='反编译' /><meta property='article:published_time' content='2021-05-17T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-10-14T18:50:00&#43;08:00'/>
+<meta name="twitter:title" content="删除「SIM n 支持高清」通知">
+<meta name="twitter:description" content="出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡">
+    <link rel="shortcut icon" href="/img/favicon.png" />
+
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <a href="/">
+                            <img src="/img/avatar_hu5eeba800de3b6be1072b4b236a784a8f_532121_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                        </a>
+                    
+                
+
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        <div display="flex" clss="site-text">
+            <div class="site-name"><a href="https://limeea.github.io">Li Mee 的小窝</a></div>
+            <div class="site-description">瞄~喵喵！</div>
+        </div>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+        
+            <header class="article-category">
+                
+                    <object>
+                        <a href="/categories/android/" style="background-color: #5CCC76; color: #fff;">
+                            Android
+                        </a>
+                    </object>
+                
+            </header>
+        
+    
+        <h2 class="article-title">删除「SIM n 支持高清」通知</h2>
+    
+        
+    
+        
+            <footer class="article-time">
+                
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                        <time class="article-time--published">2021/05/17</time>
+                    </div>
+                
+    
+                
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                        <time class="article-time--reading">
+                            阅读时长: 2 分钟
+                        </time>
+                    </div>
+                
+            </footer>
+        
+    </div>
+</header>
+
+    <section class="article-content">
+    <h2 id="出现原因与现象">出现原因与现象</h2>
+<p>部分原生系统在编译时，未考虑到会出现高清通知的问题 <del>或者认为这不是问题</del> ，就没有在源码部分进行修改（比如 <a class="link" href="https://github.com/LiMeea/device_xiaomi_sm8250-common/commit/4a3c21d2c017a2806348ae1df3f96536b07500c0"  target="_blank" rel="noopener"
+    >这里</a> ）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 121; 
+			flex-basis: 291px"
+	>
+	<a href="/p/remove-hdicon/hd-notification.jpg" data-size="500x412">
+		<img src="/p/remove-hdicon/hd-notification.jpg"
+			width="500"
+			height="412"
+			srcset="/p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_480x0_resize_q75_box.jpg 480w, /p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_1024x0_resize_q75_box.jpg 1024w"
+			loading="lazy"
+			alt="如图所示">
+	</a>
+	
+	<figcaption>如图所示</figcaption>
+	
+</figure></p>
+<h2 id="解决方案">解决方案</h2>
+<p>如果作为用户，已经无法对系统编译前的 dt 进行修改了，所以只能修改编译好的应用程序，这里从通知的产生者—— ims.apk 入手。</p>
+<p class="danger">
+警告<br>
+进行任何操作前，请注意对重要数据进行备份！
+</p>
+<h3 id="提取产生通知的应用">提取产生通知的应用</h3>
+<p>使用可获取 Root 权限的文件管理器，将 <code>/system/product/priv-app/ims/ims.apk</code> 复制到用户目录内（如 <code>/data/media/0</code> ）。</p>
+<h3 id="修改应用">修改应用</h3>
+<ol>
+<li>使用「 MT 管理器」打开复制的 <code>ims.apk</code> ，依次进入：查看 → resources.arsc → Arsc编辑器 → org.codeaurora.ims → string → string-zh-rCN.
+在其中找到类似于「 SIM %s 支持高清 」的项目，长按并复制 ID.</li>
+<li>返回到「查看」页面，依次进入：classes.dex → Dex 编辑器 ++ → 搜索 → 发起新搜索；在查找内容里粘贴刚才复制的「 ID 」并进行搜索，随后点击 <code>const v5, 0xID</code></li>
+</ol>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 81; 
+			flex-basis: 194px"
+	>
+	<a href="/p/remove-hdicon/constv50xid.png" data-size="500x617">
+		<img src="/p/remove-hdicon/constv50xid.png"
+			width="500"
+			height="617"
+			srcset="/p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_480x0_resize_box_3.png 480w, /p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="不同设备的 ID 可能不同">
+	</a>
+	
+	<figcaption>不同设备的 ID 可能不同</figcaption>
+	
+</figure></p>
+<ol start="3">
+<li>进入代码编辑界面后从所在行向上翻找，直到发现 <code>.method private showHDIcon(Z)V</code> 为止。</li>
+<li>向下逐行查阅代码，去寻找如下结构，并将遇到的第一个如下结构删除。</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">if</span><span class="o">-</span><span class="nx">ne</span> <span class="nx">xxxx</span>
+<span class="k">return</span><span class="o">-</span><span class="k">void</span>
+</code></pre></div><p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 187; 
+			flex-basis: 451px"
+	>
+	<a href="/p/remove-hdicon/deletecode.png" data-size="500x266">
+		<img src="/p/remove-hdicon/deletecode.png"
+			width="500"
+			height="266"
+			srcset="/p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_480x0_resize_box_3.png 480w, /p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="结构如图所示">
+	</a>
+	
+	<figcaption>结构如图所示</figcaption>
+	
+</figure></p>
+<p class="warning">
+注意<br>
+删除的时候需要将整行删除，不要只删掉文字，也不要删多了。
+</p>
+<p>修改完成后保存所做的一切修改，直到获取修改完的应用程序安装包</p>
+<p class="warning">
+注意<br>
+修改完的应用程序不需要重新签名。
+</p>
+<h2 id="替换还原">替换还原</h2>
+<h3 id="方法一推荐">方法一（推荐）</h3>
+<p>直接将修改完的应用移回 <code>/system/product/priv-app/ims/ims.apk</code> ，需要注意保持文件权限不变。</p>
+<p>这样做可以让系统尽量<strong>保持一个完整的状态而不分散</strong>，个人感觉有利于系统稳定性。</p>
+<h3 id="方法二">方法二</h3>
+<p>制作Magisk模块进行替换（此文不阐述，可以拆一个 Magisk 替换应用的模块照抄）。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/bug/">bug</a>
+        
+            <a href="/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/">反编译</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span style='margin-right:10px;'>
+            此文章依据
+            CC BY-NC-SA 4.0
+            许可协议进行授权
+        </span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2020/10/14 18:50 CST
+        </span>
+    </section></footer>
+
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 Li Mee 的小窝
+    </section>
+    
+    <section class="powerby">
+        
+            永远相信美好的事情即将发生 <br/>
+        Built with <b><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a></b>.&nbsp;
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="flex">
+                    <div class="widget-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                    </div>
+                    <h2 class="widget-title section-title">目录</h2>
+                </div>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#出现原因与现象">出现原因与现象</a></li>
+    <li><a href="#解决方案">解决方案</a>
+      <ol>
+        <li><a href="#提取产生通知的应用">提取产生通知的应用</a></li>
+        <li><a href="#修改应用">修改应用</a></li>
+      </ol>
+    </li>
+    <li><a href="#替换还原">替换还原</a>
+      <ol>
+        <li><a href="#方法一推荐">方法一（推荐）</a></li>
+        <li><a href="#方法二">方法二</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

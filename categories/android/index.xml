@@ -5,22 +5,15 @@
     <link>https://limeea.github.io/categories/android/</link>
     <description>Recent content in Android on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Mon, 17 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>删除「SIM n 支持高清」通知</title>
-      <link>https://limeea.github.io/p/delete-hd-icon/</link>
+      <link>https://limeea.github.io/p/remove-hdicon/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/delete-hd-icon/</guid>
-      <description>出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。
- 如图所示 
-解决方案 如果作为用户，已经无法对系统编译前的 dt 进行修改了，所以只能修改编译好的应用程序，这里从通知的产生者—— ims.apk 入手。
-警告
-进行任何操作前，请注意对重要数据进行备份！提取产生通知的应用 使用可获取 Root 权限的文件管理器，将 /system/product/priv-app/ims/ims.apk 复制到用户目录内（如 /data/media/0 ）。
-修改应用   使用「 MT 管理器」打开复制的 ims.apk ，依次进入：查看 → resources.arsc → Arsc编辑器 → org.codeaurora.ims → string → string-zh-rCN.
-在其中找到类似于「 SIM %s 支持高清 」的项目，长按并复制 ID.
-  返回到「查看」页面，依次进入：classes.dex → Dex 编辑器 ++ → 搜索 → 发起新搜索；</description>
+      <guid>https://limeea.github.io/p/remove-hdicon/</guid>
+      <description>出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡</description>
     </item>
     
   </channel>

@@ -5,7 +5,7 @@
     <link>https://limeea.github.io/tags/</link>
     <description>Recent content in Tags on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>zh-CN</language>
     <lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
@@ -44,15 +44,6 @@
     </item>
     
     <item>
-      <title>硬盘停转</title>
-      <link>https://limeea.github.io/tags/%E7%A1%AC%E7%9B%98%E5%81%9C%E8%BD%AC/</link>
-      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://limeea.github.io/tags/%E7%A1%AC%E7%9B%98%E5%81%9C%E8%BD%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Office</title>
       <link>https://limeea.github.io/tags/office/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
@@ -62,56 +53,29 @@
     </item>
     
     <item>
-      <title>Windows</title>
-      <link>https://limeea.github.io/tags/windows/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://limeea.github.io/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>卡顿</title>
-      <link>https://limeea.github.io/tags/%E5%8D%A1%E9%A1%BF/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://limeea.github.io/tags/%E5%8D%A1%E9%A1%BF/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>滚动</title>
-      <link>https://limeea.github.io/tags/%E6%BB%9A%E5%8A%A8/</link>
-      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://limeea.github.io/tags/%E6%BB%9A%E5%8A%A8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>原生</title>
-      <link>https://limeea.github.io/tags/%E5%8E%9F%E7%94%9F/</link>
+      <title>反编译</title>
+      <link>https://limeea.github.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/tags/%E5%8E%9F%E7%94%9F/</guid>
+      <guid>https://limeea.github.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>OOBE</title>
-      <link>https://limeea.github.io/tags/oobe/</link>
+      <title>AMD</title>
+      <link>https://limeea.github.io/tags/amd/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/tags/oobe/</guid>
+      <guid>https://limeea.github.io/tags/amd/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Visual Studio</title>
-      <link>https://limeea.github.io/tags/visual-studio/</link>
+      <title>Microsoft Account</title>
+      <link>https://limeea.github.io/tags/microsoft-account/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/tags/visual-studio/</guid>
+      <guid>https://limeea.github.io/tags/microsoft-account/</guid>
       <description></description>
     </item>
     
@@ -121,24 +85,6 @@
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://limeea.github.io/tags/xaml-designer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>微软账户</title>
-      <link>https://limeea.github.io/tags/%E5%BE%AE%E8%BD%AF%E8%B4%A6%E6%88%B7/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://limeea.github.io/tags/%E5%BE%AE%E8%BD%AF%E8%B4%A6%E6%88%B7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>语言</title>
-      <link>https://limeea.github.io/tags/%E8%AF%AD%E8%A8%80/</link>
-      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://limeea.github.io/tags/%E8%AF%AD%E8%A8%80/</guid>
       <description></description>
     </item>
     

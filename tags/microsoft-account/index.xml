@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Account on Li Mee 的小窝</title>
+    <link>https://limeea.github.io/tags/microsoft-account/</link>
+    <description>Recent content in Microsoft Account on Li Mee 的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/microsoft-account/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 语言变成「中文（新加坡）」</title>
+      <link>https://limeea.github.io/p/windows-language-to-singapore/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/p/windows-language-to-singapore/</guid>
+      <description>问题概述 西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中</description>
+    </item>
+    
+  </channel>
+</rss>

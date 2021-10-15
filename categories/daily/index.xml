@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>日常 on Li Mee 的小窝</title>
+    <link>https://limeea.github.io/categories/daily/</link>
+    <description>Recent content in 日常 on Li Mee 的小窝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 04 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/categories/daily/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>河北工业大学军训记录</title>
+      <link>https://limeea.github.io/p/hebut-militarytraining-records/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/p/hebut-militarytraining-records/</guid>
+      <description>注意 本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 基本信息 本人机械工程学院，测控技术与仪器专业 （为了学校妥协了专</description>
+    </item>
+    
+    <item>
+      <title>记更改 WD 硬盘休眠时间的历程</title>
+      <link>https://limeea.github.io/p/wd-apmtimer/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/p/wd-apmtimer/</guid>
+      <description>硬盘的来历 是 Li Mee 高考完的那个暑假， emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清</description>
+    </item>
+    
+  </channel>
+</rss>
