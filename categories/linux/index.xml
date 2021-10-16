@@ -13,7 +13,7 @@
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://limeea.github.io/p/debian-realtek8822ce/</guid>
-      <description>注意 本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，</description>
+      <description>起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功</description>
     </item>
     
   </channel>

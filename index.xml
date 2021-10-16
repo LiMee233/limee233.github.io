@@ -12,11 +12,7 @@
         <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
         
         <guid>https://limeea.github.io/p/debian-realtek8822ce/</guid>
-        <description>&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
-本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。
-&lt;/p&gt;
-&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+        <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。&lt;/p&gt;
 &lt;h2 id=&#34;解决过程记录&#34;&gt;解决过程记录&lt;/h2&gt;
 &lt;h3 id=&#34;系统安装&#34;&gt;系统安装&lt;/h3&gt;
