@@ -6,7 +6,70 @@
         <description>Recent content on Li Mee 的小窝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>git 合并其他 Repository 的提交</title>
+        <link>https://limeea.github.io/p/android-kernel-rebuild/</link>
+        <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://limeea.github.io/p/android-kernel-rebuild/</guid>
+        <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
+&lt;p&gt;Li Mee 在优化 lmi 的 device tree 时，经常好奇别人的 GitHub 提交中为什么会有 authored 和 commited 这两个东西。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 301; 
+			flex-basis: 722px&#34;
+	&gt;
+	&lt;a href=&#34;https://limeea.github.io/p/android-kernel-rebuild/commit-with-authored-and-commited.png&#34; data-size=&#34;1870x621&#34;&gt;
+		&lt;img src=&#34;https://limeea.github.io/p/android-kernel-rebuild/commit-with-authored-and-commited.png&#34;
+			width=&#34;1870&#34;
+			height=&#34;621&#34;
+			srcset=&#34;https://limeea.github.io/p/android-kernel-rebuild/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_480x0_resize_box_3.png 480w, https://limeea.github.io/p/android-kernel-rebuild/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;如图所示&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;如图所示&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;毕竟总是抄别人的提交，但不注明作者，感觉心里非常不舒服，于是就一直想改变这个现状。&lt;/p&gt;
+&lt;p&gt;解决这个问题的方法，就是使用 git 合并其他 Repository 的提交。&lt;/p&gt;
+&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
+&lt;h3 id=&#34;添加其他远程仓库&#34;&gt;添加其他远程仓库&lt;/h3&gt;
+&lt;p&gt;使用 &lt;code&gt;git remote add [remote_name] [remote_url]&lt;/code&gt; 添加远程仓库。&lt;/p&gt;
+&lt;p&gt;其中， &lt;code&gt;[remote_name]&lt;/code&gt; 指的是远程仓库在本地的「昵称」，可以随便起，但不能和已有的重复。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[remote_url]&lt;/code&gt; 可以从 GitHub Repository 的页面获取。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 122; 
+			flex-basis: 294px&#34;
+	&gt;
+	&lt;a href=&#34;https://limeea.github.io/p/android-kernel-rebuild/git-clone.png&#34; data-size=&#34;609x496&#34;&gt;
+		&lt;img src=&#34;https://limeea.github.io/p/android-kernel-rebuild/git-clone.png&#34;
+			width=&#34;609&#34;
+			height=&#34;496&#34;
+			srcset=&#34;https://limeea.github.io/p/android-kernel-rebuild/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_480x0_resize_box_3.png 480w, https://limeea.github.io/p/android-kernel-rebuild/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;如图所示&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;如图所示&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&#34;拉取远程仓库的内容&#34;&gt;拉取远程仓库的内容&lt;/h3&gt;
+&lt;p&gt;使用 &lt;code&gt;git fetch [remote_name]&lt;/code&gt; 拉取远程仓库的内容，此操作不会影响本地分支的内容。&lt;/p&gt;
+&lt;h3 id=&#34;将远程仓库的提交合并到本地分支&#34;&gt;将远程仓库的提交合并到本地分支&lt;/h3&gt;
+&lt;p&gt;使用 &lt;code&gt;git cherry-pick [commit_hash]&lt;/code&gt; 将远程仓库的某个 commit （现已拉取到本地）合并到当前工作分支。&lt;/p&gt;
+&lt;p&gt;其中 &lt;code&gt;[commit_hash]&lt;/code&gt; 指的是 commit 的 hash 值，可以通过 &lt;code&gt;git log&lt;/code&gt; 或 GitHub 的在线页面获取。&lt;/p&gt;
+&lt;p class=&#34;warning&#34;&gt;
+注意&lt;br&gt;
+没有必要考虑不同 Repository 的 hash 值是否会重复，这应该有关于 git 的原理。
+&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>在 AOSP 中使用 Preference</title>
         <link>https://limeea.github.io/p/android-preference/</link>
         <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>

@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://limeea.github.io/tags/git/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ROM 编译</title>
       <link>https://limeea.github.io/tags/rom-%E7%BC%96%E8%AF%91/</link>

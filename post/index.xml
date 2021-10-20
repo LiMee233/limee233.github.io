@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git 合并其他 Repository 的提交</title>
+      <link>https://limeea.github.io/p/android-kernel-rebuild/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limeea.github.io/p/android-kernel-rebuild/</guid>
+      <description>起因 Li Mee 在优化 lmi 的 device tree 时，经常好奇别人的 GitHub 提交中为什么会有 authored 和 commited 这两个东西。 如图所示 毕竟总是抄别人的提交，但不注明作者，感觉心里非常不舒服，</description>
+    </item>
+    
     <item>
       <title>在 AOSP 中使用 Preference</title>
       <link>https://limeea.github.io/p/android-preference/</link>
