@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bug on Li Mee 的小窝</title>
-    <link>https://limeea.github.io/tags/bug/</link>
+    <link>https://limee233@outlook.com/tags/bug/</link>
     <description>Recent content in bug on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/tags/bug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>记更改 WD 硬盘休眠时间的历程</title>
-      <link>https://limeea.github.io/p/wd-apmtimer/</link>
+      <link>https://limee233@outlook.com/p/wd-apmtimer/</link>
       <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/wd-apmtimer/</guid>
+      <guid>https://limee233@outlook.com/p/wd-apmtimer/</guid>
       <description>硬盘的来历 是 Li Mee 高考完的那个暑假， emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清</description>
     </item>
     
     <item>
       <title>解决 Office 滚动卡顿</title>
-      <link>https://limeea.github.io/p/fix-office-scrolling-lag/</link>
+      <link>https://limee233@outlook.com/p/fix-office-scrolling-lag/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/fix-office-scrolling-lag/</guid>
+      <guid>https://limee233@outlook.com/p/fix-office-scrolling-lag/</guid>
       <description>问题概述 从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率</description>
     </item>
     
     <item>
       <title>删除「SIM n 支持高清」通知</title>
-      <link>https://limeea.github.io/p/remove-hdicon/</link>
+      <link>https://limee233@outlook.com/p/remove-hdicon/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/remove-hdicon/</guid>
+      <guid>https://limee233@outlook.com/p/remove-hdicon/</guid>
       <description>出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡</description>
     </item>
     
     <item>
       <title>AMD 集显中 XAML 设计器花屏</title>
-      <link>https://limeea.github.io/p/amd-xamldesinger-displaybug/</link>
+      <link>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/amd-xamldesinger-displaybug/</guid>
+      <guid>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</guid>
       <description>详细描述 在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML</description>
     </item>
     
     <item>
       <title>Windows 语言变成「中文（新加坡）」</title>
-      <link>https://limeea.github.io/p/windows-language-to-singapore/</link>
+      <link>https://limee233@outlook.com/p/windows-language-to-singapore/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/windows-language-to-singapore/</guid>
-      <description>问题概述 西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中</description>
+      <guid>https://limee233@outlook.com/p/windows-language-to-singapore/</guid>
+      <description>问题概述 西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中</description>
     </item>
     
   </channel>

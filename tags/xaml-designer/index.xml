@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XAML Designer on Li Mee 的小窝</title>
-    <link>https://limeea.github.io/tags/xaml-designer/</link>
+    <link>https://limee233@outlook.com/tags/xaml-designer/</link>
     <description>Recent content in XAML Designer on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/xaml-designer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/tags/xaml-designer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AMD 集显中 XAML 设计器花屏</title>
-      <link>https://limeea.github.io/p/amd-xamldesinger-displaybug/</link>
+      <link>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/amd-xamldesinger-displaybug/</guid>
+      <guid>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</guid>
       <description>详细描述 在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML</description>
     </item>
     

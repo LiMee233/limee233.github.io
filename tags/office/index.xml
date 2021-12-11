@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Office on Li Mee 的小窝</title>
-    <link>https://limeea.github.io/tags/office/</link>
+    <link>https://limee233@outlook.com/tags/office/</link>
     <description>Recent content in Office on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/tags/office/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/tags/office/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决 Office 滚动卡顿</title>
-      <link>https://limeea.github.io/p/fix-office-scrolling-lag/</link>
+      <link>https://limee233@outlook.com/p/fix-office-scrolling-lag/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/fix-office-scrolling-lag/</guid>
+      <guid>https://limee233@outlook.com/p/fix-office-scrolling-lag/</guid>
       <description>问题概述 从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率</description>
     </item>
     

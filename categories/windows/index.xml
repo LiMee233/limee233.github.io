@@ -2,36 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Li Mee 的小窝</title>
-    <link>https://limeea.github.io/categories/windows/</link>
+    <link>https://limee233@outlook.com/categories/windows/</link>
     <description>Recent content in Windows on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limeea.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重装 Windows 后恢复 WSL2</title>
+      <link>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</link>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</guid>
+      <description>为新的 Windows 系统安装 WSL2 既然都需要恢复了，安装一个新的自然不费力。 去 Windows 功能 中安装 虚拟机平台 ，在商店安装 Windows Sub System for Linux Preview 和 需要恢复的 Linux 发行版 。 起动新安装</description>
+    </item>
+    
     <item>
       <title>解决 Office 滚动卡顿</title>
-      <link>https://limeea.github.io/p/fix-office-scrolling-lag/</link>
+      <link>https://limee233@outlook.com/p/fix-office-scrolling-lag/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/fix-office-scrolling-lag/</guid>
+      <guid>https://limee233@outlook.com/p/fix-office-scrolling-lag/</guid>
       <description>问题概述 从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率</description>
     </item>
     
     <item>
       <title>AMD 集显中 XAML 设计器花屏</title>
-      <link>https://limeea.github.io/p/amd-xamldesinger-displaybug/</link>
+      <link>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/amd-xamldesinger-displaybug/</guid>
+      <guid>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</guid>
       <description>详细描述 在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML</description>
     </item>
     
     <item>
       <title>Windows 语言变成「中文（新加坡）」</title>
-      <link>https://limeea.github.io/p/windows-language-to-singapore/</link>
+      <link>https://limee233@outlook.com/p/windows-language-to-singapore/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limeea.github.io/p/windows-language-to-singapore/</guid>
-      <description>问题概述 西元2021年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中</description>
+      <guid>https://limee233@outlook.com/p/windows-language-to-singapore/</guid>
+      <description>问题概述 西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中</description>
     </item>
     
   </channel>
