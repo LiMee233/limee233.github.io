@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Li Mee 的小窝</title>
-        <link>https://limee233@outlook.com/</link>
+        <link>https://limee233.github.io/</link>
         <description>Recent content on Li Mee 的小窝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>重装 Windows 后恢复 WSL2</title>
-        <link>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</link>
+        <link>https://limee233.github.io/p/restore-wsl2-after-reinstall-windows/</link>
         <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</guid>
+        <guid>https://limee233.github.io/p/restore-wsl2-after-reinstall-windows/</guid>
         <description>&lt;h2 id=&#34;为新的-windows-系统安装-wsl2&#34;&gt;为新的 Windows 系统安装 WSL2&lt;/h2&gt;
 &lt;p&gt;既然都需要恢复了，安装一个新的自然不费力。&lt;/p&gt;
 &lt;p&gt;去 Windows 功能 中安装 &lt;code&gt;虚拟机平台&lt;/code&gt; ，在商店安装 &lt;code&gt;Windows Sub System for Linux Preview&lt;/code&gt; 和 &lt;code&gt;需要恢复的 Linux 发行版&lt;/code&gt; 。&lt;/p&gt;
 &lt;p&gt;起动新安装的 Linux 发行版并进行配置即可。&lt;/p&gt;
-&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
+&lt;p class=&#34;notice&#34;&gt;
 最好保证 Windows 计算机名和重装前一致， WSL 中 UserName 和之前一致（未测试）。
 &lt;/p&gt;
 &lt;h2 id=&#34;恢复数据&#34;&gt;恢复数据&lt;/h2&gt;
@@ -29,10 +28,10 @@
         </item>
         <item>
         <title>Gender Dysphoria 一定会被察觉吗？</title>
-        <link>https://limee233@outlook.com/p/will-gd-be-detected/</link>
+        <link>https://limee233.github.io/p/will-gd-be-detected/</link>
         <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/will-gd-be-detected/</guid>
+        <guid>https://limee233.github.io/p/will-gd-be-detected/</guid>
         <description>&lt;p&gt;不同于典型 mtf ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 mtf 之前也没有厌恶过自己的生理特征，甚至连「希望自己是个女孩子」的想法都未曾有过，更从来没有怀疑过自己的性别。&lt;/p&gt;
 &lt;p&gt;一点也不像跨性别吧，一点不像吧！然而却在「那一天」之后“翻车”了。&lt;/p&gt;
 &lt;p&gt;然而自己想做女孩子的愿望不会凭空产生，也不会凭空消失 &lt;del&gt;（大雾）&lt;/del&gt;&lt;/p&gt;
@@ -46,11 +45,11 @@
 			flex-grow: 133; 
 			flex-basis: 320px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/will-gd-be-detected/mtf-convergence.png&#34; data-size=&#34;844x633&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/will-gd-be-detected/mtf-convergence.png&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/will-gd-be-detected/mtf-convergence.png&#34; data-size=&#34;844x633&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/will-gd-be-detected/mtf-convergence.png&#34;
 			width=&#34;844&#34;
 			height=&#34;633&#34;
-			srcset=&#34;https://limee233@outlook.com/p/will-gd-be-detected/mtf-convergence_hu389ca97e152044428c0a52ae6453edac_183825_480x0_resize_box_3.png 480w, https://limee233@outlook.com/p/will-gd-be-detected/mtf-convergence_hu389ca97e152044428c0a52ae6453edac_183825_1024x0_resize_box_3.png 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/will-gd-be-detected/mtf-convergence_hu389ca97e152044428c0a52ae6453edac_183825_480x0_resize_box_3.png 480w, https://limee233.github.io/p/will-gd-be-detected/mtf-convergence_hu389ca97e152044428c0a52ae6453edac_183825_1024x0_resize_box_3.png 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;自己就占了个 计算机 MCer 轨道交通 INFP 吧&#34;&gt;
 	&lt;/a&gt;
@@ -105,10 +104,10 @@
         </item>
         <item>
         <title>git 合并其他 Repository 的提交</title>
-        <link>https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/</link>
+        <link>https://limee233.github.io/p/git-cherry-pick-from-other-repository/</link>
         <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/</guid>
+        <guid>https://limee233.github.io/p/git-cherry-pick-from-other-repository/</guid>
         <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;Li Mee 在优化 lmi 的 device tree 时，经常好奇别人的 GitHub 提交中为什么会有 authored 和 commited 这两个东西。&lt;/p&gt;
 &lt;p&gt;&lt;figure 
@@ -118,11 +117,11 @@
 			flex-grow: 301; 
 			flex-basis: 722px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited.png&#34; data-size=&#34;1870x621&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited.png&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited.png&#34; data-size=&#34;1870x621&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited.png&#34;
 			width=&#34;1870&#34;
 			height=&#34;621&#34;
-			srcset=&#34;https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_480x0_resize_box_3.png 480w, https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_1024x0_resize_box_3.png 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_480x0_resize_box_3.png 480w, https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_1024x0_resize_box_3.png 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -144,11 +143,11 @@
 			flex-grow: 122; 
 			flex-basis: 294px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/git-clone.png&#34; data-size=&#34;609x496&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/git-clone.png&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone.png&#34; data-size=&#34;609x496&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone.png&#34;
 			width=&#34;609&#34;
 			height=&#34;496&#34;
-			srcset=&#34;https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_480x0_resize_box_3.png 480w, https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_1024x0_resize_box_3.png 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_480x0_resize_box_3.png 480w, https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_1024x0_resize_box_3.png 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -161,17 +160,16 @@
 &lt;h3 id=&#34;将远程仓库的提交合并到本地分支&#34;&gt;将远程仓库的提交合并到本地分支&lt;/h3&gt;
 &lt;p&gt;使用 &lt;code&gt;git cherry-pick [commit_hash]&lt;/code&gt; 将远程仓库的某个 commit （现已拉取到本地）合并到当前工作分支。&lt;/p&gt;
 &lt;p&gt;其中 &lt;code&gt;[commit_hash]&lt;/code&gt; 指的是 commit 的 hash 值，可以通过 &lt;code&gt;git log&lt;/code&gt; 或 GitHub 的在线页面获取。&lt;/p&gt;
-&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
+&lt;p class=&#34;notice&#34;&gt;
 没有必要考虑不同 Repository 的 hash 值是否会重复，这应该有关于 git 的原理。
 &lt;/p&gt;</description>
         </item>
         <item>
         <title>在 AOSP 中使用 Preference</title>
-        <link>https://limee233@outlook.com/p/android-preference/</link>
+        <link>https://limee233.github.io/p/android-preference/</link>
         <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/android-preference/</guid>
+        <guid>https://limee233.github.io/p/android-preference/</guid>
         <description>&lt;h2 id=&#34;xml-中-preference-的构建&#34;&gt;XML 中 Preference 的构建&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;在 &lt;code&gt;/res/xml&lt;/code&gt; 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 &lt;code&gt;PreferenceScreen&lt;/code&gt;.&lt;/li&gt;
@@ -184,8 +182,8 @@
     &gt;此处&lt;/a&gt; 。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
 添加 &lt;code&gt;Preference&lt;/code&gt; 后，即可在设置界面找到添加的设置项，因为「设置」的整体处理在此处交给了 Android.
+&lt;/p&gt;
 &lt;h2 id=&#34;在-java-中引用&#34;&gt;在 Java 中引用&lt;/h2&gt;
 &lt;p&gt;可以在项目的任意位置中引用 &lt;code&gt;Preference&lt;/code&gt; （存疑）。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;例： EditTextPreference&lt;/strong&gt;&lt;/p&gt;
@@ -203,10 +201,10 @@
         </item>
         <item>
         <title>重编译 Android 内核的缓存问题</title>
-        <link>https://limee233@outlook.com/p/android-kernel-rebuild/</link>
+        <link>https://limee233.github.io/p/android-kernel-rebuild/</link>
         <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/android-kernel-rebuild/</guid>
+        <guid>https://limee233.github.io/p/android-kernel-rebuild/</guid>
         <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;Li Mee 在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。&lt;/p&gt;
 &lt;p&gt;显然，选择退回到更改 FOD 方式之前版本的内核可以解决问题，&lt;strong&gt;然而问题并没有解决&lt;/strong&gt;。&lt;/p&gt;
@@ -218,10 +216,10 @@
         </item>
         <item>
         <title>在 Debian 系统驱动 Realtek 8822CE 无线网卡</title>
-        <link>https://limee233@outlook.com/p/debian-realtek8822ce/</link>
+        <link>https://limee233.github.io/p/debian-realtek8822ce/</link>
         <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/debian-realtek8822ce/</guid>
+        <guid>https://limee233.github.io/p/debian-realtek8822ce/</guid>
         <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
 &lt;p&gt;因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。&lt;/p&gt;
 &lt;h2 id=&#34;解决过程记录&#34;&gt;解决过程记录&lt;/h2&gt;
@@ -249,7 +247,6 @@
     &gt;network-manager&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用上一步的方法，按照顺序全部安装。&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
 如果缺失依赖，可自行从上方所述网站中搜索依赖名称，选择对应的版本进行下载。
 &lt;/p&gt;
 &lt;p&gt;使用 su 权限，执行以下命令连接 WiFi ：&lt;/p&gt;
@@ -263,19 +260,17 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
         </item>
         <item>
         <title>河北工业大学军训记录</title>
-        <link>https://limee233@outlook.com/p/hebut-militarytraining-records/</link>
+        <link>https://limee233.github.io/p/hebut-militarytraining-records/</link>
         <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/hebut-militarytraining-records/</guid>
-        <description>&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
+        <guid>https://limee233.github.io/p/hebut-militarytraining-records/</guid>
+        <description>&lt;p class=&#34;notice&#34;&gt;
 本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。
 &lt;/p&gt;
 &lt;h2 id=&#34;基本信息&#34;&gt;基本信息&lt;/h2&gt;
 &lt;p&gt;本人机械工程学院，测控技术与仪器专业 &lt;del&gt;（为了学校妥协了专业，后悔至今）&lt;/del&gt; ，2020 级学生。&lt;/p&gt;
 &lt;p&gt;大学军训本应在大一进行，但由于疫情原因，推迟到了大二。&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
 已知 2021 级军训没有推迟。
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;时间：&lt;/strong&gt; 2020/08/22 - 2020/09/04 ，共14天（实际 13 天 + 2 小时的检阅）&lt;br&gt;
@@ -296,7 +291,6 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 &lt;p&gt;但好在时间过得也挺快的，一天往往是转眼即逝。&lt;/p&gt;
 &lt;p&gt;而训练的强度决定于教官，有松有紧：一部分教官是「学生教官团」，我们的教官有一位是同届的，另一个是大三的，管理算是相当轻松，划水摸鱼是常事。&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
 之所以有两个教官，是因为教官本来就比方队要多，应该多 1.5~2 倍，中途教官可能莫名消失或出现（薛定谔的教官）。
 &lt;/p&gt;
 &lt;p&gt;另一部分教官是「武警教官」，我们教官说他们管的挺松，但 Li Mee 并不清楚具体情况，只知道在一起的同学经常嘲笑他们正步走的太差了。&lt;/p&gt;
@@ -314,7 +308,6 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 &lt;p&gt;为期2天，完成后「哨子哥」会从每个方队中选择几个打的比较好的人，加入擒敌拳/应急棍的训练方队，这两个方队是需要上台表演的（甚至还要在2021级开幕式上表演，太惨了）。&lt;/p&gt;
 &lt;p&gt;这几个打的比较好的人，是教官提前选择的。我们的教官直接就问“谁想过去打棍？”，之后就培养想打棍的人了，算是比较自由。&lt;/p&gt;
 &lt;p class=&#34;danger&#34;&gt;
-信息&lt;br&gt;
 教官可能会说应急棍/军体拳很轻松，千万别信。
 &lt;/p&gt;
 &lt;h3 id=&#34;准备检阅&#34;&gt;准备检阅&lt;/h3&gt;
@@ -337,10 +330,10 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
         </item>
         <item>
         <title>记更改 WD 硬盘休眠时间的历程</title>
-        <link>https://limee233@outlook.com/p/wd-apmtimer/</link>
+        <link>https://limee233.github.io/p/wd-apmtimer/</link>
         <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/wd-apmtimer/</guid>
+        <guid>https://limee233.github.io/p/wd-apmtimer/</guid>
         <description>&lt;h2 id=&#34;硬盘的来历&#34;&gt;硬盘的来历&lt;/h2&gt;
 &lt;p&gt;是 Li Mee 高考完的那个暑假， emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。&lt;/p&gt;
 &lt;h2 id=&#34;硬伤&#34;&gt;硬伤&lt;/h2&gt;
@@ -369,11 +362,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 			flex-grow: 237; 
 			flex-basis: 569px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/wd-apmtimer/Comment.png&#34; data-size=&#34;748x315&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/wd-apmtimer/Comment.png&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/wd-apmtimer/Comment.png&#34; data-size=&#34;748x315&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/wd-apmtimer/Comment.png&#34;
 			width=&#34;748&#34;
 			height=&#34;315&#34;
-			srcset=&#34;https://limee233@outlook.com/p/wd-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_480x0_resize_box_3.png 480w, https://limee233@outlook.com/p/wd-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_1024x0_resize_box_3.png 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/wd-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_480x0_resize_box_3.png 480w, https://limee233.github.io/p/wd-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_1024x0_resize_box_3.png 1024w&#34;
 			loading=&#34;lazy&#34;
 			&gt;
 	&lt;/a&gt;
@@ -384,17 +377,13 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
         </item>
         <item>
         <title>解决 Office 滚动卡顿</title>
-        <link>https://limee233@outlook.com/p/fix-office-scrolling-lag/</link>
+        <link>https://limee233.github.io/p/fix-office-scrolling-lag/</link>
         <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/fix-office-scrolling-lag/</guid>
+        <guid>https://limee233.github.io/p/fix-office-scrolling-lag/</guid>
         <description>&lt;h2 id=&#34;问题概述&#34;&gt;问题概述&lt;/h2&gt;
 &lt;p&gt;从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。&lt;/p&gt;
 &lt;p&gt;2021 年 6 月 24 日， Li Mee 做了一个 PPT ，发现 PPT 幻灯片列表的滚动居然也是卡顿的，因此将标题修改为「解决 Office &lt;del&gt;Word&lt;/del&gt; 滚动卡顿」。&lt;/p&gt;
-&lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
-经验证，高刷新率屏幕「似乎」不会出现这个问题，&lt;strike&gt;辣鸡微软&lt;/strike&gt;
-&lt;/p&gt;
 &lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 &lt;p&gt;在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」为游戏，并且调节「抗锯齿」为「覆盖应用程序设置」，抗锯齿级别为任意项即可（此处推荐2X）。&lt;/p&gt;
 &lt;h3 id=&#34;手动方法&#34;&gt;手动方法&lt;/h3&gt;
@@ -410,11 +399,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 			flex-grow: 188; 
 			flex-basis: 451px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/fix-office-scrolling-lag/edit-reg.png&#34; data-size=&#34;1920x1020&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/fix-office-scrolling-lag/edit-reg.png&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/fix-office-scrolling-lag/edit-reg.png&#34; data-size=&#34;1920x1020&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/fix-office-scrolling-lag/edit-reg.png&#34;
 			width=&#34;1920&#34;
 			height=&#34;1020&#34;
-			srcset=&#34;https://limee233@outlook.com/p/fix-office-scrolling-lag/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_480x0_resize_box_3.png 480w, https://limee233@outlook.com/p/fix-office-scrolling-lag/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_1024x0_resize_box_3.png 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/fix-office-scrolling-lag/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_480x0_resize_box_3.png 480w, https://limee233.github.io/p/fix-office-scrolling-lag/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_1024x0_resize_box_3.png 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -427,16 +416,15 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://wwa.lanzoui.com/iICeMrhbmif&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;点击下载&lt;/a&gt;&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
 此注册表可以修复 Microsoft Office 365 所包含的所有软件。
 &lt;/p&gt;</description>
         </item>
         <item>
         <title>删除「SIM n 支持高清」通知</title>
-        <link>https://limee233@outlook.com/p/remove-hdicon/</link>
+        <link>https://limee233.github.io/p/remove-hdicon/</link>
         <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/remove-hdicon/</guid>
+        <guid>https://limee233.github.io/p/remove-hdicon/</guid>
         <description>&lt;h2 id=&#34;出现原因与现象&#34;&gt;出现原因与现象&lt;/h2&gt;
 &lt;p&gt;部分原生系统在编译时，未考虑到会出现高清通知的问题 &lt;del&gt;或者认为这不是问题&lt;/del&gt; ，就没有在源码部分进行修改（比如 &lt;a class=&#34;link&#34; href=&#34;https://github.com/LiMeea/device_xiaomi_sm8250-common/commit/4a3c21d2c017a2806348ae1df3f96536b07500c0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这里&lt;/a&gt; ）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。&lt;/p&gt;
@@ -447,11 +435,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 			flex-grow: 121; 
 			flex-basis: 291px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/remove-hdicon/hd-notification.jpg&#34; data-size=&#34;500x412&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/remove-hdicon/hd-notification.jpg&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/remove-hdicon/hd-notification.jpg&#34; data-size=&#34;500x412&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/remove-hdicon/hd-notification.jpg&#34;
 			width=&#34;500&#34;
 			height=&#34;412&#34;
-			srcset=&#34;https://limee233@outlook.com/p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_480x0_resize_q75_box.jpg 480w, https://limee233@outlook.com/p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_1024x0_resize_q75_box.jpg 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_480x0_resize_q75_box.jpg 480w, https://limee233.github.io/p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_1024x0_resize_q75_box.jpg 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -462,7 +450,6 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 &lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 &lt;p&gt;如果作为用户，已经无法对系统编译前的 dt 进行修改了，所以只能修改编译好的应用程序，这里从通知的产生者—— ims.apk 入手。&lt;/p&gt;
 &lt;p class=&#34;danger&#34;&gt;
-警告&lt;br&gt;
 进行任何操作前，请注意对重要数据进行备份！
 &lt;/p&gt;
 &lt;h3 id=&#34;提取产生通知的应用&#34;&gt;提取产生通知的应用&lt;/h3&gt;
@@ -480,11 +467,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 			flex-grow: 81; 
 			flex-basis: 194px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/remove-hdicon/constv50xid.png&#34; data-size=&#34;500x617&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/remove-hdicon/constv50xid.png&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/remove-hdicon/constv50xid.png&#34; data-size=&#34;500x617&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/remove-hdicon/constv50xid.png&#34;
 			width=&#34;500&#34;
 			height=&#34;617&#34;
-			srcset=&#34;https://limee233@outlook.com/p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_480x0_resize_box_3.png 480w, https://limee233@outlook.com/p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_1024x0_resize_box_3.png 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_480x0_resize_box_3.png 480w, https://limee233.github.io/p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_1024x0_resize_box_3.png 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;不同设备的 ID 可能不同&#34;&gt;
 	&lt;/a&gt;
@@ -505,11 +492,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 			flex-grow: 187; 
 			flex-basis: 451px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/remove-hdicon/deletecode.png&#34; data-size=&#34;500x266&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/remove-hdicon/deletecode.png&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/remove-hdicon/deletecode.png&#34; data-size=&#34;500x266&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/remove-hdicon/deletecode.png&#34;
 			width=&#34;500&#34;
 			height=&#34;266&#34;
-			srcset=&#34;https://limee233@outlook.com/p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_480x0_resize_box_3.png 480w, https://limee233@outlook.com/p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_1024x0_resize_box_3.png 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_480x0_resize_box_3.png 480w, https://limee233.github.io/p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_1024x0_resize_box_3.png 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;结构如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -517,13 +504,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 	&lt;figcaption&gt;结构如图所示&lt;/figcaption&gt;
 	
 &lt;/figure&gt;&lt;/p&gt;
-&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
+&lt;p class=&#34;notice&#34;&gt;
 删除的时候需要将整行删除，不要只删掉文字，也不要删多了。
 &lt;/p&gt;
 &lt;p&gt;修改完成后保存所做的一切修改，直到获取修改完的应用程序安装包&lt;/p&gt;
-&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
+&lt;p class=&#34;notice&#34;&gt;
 修改完的应用程序不需要重新签名。
 &lt;/p&gt;
 &lt;h2 id=&#34;替换还原&#34;&gt;替换还原&lt;/h2&gt;
@@ -536,10 +521,10 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
         </item>
         <item>
         <title>AMD 集显中 XAML 设计器花屏</title>
-        <link>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</link>
+        <link>https://limee233.github.io/p/amd-xamldesinger-displaybug/</link>
         <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</guid>
+        <guid>https://limee233.github.io/p/amd-xamldesinger-displaybug/</guid>
         <description>&lt;h2 id=&#34;详细描述&#34;&gt;详细描述&lt;/h2&gt;
 &lt;p&gt;在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML 设计器花屏，无法正常使用的问题。&lt;/p&gt;
 &lt;p&gt;&lt;figure 
@@ -549,11 +534,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 			flex-grow: 186; 
 			flex-basis: 447px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/amd-xamldesinger-displaybug/XAML-bug.jpg&#34; data-size=&#34;1920x1030&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/amd-xamldesinger-displaybug/XAML-bug.jpg&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/XAML-bug.jpg&#34; data-size=&#34;1920x1030&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/XAML-bug.jpg&#34;
 			width=&#34;1920&#34;
 			height=&#34;1030&#34;
-			srcset=&#34;https://limee233@outlook.com/p/amd-xamldesinger-displaybug/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_480x0_resize_q75_box.jpg 480w, https://limee233@outlook.com/p/amd-xamldesinger-displaybug/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_1024x0_resize_q75_box.jpg 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_480x0_resize_q75_box.jpg 480w, https://limee233.github.io/p/amd-xamldesinger-displaybug/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_1024x0_resize_q75_box.jpg 1024w&#34;
 			loading=&#34;lazy&#34;
 			alt=&#34;花屏现象如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -570,38 +555,36 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 			flex-grow: 182; 
 			flex-basis: 437px&#34;
 	&gt;
-	&lt;a href=&#34;https://limee233@outlook.com/p/amd-xamldesinger-displaybug/adjust-AMD-Software.jpg&#34; data-size=&#34;1618x887&#34;&gt;
-		&lt;img src=&#34;https://limee233@outlook.com/p/amd-xamldesinger-displaybug/adjust-AMD-Software.jpg&#34;
+	&lt;a href=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/adjust-AMD-Software.jpg&#34; data-size=&#34;1618x887&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/adjust-AMD-Software.jpg&#34;
 			width=&#34;1618&#34;
 			height=&#34;887&#34;
-			srcset=&#34;https://limee233@outlook.com/p/amd-xamldesinger-displaybug/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_480x0_resize_q75_box.jpg 480w, https://limee233@outlook.com/p/amd-xamldesinger-displaybug/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_1024x0_resize_q75_box.jpg 1024w&#34;
+			srcset=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_480x0_resize_q75_box.jpg 480w, https://limee233.github.io/p/amd-xamldesinger-displaybug/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_1024x0_resize_q75_box.jpg 1024w&#34;
 			loading=&#34;lazy&#34;
 			&gt;
 	&lt;/a&gt;
 	
 &lt;/figure&gt;&lt;/p&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
 其中，「 Microsoft Visual Studio XAML Designer 」可以在任务管理器中找到位置。
 &lt;/p&gt;
-&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
+&lt;p class=&#34;notice&#34;&gt;
 1. 仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用。
-2. 如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X.</description>
+2. 如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X.
+&lt;/p&gt;</description>
         </item>
         <item>
         <title>Windows 语言变成「中文（新加坡）」</title>
-        <link>https://limee233@outlook.com/p/windows-language-to-singapore/</link>
+        <link>https://limee233.github.io/p/windows-language-to-singapore/</link>
         <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://limee233@outlook.com/p/windows-language-to-singapore/</guid>
+        <guid>https://limee233.github.io/p/windows-language-to-singapore/</guid>
         <description>&lt;h2 id=&#34;问题概述&#34;&gt;问题概述&lt;/h2&gt;
 &lt;p&gt;西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。&lt;/p&gt;
 &lt;p&gt;关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……&lt;/p&gt;
 &lt;h2 id=&#34;临时解决方案&#34;&gt;临时解决方案&lt;/h2&gt;
 &lt;p class=&#34;info&#34;&gt;
-信息&lt;br&gt;
-灵感来自于：[https://www.sysgeek.cn/windows-10-force-remove-language-pack](https://www.sysgeek.cn/windows-10-force-remove-language-pack)
+灵感来自于：&lt;a href=&#34;https://www.sysgeek.cn/windows-10-force-remove-language-pack&#34; target=&#34;_blank&#34;&gt;https://www.sysgeek.cn/windows-10-force-remove-language-pack&lt;/a&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;强制删除中文新加坡&#34;&gt;强制删除「中文（新加坡）」&lt;/h3&gt;
 &lt;p&gt;使用管理员模式打开 Windows Powershell，输入命令： &lt;code&gt;Get-WinUserLanguageList&lt;/code&gt; ，观察所得信息中是否包含 &lt;code&gt;LanguageTag : zh-Hans-SG&lt;/code&gt;&lt;/p&gt;
@@ -621,8 +604,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 &lt;h3 id=&#34;删除用户设置&#34;&gt;删除用户设置&lt;/h3&gt;
 &lt;p&gt;打开 &lt;a class=&#34;link&#34; href=&#34;https://onedrive.live.com/win8personalsettingsprivacy/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;删除用户设置的网站&lt;/a&gt; （请在新标签页内打开，此外还需要魔法），按步骤删除同步的用户设置即可。&lt;/p&gt;
-&lt;p class=&#34;warning&#34;&gt;
-注意&lt;br&gt;
+&lt;p class=&#34;notice&#34;&gt;
 删除同步的用户数据，并不会让系统内的语言“改邪归正”，还需要配合「临时解决方案」或选择重装系统。
 &lt;/p&gt;
 &lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;

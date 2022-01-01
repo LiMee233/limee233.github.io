@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on Li Mee 的小窝</title>
-    <link>https://limee233@outlook.com/categories/android/</link>
+    <link>https://limee233.github.io/categories/android/</link>
     <description>Recent content in Android on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 AOSP 中使用 Preference</title>
-      <link>https://limee233@outlook.com/p/android-preference/</link>
+      <link>https://limee233.github.io/p/android-preference/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/android-preference/</guid>
-      <description>XML 中 Preference 的构建 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 PreferenceScreen. &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences ，详细的信息可以参照 此处 。 信息 添加 Preference 后，</description>
+      <guid>https://limee233.github.io/p/android-preference/</guid>
+      <description>XML 中 Preference 的构建 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 PreferenceScreen. &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences ，详细的信息可以参照 此处 。 添加 Preference 后，即可</description>
     </item>
     
     <item>
       <title>重编译 Android 内核的缓存问题</title>
-      <link>https://limee233@outlook.com/p/android-kernel-rebuild/</link>
+      <link>https://limee233.github.io/p/android-kernel-rebuild/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/android-kernel-rebuild/</guid>
+      <guid>https://limee233.github.io/p/android-kernel-rebuild/</guid>
       <description>起因 Li Mee 在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。 显然，选择退回到</description>
     </item>
     
     <item>
       <title>删除「SIM n 支持高清」通知</title>
-      <link>https://limee233@outlook.com/p/remove-hdicon/</link>
+      <link>https://limee233.github.io/p/remove-hdicon/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/remove-hdicon/</guid>
+      <guid>https://limee233.github.io/p/remove-hdicon/</guid>
       <description>出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡</description>
     </item>
     

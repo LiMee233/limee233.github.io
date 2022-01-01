@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Li Mee 的小窝</title>
-    <link>https://limee233@outlook.com/tags/linux/</link>
+    <link>https://limee233.github.io/tags/linux/</link>
     <description>Recent content in Linux on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Debian 系统驱动 Realtek 8822CE 无线网卡</title>
-      <link>https://limee233@outlook.com/p/debian-realtek8822ce/</link>
+      <link>https://limee233.github.io/p/debian-realtek8822ce/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/debian-realtek8822ce/</guid>
+      <guid>https://limee233.github.io/p/debian-realtek8822ce/</guid>
       <description>起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功</description>
     </item>
     

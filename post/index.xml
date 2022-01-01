@@ -2,116 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Li Mee 的小窝</title>
-    <link>https://limee233@outlook.com/post/</link>
+    <link>https://limee233.github.io/post/</link>
     <description>Recent content in Posts on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重装 Windows 后恢复 WSL2</title>
-      <link>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</link>
+      <link>https://limee233.github.io/p/restore-wsl2-after-reinstall-windows/</link>
       <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</guid>
+      <guid>https://limee233.github.io/p/restore-wsl2-after-reinstall-windows/</guid>
       <description>为新的 Windows 系统安装 WSL2 既然都需要恢复了，安装一个新的自然不费力。 去 Windows 功能 中安装 虚拟机平台 ，在商店安装 Windows Sub System for Linux Preview 和 需要恢复的 Linux 发行版 。 起动新安装</description>
     </item>
     
     <item>
       <title>Gender Dysphoria 一定会被察觉吗？</title>
-      <link>https://limee233@outlook.com/p/will-gd-be-detected/</link>
+      <link>https://limee233.github.io/p/will-gd-be-detected/</link>
       <pubDate>Sun, 28 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/will-gd-be-detected/</guid>
+      <guid>https://limee233.github.io/p/will-gd-be-detected/</guid>
       <description>不同于典型 mtf ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 mtf 之前也没有厌恶过自己的生理特征，甚至连「希望自己是个女孩子」的想法都未</description>
     </item>
     
     <item>
       <title>git 合并其他 Repository 的提交</title>
-      <link>https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/</link>
+      <link>https://limee233.github.io/p/git-cherry-pick-from-other-repository/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/git-cherry-pick-from-other-repository/</guid>
+      <guid>https://limee233.github.io/p/git-cherry-pick-from-other-repository/</guid>
       <description>起因 Li Mee 在优化 lmi 的 device tree 时，经常好奇别人的 GitHub 提交中为什么会有 authored 和 commited 这两个东西。 如图所示 毕竟总是抄别人的提交，但不注明作者，感觉心里非常不舒服，</description>
     </item>
     
     <item>
       <title>在 AOSP 中使用 Preference</title>
-      <link>https://limee233@outlook.com/p/android-preference/</link>
+      <link>https://limee233.github.io/p/android-preference/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/android-preference/</guid>
-      <description>XML 中 Preference 的构建 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 PreferenceScreen. &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences ，详细的信息可以参照 此处 。 信息 添加 Preference 后，</description>
+      <guid>https://limee233.github.io/p/android-preference/</guid>
+      <description>XML 中 Preference 的构建 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 PreferenceScreen. &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences ，详细的信息可以参照 此处 。 添加 Preference 后，即可</description>
     </item>
     
     <item>
       <title>重编译 Android 内核的缓存问题</title>
-      <link>https://limee233@outlook.com/p/android-kernel-rebuild/</link>
+      <link>https://limee233.github.io/p/android-kernel-rebuild/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/android-kernel-rebuild/</guid>
+      <guid>https://limee233.github.io/p/android-kernel-rebuild/</guid>
       <description>起因 Li Mee 在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。 显然，选择退回到</description>
     </item>
     
     <item>
       <title>在 Debian 系统驱动 Realtek 8822CE 无线网卡</title>
-      <link>https://limee233@outlook.com/p/debian-realtek8822ce/</link>
+      <link>https://limee233.github.io/p/debian-realtek8822ce/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/debian-realtek8822ce/</guid>
+      <guid>https://limee233.github.io/p/debian-realtek8822ce/</guid>
       <description>起因 因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功</description>
     </item>
     
     <item>
       <title>河北工业大学军训记录</title>
-      <link>https://limee233@outlook.com/p/hebut-militarytraining-records/</link>
+      <link>https://limee233.github.io/p/hebut-militarytraining-records/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/hebut-militarytraining-records/</guid>
-      <description>注意 本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 基本信息 本人机械工程学院，测控技术与仪器专业 （为了学校妥协了专</description>
+      <guid>https://limee233.github.io/p/hebut-militarytraining-records/</guid>
+      <description>本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 基本信息 本人机械工程学院，测控技术与仪器专业 （为了学校妥协了专业，</description>
     </item>
     
     <item>
       <title>记更改 WD 硬盘休眠时间的历程</title>
-      <link>https://limee233@outlook.com/p/wd-apmtimer/</link>
+      <link>https://limee233.github.io/p/wd-apmtimer/</link>
       <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/wd-apmtimer/</guid>
+      <guid>https://limee233.github.io/p/wd-apmtimer/</guid>
       <description>硬盘的来历 是 Li Mee 高考完的那个暑假， emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清</description>
     </item>
     
     <item>
       <title>解决 Office 滚动卡顿</title>
-      <link>https://limee233@outlook.com/p/fix-office-scrolling-lag/</link>
+      <link>https://limee233.github.io/p/fix-office-scrolling-lag/</link>
       <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/fix-office-scrolling-lag/</guid>
+      <guid>https://limee233.github.io/p/fix-office-scrolling-lag/</guid>
       <description>问题概述 从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率</description>
     </item>
     
     <item>
       <title>删除「SIM n 支持高清」通知</title>
-      <link>https://limee233@outlook.com/p/remove-hdicon/</link>
+      <link>https://limee233.github.io/p/remove-hdicon/</link>
       <pubDate>Mon, 17 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/remove-hdicon/</guid>
+      <guid>https://limee233.github.io/p/remove-hdicon/</guid>
       <description>出现原因与现象 部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡</description>
     </item>
     
     <item>
       <title>AMD 集显中 XAML 设计器花屏</title>
-      <link>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</link>
+      <link>https://limee233.github.io/p/amd-xamldesinger-displaybug/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/amd-xamldesinger-displaybug/</guid>
+      <guid>https://limee233.github.io/p/amd-xamldesinger-displaybug/</guid>
       <description>详细描述 在 Li Mee 用 AMD 集显电脑（第一台是电脑城配的辣鸡组装机，第二台是现在用的笔记本）使用 Visual Studio 2017/2019 编写 基于.NET Framework 的WPF应用程序时，都遇到了 XAML</description>
     </item>
     
     <item>
       <title>Windows 语言变成「中文（新加坡）」</title>
-      <link>https://limee233@outlook.com/p/windows-language-to-singapore/</link>
+      <link>https://limee233.github.io/p/windows-language-to-singapore/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/windows-language-to-singapore/</guid>
+      <guid>https://limee233.github.io/p/windows-language-to-singapore/</guid>
       <description>问题概述 西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中</description>
     </item>
     

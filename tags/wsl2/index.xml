@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WSL2 on Li Mee 的小窝</title>
-    <link>https://limee233@outlook.com/tags/wsl2/</link>
+    <link>https://limee233.github.io/tags/wsl2/</link>
     <description>Recent content in WSL2 on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/tags/wsl2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/tags/wsl2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重装 Windows 后恢复 WSL2</title>
-      <link>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</link>
+      <link>https://limee233.github.io/p/restore-wsl2-after-reinstall-windows/</link>
       <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/p/restore-wsl2-after-reinstall-windows/</guid>
+      <guid>https://limee233.github.io/p/restore-wsl2-after-reinstall-windows/</guid>
       <description>为新的 Windows 系统安装 WSL2 既然都需要恢复了，安装一个新的自然不费力。 去 Windows 功能 中安装 虚拟机平台 ，在商店安装 Windows Sub System for Linux Preview 和 需要恢复的 Linux 发行版 。 起动新安装</description>
     </item>
     

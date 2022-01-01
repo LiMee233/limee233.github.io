@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Li Mee 的小窝</title>
-    <link>https://limee233@outlook.com/categories/</link>
+    <link>https://limee233.github.io/categories/</link>
     <description>Recent content in Categories on Li Mee 的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233@outlook.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows</title>
-      <link>https://limee233@outlook.com/categories/windows/</link>
+      <link>https://limee233.github.io/categories/windows/</link>
       <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/categories/windows/</guid>
+      <guid>https://limee233.github.io/categories/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>https://limee233@outlook.com/categories/android/</link>
+      <link>https://limee233.github.io/categories/android/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/categories/android/</guid>
+      <guid>https://limee233.github.io/categories/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://limee233@outlook.com/categories/linux/</link>
+      <link>https://limee233.github.io/categories/linux/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/categories/linux/</guid>
+      <guid>https://limee233.github.io/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>日常</title>
-      <link>https://limee233@outlook.com/categories/daily/</link>
+      <link>https://limee233.github.io/categories/daily/</link>
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://limee233@outlook.com/categories/daily/</guid>
+      <guid>https://limee233.github.io/categories/daily/</guid>
       <description></description>
     </item>
     
