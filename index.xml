@@ -6,7 +6,152 @@
         <description>Recent content on Li Mee 的小窝</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://limee233.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Git commit 作者相关问题</title>
+        <link>https://limee233.github.io/p/git-commit-author/</link>
+        <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://limee233.github.io/p/git-commit-author/</guid>
+        <description>&lt;h2 id=&#34;作者和提交者&#34;&gt;作者和提交者？&lt;/h2&gt;
+&lt;p&gt;在 Github 上显示 &lt;strong&gt;A&lt;/strong&gt; authored and &lt;strong&gt;B&lt;/strong&gt; committed&amp;hellip; 的，就是“作者”和“提交者”不同的情况。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 663; 
+			flex-basis: 1591px&#34;
+	&gt;
+	&lt;a href=&#34;https://limee233.github.io/p/git-commit-author/DifferentCommittersAndAuthors.png&#34; data-size=&#34;1751x264&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/git-commit-author/DifferentCommittersAndAuthors.png&#34;
+			width=&#34;1751&#34;
+			height=&#34;264&#34;
+			
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;想达到这样的效果，只需要在提交的时候使用 &lt;code&gt;git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot;&lt;/code&gt; 就可以了。&lt;/p&gt;
+&lt;p&gt;还记得使用 Git 时配置的这些信息吗？&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;quot;在此处替换成你的名字&amp;quot;
+git config --global user.email &amp;quot;在此处替换成你的邮箱&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上文的 &lt;code&gt;user.name&lt;/code&gt; 和 &lt;code&gt;user.email&lt;/code&gt; 指的就是作者使用 Git 时设置的这些信息。&lt;/p&gt;
+&lt;p&gt;用我自己的信息举个例子，如果你想要将我的提交 pick 到自己的项目中，可以在编辑完后执行 &lt;code&gt;git commit --author &amp;quot;LiMee233 &amp;lt;LiMee233@outlook.com&amp;gt;&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;具有多个作者的提交&#34;&gt;具有多个作者的提交&lt;/h2&gt;
+&lt;p&gt;在 Github 上还可以见到诸如 X people commited&amp;hellip; 的具有多个作者的情况。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 1948; 
+			flex-basis: 4675px&#34;
+	&gt;
+	&lt;a href=&#34;https://limee233.github.io/p/git-commit-author/CoAuthoredCommit.png&#34; data-size=&#34;1734x89&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/git-commit-author/CoAuthoredCommit.png&#34;
+			width=&#34;1734&#34;
+			height=&#34;89&#34;
+			
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;想要达到这样的效果，需要在提交信息的尾行 &lt;strike&gt;（其实也可以不是尾行，但应尽量靠后，不要写在前面）&lt;/strike&gt; 加入 &lt;code&gt;Co-authored-by: user.name &amp;lt;user.email&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 422; 
+			flex-basis: 1013px&#34;
+	&gt;
+	&lt;a href=&#34;https://limee233.github.io/p/git-commit-author/CoAuthoredCommitDetails.png&#34; data-size=&#34;1824x432&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/git-commit-author/CoAuthoredCommitDetails.png&#34;
+			width=&#34;1824&#34;
+			height=&#34;432&#34;
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;再举个栗子，照着这个抄就可以&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;再举个栗子，照着这个抄就可以&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&#34;获得作者的用户名和邮箱地址&#34;&gt;获得作者的用户名和邮箱地址&lt;/h2&gt;
+&lt;p&gt;主要分为 3 种方法，分别进行讲解。&lt;/p&gt;
+&lt;h3 id=&#34;直接在-github-用户界面查看&#34;&gt;直接在 Github 用户界面查看&lt;/h3&gt;
+&lt;p&gt;比较简单，在提交页面点击作者的头像即可进入作者的 Github 界面，左侧即可看到相应的信息，摘取所需的部分即可。&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 99; 
+			flex-basis: 237px&#34;
+	&gt;
+	&lt;a href=&#34;https://limee233.github.io/p/git-commit-author/GithubUserPage.png&#34; data-size=&#34;471x475&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/git-commit-author/GithubUserPage.png&#34;
+			width=&#34;471&#34;
+			height=&#34;475&#34;
+			
+			loading=&#34;lazy&#34;
+			&gt;
+	&lt;/a&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p class=&#34;notice&#34;&gt;
+比较粗大的是昵称，下面相对小一点的灰色字才是用户名。&lt;br&gt;
+比如上图中 &lt;code&gt;Utsav Balar&lt;/code&gt; 是昵称， &lt;code&gt;UtsavBalar1231&lt;/code&gt; 才是我们需要的用户名。
+&lt;/p&gt;
+&lt;p&gt;这种情况有一些局限性，比如作者不愿意在 Github 上公开自己的电子邮件信息的时候就比较难办 &lt;strike&gt;（也不是完全不行）&lt;/strike&gt; ，此时可以使用剩下的两种方法。&lt;/p&gt;
+&lt;h3 id=&#34;使用-cherry-pick-摘取提交&#34;&gt;使用 cherry-pick 摘取提交&lt;/h3&gt;
+&lt;p class=&#34;notice&#34;&gt;
+使用此方法，最好是在两个项目出自“同源”的时候，差异很大的项目不建议使用。
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先 cd 到自己项目的文件夹，使用 &lt;code&gt;git remote add REMOTENAME REMOTEURL&lt;/code&gt; 为本地仓库添加一个远程 remote.&lt;/p&gt;
+&lt;p&gt;REMOTENAME 是自己给此远程 remote 起的名字，任意不重复即可。&lt;br&gt;
+REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可以看到，由于不是自己的项目，因此需要选择 HTTPS.&lt;/p&gt;
+&lt;p&gt;举例如： &lt;code&gt;git remote add pe https://github.com/PixelExperience-Devices/device_oneplus_sm7250-common.git&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;现在，使用 &lt;code&gt;git fetch REMOTENAME&lt;/code&gt; 拉取远程仓库的内容，跟随上面的举例即为 &lt;code&gt;git fetch pe&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拉取完毕后就可以摘取了，使用 &lt;code&gt;git cherry-pick COMMITCODE&lt;/code&gt; 即可摘取指定提交，COMMITCODE 就是 commit 的编号，可从 Github 上查看和复制。&lt;/p&gt;
+&lt;p&gt;摘取可能出现冲突，此时需要自行解决，即使没有冲突也应该自行检查是否合并正确。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;clone-到本地查询&#34;&gt;Clone 到本地查询&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;将项目 Clone 到本地， cd 到项目文件夹中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 &lt;code&gt;git log COMMITCODE -1&lt;/code&gt; 查询指定提交的信息，其中即可包括作者的信息， &lt;code&gt;COMMITCODE&lt;/code&gt; 同上。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 181; 
+			flex-basis: 434px&#34;
+	&gt;
+	&lt;a href=&#34;https://limee233.github.io/p/git-commit-author/CloneToLocal.png&#34; data-size=&#34;1614x891&#34;&gt;
+		&lt;img src=&#34;https://limee233.github.io/p/git-commit-author/CloneToLocal.png&#34;
+			width=&#34;1614&#34;
+			height=&#34;891&#34;
+			
+			loading=&#34;lazy&#34;
+			alt=&#34;全过程示例&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;全过程示例&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>重装 Windows 后恢复 WSL2</title>
         <link>https://limee233.github.io/p/restore-wsl2-after-reinstall-windows/</link>
         <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
@@ -49,7 +194,7 @@
 		&lt;img src=&#34;https://limee233.github.io/p/will-gd-be-detected/mtf-convergence.png&#34;
 			width=&#34;844&#34;
 			height=&#34;633&#34;
-			srcset=&#34;https://limee233.github.io/p/will-gd-be-detected/mtf-convergence_hu389ca97e152044428c0a52ae6453edac_183825_480x0_resize_box_3.png 480w, https://limee233.github.io/p/will-gd-be-detected/mtf-convergence_hu389ca97e152044428c0a52ae6453edac_183825_1024x0_resize_box_3.png 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			alt=&#34;自己就占了个 计算机 MCer 轨道交通 INFP 吧&#34;&gt;
 	&lt;/a&gt;
@@ -101,68 +246,6 @@
 &lt;p&gt;内心的挣扎不一定有可察觉的外在表现，仔细思考了所有 cisgender 绝不会当回事的问题，就意味着自己不是 cisgender !&lt;/p&gt;
 &lt;p&gt;仅仅是看到了 mtf 姐妹的动态，看到了转变必须的经历就引发了 gd ，那内心的挣扎可能已经很严重了，只是被自己完全忽略了而已。&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>git 合并其他 Repository 的提交</title>
-        <link>https://limee233.github.io/p/git-cherry-pick-from-other-repository/</link>
-        <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://limee233.github.io/p/git-cherry-pick-from-other-repository/</guid>
-        <description>&lt;h2 id=&#34;起因&#34;&gt;起因&lt;/h2&gt;
-&lt;p&gt;Li Mee 在优化 lmi 的 device tree 时，经常好奇别人的 GitHub 提交中为什么会有 authored 和 commited 这两个东西。&lt;/p&gt;
-&lt;p&gt;&lt;figure 
-	
-		class=&#34;gallery-image&#34; 
-		style=&#34;
-			flex-grow: 301; 
-			flex-basis: 722px&#34;
-	&gt;
-	&lt;a href=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited.png&#34; data-size=&#34;1870x621&#34;&gt;
-		&lt;img src=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited.png&#34;
-			width=&#34;1870&#34;
-			height=&#34;621&#34;
-			srcset=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_480x0_resize_box_3.png 480w, https://limee233.github.io/p/git-cherry-pick-from-other-repository/commit-with-authored-and-commited_hu03ac8d0e2a0583271ad5af57cdab24e8_136172_1024x0_resize_box_3.png 1024w&#34;
-			loading=&#34;lazy&#34;
-			alt=&#34;如图所示&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;如图所示&lt;/figcaption&gt;
-	
-&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;毕竟总是抄别人的提交，但不注明作者，感觉心里非常不舒服，于是就一直想改变这个现状。&lt;/p&gt;
-&lt;p&gt;解决这个问题的方法，就是使用 git 合并其他 Repository 的提交。&lt;/p&gt;
-&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
-&lt;h3 id=&#34;添加其他远程仓库&#34;&gt;添加其他远程仓库&lt;/h3&gt;
-&lt;p&gt;使用 &lt;code&gt;git remote add [remote_name] [remote_url]&lt;/code&gt; 添加远程仓库。&lt;/p&gt;
-&lt;p&gt;其中， &lt;code&gt;[remote_name]&lt;/code&gt; 指的是远程仓库在本地的「昵称」，可以随便起，但不能和已有的重复。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;[remote_url]&lt;/code&gt; 可以从 GitHub Repository 的页面获取。&lt;/p&gt;
-&lt;p&gt;&lt;figure 
-	
-		class=&#34;gallery-image&#34; 
-		style=&#34;
-			flex-grow: 122; 
-			flex-basis: 294px&#34;
-	&gt;
-	&lt;a href=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone.png&#34; data-size=&#34;609x496&#34;&gt;
-		&lt;img src=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone.png&#34;
-			width=&#34;609&#34;
-			height=&#34;496&#34;
-			srcset=&#34;https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_480x0_resize_box_3.png 480w, https://limee233.github.io/p/git-cherry-pick-from-other-repository/git-clone_hudf129c155bd5642da6c8a2592358952c_38540_1024x0_resize_box_3.png 1024w&#34;
-			loading=&#34;lazy&#34;
-			alt=&#34;如图所示&#34;&gt;
-	&lt;/a&gt;
-	
-	&lt;figcaption&gt;如图所示&lt;/figcaption&gt;
-	
-&lt;/figure&gt;&lt;/p&gt;
-&lt;h3 id=&#34;拉取远程仓库的内容&#34;&gt;拉取远程仓库的内容&lt;/h3&gt;
-&lt;p&gt;使用 &lt;code&gt;git fetch [remote_name]&lt;/code&gt; 拉取远程仓库的内容，此操作不会影响本地分支的内容。&lt;/p&gt;
-&lt;h3 id=&#34;将远程仓库的提交合并到本地分支&#34;&gt;将远程仓库的提交合并到本地分支&lt;/h3&gt;
-&lt;p&gt;使用 &lt;code&gt;git cherry-pick [commit_hash]&lt;/code&gt; 将远程仓库的某个 commit （现已拉取到本地）合并到当前工作分支。&lt;/p&gt;
-&lt;p&gt;其中 &lt;code&gt;[commit_hash]&lt;/code&gt; 指的是 commit 的 hash 值，可以通过 &lt;code&gt;git log&lt;/code&gt; 或 GitHub 的在线页面获取。&lt;/p&gt;
-&lt;p class=&#34;notice&#34;&gt;
-没有必要考虑不同 Repository 的 hash 值是否会重复，这应该有关于 git 的原理。
-&lt;/p&gt;</description>
         </item>
         <item>
         <title>在 AOSP 中使用 Preference</title>
@@ -366,7 +449,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 		&lt;img src=&#34;https://limee233.github.io/p/wd-apmtimer/Comment.png&#34;
 			width=&#34;748&#34;
 			height=&#34;315&#34;
-			srcset=&#34;https://limee233.github.io/p/wd-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_480x0_resize_box_3.png 480w, https://limee233.github.io/p/wd-apmtimer/Comment_hu26bf3d2872a4d602a46f055a89d60bdd_38119_1024x0_resize_box_3.png 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			&gt;
 	&lt;/a&gt;
@@ -403,7 +486,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 		&lt;img src=&#34;https://limee233.github.io/p/fix-office-scrolling-lag/edit-reg.png&#34;
 			width=&#34;1920&#34;
 			height=&#34;1020&#34;
-			srcset=&#34;https://limee233.github.io/p/fix-office-scrolling-lag/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_480x0_resize_box_3.png 480w, https://limee233.github.io/p/fix-office-scrolling-lag/edit-reg_hueb13ff51e2e5ca2defabc419b4739e42_124285_1024x0_resize_box_3.png 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			alt=&#34;如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -439,7 +522,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 		&lt;img src=&#34;https://limee233.github.io/p/remove-hdicon/hd-notification.jpg&#34;
 			width=&#34;500&#34;
 			height=&#34;412&#34;
-			srcset=&#34;https://limee233.github.io/p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_480x0_resize_q75_box.jpg 480w, https://limee233.github.io/p/remove-hdicon/hd-notification_hu83cfe3063a4000e3204ed2751d43a8bb_34670_1024x0_resize_q75_box.jpg 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			alt=&#34;如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -471,7 +554,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 		&lt;img src=&#34;https://limee233.github.io/p/remove-hdicon/constv50xid.png&#34;
 			width=&#34;500&#34;
 			height=&#34;617&#34;
-			srcset=&#34;https://limee233.github.io/p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_480x0_resize_box_3.png 480w, https://limee233.github.io/p/remove-hdicon/constv50xid_hudcc8c2fdacd2f3ee3060a6d264843aa1_73419_1024x0_resize_box_3.png 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			alt=&#34;不同设备的 ID 可能不同&#34;&gt;
 	&lt;/a&gt;
@@ -496,7 +579,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 		&lt;img src=&#34;https://limee233.github.io/p/remove-hdicon/deletecode.png&#34;
 			width=&#34;500&#34;
 			height=&#34;266&#34;
-			srcset=&#34;https://limee233.github.io/p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_480x0_resize_box_3.png 480w, https://limee233.github.io/p/remove-hdicon/deletecode_huc1153619256c6dcc295b83403db57335_44667_1024x0_resize_box_3.png 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			alt=&#34;结构如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -538,7 +621,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 		&lt;img src=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/XAML-bug.jpg&#34;
 			width=&#34;1920&#34;
 			height=&#34;1030&#34;
-			srcset=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_480x0_resize_q75_box.jpg 480w, https://limee233.github.io/p/amd-xamldesinger-displaybug/XAML-bug_huf77d3c48b255a52d70e09387a5a75e9a_290698_1024x0_resize_q75_box.jpg 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			alt=&#34;花屏现象如图所示&#34;&gt;
 	&lt;/a&gt;
@@ -559,7 +642,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 		&lt;img src=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/adjust-AMD-Software.jpg&#34;
 			width=&#34;1618&#34;
 			height=&#34;887&#34;
-			srcset=&#34;https://limee233.github.io/p/amd-xamldesinger-displaybug/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_480x0_resize_q75_box.jpg 480w, https://limee233.github.io/p/amd-xamldesinger-displaybug/adjust-AMD-Software_hud859740d351f78cbb4f29d72cfeb832d_96005_1024x0_resize_q75_box.jpg 1024w&#34;
+			
 			loading=&#34;lazy&#34;
 			&gt;
 	&lt;/a&gt;

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='XML 中 Preference 的构建 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 PreferenceScreen. &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences ，详细的信息可以参照 此处 。 添加 Preference 后，即可'><title>在 AOSP 中使用 Preference</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='作者和提交者？ 在 Github 上显示 A authored and B committed&amp;hellip; 的，就是“作者”和“提交者”不同的情况。 想达到这样的效果，只需要在提交的时候使用 git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot; 就可以了。 还记得'><title>Git commit 作者相关问题</title>
 
-<link rel='canonical' href='https://limee233.github.io/p/android-preference/'>
+<link rel='canonical' href='https://limee233.github.io/p/git-commit-author/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='在 AOSP 中使用 Preference'>
-<meta property='og:description' content='XML 中 Preference 的构建 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 PreferenceScreen. &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences ，详细的信息可以参照 此处 。 添加 Preference 后，即可'>
-<meta property='og:url' content='https://limee233.github.io/p/android-preference/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Git commit 作者相关问题'>
+<meta property='og:description' content='作者和提交者？ 在 Github 上显示 A authored and B committed&amp;hellip; 的，就是“作者”和“提交者”不同的情况。 想达到这样的效果，只需要在提交的时候使用 git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot; 就可以了。 还记得'>
+<meta property='og:url' content='https://limee233.github.io/p/git-commit-author/'>
 <meta property='og:site_name' content='Li Mee 的小窝'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ROM 编译' /><meta property='article:published_time' content='2021-10-19T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-10-19T18:22:00&#43;08:00'/>
-<meta name="twitter:title" content="在 AOSP 中使用 Preference">
-<meta name="twitter:description" content="XML 中 Preference 的构建 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 PreferenceScreen. &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences ，详细的信息可以参照 此处 。 添加 Preference 后，即可">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Git' /><meta property='article:published_time' content='2022-01-29T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-01-29T12:29:00&#43;08:00'/>
+<meta name="twitter:title" content="Git commit 作者相关问题">
+<meta name="twitter:description" content="作者和提交者？ 在 Github 上显示 A authored and B committed&amp;hellip; 的，就是“作者”和“提交者”不同的情况。 想达到这样的效果，只需要在提交的时候使用 git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot; 就可以了。 还记得">
     <link rel="shortcut icon" href="/img/favicon.png" />
 
     </head>
@@ -235,18 +235,8 @@
 
     <div class="article-details">
         
-            <header class="article-category">
-                
-                    <object>
-                        <a href="/categories/android/" style="background-color: #5CCC76; color: #fff;">
-                            Android
-                        </a>
-                    </object>
-                
-            </header>
-        
     
-        <h2 class="article-title">在 AOSP 中使用 Preference</h2>
+        <h2 class="article-title">Git commit 作者相关问题</h2>
     
         
     
@@ -263,7 +253,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                        <time class="article-time--published">2021/10/19</time>
+                        <time class="article-time--published">2022/01/29</time>
                     </div>
                 
     
@@ -278,7 +268,7 @@
 
 
                         <time class="article-time--reading">
-                            阅读时长: 1 分钟
+                            阅读时长: 2 分钟
                         </time>
                     </div>
                 
@@ -288,33 +278,143 @@
 </header>
 
     <section class="article-content">
-    <h2 id="xml-中-preference-的构建">XML 中 Preference 的构建</h2>
-<ol>
-<li>在 <code>/res/xml</code> 中添加一个 xml 文件，名称任意，向其中添加以下内容以构建 <code>PreferenceScreen</code>.</li>
-</ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
-<span class="nt">&lt;PreferenceScreen</span> <span class="na">xmlns:android=</span><span class="s">&#34;http://schemas.android.com/apk/res/android&#34;</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/PreferenceScreen&gt;</span>
-</code></pre></div><ol start="2">
-<li>向 <code>PreferenceScreen</code> 中添加具体的 <code>Preferences</code> ，详细的信息可以参照 <a class="link" href="https://developer.android.com/reference/androidx/preference/CheckBoxPreference"  target="_blank" rel="noopener"
-    >此处</a> 。</li>
-</ol>
-<p class="info">
-添加 <code>Preference</code> 后，即可在设置界面找到添加的设置项，因为「设置」的整体处理在此处交给了 Android.
+    <h2 id="作者和提交者">作者和提交者？</h2>
+<p>在 Github 上显示 <strong>A</strong> authored and <strong>B</strong> committed&hellip; 的，就是“作者”和“提交者”不同的情况。</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 663; 
+			flex-basis: 1591px"
+	>
+	<a href="/p/git-commit-author/DifferentCommittersAndAuthors.png" data-size="1751x264">
+		<img src="/p/git-commit-author/DifferentCommittersAndAuthors.png"
+			width="1751"
+			height="264"
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>想达到这样的效果，只需要在提交的时候使用 <code>git commit --author &quot;user.name &lt;user.email&gt;&quot;</code> 就可以了。</p>
+<p>还记得使用 Git 时配置的这些信息吗？</p>
+<pre tabindex="0"><code>git config --global user.name &quot;在此处替换成你的名字&quot;
+git config --global user.email &quot;在此处替换成你的邮箱&quot;
+</code></pre><p>上文的 <code>user.name</code> 和 <code>user.email</code> 指的就是作者使用 Git 时设置的这些信息。</p>
+<p>用我自己的信息举个例子，如果你想要将我的提交 pick 到自己的项目中，可以在编辑完后执行 <code>git commit --author &quot;LiMee233 &lt;LiMee233@outlook.com&gt;&quot;</code></p>
+<h2 id="具有多个作者的提交">具有多个作者的提交</h2>
+<p>在 Github 上还可以见到诸如 X people commited&hellip; 的具有多个作者的情况。</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 1948; 
+			flex-basis: 4675px"
+	>
+	<a href="/p/git-commit-author/CoAuthoredCommit.png" data-size="1734x89">
+		<img src="/p/git-commit-author/CoAuthoredCommit.png"
+			width="1734"
+			height="89"
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p>想要达到这样的效果，需要在提交信息的尾行 <strike>（其实也可以不是尾行，但应尽量靠后，不要写在前面）</strike> 加入 <code>Co-authored-by: user.name &lt;user.email&gt;</code></p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 422; 
+			flex-basis: 1013px"
+	>
+	<a href="/p/git-commit-author/CoAuthoredCommitDetails.png" data-size="1824x432">
+		<img src="/p/git-commit-author/CoAuthoredCommitDetails.png"
+			width="1824"
+			height="432"
+			
+			loading="lazy"
+			alt="再举个栗子，照着这个抄就可以">
+	</a>
+	
+	<figcaption>再举个栗子，照着这个抄就可以</figcaption>
+	
+</figure></p>
+<h2 id="获得作者的用户名和邮箱地址">获得作者的用户名和邮箱地址</h2>
+<p>主要分为 3 种方法，分别进行讲解。</p>
+<h3 id="直接在-github-用户界面查看">直接在 Github 用户界面查看</h3>
+<p>比较简单，在提交页面点击作者的头像即可进入作者的 Github 界面，左侧即可看到相应的信息，摘取所需的部分即可。</p>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 99; 
+			flex-basis: 237px"
+	>
+	<a href="/p/git-commit-author/GithubUserPage.png" data-size="471x475">
+		<img src="/p/git-commit-author/GithubUserPage.png"
+			width="471"
+			height="475"
+			
+			loading="lazy"
+			>
+	</a>
+	
+</figure></p>
+<p class="notice">
+比较粗大的是昵称，下面相对小一点的灰色字才是用户名。<br>
+比如上图中 <code>Utsav Balar</code> 是昵称， <code>UtsavBalar1231</code> 才是我们需要的用户名。
 </p>
-<h2 id="在-java-中引用">在 Java 中引用</h2>
-<p>可以在项目的任意位置中引用 <code>Preference</code> （存疑）。</p>
-<p><strong>例： EditTextPreference</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;EditTextPreference</span>
-        <span class="na">app:key=</span><span class="s">&#34;signature&#34;</span>
-        <span class="na">app:title=</span><span class="s">&#34;Your signature&#34;</span><span class="nt">/&gt;</span>
-</code></pre></div><p>对于以上 XML 定义的 <code>Preference</code> 对象，按照如下代码获取 <code>Preference</code> 的值：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="n">SharedPreferences</span> <span class="n">sharedPreferences</span> <span class="o">=</span>
-        <span class="n">PreferenceManager</span><span class="o">.</span><span class="na">getDefaultSharedPreferences</span><span class="o">(</span><span class="k">this</span> <span class="cm">/* Activity context */</span><span class="o">);</span>
-<span class="n">String</span> <span class="n">name</span> <span class="o">=</span> <span class="n">sharedPreferences</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">&#34;signature&#34;</span><span class="o">,</span> <span class="s">&#34;&#34;</span><span class="o">);</span>
-</code></pre></div><p><strong>需要注意的是</strong>，并非所有的 <code>Preference</code> 对象都可用 <code>SharedPreferences.getString(String, String)</code> 获取值，比如对于 <code>SeekBarPreference</code> 需要使用 <code>SharedPreferences.getInt(String, Int)</code> 。</p>
-<p>详细信息可见 <a class="link" href="https://developer.android.google.cn/reference/android/content/SharedPreferences.html"  target="_blank" rel="noopener"
-    >SharedPreference 的文档</a> ，里面介绍了可以用来获取 <code>Preference</code> 对象的值的方法。</p>
+<p>这种情况有一些局限性，比如作者不愿意在 Github 上公开自己的电子邮件信息的时候就比较难办 <strike>（也不是完全不行）</strike> ，此时可以使用剩下的两种方法。</p>
+<h3 id="使用-cherry-pick-摘取提交">使用 cherry-pick 摘取提交</h3>
+<p class="notice">
+使用此方法，最好是在两个项目出自“同源”的时候，差异很大的项目不建议使用。
+</p>
+<ol>
+<li>
+<p>先 cd 到自己项目的文件夹，使用 <code>git remote add REMOTENAME REMOTEURL</code> 为本地仓库添加一个远程 remote.</p>
+<p>REMOTENAME 是自己给此远程 remote 起的名字，任意不重复即可。<br>
+REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可以看到，由于不是自己的项目，因此需要选择 HTTPS.</p>
+<p>举例如： <code>git remote add pe https://github.com/PixelExperience-Devices/device_oneplus_sm7250-common.git</code>.</p>
+</li>
+<li>
+<p>现在，使用 <code>git fetch REMOTENAME</code> 拉取远程仓库的内容，跟随上面的举例即为 <code>git fetch pe</code>.</p>
+</li>
+<li>
+<p>拉取完毕后就可以摘取了，使用 <code>git cherry-pick COMMITCODE</code> 即可摘取指定提交，COMMITCODE 就是 commit 的编号，可从 Github 上查看和复制。</p>
+<p>摘取可能出现冲突，此时需要自行解决，即使没有冲突也应该自行检查是否合并正确。</p>
+</li>
+</ol>
+<h3 id="clone-到本地查询">Clone 到本地查询</h3>
+<ol>
+<li>
+<p>将项目 Clone 到本地， cd 到项目文件夹中。</p>
+</li>
+<li>
+<p>使用 <code>git log COMMITCODE -1</code> 查询指定提交的信息，其中即可包括作者的信息， <code>COMMITCODE</code> 同上。</p>
+</li>
+</ol>
+<p><figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 181; 
+			flex-basis: 434px"
+	>
+	<a href="/p/git-commit-author/CloneToLocal.png" data-size="1614x891">
+		<img src="/p/git-commit-author/CloneToLocal.png"
+			width="1614"
+			height="891"
+			
+			loading="lazy"
+			alt="全过程示例">
+	</a>
+	
+	<figcaption>全过程示例</figcaption>
+	
+</figure></p>
 
 </section>
 
@@ -323,7 +423,7 @@
     
     <section class="article-tags">
         
-            <a href="/tags/rom-%E7%BC%96%E8%AF%91/">ROM 编译</a>
+            <a href="/tags/git/">Git</a>
         
     </section>
 
@@ -354,7 +454,7 @@
 
 
         <span>
-            最后更新于 2020/10/19 18:22 CST
+            最后更新于 2022/01/29 12:29 CST
         </span>
     </section></footer>
 
@@ -364,24 +464,6 @@
 
     <aside class="related-contents--wrapper">
     
-    
-        <h2 class="section-title">相关文章</h2>
-        <div class="archives-group">
-            <div class="flex article-list--compact">
-                
-                    <article>
-    <a href="/p/android-kernel-rebuild/">
-        <div class="article-details">
-            <h2 class="article-title">重编译 Android 内核的缓存问题</h2>
-            <footer class="article-time">
-                <time datetime='2021-10-18T00:00:00Z'>2021/10/18</time>
-            </footer>
-        </div>
-    </a>
-</article>
-                
-            </div>
-        </div>
     
 </aside>
 
@@ -509,8 +591,15 @@
                 <div class="widget--toc">
                     <nav id="TableOfContents">
   <ol>
-    <li><a href="#xml-中-preference-的构建">XML 中 Preference 的构建</a></li>
-    <li><a href="#在-java-中引用">在 Java 中引用</a></li>
+    <li><a href="#作者和提交者">作者和提交者？</a></li>
+    <li><a href="#具有多个作者的提交">具有多个作者的提交</a></li>
+    <li><a href="#获得作者的用户名和邮箱地址">获得作者的用户名和邮箱地址</a>
+      <ol>
+        <li><a href="#直接在-github-用户界面查看">直接在 Github 用户界面查看</a></li>
+        <li><a href="#使用-cherry-pick-摘取提交">使用 cherry-pick 摘取提交</a></li>
+        <li><a href="#clone-到本地查询">Clone 到本地查询</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
                 </div>
