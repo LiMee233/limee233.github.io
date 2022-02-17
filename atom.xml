@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Li Mee 的小窝</title>
+    <subtitle type="html"></subtitle>
+    <updated>2022-02-18T02:07:52&#43;08:00</updated>
+    <id>https://limee233.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://limee233.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://limee233.github.io/atom.xml" />
+    <author>
+            <name>Li Mee</name>
+            <uri>https://limee233.github.io/</uri>
+            
+                <email>LiMee233@outlook.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.92.2">Hugo</generator>
+        <entry>
+            <title type="text">Git commit 作者相关问题</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/git-commit-author/" />
+            <id>https://limee233.github.io/posts/tech/git-commit-author/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2022-01-29T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">从 GitHub 上面搬了别人的 commit 而不署名作者是称为 kang 的不文明的行为哦！ 学习如何为 commit 标记作者是非常重要的！ 作者和提交者？ 在 Github 上显示 A authored and B committed... 的，就是“作者”和“提交者……</summary>
+            
+                <content type="html">&lt;blockquote&gt;
+&lt;p&gt;从 GitHub 上面搬了别人的 commit 而不署名作者是称为 kang 的不文明的行为哦！&lt;br&gt;
+学习如何为 commit 标记作者是非常重要的！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;作者和提交者&#34;&gt;作者和提交者？&lt;/h2&gt;
+&lt;p&gt;在 Github 上显示 &lt;strong&gt;A&lt;/strong&gt; authored and &lt;strong&gt;B&lt;/strong&gt; committed... 的，就是“作者”和“提交者”不同的情况。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;DifferentCommittersAndAuthors.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;想达到这样的效果，只需要在提交的时候使用 &lt;code&gt;git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot;&lt;/code&gt; 就可以了。&lt;/p&gt;
+&lt;p&gt;还记得使用 Git 时配置的这些信息吗？&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;quot;在此处替换成你的名字&amp;quot;
+git config --global user.email &amp;quot;在此处替换成你的邮箱&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上文的 &lt;code&gt;user.name&lt;/code&gt; 和 &lt;code&gt;user.email&lt;/code&gt; 指的就是作者使用 Git 时设置的这些信息。&lt;/p&gt;
+&lt;p&gt;用我自己的信息举个例子，如果你想要将我的提交 pick 到自己的项目中，可以在编辑完后执行 &lt;code&gt;git commit --author &amp;quot;LiMee233 &amp;lt;LiMee233@outlook.com&amp;gt;&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;具有多个作者的提交&#34;&gt;具有多个作者的提交&lt;/h2&gt;
+&lt;p&gt;在 Github 上还可以见到诸如 X people commited... 的具有多个作者的情况。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;CoAuthoredCommit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;想要达到这样的效果，需要在提交信息的尾行 &lt;strike&gt;（其实也可以不是尾行，但应尽量靠后，不要写在前面）&lt;/strike&gt; 加入 &lt;code&gt;Co-authored-by: user.name &amp;lt;user.email&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;CoAuthoredCommitDetails.png&#34; alt=&#34;再举个栗子，照着这个抄就可以&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;获得作者的用户名和邮箱地址&#34;&gt;获得作者的用户名和邮箱地址&lt;/h2&gt;
+&lt;p&gt;主要分为 3 种方法，分别进行讲解。&lt;/p&gt;
+&lt;h3 id=&#34;直接在-github-用户界面查看&#34;&gt;直接在 Github 用户界面查看&lt;/h3&gt;
+&lt;p&gt;比较简单，在提交页面点击作者的头像即可进入作者的 Github 界面，左侧即可看到相应的信息，摘取所需的部分即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;GithubUserPage.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p class=&#34;notice&#34;&gt;
+比较粗大的是昵称，下面相对小一点的灰色字才是用户名。&lt;br&gt;
+比如上图中 &lt;code&gt;Utsav Balar&lt;/code&gt; 是昵称， &lt;code&gt;UtsavBalar1231&lt;/code&gt; 才是我们需要的用户名。
+&lt;/p&gt;
+&lt;p&gt;这种情况有一些局限性，比如作者不愿意在 Github 上公开自己的电子邮件信息的时候就比较难办 &lt;strike&gt;（也不是完全不行）&lt;/strike&gt; ，此时可以使用剩下的两种方法。&lt;/p&gt;
+&lt;h3 id=&#34;使用-cherry-pick-摘取提交&#34;&gt;使用 cherry-pick 摘取提交&lt;/h3&gt;
+&lt;p class=&#34;notice&#34;&gt;
+使用此方法，最好是在两个项目出自“同源”的时候，差异很大的项目不建议使用。
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先 cd 到自己项目的文件夹，使用 &lt;code&gt;git remote add REMOTENAME REMOTEURL&lt;/code&gt; 为本地仓库添加一个远程 remote.&lt;/p&gt;
+&lt;p&gt;REMOTENAME 是自己给此远程 remote 起的名字，任意不重复即可。&lt;br&gt;
+REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可以看到，由于不是自己的项目，因此需要选择 HTTPS.&lt;/p&gt;
+&lt;p&gt;举例如： &lt;code&gt;git remote add pe https://github.com/PixelExperience-Devices/device_oneplus_sm7250-common.git&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;现在，使用 &lt;code&gt;git fetch REMOTENAME&lt;/code&gt; 拉取远程仓库的内容，跟随上面的举例即为 &lt;code&gt;git fetch pe&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;拉取完毕后就可以摘取了，使用 &lt;code&gt;git cherry-pick COMMITCODE&lt;/code&gt; 即可摘取指定提交，COMMITCODE 就是 commit 的编号，可从 Github 上查看和复制。&lt;/p&gt;
+&lt;p&gt;摘取可能出现冲突，此时需要自行解决，即使没有冲突也应该自行检查是否合并正确。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;clone-到本地查询&#34;&gt;Clone 到本地查询&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;将项目 Clone 到本地， cd 到项目文件夹中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用 &lt;code&gt;git log COMMITCODE -1&lt;/code&gt; 查询指定提交的信息，其中即可包括作者的信息， &lt;code&gt;COMMITCODE&lt;/code&gt; 同上。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;CloneToLocal.png&#34; alt=&#34;全过程示例&#34;&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/git/" term="Git" label="Git" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">重装 Windows 后恢复 WSL2</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/" />
+            <id>https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-12-11T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">为新的 Windows 系统安装 WSL2 既然都需要恢复了，安装一个新的自然不费力。 去 Windows 功能 中安装 虚拟机平台 ，在商店安装 Windows Sub System for Linux Preview 和 需要恢复的 Linux 发行版 。 启动新安装的 Linux 发行版并……</summary>
+            
+                <content type="html">&lt;h2 id=&#34;为新的-windows-系统安装-wsl2&#34;&gt;为新的 Windows 系统安装 WSL2&lt;/h2&gt;
+&lt;p&gt;既然都需要恢复了，安装一个新的自然不费力。&lt;/p&gt;
+&lt;p&gt;去 Windows 功能 中安装 &lt;code&gt;虚拟机平台&lt;/code&gt; ，在商店安装 &lt;code&gt;Windows Sub System for Linux Preview&lt;/code&gt; 和 &lt;code&gt;需要恢复的 Linux 发行版&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;启动新安装的 Linux 发行版并进行配置即可。&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Tip&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    &lt;p&gt;最好让 Windows 计算机名与重装前一致，毕竟重装系统也没有必要换计算机名，如果一直用重装系统默认分配的那个还是换掉吧 ww.&lt;/p&gt;
+&lt;p&gt;最好在配置 Linux 系统时，使用和之前 Linux 系统相同的用户名。&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;恢复数据&#34;&gt;恢复数据&lt;/h2&gt;
+&lt;p&gt;先执行 &lt;code&gt;wsl --shutdown&lt;/code&gt; 关闭正在运行的 WSL 实例。&lt;/p&gt;
+&lt;p&gt;根据所安装的 Linux 发行版，导航到虚拟存盘的存放位置，比如 Ubuntu 的存放位置是 &lt;code&gt;C:\Users\%UserName%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;将里面的 &lt;code&gt;ext4.vhdx&lt;/code&gt; 用先前安装的 WSL 的虚拟磁盘文件替换。&lt;/p&gt;
+&lt;p&gt;再次启动 WSL ，可以发现数据都回来了， enjoy!&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/windows/" term="Windows" label="Windows" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/wsl/" term="WSL" label="WSL" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Gender Dysphoria 一定会被察觉吗？</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/life/will-gd-be-detected/" />
+            <id>https://limee233.github.io/posts/life/will-gd-be-detected/</id>
+            <updated>2020-11-28T00:00:00&#43;00:00</updated>
+            <published>2021-11-28T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">为什么「那一天」之前的我，能作为男生正常的生活，而在察觉到改变的机会后，就变了呢？ 不同于典型 mtf ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 mtf……</summary>
+            
+                <content type="html">&lt;blockquote&gt;
+&lt;p&gt;为什么「那一天」之前的我，能作为男生正常的生活，而在察觉到改变的机会后，就变了呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不同于典型 mtf ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 mtf 之前也没有厌恶过自己的生理特征，甚至连「希望自己是个女孩子」的想法都未曾有过，更从来没有怀疑过自己的性别。&lt;/p&gt;
+&lt;p&gt;一点也不像跨性别吧，一点不像吧！然而却在「那一天」之后“翻车”了。&lt;/p&gt;
+&lt;p&gt;然而自己想做女孩子的愿望不会凭空产生，也不会凭空消失 &lt;del&gt;（大雾）&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;既然作为 mtf 的自己没有明显表现出 Gender Dysphoria 的“症状”，那这些“症状”一定是在某个地方被终止掉了。&lt;/p&gt;
+&lt;h2 id=&#34;奇怪的趋同性&#34;&gt;奇怪的趋同性&lt;/h2&gt;
+&lt;p&gt;思考一下，为什么 mtf 群体的很多爱好（或特性）都是趋同的？&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;mtf-convergence.png&#34; alt=&#34;自己就占了个 计算机 MCer 轨道交通 INFP 吧&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这些爱好（或特性）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;没有明显的性别差异，不容易引发 gd&lt;/li&gt;
+&lt;li&gt;大量消耗时间&lt;/li&gt;
+&lt;li&gt;形成小圈子，难以有大量人群进入&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一个很明显的事实是，这样的爱好（或特性），可以让我&lt;strong&gt;忘记自己是男性&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;与现实社会、大众讨论脱节，性别在我这里只是一个毫无意义的身份证上的东西；觉得没有意义的东西，自然就不会产生焦虑。&lt;/p&gt;
+&lt;h2 id=&#34;家庭环境&#34;&gt;家庭环境&lt;/h2&gt;
+&lt;p&gt;完全属于自己的猜测，或许可以弄一个「家庭环境与认识到自己跨性别身份年龄」的调查问卷来解决，但我社恐。&lt;/p&gt;
+&lt;p&gt;就拿自己的经历来讲——我的父母就是那种不怎么在意性别的人。从来没有人会认为某些事情是只有女孩子 / 男孩子 才能做的。在我的家庭环境中，并听不到有人强调应该有阳刚之气（即使我“觉醒”前并不是多么阳刚的人）。&lt;/p&gt;
+&lt;p&gt;在这样的环境下，自己没有因为男性身份而被阻止做什么事情——从某种意义上来讲也阻止了焦虑的产生。&lt;/p&gt;
+&lt;h2 id=&#34;女孩子应该&#34;&gt;女孩子应该？&lt;/h2&gt;
+&lt;p&gt;这一点已经快被说烂了，女孩子不一定符合刻板印象中的女性形象。&lt;/p&gt;
+&lt;p&gt;所有女孩子喜欢穿裙子，并对裙子有执着——这简直就是无稽之谈，所以为什么要用穿女装来判断一个人是不是 mtf 呢？&lt;/p&gt;
+&lt;p&gt;mtf 就像是被当作男孩子来养的女孩子，都 2021 年了，不会还有人说女孩子不能玩男孩子的玩具吧，不会吧不会吧，男孩子的玩具就是有意思得多啊！&lt;/p&gt;
+&lt;p&gt;在我看来，穿女装、玩女孩子的玩具——并不能作为一种可查觉的外在表现来看，这毫无意义。&lt;/p&gt;
+&lt;h2 id=&#34;不在意的生理特征与认命&#34;&gt;不在意的生理特征与认命&lt;/h2&gt;
+&lt;p&gt;说来很奇怪，但并不是每个人都很在意自己的第一性征的，当然这也包括 mtf.&lt;/p&gt;
+&lt;p&gt;不太敢说其他人，但就自己来讲，直到我认识到 mtf 之后，才发现自己一直在以女性身份带入来紫薇。但这并不影响我继续使用这个男性的生殖器官，毕竟无论它是什么样子的，并不影响它能给大脑带来兴奋的刺激——这就足够了。&lt;/p&gt;
+&lt;p&gt;如果这样讲，&lt;strong&gt;厌恶生殖器官就并不是 mtf 所必备的特点&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;没错，我讨厌变声，讨厌喉结，讨厌胡子，但仅仅是因为觉得：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;男性的声音不容易被听清&lt;/li&gt;
+&lt;li&gt;喉结容易受伤，因为是凸出来的&lt;/li&gt;
+&lt;li&gt;刮胡子很麻烦而且很难刮干净&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在认识到 mtf 之前，我并没有意识到这些是可以改变的，心想：既然改变不了那就这样喽，并没有到影响日常生活的程度。&lt;/p&gt;
+&lt;p&gt;不能否认，有的人就像我这样容易向命运屈服（或者叫认清事实，又或者叫无知），&lt;strong&gt;明知做不到的事情就会放弃思考&lt;/strong&gt;，毕竟还有那么多事情等着做 emm…&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;总之，我从前就是这样恰巧生活在一个不在意性别身份的环境中，恰巧的不在意第一性征，恰巧的“理性思考”第二性征而认命……&lt;/p&gt;
+&lt;p&gt;但这样的生活一定不会持续下去：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我不可能一直生活在不在意性别身份的环境中，想想舍友说的话：「你一个男的洗什么澡」「你是个男人！不要发出这种声音（指我学的猫叫）」&lt;/li&gt;
+&lt;li&gt;我不可能一直不在意第一性征，除非我一直紫薇，然而做直男的话大概率会找女朋友，然而和女朋友做，还带入女性身份——就离谱好吧&lt;/li&gt;
+&lt;li&gt;我不可能一直认命，改变的机会迟早会让我知道（现在就发生了）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我现在成为 mtf ，从某种意义上，就是一种必然。&lt;/p&gt;
+&lt;p&gt;在我仔细思考了性别这个名词后，我成为 mtf 已然成为事实。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我想说明的是，不需要因为自己不符合典型 mtf 的某些特点而怀疑自己是 mtf 的事实了。&lt;/p&gt;
+&lt;p&gt;内心的挣扎不一定有可察觉的外在表现，仔细思考了所有 cisgender 绝不会当回事的问题，就意味着自己不是 cisgender !&lt;/p&gt;
+&lt;p&gt;仅仅是看到了 mtf 姐妹的动态，看到了转变必须的经历就引发了 gd ，那内心的挣扎可能已经很严重了，只是被自己完全忽略了而已。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/life/" term="life" label="life" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/trans/" term="Trans" label="Trans" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">使用 Android Preference</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/android-preference/" />
+            <id>https://limee233.github.io/posts/tech/android-preference/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-10-19T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">在 XML 中构建 Preference 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下代码以构建 PreferenceScreen. 1 2 3 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences 对象，详细信息可以参照 Android 官方文档 ，添加完成后即……</summary>
+            
+                <content type="html">&lt;h2 id=&#34;在-xml-中构建-preference&#34;&gt;在 XML 中构建 Preference&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在 &lt;code&gt;/res/xml&lt;/code&gt; 中添加一个 xml 文件，名称任意，向其中添加以下代码以构建 &lt;code&gt;PreferenceScreen&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;PreferenceScreen&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns:android=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/PreferenceScreen&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;向 &lt;code&gt;PreferenceScreen&lt;/code&gt; 中添加具体的 &lt;code&gt;Preferences&lt;/code&gt; 对象，详细信息可以参照 &lt;a href=&#34;https://developer.android.com/reference/androidx/preference/CheckBoxPreference&#34;&gt;Android 官方文档&lt;/a&gt; ，添加完成后即可在设置界面找到已添加的设置项。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;在-java-中引用&#34;&gt;在 Java 中引用&lt;/h2&gt;
+&lt;p&gt;可以在项目的任意位置中引用 &lt;code&gt;Preference&lt;/code&gt; （存疑）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;例： EditTextPreference&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;EditTextPreference&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:key=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;signature&amp;#34;&lt;/span&gt;
+        &lt;span class=&#34;na&#34;&gt;app:title=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Your signature&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;对于以上 XML 定义的 &lt;code&gt;Preference&lt;/code&gt; 对象，按照如下代码获取 &lt;code&gt;Preference&lt;/code&gt; 的值：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Java&#34; data-lang=&#34;Java&#34;&gt;&lt;span class=&#34;n&#34;&gt;SharedPreferences&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sharedPreferences&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;PreferenceManager&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getDefaultSharedPreferences&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* Activity context */&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sharedPreferences&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;signature&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;，并非所有的 &lt;code&gt;Preference&lt;/code&gt; 对象都可用 &lt;code&gt;SharedPreferences.getString(String, String)&lt;/code&gt; 获取值，比如对于 &lt;code&gt;SeekBarPreference&lt;/code&gt; 需要使用 &lt;code&gt;SharedPreferences.getInt(String, Int)&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;详细信息可见 &lt;a href=&#34;https://developer.android.google.cn/reference/android/content/SharedPreferences.html&#34;&gt;SharedPreference 的文档&lt;/a&gt; ，里面介绍了可以用来获取 &lt;code&gt;Preference&lt;/code&gt; 对象的值的方法。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/aosp-%E7%BC%96%E8%AF%91/" term="AOSP 编译" label="AOSP 编译" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/android/" term="Android" label="Android" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">在 Debian 系统驱动 Realtek 8822CE 无线网卡</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/debian-realtek8822ce/" />
+            <id>https://limee233.github.io/posts/tech/debian-realtek8822ce/</id>
+            <updated>2020-10-15T00:00:00&#43;00:00</updated>
+            <published>2021-09-20T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。 解决过程记……</summary>
+            
+                <content type="html">&lt;p&gt;因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。&lt;/p&gt;
+&lt;h2 id=&#34;解决过程记录&#34;&gt;解决过程记录&lt;/h2&gt;
+&lt;h3 id=&#34;系统安装&#34;&gt;系统安装&lt;/h3&gt;
+&lt;p&gt;会提醒「需要 rtw88/rtw8822c_fw.bin 和 rtw8822c_wow_fw.bin 」， Li Mee 尝试将这两个文件放在移动硬盘和安装 U 盘里，均无法加载，尝试失败（或许有第二个 U 盘就能成功？），于是在无网络环境下安装 Debian.&lt;/p&gt;
+&lt;h3 id=&#34;安装网卡驱动&#34;&gt;安装网卡驱动&lt;/h3&gt;
+&lt;p&gt;从网络上下载此软件包： &lt;a href=&#34;https://pkgs.org/download/firmware-realtek&#34;&gt;firmware-realtek&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;将 &lt;code&gt;firmware-realtek_xxxxxxxx.deb&lt;/code&gt; 复制到 U 盘，回到 Debian.&lt;/p&gt;
+&lt;p&gt;使用 su 权限，执行 &lt;code&gt;mkdir /mnt/usb &amp;amp;&amp;amp; mount /dev/sdb1 /mnt/usb&lt;/code&gt; 挂载 U 盘（ sdb1 自行调整）。&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;dpkg -i &amp;quot;firmware-realtek_xxxxxxxx.deb 所在位置&amp;quot;&lt;/code&gt; ，安装驱动。&lt;/p&gt;
+&lt;p&gt;此时出现错误： ‘ldconfig’ not found in PATH or not executable&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;vi /root/.bashrc&lt;/code&gt; 修改其中内容，添加 &lt;code&gt;export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin&lt;/code&gt; 后保存，再执行 &lt;code&gt;source /root/.bashrc&lt;/code&gt; 即可解决问题。再次执行 &lt;code&gt;dpkg -i xxx.deb&lt;/code&gt; 命令安装，驱动安装成功。&lt;/p&gt;
+&lt;h3 id=&#34;连接网络&#34;&gt;连接网络&lt;/h3&gt;
+&lt;p&gt;从网络上下载如下软件包：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pkgs.org/download/libpolkit-gobject-1-0&#34;&gt;libpolkit-gobject-1-0&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/libpolkit-agent-1-0&#34;&gt;libpolkit-agent-1-0&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/policykit-1&#34;&gt;policykit-1&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/libteamdctl0&#34;&gt;libteamdctl0&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/libnm0&#34;&gt;libnm0&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/libndp0&#34;&gt;libndp0&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/libmm-glib0&#34;&gt;libmm-glib0&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/libbluetooth3&#34;&gt;libbluetooth3&lt;/a&gt; &lt;a href=&#34;https://pkgs.org/download/network-manager&#34;&gt;network-manager&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用上一步的方法，按照顺序全部安装。&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/debian-realtek8822ce/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Tip&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    如果缺失依赖，可自行从上方所述网站中搜索依赖名称，选择对应的版本进行下载。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;使用 su 权限，执行以下命令连接 WiFi ：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;nmcli dev
+nmcli r wifi on
+nmcli dev wifi
+nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#34;&lt;/span&gt; password &lt;span class=&#34;s2&#34;&gt;&amp;#34;密码&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;检测网络连接状态&#34;&gt;检测网络连接状态&lt;/h3&gt;
+&lt;p&gt;执行命令 &lt;code&gt;nmcli dev&lt;/code&gt; ，如果网络连接成功，可以看到绿色 connected 样提示。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/linux/" term="Linux" label="Linux" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">重编译 Android 内核应清除缓存</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/android-kernel-rebuild-clean-cache/" />
+            <id>https://limee233.github.io/posts/tech/android-kernel-rebuild-clean-cache/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-09-20T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Li Mee 在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。 显然，选择退回到更改 FOD 方式之前版……</summary>
+            
+                <content type="html">&lt;p&gt;Li Mee 在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。&lt;/p&gt;
+&lt;p&gt;显然，选择退回到更改 FOD 方式之前版本的内核可以解决问题，&lt;strong&gt;然而问题并没有解决&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;其实是缓存捣的鬼&#34;&gt;其实是缓存捣的鬼&lt;/h2&gt;
+&lt;p&gt;因为 FOD 方式是由内核适配的，其中 DTBO 分区非常重要，因此必须清除编译内核以及 DTBO 、 DTB 分区的缓存，它们均存在于目录 &lt;code&gt;out/target/product/[product_name]/obj&lt;/code&gt; 中。&lt;/p&gt;
+&lt;p&gt;分别是 &lt;code&gt;DTB_OBJ&lt;/code&gt;, &lt;code&gt;DTBO_OBJ&lt;/code&gt; 和 &lt;code&gt;KERNEL_OBJ&lt;/code&gt; 文件夹，只要将其删除即可清除缓存。&lt;/p&gt;
+&lt;p&gt;之后再执行 &lt;code&gt;lunch aosp_[product_name]-userdebug&lt;/code&gt; &lt;code&gt;mka bacon -jx&lt;/code&gt; （&lt;code&gt;x&lt;/code&gt; 为处理器核心数量）编译即可解决问题。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/aosp-%E7%BC%96%E8%AF%91/" term="AOSP 编译" label="AOSP 编译" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">河北工业大学军训记录</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/life/hebut-militarytraining-records/" />
+            <id>https://limee233.github.io/posts/life/hebut-militarytraining-records/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-09-04T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。 本人机械工程学院，测控技术与仪器专业 （为了学校妥协了专业，后悔至今） ，2020……</summary>
+            
+                <content type="html">&lt;blockquote&gt;
+&lt;p&gt;本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本人机械工程学院，测控技术与仪器专业 &lt;del&gt;（为了学校妥协了专业，后悔至今）&lt;/del&gt; ，2020 级学生。&lt;/p&gt;
+&lt;p&gt;大学军训本应在大一进行，但由于疫情原因，推迟到了大二。&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Note&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    已知 2021 级军训没有推迟。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;时间：&lt;/strong&gt; 2020/08/22 - 2020/09/04 ，共14天（实际 13 天 + 2 小时的检阅）&lt;br&gt;
+&lt;strong&gt;每日时间安排：&lt;/strong&gt; 08:00-11:30 ; 14:00-17:30 ，需要提前 10 分钟到场；结束时间准时，不会加训；上下午各分为 4 节课，每节课平均 45 分钟，中间休息 3 次，平均时间 10 分钟多一点点。&lt;br&gt;
+&lt;strong&gt;地点：&lt;/strong&gt; 体育中心或其西边的操场，我们在体育中心。&lt;br&gt;
+&lt;strong&gt;内务检查：&lt;/strong&gt; 不用叠豆腐块，可挂床帘，可放床上桌，且仅在下雨的时候才检查内务（基本等于不用收拾）。&lt;br&gt;
+&lt;strong&gt;着装要求：&lt;/strong&gt; 鞋子、袜子、&lt;del&gt;内衣&lt;/del&gt; 都是自己的，发的服装全套都要穿（意味着大热天穿长袖，同时防晒可以少涂一点）。&lt;/p&gt;
+&lt;h2 id=&#34;日常篇&#34;&gt;日常篇&lt;/h2&gt;
+&lt;h3 id=&#34;前奏&#34;&gt;前奏&lt;/h3&gt;
+&lt;p&gt;军训前一段时间，辅导员会开会叙述军训的相关事项，但不能全信（比如我们辅导员说军训 7-10 天，其实是 14 天）。&lt;/p&gt;
+&lt;p&gt;军训前一天的下午去大学生活动中心（北辰）北边的一片树荫下面 &lt;del&gt;领取&lt;/del&gt; 购买军训服装，价格 65 元，包含：帽子、上衣T恤、上衣褂子、腰带、裤带（和腰带不一样，可选，不要的话省 5 元）、裤子各一个，可以自费多买T恤（似乎是 5 元）等其他东西。&lt;/p&gt;
+&lt;p&gt;第二天早晨直接穿好全套服装，携带马扎参加开幕式。建议先研究一下那衣服怎么穿，以及起早点，不然可能没饭吃/没车骑。&lt;/p&gt;
+&lt;h3 id=&#34;开幕式&#34;&gt;开幕式&lt;/h3&gt;
+&lt;p&gt;早晨 07:40 班级先在场地外集合，简单整顿后带到场地内坐下。&lt;/p&gt;
+&lt;p&gt;听领导的一堆废话日常，其中可能告诉你军训的天数，诸如「在我们为期 XX 天的军训中，我们可以……」这种；开幕式完毕后军训随即开始。&lt;/p&gt;
+&lt;h3 id=&#34;基本项目&#34;&gt;基本项目&lt;/h3&gt;
+&lt;p&gt;包括军姿、稍息、转体、整理着装、敬礼、蹲下起立、齐步、正步等，没什么好说的，就是重复练习，重复再重复那种——实在没什么意思。&lt;/p&gt;
+&lt;p&gt;但好在时间过得也挺快的，一天往往是转眼即逝。&lt;/p&gt;
+&lt;p&gt;而训练的强度决定于教官，有松有紧：一部分教官是「学生教官团」，我们的教官有一位是同届的，另一个是大三的，管理算是相当轻松，划水摸鱼是常事。&lt;/p&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Note&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    之所以有两个教官，是因为教官本来就比方队要多，应该多 1.5~2 倍，中途教官可能莫名消失或出现（薛定谔的教官）。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;另一部分教官是「武警教官」，我们教官说他们管的挺松，但 Li Mee 并不清楚具体情况，只知道在一起的同学经常嘲笑他们正步走的太差了。&lt;/p&gt;
+&lt;h3 id=&#34;拉歌比赛&#34;&gt;拉歌比赛&lt;/h3&gt;
+&lt;p&gt;军训应该少不了这个，拉歌比赛的内容是一首军歌，不过看教官的意思，去年应该不一样（比如有 工学并举薪火长 那个校歌 &lt;del&gt;话说校歌真能很大声唱出来？qwq&lt;/del&gt;）&lt;/p&gt;
+&lt;p&gt;正式比赛的占用时间为一小时左右 &lt;del&gt;（太短了）&lt;/del&gt; ，我们安排在了某天训练的 16:40 以后。是一个难得的划水时刻，毕竟别的方队唱歌的时候就坐着放松了嘛~&lt;/p&gt;
+&lt;p&gt;比赛第一名的方队有奖品，是个「宿舍神灯」，&lt;del&gt;听同学说一大箱 9 块 9 ，实际上一个 5 元&lt;/del&gt;，实际使用体验只能说能用，至少能发光，不是吗？😂&lt;/p&gt;
+&lt;p&gt;而且只有拉歌之前经常唱歌，之后就很少唱了，对保护嗓子有好处。&lt;/p&gt;
+&lt;h3 id=&#34;难度提升&#34;&gt;难度提升&lt;/h3&gt;
+&lt;p&gt;这个阶段可能会有「哨子哥」监督各个方队的训练情况，摸鱼的困难程度会上升；不建议摸太多，教官不高兴了可能不让休息qwq&lt;/p&gt;
+&lt;p&gt;训练项目会基本集中于齐步正步上，时不时会被教官定动作，或者一趟一趟的来回走——毕竟这是在检阅时要拿出来的动作。&lt;/p&gt;
+&lt;p&gt;在这个阶段会选出「队伍最前面的几个人」（Li Mee 不知道那叫什么qwq）以及标兵（不一定每队都有）。已知队伍前面那几个人很累，除非想要高学分，否则不建议去。&lt;/p&gt;
+&lt;h3 id=&#34;擒敌拳&#34;&gt;擒敌拳&lt;/h3&gt;
+&lt;p&gt;又称「摸鱼拳」，是军训期间最轻松的项目，就emm…瞎打就行了，不会也没关系。&lt;/p&gt;
+&lt;p&gt;为期2天，完成后「哨子哥」会从每个方队中选择几个打的比较好的人，加入擒敌拳/应急棍的训练方队，这两个方队是需要上台表演的（甚至还要在2021级开幕式上表演，太惨了）。&lt;/p&gt;
+&lt;p&gt;这几个打的比较好的人，是教官提前选择的。我们的教官直接就问“谁想过去打棍？”，之后就培养想打棍的人了，算是比较自由。&lt;/p&gt;
+&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Tip&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    教官可能会说应急棍/军体拳很轻松，千万别信。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;准备检阅&#34;&gt;准备检阅&lt;/h3&gt;
+&lt;p&gt;主要就是练习正步、正换齐、齐换正，加上了口号，向右看等内容。教官会弄个大喇叭来放走队列的音乐，需要学习踏着音乐的节拍走路。&lt;/p&gt;
+&lt;p&gt;此外会有排练，一个学院的几个方队不断地进行「齐步——正步——口号——齐步」的练习，由于是多个方队同时进行，休息时间不会太多。每个上下午的最后一节课教官会放水，让我们多休息。&lt;/p&gt;
+&lt;p&gt;倒数第三天有一个计分的排练，就…认真点行了，也没什么。&lt;/p&gt;
+&lt;p&gt;倒数第二天比较轻松，只需要正式排练几次，全部的方队都会到体育中心处集合，队伍带到外面去之后会等待好长时间才入场（不知道他们在体育中心里面做什么事），也就意味着有很长一段时间可以坐着休息。&lt;/p&gt;
+&lt;h3 id=&#34;检阅当天&#34;&gt;检阅当天&lt;/h3&gt;
+&lt;p&gt;我们原定时间是 08:00 开始，但因为下雨推迟到了 16:00 ，为期大概 2 小时左右。入场后踢正步——颁奖——各种人讲话，最后队伍内拍照合影等（此时已解散，可跑路）。&lt;/p&gt;
+&lt;p&gt;领导讲话的时候有不少人玩手机，可以说从踢完正步跑步带回、升旗后，就已经彻底没什么人管了。&lt;/p&gt;
+&lt;p&gt;结束后，就去享受没有军训的生活吧！&lt;/p&gt;
+&lt;h2 id=&#34;mtf-姐妹们关注的问题&#34;&gt;MtF 姐妹们关注的问题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;队伍严格按照生理性别分组。&lt;/li&gt;
+&lt;li&gt;不会强制剪头：我 20cm 左右的头发被要求扎起来了，不长不短那种可能要求剪短一点，但查得不严。&lt;/li&gt;
+&lt;li&gt;队伍里没有太多引起 gd 、挑拨同学关系、为了集体必须如何如何的情况，当然这主要看教官。&lt;/li&gt;
+&lt;li&gt;军训在校内，晚上无活动洗澡时间充足。浴室环境较差，有帘子（大概能遮到大腿处），但总有人洗澡不拉帘子之后被我吓一跳。更衣室很恶臭，不喜欢见到一群裸男的话可以带一个袋子，在浴室内拉帘子后再脱衣服放到袋子里，之后把袋子放在喷头上（要高一点，不然够不到（明明想变矮啊qwq））。&lt;/li&gt;
+&lt;li&gt;军训后期，由于大部分人都不洗衣服，最后可能&lt;strong&gt;整个队伍都臭了&lt;/strong&gt;，或许可以试着申请戴口罩。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/life/" term="life" label="life" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/hebut/" term="HEBUT" label="HEBUT" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/trans/" term="Trans" label="Trans" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">记更改 WD 硬盘休眠时间的历程</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/wd-apmtimer/" />
+            <id>https://limee233.github.io/posts/tech/wd-apmtimer/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-07-20T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">是 Li Mee 高考完的那个暑假， emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘……</summary>
+            
+                <content type="html">&lt;p&gt;是 Li Mee 高考完的那个暑假， emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。&lt;/p&gt;
+&lt;h2 id=&#34;硬伤&#34;&gt;硬伤&lt;/h2&gt;
+&lt;p&gt;自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。&lt;/p&gt;
+&lt;p&gt;哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？&lt;/p&gt;
+&lt;h2 id=&#34;尝试解决&#34;&gt;尝试解决&lt;/h2&gt;
+&lt;h3 id=&#34;硬盘盒的自动休眠&#34;&gt;硬盘盒的自动休眠&lt;/h3&gt;
+&lt;p&gt;一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。&lt;/p&gt;
+&lt;p&gt;于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， &lt;strong&gt;Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号&lt;/strong&gt;，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了&lt;/p&gt;
+&lt;p&gt;后来又买了个新的 ww…&lt;/p&gt;
+&lt;p&gt;不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。&lt;/p&gt;
+&lt;h3 id=&#34;crystal-disk-info&#34;&gt;Crystal Disk Info&lt;/h3&gt;
+&lt;p&gt;后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。&lt;/p&gt;
+&lt;p&gt;但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。&lt;/p&gt;
+&lt;h3 id=&#34;wdidle3&#34;&gt;WDIDLE3&lt;/h3&gt;
+&lt;p&gt;Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过&lt;strong&gt;还是没用&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;apmtimer&#34;&gt;apmtimer&lt;/h3&gt;
+&lt;p&gt;Li Mee 没什么事情做，于是又来研究这个问题了。&lt;/p&gt;
+&lt;p&gt;在 Bing 上搜索「 WD10SPCX C1 」后，有一个 &lt;a href=&#34;https://www.bilibili.com/read/cv10232535&#34;&gt;哔哩哔哩专栏&lt;/a&gt; 吸引了 Li Mee 的注意，打开后就引导到了一个 &lt;a href=&#34;http://lxf.me/?p=428&#34;&gt;手搓代码的大佬&lt;/a&gt; 的地方，下面有这样的一则评论：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Comment.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;So ，装 Ubuntu ，运行 apmtimer 一气呵成，关机后再将硬盘插入硬盘盒，连上笔记本电脑，这问题总算是彻底解决了！&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/wd-apmtimer/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Note&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    apmtimer 的使用见 &lt;a href=&#34;http://apmtimer.sourceforge.net/&#34;&gt;apmtimer.sourceforge.net&lt;/a&gt; 的 Syntax 部分。
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6/" term="计算机硬件" label="计算机硬件" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">解决 Office 滚动卡顿</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/fix-office-scrolling-lag/" />
+            <id>https://limee233.github.io/posts/tech/fix-office-scrolling-lag/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-07-15T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。 2021 年 6 月 24 日， Li……</summary>
+            
+                <content type="html">&lt;p&gt;从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。&lt;/p&gt;
+&lt;p&gt;2021 年 6 月 24 日， Li Mee 做了一个 PPT ，发现 PPT 幻灯片列表的滚动居然也是卡顿的，因此将标题修改为「解决 Office &lt;del&gt;Word&lt;/del&gt; 滚动卡顿」。&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h3 id=&#34;手动方法&#34;&gt;手动方法&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;定位到注册表项： &lt;code&gt;HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;选择需要修复卡顿的软件。&lt;/li&gt;
+&lt;li&gt;新建字符串值，名称分别为： &lt;code&gt;Microsoft.Office.AirSpace.UseWincompInArm64&lt;/code&gt; 和 &lt;code&gt;Microsoft.Office.AirSpace.UseWinCompInWin32&lt;/code&gt; ，值均为 &lt;code&gt;false&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;edit-reg.png&#34; alt=&#34;如图所示&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;省事的方法&#34;&gt;省事的方法&lt;/h3&gt;
+&lt;p&gt;下载此注册表 （ reg ）文件，双击导入即可修复 Office 365 所有套件可能存在的卡顿。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wwa.lanzoui.com/iICeMrhbmif&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice warning&#34;&gt;
+    &lt;p class=&#34;notice-title warning&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/fix-office-scrolling-lag/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Warning&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    在 Windows 11 时代 Office 365 升级新外观后，此操作会导致 Office 应用的 Mica 效果、工具栏下方阴影缺失等问题。
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/windows/" term="Windows" label="Windows" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">删除「SIM n 支持高清」通知</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/remove-hdicon/" />
+            <id>https://limee233.github.io/posts/tech/remove-hdicon/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-05-17T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">部分原生系统在编译时，未考虑到会出现高清通知的问题 或者认为这不是问题 ，就没有在源码部分进行修改（比如 这里 ）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认……</summary>
+            
+                <content type="html">&lt;p&gt;部分原生系统在编译时，未考虑到会出现高清通知的问题 &lt;del&gt;或者认为这不是问题&lt;/del&gt; ，就没有在源码部分进行修改（比如 &lt;a href=&#34;https://github.com/LiMeea/device_xiaomi_sm8250-common/commit/4a3c21d2c017a2806348ae1df3f96536b07500c0&#34;&gt;这里&lt;/a&gt; ）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hd-notification.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;p&gt;如果作为用户，已经无法对系统编译前的 Device Tree 进行修改了，所以只能修改编译好的应用程序，这里从通知的产生者—— ims.apk 入手。&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice warning&#34;&gt;
+    &lt;p class=&#34;notice-title warning&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Warning&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    进行任何操作前，请注意对重要数据进行备份！
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;提取产生通知的应用&#34;&gt;提取产生通知的应用&lt;/h3&gt;
+&lt;p&gt;使用可获取 Root 权限的文件管理器，将 &lt;code&gt;/system/product/priv-app/ims/ims.apk&lt;/code&gt; 复制到用户目录内（如 &lt;code&gt;/data/media/0&lt;/code&gt; ）。&lt;/p&gt;
+&lt;h3 id=&#34;修改应用&#34;&gt;修改应用&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;使用「 MT 管理器」打开复制的 &lt;code&gt;ims.apk&lt;/code&gt; ，依次进入：查看 → resources.arsc → Arsc编辑器 → org.codeaurora.ims → string → string-zh-rCN.
+在其中找到类似于「 SIM %s 支持高清 」的项目，长按并复制 ID.&lt;/li&gt;
+&lt;li&gt;返回到「查看」页面，依次进入：classes.dex → Dex 编辑器 ++ → 搜索 → 发起新搜索；在查找内容里粘贴刚才复制的「 ID 」并进行搜索，随后点击 &lt;code&gt;const v5, 0xID&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;constv50xid.png&#34; alt=&#34;不同设备的 ID 可能不同&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;进入代码编辑界面后从所在行向上翻找，直到发现 &lt;code&gt;.method private showHDIcon(Z)V&lt;/code&gt; 为止。&lt;/li&gt;
+&lt;li&gt;向下逐行查阅代码，去寻找如下结构，并将遇到的第一个如下结构删除。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ne&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;xxxx&lt;/span&gt;
+&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;void&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;deletecode.png&#34; alt=&#34;结构如图所示&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Tip&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    删除的时候需要将整行删除，不要只删掉文字，也不要删多了空行。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;修改完成后保存所做的一切修改，直到获取修改完的应用程序安装包。&lt;/p&gt;
+&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Tip&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    修改完的应用程序不需要重新签名。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;替换还原&#34;&gt;替换还原&lt;/h2&gt;
+&lt;h3 id=&#34;方法一直接替换&#34;&gt;方法一：直接替换&lt;/h3&gt;
+&lt;p&gt;直接将修改完的应用移回 &lt;code&gt;/system/product/priv-app/ims/ims.apk&lt;/code&gt; ，需要注意保持文件权限不变。&lt;/p&gt;
+&lt;p&gt;这样做可以让系统尽量&lt;strong&gt;保持一个完整的状态而不分散&lt;/strong&gt;，个人感觉有利于系统稳定性。&lt;/p&gt;
+&lt;h3 id=&#34;方法二制作模块&#34;&gt;方法二：制作模块&lt;/h3&gt;
+&lt;p&gt;不推荐使用这种方法，因为制作模块的目的就是为了避免系统升级后反复修改，但谁能保证升级后的系统没有对模块内文件做修改呢？这可能导致一些莫名其妙的问题。&lt;/p&gt;
+&lt;p&gt;制作Magisk模块进行替换（此文不阐述，可以拆一个 Magisk 替换应用的模块照抄）。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/android/" term="Android" label="Android" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">AMD 集显运行 XAML 设计器花屏</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/amd-xamldesinger-displaybug/" />
+            <id>https://limee233.github.io/posts/tech/amd-xamldesinger-displaybug/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-05-16T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">在 Li Mee 用 AMD 核心显卡电脑使用 Visual Studio 2017/2019 编写 基于.NET Framework 的 WPF 应用程序时，都遇到了 XAML 设计器花屏，无法正常使用的问题： 解决方案 在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」（……</summary>
+            
+                <content type="html">&lt;p&gt;在 Li Mee 用 AMD 核心显卡电脑使用 Visual Studio 2017/2019 编写 基于.NET Framework 的 WPF 应用程序时，都遇到了 XAML 设计器花屏，无法正常使用的问题：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;XAML-bug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;p&gt;在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」（可在任务管理器中找到并定位）为游戏，并且调节「抗锯齿」为「覆盖应用程序设置」，抗锯齿级别为任意项即可（此处推荐2X）。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;adjust-AMD-Software.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/amd-xamldesinger-displaybug/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Tip&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    &lt;ol&gt;
+&lt;li&gt;仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用。&lt;/li&gt;
+&lt;li&gt;如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X.&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/windows/" term="Windows" label="Windows" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Windows 语言变成「中文（新加坡）」</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/windows-language-to-singapore/" />
+            <id>https://limee233.github.io/posts/tech/windows-language-to-singapore/</id>
+            <updated>2022-02-18T00:00:00&#43;00:00</updated>
+            <published>2021-05-16T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时……</summary>
+            
+                <content type="html">&lt;p&gt;西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。&lt;/p&gt;
+&lt;p&gt;关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……&lt;/p&gt;
+&lt;h2 id=&#34;本地解决方案&#34;&gt;本地解决方案&lt;/h2&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/windows-language-to-singapore/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;Note&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    灵感来自于：&lt;a href=&#34;https://www.sysgeek.cn/windows-10-force-remove-language-pack&#34;&gt;https://www.sysgeek.cn/windows-10-force-remove-language-pack&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;强制删除中文新加坡&#34;&gt;强制删除「中文（新加坡）」&lt;/h3&gt;
+&lt;p&gt;使用管理员模式打开 Windows Powershell，输入命令： &lt;code&gt;Get-WinUserLanguageList&lt;/code&gt; ，观察所得信息中是否包含 &lt;code&gt;LanguageTag : zh-Hans-SG&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$LangList = Get-WinUserLanguageList
+$MarkedLang = $LangList | where LanguageTag -eq &amp;quot;zh-Hans-SG&amp;quot;
+$LangList.Remove($MarkedLang)
+Set-WinUserLanguageList $LangList -Force
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;添加中文中华人民共和国&#34;&gt;添加「中文（中华人民共和国）」&lt;/h3&gt;
+&lt;p&gt;打开设置——时间和语言——语言——添加语言——搜索Chinese，选择「中文（中华人民共和国）」即可。&lt;/p&gt;
+&lt;h2 id=&#34;清除云端故障&#34;&gt;清除云端故障&lt;/h2&gt;
+&lt;p&gt;导致这种问题出现的原因，是微软的设置同步服务器出现了差错，将设备的语言自动同步为「中文（新加坡）」，因此只需要清除云端同步数据即可。&lt;/p&gt;
+&lt;p&gt;打开 &lt;a href=&#34;https://account.microsoft.com/devices&#34;&gt;微软账户设备管理页面&lt;/a&gt; ，清除云同步设置（可能需要科学上网）：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cloud-sync-settings.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
+&lt;p&gt;由于出现问题的原理是同步服务器出错，所以任何设置出错都不足为奇，比如鼠标左右键莫名对调等。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/windows/" term="Windows" label="Windows" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
