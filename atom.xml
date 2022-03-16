@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Li Mee 的小窝</title>
     <subtitle type="html"></subtitle>
-    <updated>2022-02-22T17:57:08&#43;08:00</updated>
+    <updated>2022-03-16T15:05:57&#43;08:00</updated>
     <id>https://limee233.github.io/</id>
     <link rel="alternate" type="text/html" href="https://limee233.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://limee233.github.io/atom.xml" />
@@ -15,7 +15,213 @@
                 <email>LiMee233@outlook.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.92.2">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.94.2">Hugo</generator>
+        <entry>
+            <title type="text">使用 VHDX 硬盘映像安装 Windows</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/vhdx-install-windows/" />
+            <id>https://limee233.github.io/posts/tech/vhdx-install-windows/</id>
+            <updated>2022-03-16T00:00:00&#43;00:00</updated>
+            <published>2022-03-16T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。 在 VHDX 中安装系统……</summary>
+            
+                <content type="html">&lt;p&gt;虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。&lt;/p&gt;
+&lt;h2 id=&#34;在-vhdx-中安装系统&#34;&gt;在 VHDX 中安装系统&lt;/h2&gt;
+&lt;h3 id=&#34;创建虚拟磁盘&#34;&gt;创建虚拟磁盘&lt;/h3&gt;
+&lt;p&gt;打开磁盘管理 → 操作 → 创建 VHD ，选择位置、大小、格式选择 VHDX ，虚拟磁盘类型为「动态扩展」，完成创建。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;create-vhdx.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;创建完成后在磁盘管理中就可以看到新创建的虚拟磁盘，记住其为 &lt;code&gt;磁盘 n&lt;/code&gt; 随后关闭磁盘管理即可。&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/vhdx-install-windows/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    教程后续都将默认虚拟磁盘位置为 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt;.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;初始化虚拟磁盘&#34;&gt;初始化虚拟磁盘&lt;/h3&gt;
+&lt;p&gt;以管理员权限启动 Windows Powershell ，执行 &lt;code&gt;diskpart&lt;/code&gt; 进入 DiskPart 磁盘管理工具。&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;list disk&lt;/code&gt; ，查看 &lt;code&gt;磁盘 n&lt;/code&gt; 是否为刚创建的虚拟磁盘（可通过大小判断）；&lt;br&gt;
+&lt;code&gt;select disk n&lt;/code&gt; 选择刚创建的虚拟磁盘；&lt;br&gt;
+&lt;code&gt;create partition primary&lt;/code&gt; 为虚拟磁盘创建主分区；&lt;br&gt;
+&lt;code&gt;format quick&lt;/code&gt; 格式化刚创建的分区；&lt;br&gt;
+&lt;code&gt;assign letter=V&lt;/code&gt; 为刚才的分区分配盘符 V ， V 指 Virtual Disk 虚拟磁盘的意思，好记。&lt;/p&gt;
+&lt;h3 id=&#34;安装操作系统&#34;&gt;安装操作系统&lt;/h3&gt;
+&lt;p&gt;使用 Dism++ 还原系统的功能，选择一个镜像，安装位置选择刚才为虚拟磁盘分出的 V 盘，不要勾选添加引导、格式化等选项，直接确定即可。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;install-system.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;安装完后，可以在 Dism++ 中安装驱动，或者进行一些优化，当然这就是 Dism++ 的功能了，在此不赘述。&lt;/p&gt;
+&lt;h3 id=&#34;添加引导-gpt--uefi&#34;&gt;添加引导 (GPT + UEFI)&lt;/h3&gt;
+&lt;p&gt;如果你将 VHDX 放在了没有引导分区的磁盘内（比如只有一个分区的移动硬盘），需要先创建一个 efi 分区，参考一些装系统的教程即可。&lt;/p&gt;
+&lt;p&gt;拥有 efi 引导分区后，可以用一些分区工具或 diskpart 为 efi 引导分区分配一个盘符，比如 S ， S 指 System ，系统分区。&lt;/p&gt;
+&lt;p&gt;以管理员身份运行 PowerShell ，执行：&lt;br&gt;
+&lt;code&gt;cd V:\Windows\System32&lt;/code&gt; 跳转到虚拟磁盘内系统的 System32 文件夹；
+&lt;code&gt;bcdboot V:\Windows /s S: /f UEFI&lt;/code&gt;&lt;br&gt;
+即可成功添加 UEFI 的引导。&lt;/p&gt;
+&lt;p&gt;如果使用 BIOS 方式，需要参考 BIOS 方式安装系统的分区，参考 &lt;a href=&#34;https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/boot-to-vhd--native-boot--add-a-virtual-hard-disk-to-the-boot-menu?view=windows-11#step-4-add-a-boot-entry&#34;&gt;这里&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;现在，重启电脑进入启动项选择界面，应该就能看到新安装的系统了：&lt;/p&gt;
+&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/vhdx-install-windows/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    装在当前系统之外硬盘，可能会在 BIOS 中多一个启动磁盘；装在一个硬盘中，效果未知（ Li Mee 的电脑主硬盘有 BitLocker 无法测试）。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;实现备份和还原&#34;&gt;实现备份和还原&lt;/h2&gt;
+&lt;p&gt;先来理解一个概念，在安装系统创建引导的时候，引导永远指向 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt; ，无论这个文件如何被替换，系统都会尝试引导这个文件。&lt;/p&gt;
+&lt;p&gt;我们先把 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt; 重命名为 &lt;code&gt;D:\Windows0.vhdx&lt;/code&gt; ，接着以管理员身份启动 PowerShell ：&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;create vdisk file=&amp;quot;D:\Windows.vhdx&amp;quot; parent=&amp;quot;D:\Windows0.vhdx&amp;quot;&lt;/code&gt; 创建名为 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt; 的差分镜像。&lt;/p&gt;
+&lt;p&gt;现在：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Windows.vhdx 指向 Windows0.vhdx ，包含 Windows0.vhdx 中的所有文件。&lt;/li&gt;
+&lt;li&gt;Windows0.vhdx 的文件已经被永久固定，日后所有对文件的修改（包括删除）都仅仅是对 Windows.vhdx 的修改。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这就意味着，我们可以随时通过：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;删除 Windows.vhdx.&lt;/li&gt;
+&lt;li&gt;将 Windows0.vhdx 重命名为 Windows.vhdx.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;来恢复系统到 Windows.vhdx 的状态，从而实现了瞬间备份。&lt;/p&gt;
+&lt;p&gt;有一张图方便理解：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;split-vhd.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;notice warning&#34;&gt;
+    &lt;p class=&#34;notice-title warning&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/vhdx-install-windows/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;警告&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    &lt;p&gt;一旦一个镜像有其子镜像（如上的 Windows0.vhdx 拥有子镜像 Windows.vhdx ），这个父镜像不应以任何形式修改，&lt;strong&gt;双击打开也叫做修改&lt;/strong&gt;，一旦父镜像修改，依附于其的子镜像&lt;strong&gt;都会失效&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;我们可以通过给父镜像设置只读属性来防止意外修改，但在需要修改时（比如合并子镜像和父镜像）记得撤销只读权限。&lt;/p&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;使用熟练后，可以：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建多个连续的子镜像，实现多个「还原点」。&lt;/li&gt;
+&lt;li&gt;创建多个并列的子镜像，实现单系统的不同状态（通俗来讲，可以给不同的差分子镜像安装不同的软件）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;一些实用信息&#34;&gt;一些实用信息&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;如果对一个差分子镜像的修改满意，可以将其合并到父镜像，参考 &lt;a href=&#34;https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/merge-vdisk&#34;&gt;这里&lt;/a&gt; （记得取消父镜像只读）。合并后子镜像仍存在但无法打开，可以手动删除。&lt;/li&gt;
+&lt;li&gt;虚拟系统会自动扩展磁盘空间到最大，可以参考 &lt;a href=&#34;http://liray.github.io/2013/04/18/prevent-the-vhd-from-expanding-to-its-full-size/&#34;&gt;这里&lt;/a&gt; 解决，重启即可生效。&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/tech/" term="tech" label="tech" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/windows/" term="Windows" label="Windows" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">Git commit 作者相关问题</title>
             <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/git-commit-author/" />
@@ -38,8 +244,8 @@
 &lt;p&gt;&lt;img src=&#34;DifferentCommittersAndAuthors.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;想达到这样的效果，只需要在提交的时候使用 &lt;code&gt;git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot;&lt;/code&gt; 就可以了。&lt;/p&gt;
 &lt;p&gt;还记得使用 Git 时配置的这些信息吗？&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;quot;在此处替换成你的名字&amp;quot;
-git config --global user.email &amp;quot;在此处替换成你的邮箱&amp;quot;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git config --global user.name &amp;#34;在此处替换成你的名字&amp;#34;
+git config --global user.email &amp;#34;在此处替换成你的邮箱&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;上文的 &lt;code&gt;user.name&lt;/code&gt; 和 &lt;code&gt;user.email&lt;/code&gt; 指的就是作者使用 Git 时设置的这些信息。&lt;/p&gt;
 &lt;p&gt;用我自己的信息举个例子，如果你想要将我的提交 pick 到自己的项目中，可以在编辑完后执行 &lt;code&gt;git commit --author &amp;quot;LiMee233 &amp;lt;LiMee233@outlook.com&amp;gt;&amp;quot;&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;具有多个作者的提交&#34;&gt;具有多个作者的提交&lt;/h2&gt;
@@ -52,15 +258,106 @@ git config --global user.email &amp;quot;在此处替换成你的邮箱&amp;quot
 &lt;h3 id=&#34;直接在-github-用户界面查看&#34;&gt;直接在 Github 用户界面查看&lt;/h3&gt;
 &lt;p&gt;比较简单，在提交页面点击作者的头像即可进入作者的 Github 界面，左侧即可看到相应的信息，摘取所需的部分即可。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;GithubUserPage.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p class=&#34;notice&#34;&gt;
-比较粗大的是昵称，下面相对小一点的灰色字才是用户名。&lt;br&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/git-commit-author/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    比较粗大的是昵称，下面相对小一点的灰色字才是用户名。&lt;br&gt;
 比如上图中 &lt;code&gt;Utsav Balar&lt;/code&gt; 是昵称， &lt;code&gt;UtsavBalar1231&lt;/code&gt; 才是我们需要的用户名。
-&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;这种情况有一些局限性，比如作者不愿意在 Github 上公开自己的电子邮件信息的时候就比较难办 &lt;strike&gt;（也不是完全不行）&lt;/strike&gt; ，此时可以使用剩下的两种方法。&lt;/p&gt;
 &lt;h3 id=&#34;使用-cherry-pick-摘取提交&#34;&gt;使用 cherry-pick 摘取提交&lt;/h3&gt;
-&lt;p class=&#34;notice&#34;&gt;
-使用此方法，最好是在两个项目出自“同源”的时候，差异很大的项目不建议使用。
-&lt;/p&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/git-commit-author/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    使用此方法，最好是在两个项目出自“同源”的时候，差异很大的项目不建议使用。
+    &lt;/div&gt;
+&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;先 cd 到自己项目的文件夹，使用 &lt;code&gt;git remote add REMOTENAME REMOTEURL&lt;/code&gt; 为本地仓库添加一个远程 remote.&lt;/p&gt;
@@ -214,7 +511,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Tip&lt;/p&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     &lt;p&gt;最好让 Windows 计算机名与重装前一致，毕竟重装系统也没有必要换计算机名，如果一直用重装系统默认分配的那个还是换掉吧 ww.&lt;/p&gt;
 &lt;p&gt;最好在配置 Linux 系统时，使用和之前 Linux 系统相同的用户名。&lt;/p&gt;
@@ -382,10 +679,10 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;PreferenceScreen&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns:android=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#34;nt&#34;&gt;&amp;lt;/PreferenceScreen&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;PreferenceScreen&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;xmlns:android=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/PreferenceScreen&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;向 &lt;code&gt;PreferenceScreen&lt;/code&gt; 中添加具体的 &lt;code&gt;Preferences&lt;/code&gt; 对象，详细信息可以参照 &lt;a href=&#34;https://developer.android.com/reference/androidx/preference/CheckBoxPreference&#34;&gt;Android 官方文档&lt;/a&gt; ，添加完成后即可在设置界面找到已添加的设置项。&lt;/li&gt;
@@ -400,10 +697,10 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;EditTextPreference&lt;/span&gt;
-        &lt;span class=&#34;na&#34;&gt;app:key=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;signature&amp;#34;&lt;/span&gt;
-        &lt;span class=&#34;na&#34;&gt;app:title=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Your signature&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;EditTextPreference&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;app:key=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;signature&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;na&#34;&gt;app:title=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Your signature&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;对于以上 XML 定义的 &lt;code&gt;Preference&lt;/code&gt; 对象，按照如下代码获取 &lt;code&gt;Preference&lt;/code&gt; 的值：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -413,10 +710,10 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Java&#34; data-lang=&#34;Java&#34;&gt;&lt;span class=&#34;n&#34;&gt;SharedPreferences&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sharedPreferences&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
-        &lt;span class=&#34;n&#34;&gt;PreferenceManager&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getDefaultSharedPreferences&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* Activity context */&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sharedPreferences&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;signature&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Java&#34; data-lang=&#34;Java&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;SharedPreferences&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sharedPreferences&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;PreferenceManager&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getDefaultSharedPreferences&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt; &lt;span class=&#34;cm&#34;&gt;/* Activity context */&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sharedPreferences&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getString&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;signature&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;，并非所有的 &lt;code&gt;Preference&lt;/code&gt; 对象都可用 &lt;code&gt;SharedPreferences.getString(String, String)&lt;/code&gt; 获取值，比如对于 &lt;code&gt;SeekBarPreference&lt;/code&gt; 需要使用 &lt;code&gt;SharedPreferences.getInt(String, Int)&lt;/code&gt; 。&lt;/p&gt;
 &lt;p&gt;详细信息可见 &lt;a href=&#34;https://developer.android.google.cn/reference/android/content/SharedPreferences.html&#34;&gt;SharedPreference 的文档&lt;/a&gt; ，里面介绍了可以用来获取 &lt;code&gt;Preference&lt;/code&gt; 对象的值的方法。&lt;/p&gt;
@@ -565,7 +862,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/debian-realtek8822ce/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Tip&lt;/p&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     如果缺失依赖，可自行从上方所述网站中搜索依赖名称，选择对应的版本进行下载。
     &lt;/div&gt;
@@ -579,11 +876,11 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;nmcli dev
-nmcli r wifi on
-nmcli dev wifi
-nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#34;&lt;/span&gt; password &lt;span class=&#34;s2&#34;&gt;&amp;#34;密码&amp;#34;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmcli dev
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmcli r wifi on
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmcli dev wifi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#34;&lt;/span&gt; password &lt;span class=&#34;s2&#34;&gt;&amp;#34;密码&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;检测网络连接状态&#34;&gt;检测网络连接状态&lt;/h3&gt;
 &lt;p&gt;执行命令 &lt;code&gt;nmcli dev&lt;/code&gt; ，如果网络连接成功，可以看到绿色 connected 样提示。&lt;/p&gt;
@@ -765,7 +1062,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Note&lt;/p&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     已知 2021 级军训没有推迟。
     &lt;/div&gt;
@@ -793,7 +1090,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Note&lt;/p&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     之所以有两个教官，是因为教官本来就比方队要多，应该多 1.5~2 倍，中途教官可能莫名消失或出现（薛定谔的教官）。
     &lt;/div&gt;
@@ -812,13 +1109,13 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 &lt;p&gt;又称「摸鱼拳」，是军训期间最轻松的项目，就emm…瞎打就行了，不会也没关系。&lt;/p&gt;
 &lt;p&gt;为期2天，完成后「哨子哥」会从每个方队中选择几个打的比较好的人，加入擒敌拳/应急棍的训练方队，这两个方队是需要上台表演的（甚至还要在2021级开幕式上表演，太惨了）。&lt;/p&gt;
 &lt;p&gt;这几个打的比较好的人，是教官提前选择的。我们的教官直接就问“谁想过去打棍？”，之后就培养想打棍的人了，算是比较自由。&lt;/p&gt;
-&lt;div class=&#34;notice tip&#34;&gt;
-    &lt;p class=&#34;notice-title tip&#34;&gt;
+&lt;div class=&#34;notice warning&#34;&gt;
+    &lt;p class=&#34;notice-title warning&#34;&gt;
         &lt;span class=&#34;notice-icon&#34;&gt;
             &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Tip&lt;/p&gt;
+        &lt;/span&gt;警告&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     教官可能会说应急棍/军体拳很轻松，千万别信。
     &lt;/div&gt;
@@ -990,7 +1287,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/wd-apmtimer/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Note&lt;/p&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     apmtimer 的使用见 &lt;a href=&#34;http://apmtimer.sourceforge.net/&#34;&gt;apmtimer.sourceforge.net&lt;/a&gt; 的 Syntax 部分。
     &lt;/div&gt;
@@ -1127,13 +1424,13 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
         &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
     &lt;/symbol&gt;
     
-&lt;/svg&gt;&lt;div class=&#34;notice warning&#34;&gt;
-    &lt;p class=&#34;notice-title warning&#34;&gt;
+&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
         &lt;span class=&#34;notice-icon&#34;&gt;
             &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/fix-office-scrolling-lag/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/fix-office-scrolling-lag/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Warning&lt;/p&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     在 Windows 11 时代 Office 365 升级新外观后，此操作会导致 Office 应用的 Mica 效果、工具栏下方阴影缺失等问题。
     &lt;/div&gt;
@@ -1266,7 +1563,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Warning&lt;/p&gt;
+        &lt;/span&gt;警告&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     进行任何操作前，请注意对重要数据进行备份！
     &lt;/div&gt;
@@ -1290,30 +1587,30 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ne&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;xxxx&lt;/span&gt;
-&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;void&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ne&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;xxxx&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;return&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;void&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;img src=&#34;deletecode.png&#34; alt=&#34;结构如图所示&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;notice tip&#34;&gt;
-    &lt;p class=&#34;notice-title tip&#34;&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
         &lt;span class=&#34;notice-icon&#34;&gt;
             &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Tip&lt;/p&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     删除的时候需要将整行删除，不要只删掉文字，也不要删多了空行。
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;修改完成后保存所做的一切修改，直到获取修改完的应用程序安装包。&lt;/p&gt;
-&lt;div class=&#34;notice tip&#34;&gt;
-    &lt;p class=&#34;notice-title tip&#34;&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
         &lt;span class=&#34;notice-icon&#34;&gt;
             &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Tip&lt;/p&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     修改完的应用程序不需要重新签名。
     &lt;/div&gt;
@@ -1454,7 +1751,7 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/amd-xamldesinger-displaybug/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;Tip&lt;/p&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     &lt;ol&gt;
 &lt;li&gt;仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用。&lt;/li&gt;
@@ -1509,97 +1806,11 @@ nmcli dev wifi connect &lt;span class=&#34;s2&#34;&gt;&amp;#34;WiFi 名称&amp;#
                 <content type="html">&lt;p&gt;西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。&lt;/p&gt;
 &lt;p&gt;关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……&lt;/p&gt;
 &lt;h2 id=&#34;本地解决方案&#34;&gt;本地解决方案&lt;/h2&gt;
-
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/windows-language-to-singapore/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;Note&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    灵感来自于：&lt;a href=&#34;https://www.sysgeek.cn/windows-10-force-remove-language-pack&#34;&gt;https://www.sysgeek.cn/windows-10-force-remove-language-pack&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
 &lt;h3 id=&#34;强制删除中文新加坡&#34;&gt;强制删除「中文（新加坡）」&lt;/h3&gt;
 &lt;p&gt;使用管理员模式打开 Windows Powershell，输入命令： &lt;code&gt;Get-WinUserLanguageList&lt;/code&gt; ，观察所得信息中是否包含 &lt;code&gt;LanguageTag : zh-Hans-SG&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$LangList = Get-WinUserLanguageList
-$MarkedLang = $LangList | where LanguageTag -eq &amp;quot;zh-Hans-SG&amp;quot;
+$MarkedLang = $LangList | where LanguageTag -eq &amp;#34;zh-Hans-SG&amp;#34;
 $LangList.Remove($MarkedLang)
 Set-WinUserLanguageList $LangList -Force
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;添加中文中华人民共和国&#34;&gt;添加「中文（中华人民共和国）」&lt;/h3&gt;
@@ -1610,6 +1821,8 @@ Set-WinUserLanguageList $LangList -Force
 &lt;p&gt;&lt;img src=&#34;cloud-sync-settings.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
 &lt;p&gt;由于出现问题的原理是同步服务器出错，所以任何设置出错都不足为奇，比如鼠标左右键莫名对调等。&lt;/p&gt;
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sysgeek.cn/windows-10-force-remove-language-pack&#34;&gt;https://www.sysgeek.cn/windows-10-force-remove-language-pack&lt;/a&gt;&lt;/p&gt;
 </content>
             
             

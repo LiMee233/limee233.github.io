@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.92.2" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.94.2" /><meta name="theme-color" content="#fff" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -17,18 +17,18 @@
 
     <title>使用 Android Preference | Li Mee 的小窝</title>
 
-    <link rel="stylesheet" href="/css/meme.min.b01c1a4608f8dfd3669f6f575a99b1b8492c3839f89197a3475bc760a136c902.css"/>
+    <link rel="stylesheet" href="/css/meme.min.e26d32b0cfbb7f92dfaf6efe20054d8ac46c0b95aa271bce1383330b17e17cbe.css"/>
 
     
     
-        <script src="/js/meme.min.8cbe976441b5181abfd3093c9beee209b19cdbb1fa77c48d225a83ba81fa3fb1.js"></script>
+        <script src="/js/meme.min.45a777da25d0b1805991f984be4e9ae5e17f3ea94097882dff058256fa34eb17.js"></script>
 
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <link rel="stylesheet" href="https://fonts.font.im/css?family=Noto&#43;Sans" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="https://fonts.font.im/css?family=Noto&#43;Sans" /></noscript>
+        <link rel="stylesheet" href="https://fonts.font.im/css?family=Source&#43;Code&#43;Pro:500" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.font.im/css?family=Source&#43;Code&#43;Pro:500" /></noscript>
 
     <meta name="author" content="Li Mee" /><meta name="description" content="在 XML 中构建 Preference 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下代码以构建 PreferenceScreen. 1 2 3 &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt; &lt;PreferenceScreen xmlns:android=&#34;http://schemas.android.com/apk/res/android&#34;&gt; &lt;/PreferenceScreen&gt; 向 PreferenceScreen 中添加具体的 Preferences 对象，详细信息可以参照 Android 官方文档 ，添加完成后即……" />
 
@@ -250,8 +250,13 @@
 
             
 
-            <div class="post-body e-content">
-                <h2 id="在-xml-中构建-preference"><a href="#在-xml-中构建-preference" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>在 XML 中构建 Preference</h2>
+            <nav class="contents">
+  <h2 id="contents" class="contents-title">目录</h2><ol class="toc">
+    <li><a href="#在-xml-中构建-preference">在 XML 中构建 Preference</a></li>
+    <li><a href="#在-java-中引用">在 Java 中引用</a></li>
+  </ol>
+</nav><div class="post-body e-content">
+                <h2 id="在-xml-中构建-preference">在 XML 中构建 Preference</h2>
 <ol>
 <li>在 <code>/res/xml</code> 中添加一个 xml 文件，名称任意，向其中添加以下代码以构建 <code>PreferenceScreen</code>.</li>
 </ol>
@@ -262,15 +267,15 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
-<span class="nt">&lt;PreferenceScreen</span> <span class="na">xmlns:android=</span><span class="s">&#34;http://schemas.android.com/apk/res/android&#34;</span><span class="nt">&gt;</span>
-<span class="nt">&lt;/PreferenceScreen&gt;</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;PreferenceScreen</span> <span class="na">xmlns:android=</span><span class="s">&#34;http://schemas.android.com/apk/res/android&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/PreferenceScreen&gt;</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><ol start="2">
 <li>向 <code>PreferenceScreen</code> 中添加具体的 <code>Preferences</code> 对象，详细信息可以参照 <a href="https://developer.android.com/reference/androidx/preference/CheckBoxPreference" target="_blank" rel="noopener">Android 官方文档</a> ，添加完成后即可在设置界面找到已添加的设置项。</li>
 </ol>
-<h2 id="在-java-中引用"><a href="#在-java-中引用" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>在 Java 中引用</h2>
+<h2 id="在-java-中引用">在 Java 中引用</h2>
 <p>可以在项目的任意位置中引用 <code>Preference</code> （存疑）。</p>
 <p><strong>例： EditTextPreference</strong></p>
 <div class="highlight"><div class="chroma">
@@ -280,10 +285,10 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;EditTextPreference</span>
-        <span class="na">app:key=</span><span class="s">&#34;signature&#34;</span>
-        <span class="na">app:title=</span><span class="s">&#34;Your signature&#34;</span><span class="nt">/&gt;</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;EditTextPreference</span>
+</span></span><span class="line"><span class="cl">        <span class="na">app:key=</span><span class="s">&#34;signature&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">app:title=</span><span class="s">&#34;Your signature&#34;</span><span class="nt">/&gt;</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>对于以上 XML 定义的 <code>Preference</code> 对象，按照如下代码获取 <code>Preference</code> 的值：</p>
 <div class="highlight"><div class="chroma">
@@ -293,10 +298,10 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="n">SharedPreferences</span> <span class="n">sharedPreferences</span> <span class="o">=</span>
-        <span class="n">PreferenceManager</span><span class="o">.</span><span class="na">getDefaultSharedPreferences</span><span class="o">(</span><span class="k">this</span> <span class="cm">/* Activity context */</span><span class="o">);</span>
-<span class="n">String</span> <span class="n">name</span> <span class="o">=</span> <span class="n">sharedPreferences</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">&#34;signature&#34;</span><span class="o">,</span> <span class="s">&#34;&#34;</span><span class="o">);</span>
-</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="n">SharedPreferences</span> <span class="n">sharedPreferences</span> <span class="o">=</span>
+</span></span><span class="line"><span class="cl">        <span class="n">PreferenceManager</span><span class="o">.</span><span class="na">getDefaultSharedPreferences</span><span class="o">(</span><span class="k">this</span> <span class="cm">/* Activity context */</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">String</span> <span class="n">name</span> <span class="o">=</span> <span class="n">sharedPreferences</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">&#34;signature&#34;</span><span class="o">,</span> <span class="s">&#34;&#34;</span><span class="o">);</span>
+</span></span></code></pre></td></tr></table></div>
 </div>
 </div><p><strong>需要注意的是</strong>，并非所有的 <code>Preference</code> 对象都可用 <code>SharedPreferences.getString(String, String)</code> 获取值，比如对于 <code>SeekBarPreference</code> 需要使用 <code>SharedPreferences.getInt(String, Int)</code> 。</p>
 <p>详细信息可见 <a href="https://developer.android.google.cn/reference/android/content/SharedPreferences.html" target="_blank" rel="noopener">SharedPreference 的文档</a> ，里面介绍了可以用来获取 <code>Preference</code> 对象的值的方法。</p>
