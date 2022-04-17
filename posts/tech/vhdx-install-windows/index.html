@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.94.2" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.96.0" /><meta name="theme-color" content="#fff" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -17,18 +17,18 @@
 
     <title>使用 VHDX 硬盘映像安装 Windows | Li Mee 的小窝</title>
 
-    <link rel="stylesheet" href="/css/meme.min.b8cb6478233c992a594792cd6c2bf15d270209d406fbfda7fd3b33f04e30b454.css"/>
+    <link rel="stylesheet" href="/css/meme.min.1e0e66701da527b8b65e8e8956773df16374646c540c4c648a94ba85b1f3ad7f.css"/>
 
     
     
-        <script src="/js/meme.min.45a777da25d0b1805991f984be4e9ae5e17f3ea94097882dff058256fa34eb17.js"></script>
+        <script src="/js/meme.min.cad7b7fc342da547e5551aaebe7517c0209dc2d9b5b85ff9acb30af6c8bcecb1.js"></script>
 
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto&#43;Sans&#43;SC&amp;family=Source&#43;Code&#43;Pro:wght@500&amp;family=ZCOOL&#43;KuaiLe&amp;display=swap" media="print" onload="this.media='all'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto&#43;Sans&#43;SC&amp;family=Source&#43;Code&#43;Pro:wght@500&amp;family=ZCOOL&#43;KuaiLe&amp;display=swap" /></noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,500;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,500;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
     <meta name="author" content="Li Mee" /><meta name="description" content="虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。 在 VHDX 中安装系统……" />
 
@@ -474,17 +474,7 @@
             
 
             
-                <div class="share-item facebook">
-                    
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;hashtag=%23Windows" title="分享到「Facebook」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
-                </div>
-            
 
-            
-                <div class="share-item linkedin">
-                    
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;title=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;summary=%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%97%a0%e6%b3%95%e8%b0%83%e7%94%a8%e6%98%be%e5%8d%a1%e3%80%81%e8%80%8c%e4%b8%94%e9%83%a8%e5%88%86%e8%bd%af%e4%bb%b6%e5%af%b9%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%9c%89%e6%a3%80%e6%b5%8b%ef%bc%9b%e5%8d%95%e7%ba%af%e7%9a%84%e5%8f%8c%e7%b3%bb%e7%bb%9f%e6%97%a0%e6%b3%95%e6%96%b9%e4%be%bf%e5%a4%87%e4%bb%bd%ef%bc%8c%e8%80%8c%e4%b8%94%e4%b8%93%e9%97%a8%e5%88%86%e5%8c%ba%e6%80%bb%e8%a7%89%e5%be%97%e6%b5%aa%e8%b4%b9%ef%bc%8c%e8%80%8c%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows%20%e5%8f%af%e4%bb%a5%e8%a7%a3%e5%86%b3%e8%bf%99%e4%ba%9b%e7%97%9b%e7%82%b9%e3%80%82%20%e5%9c%a8%20VHDX%20%e4%b8%ad%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f%e2%80%a6%e2%80%a6&amp;source=Li%20Mee%20%e7%9a%84%e5%b0%8f%e7%aa%9d" title="分享到「LinkedIn」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
-                </div>
             
 
             
@@ -522,22 +512,6 @@
                 </div>
             
 
-            
-                <div class="share-item qrcode">
-                    <div class="qrcode-container" title="通过「二维码」"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qrcode-icon"><path d="M0 224h192V32H0v192zM64 96h64v64H64V96zm192-64v192h192V32H256zm128 128h-64V96h64v64zM0 480h192V288H0v192zm64-128h64v64H64v-64zm352-64h32v128h-96v-32h-32v96h-64V288h96v32h64v-32zm0 160h32v32h-32v-32zm-64 0h32v32h-32v-32z"/></svg><div id="qrcode-img"></div>
-                    </div>
-                    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
-
-<script>
-    var typeNumber = 0;
-    var errorCorrectionLevel = 'L';
-    var qr = qrcode(typeNumber, errorCorrectionLevel);
-    qr.addData('https:\/\/limee233.github.io\/posts\/tech\/vhdx-install-windows\/');
-    qr.make();
-    document.getElementById('qrcode-img').innerHTML = qr.createImgTag();
-</script>
-
-                </div>
             
 
         </div>
@@ -637,6 +611,17 @@
 
 
             
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">2021–2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Li Mee</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="custom-footer">永远相信美好的事情即将发生</div>
+
+            
+
+
+            
+        </div>
+    </footer>
+
 
         </div>
         
