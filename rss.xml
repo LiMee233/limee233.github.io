@@ -23,10 +23,233 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 29 Aug 2022 23:08:35 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 15 Sep 2022 18:32:57 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
+        
+            <item>
+                <title>河北工业大学在读学生集体户口迁出历程</title>
+                <link>https://limee233.github.io/posts/life/jitihukou-move-out/</link>
+                <guid isPermaLink="true">https://limee233.github.io/posts/life/jitihukou-move-out/</guid>
+                <pubDate>Wed, 24 Aug 2022 00:00:00 &#43;0000</pubDate>
+                
+                    <author>LiMee233@outlook.com (Li Mee)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;在上大学的时候脑子进水，可能由于包括但不限于讨厌河北省卷王学习氛围、防止成为家暴党被户口卡死等情况…… 但这些问题随着 &lt;del&gt;「我们是最后一代」&lt;/del&gt; 和「家长党」而解决了，我也从「犹豫 HRT」转变成了坚决要做手术的情况（大雾），集体户口无法修改身份证和户口本性别的问题渐渐浮出水面。&lt;/p&gt;
+&lt;p&gt;将学校集体户口转回原籍，或至少是转到任意不是集体户口的地方就成了当务之急。&lt;/p&gt;
+&lt;h2 id=&#34;学校政策&#34;&gt;学校政策&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;学校集体户口无法更改性别信息，详见 &lt;a href=&#34;https://baoweichu.hebut.edu.cn/fwzn/hjzl/29301.htm&#34;&gt;在校学生户籍信息不能变更的情况说明&lt;/a&gt;（虽然没有写性别，但肯定也不能改对吧）。&lt;/li&gt;
+&lt;li&gt;学校集体户口支持在就读时迁出，详见 &lt;a href=&#34;https://baoweichu.hebut.edu.cn/fwzn/hjzl/29304.htm&#34;&gt;在校学生如何办理户口迁出手续&lt;/a&gt; （虽然文章很老了，但截至本文时仍然生效）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    流程中所述的任何文件都要去学校户籍科或当地派出所询问清楚再操作，以免过多跑腿和扯皮。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    因为学校和国内的“疫情防控”，行程可能会被严重耽搁，建议确认能出校后再进行以下材料的办理，防止证明过期白干。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;先在学校办理 &lt;strong&gt;本人户口页原件&lt;/strong&gt; 和 &lt;strong&gt;户主页的复印件&lt;/strong&gt; 的借出手续，使用学生证在体育中心西南角 A102 室即可办理，随后得到 本人户口本页 x1，户主页照片 x2（不要忘记同时拍摄正反面）。&lt;/p&gt;
+&lt;p&gt;回宿舍，用 PS 处理一下拍摄的户主页，正反两面放在一张 A4 大小的纸上，和复印的样子差不多即可，随后去打印至少 1 张。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;拿着原籍户主（大概率是你的家长）的户口本、身份证原件；你自己的户口页、集体户口户主页的复印件 和 你自己的身份证件，去原籍办理「准予迁入证明」。&lt;/p&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    当你说出「在读大学生集体户口迁回原籍」时，原籍派出所很可能会直接否认，注意向原籍派出所强调「学校只要拥有原籍出具的「准予迁入证明」就能同意 / 办理迁出」，这个「准予迁入证明」你们 &lt;strong&gt;到底能不能办？&lt;/strong&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    准予迁入证明上无需包含「集体户口迁出」或「特殊情况」等字样，普通的「父母与子女互相投靠」就可以使用。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    （包括以后的所有步骤）过期的身份证件也可以办理，无需在天津（双口镇派出所）事先更新身份证。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;办理好的准予迁入证明如图所示，有效期为 40 天&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;zhunxuqianruzhengming.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;拿到准予迁入证明后，复印 1 份（也可以 PS 处理后打印），拿着准予迁入证明原件和复印件、学生证、你自己的户口页、你自己的身份证去学校户籍科开具迁户证明。&lt;/p&gt;
+&lt;p&gt;办理好的迁户证明如图所示&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;qianhuzhengming.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;随后，携带学校办好的迁户证明、你自己的户口页、学生证、身份证和原籍派出所办理的准予迁入证明，到天津市公安局北辰分局双口派出所办理「户口迁移证」。&lt;/p&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    &lt;p&gt;学校会告诉你「北辰校区门口下车，前行至 104 国道右拐，行 200 米即到」，有多个错误：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;104 国道疑似已经被迁移，不在原处了（来源于网约车司机）&lt;/li&gt;
+&lt;li&gt;走过去要接近 3 公里，除非想走 1 小时否则建议打车。&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;notice tip&#34;&gt;
+    &lt;p class=&#34;notice-title tip&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;提示&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    派出所人员可能会询问「没有毕业证吗？」、「身份证过期了？」等多个问题，无需惊慌如实表述即可，不影响开具户口迁移证。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;办理好的户口迁移证如图所示，有效期为 30 天&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;hukouqianyizheng.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;最后一步就是去原籍派出所办理迁入了，应该和普通的户口迁入没有什么区别，遂不在此赘述。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;我不会说是我目前还没办，办完一定补上 x&lt;/del&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/categories/life/">life</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/tags/trans/">Trans</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Xorg 分数缩放的相关问题</title>
