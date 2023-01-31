@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Li Mee 的小窝</title>
     <subtitle type="html"></subtitle>
-    <updated>2022-09-15T18:32:57&#43;08:00</updated>
+    <updated>2023-01-31T23:12:06&#43;08:00</updated>
     <id>https://limee233.github.io/</id>
     <link rel="alternate" type="text/html" href="https://limee233.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://limee233.github.io/atom.xml" />
@@ -15,12 +15,12 @@
                 <email>LiMee233@outlook.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.101.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.110.0">Hugo</generator>
         <entry>
             <title type="text">河北工业大学在读学生集体户口迁出历程</title>
             <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/life/jitihukou-move-out/" />
             <id>https://limee233.github.io/posts/life/jitihukou-move-out/</id>
-            <updated>2022-09-15T00:00:00&#43;00:00</updated>
+            <updated>2023-01-31T00:00:00&#43;00:00</updated>
             <published>2022-08-24T00:00:00&#43;00:00</published>
             <author>
                     <name>Li Mee</name>
@@ -34,7 +34,7 @@
 &lt;h2 id=&#34;学校政策&#34;&gt;学校政策&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;学校集体户口无法更改性别信息，详见 &lt;a href=&#34;https://baoweichu.hebut.edu.cn/fwzn/hjzl/29301.htm&#34;&gt;在校学生户籍信息不能变更的情况说明&lt;/a&gt;（虽然没有写性别，但肯定也不能改对吧）。&lt;/li&gt;
-&lt;li&gt;学校集体户口支持在就读时迁出，详见 &lt;a href=&#34;https://baoweichu.hebut.edu.cn/fwzn/hjzl/29304.htm&#34;&gt;在校学生如何办理户口迁出手续&lt;/a&gt; （虽然文章很老了，但截至本文时仍然生效）。&lt;/li&gt;
+&lt;li&gt;学校集体户口支持在就读时迁出，详见 &lt;a href=&#34;https://baoweichu.hebut.edu.cn/fwzn/hjzl/23dd55272d474ef08a44d0b896424eb6.htm&#34;&gt;在校学生如何办理户口迁出手续&lt;/a&gt;。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
 
@@ -120,18 +120,7 @@
             &lt;/svg&gt;
         &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    流程中所述的任何文件都要去学校户籍科或当地派出所询问清楚再操作，以免过多跑腿和扯皮。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    因为学校和国内的“疫情防控”，行程可能会被严重耽搁，建议确认能出校后再进行以下材料的办理，防止证明过期白干。
+    流程仅供参考，具体请亲自咨询相关部门。
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -147,7 +136,7 @@
             &lt;/svg&gt;
         &lt;/span&gt;注意&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    当你说出「在读大学生集体户口迁回原籍」时，原籍派出所很可能会直接否认，注意向原籍派出所强调「学校只要拥有原籍出具的「准予迁入证明」就能同意 / 办理迁出」，这个「准予迁入证明」你们 &lt;strong&gt;到底能不能办？&lt;/strong&gt;
+    如果说出「在读大学生集体户口迁回原籍」，原籍派出所很可能会直接否认，可以向原籍派出所强调学校只要拥有原籍出具的「准予迁入证明」就能同意 / 办理迁出，&lt;del&gt;你们给我开「准予迁入证明」就行别管那么多破事。&lt;/del&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;notice tip&#34;&gt;
@@ -158,7 +147,7 @@
             &lt;/svg&gt;
         &lt;/span&gt;提示&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    准予迁入证明上无需包含「集体户口迁出」或「特殊情况」等字样，普通的「父母与子女互相投靠」就可以使用。
+    准予迁入证明使用「父母与子女互相投靠」等简单理由就可以使用。
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;notice tip&#34;&gt;
@@ -180,38 +169,10 @@
 &lt;p&gt;&lt;img src=&#34;qianhuzhengming.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;随后，携带学校办好的迁户证明、你自己的户口页、学生证、身份证和原籍派出所办理的准予迁入证明，到天津市公安局北辰分局双口派出所办理「户口迁移证」。&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    &lt;p&gt;学校会告诉你「北辰校区门口下车，前行至 104 国道右拐，行 200 米即到」，有多个错误：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;104 国道疑似已经被迁移，不在原处了（来源于网约车司机）&lt;/li&gt;
-&lt;li&gt;走过去要接近 3 公里，除非想走 1 小时否则建议打车。&lt;/li&gt;
-&lt;/ol&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;notice tip&#34;&gt;
-    &lt;p class=&#34;notice-title tip&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    派出所人员可能会询问「没有毕业证吗？」、「身份证过期了？」等多个问题，无需惊慌如实表述即可，不影响开具户口迁移证。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;办理好的户口迁移证如图所示，有效期为 30 天&lt;/p&gt;
+&lt;p&gt;办理好的户口迁移证如图所示，有效期为 30 天（但过期不一定会影响迁入地的手续办理）。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;hukouqianyizheng.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;最后一步就是去原籍派出所办理迁入了，应该和普通的户口迁入没有什么区别，遂不在此赘述。&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;我不会说是我目前还没办，办完一定补上 x&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;最后就是携带「户口迁移证」和要迁入的户口本去迁入地派出所办理户口迁入，当场即可办结。&lt;/p&gt;
 </content>
             
             
