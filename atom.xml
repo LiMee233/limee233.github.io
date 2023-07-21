@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Li Mee 的小窝</title>
     <subtitle type="html"></subtitle>
-    <updated>2023-01-31T23:12:06&#43;08:00</updated>
+    <updated>2023-07-21T12:40:02&#43;08:00</updated>
     <id>https://limee233.github.io/</id>
     <link rel="alternate" type="text/html" href="https://limee233.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://limee233.github.io/atom.xml" />
@@ -15,7 +15,793 @@
                 <email>LiMee233@outlook.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.110.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.115.4">Hugo</generator>
+        <entry>
+            <title type="text">上海四一一医院 SRS 流程</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/life/srs-sh411/" />
+            <id>https://limee233.github.io/posts/life/srs-sh411/</id>
+            <updated>2023-07-21T00:00:00&#43;00:00</updated>
+            <published>2023-07-14T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">有些「不太确定 100% 准确」或者「过于详细」的东西还是比较适合写在 Blog 里而不是 MtF Wiki 上面，所以在给 MtF Wiki 提供信息的同时，也在这里记录一下流程吧。 初次面诊 非常重要的一……</summary>
+            
+                <content type="html">&lt;p&gt;有些「不太确定 100% 准确」或者「过于详细」的东西还是比较适合写在 Blog 里而不是 MtF Wiki 上面，所以在给 MtF Wiki 提供信息的同时，也在这里记录一下流程吧。&lt;/p&gt;
+&lt;h2 id=&#34;初次面诊&#34;&gt;初次面诊&lt;/h2&gt;
+&lt;p&gt;非常重要的一点：在赵博那里预约手术时间，是&lt;strong&gt;不需要诊断证明&lt;/strong&gt;的，&lt;strong&gt;可以拿着病历去&lt;/strong&gt;！不用跟我一样傻傻等那一年观察期！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;如何能挂到赵博的号目前仍然是个谜，尤其是 2023 年 6 月底医院系统变更（又从上海长海医院（虹口院区）改成中国融通上海四一一医院了）以后，公众号挂号系统还给报废了……不过还是有一些信息可供参考：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;好大夫平台上可以找到赵烨德医生（赵博真名赵烨德），进行电话问诊、加号等，这个渠道目前是可以使用的。&lt;/li&gt;
+&lt;li&gt;想法与赵博取得联系（比如好大夫的电话问诊）后，可以尝试问他的微信号，方便日后沟通手术时间等事项。&lt;/li&gt;
+&lt;li&gt;礼节范围内，可以直接去医院住院部 21 楼主任办公室门口蹲他。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/srs-sh411/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    赵博不回微信是正常情况，别害怕，多戳戳他。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;赵博的排期应该是有一个名单的，如果按照正常流程预约时间，请务必提醒赵博别把自己忘了，或让他把自己记录一下。&lt;/p&gt;
+&lt;p&gt;排期不是特别的严格和死板，如果你有着急变更学籍、刚高考完即将上大学等特殊情况必须在近期完成手术，可以请求让他排早一点。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;如果赵博告诉你类似「你 xx 时候再跟我微信联系一下，到时候我直接给你这边安排」的说法，那到时候很可能是&lt;strong&gt;直接安排住院手术&lt;/strong&gt;，请务必注意停糖时间。&lt;/p&gt;
+&lt;p&gt;停糖一个月的要求并不是很严格，如果停糖两周左右，或者使用针剂导致激素水平看起来很不正常，似乎也没有什么关系（目前有两个实例）。如果遇到这种情况，可以考虑忽略这些问题，先住院试试，万一没事呢……&lt;/p&gt;
+&lt;h2 id=&#34;材料准备&#34;&gt;材料准备&lt;/h2&gt;
+&lt;p&gt;为了住院，你需要准备这些材料：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;诊断证明原件&lt;/li&gt;
+&lt;li&gt;家长知情书&lt;/li&gt;
+&lt;li&gt;个人申请书（可选？）&lt;/li&gt;
+&lt;li&gt;无犯罪记录证明（可选，存在没有提交此材料已做完手术的实例；但有些地方开这个证明异常的简单，不如开一张不是吗）&lt;/li&gt;
+&lt;li&gt;大约 6W 元左右&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;家长知情书和个人申请书的模板可以参照 &lt;a href=&#34;https://zhuanlan.zhihu.com/p/464156579&#34;&gt;三院SRS手术全过程记录&lt;/a&gt; 的第一张图（院方似乎不在意固定格式），自己和家长的签名处需要留有电话。&lt;/p&gt;
+&lt;p&gt;虽然留了电话，但院方不一定会电话联系家长，可能结合资金来源以及年龄综合考虑。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;住院需要自己买很多东西，但也不用提前都买好用个大箱子搬到上海去，因为你在住院后几乎不可能马上手术，肯定是有时间网购或者线下购买的。&lt;/p&gt;
+&lt;p&gt;这里列一下我用到的物品清单：&lt;/p&gt;
+&lt;center&gt;&lt;b&gt;术前就需要使用 / 上交的&lt;/b&gt;&lt;/center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;数量&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;提示&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;用途&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;粗网灭菌凡士林纱布 25×40cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10 张&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://detail.tmall.com/item.htm?id=582921441062&#34;&gt;参考链接（淘宝）&lt;/a&gt;，看商品评价&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;术前上交给护士站，手术中使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;塑料袋&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;虽然这东西一般不会缺，但我当时还真找不到（悲）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;拆解的丝线需要装在里面给护士站&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;带吸管的饮水杯&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;既然都要晾凉水，那就买个杯吧&lt;br&gt;500ml 比较合适，建议玻璃材质&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;术前喝舒泰清晾凉水用&lt;br&gt;术后躺在床上喝水用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;插线板&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;根据需要充电设备数量决定&lt;br&gt;每个病床只有一个插座，位置比较高，而且两脚插孔可能松动，所以即使你只需要充一个手机也用得到&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;充电&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;吹风机&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;往往能借到，但还是带自己的舒服&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;洗头后用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;牙刷、牙膏、牙杯&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 套&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;自己刷牙用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;脸盆&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;洗头，洗衣服用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;毛巾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 条&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;要求纯棉&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;擦脸、身体使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;肥皂&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 块&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;住院后就穿病号服了，或许不用洗衣服可以不带？&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;洗衣服用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;碗，或者饭盒&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;医院早饭的粥需要自己带容器盛&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;勺子&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;医院的粥比较稠&lt;br&gt;躺着喝粥也是必须用的&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;筷子&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 双&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;可以考虑带一次性筷子，省的刷，50 双左右足够&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;吃饭用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;抽纸&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 提&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://item.jd.com/1291709.html&#34;&gt;参考（仅用于展示数量）&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;日用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;洗发水、沐浴露&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;参考住院时间自行决定用量，不建议带太大的包装（回家时尽量减轻负担）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;日用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;拖鞋&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 双&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;往往有之前住院的人剩下的&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;日用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小风扇&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;需要可充电&lt;br&gt;需要能放在桌子上吹到你&lt;br&gt;需要能放在两腿之间吹下面&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;你可能会觉得热&lt;br&gt;干燥阴部&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;个人生活用品&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;香皂、洗手液、洗面奶、护肤品等等&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;日常使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;center&gt;&lt;b&gt;术后才需要使用的&lt;/b&gt;&lt;/center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;数量&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;提示&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;用途&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;一次性护理垫 60×90cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10 张&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不要买成护理裤了，是护理垫&lt;br&gt;尺寸差不太多就行&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;防止术后渗液、换药时弄脏床单&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;无酒精湿巾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 包 80 张左右&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;术后躺着大便后护工阿姨给你擦屁股用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;皮筋&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;4 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;术后护工阿姨给你梳麻花辫用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;梳子&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 把&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;术后护工阿姨给你梳麻花辫用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;牙杯&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;护工阿姨可能会有&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;床上漱口吐水用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;吸管&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20 支&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;护工阿姨可能会有&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;床上漱口吸水用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;懒人手机支架&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;护工阿姨大概率会有&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;方便使用手机&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;布洛芬&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 盒&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;停止镇痛后自行止痛使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小坐垫&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不是甜甜圈，不要买太薄的&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;术后躺的屁股疼，可以垫在腰上减轻屁股的压力&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;毛巾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 条&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;术后 7 天解除禁食后才用得上&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;躺着吃饭拿来垫着用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;center&gt;&lt;b&gt;拆包下地后才需要使用的&lt;/b&gt;&lt;/center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;数量&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;提示&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;用途&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;全棉紧内裤&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2 条&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;正常女性内裤就行，别松松垮垮的&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;包一下减轻水肿&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;日用卫生巾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20 片&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;245mm+&lt;br&gt;每天大概用 3~4 片，根据在上海的时间决定量&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;防止弄脏内裤&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;安全套&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;10 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;最普通的就行，别买某些看起来很刺激的&lt;br&gt;开始通模具后每天用两个，根据在上海的时间决定量&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;通模具&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;假阳具&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;直径 2.5cm，&lt;a href=&#34;https://m.tb.cn/h.5YdiLgN?tk=XVWtdGoQjrn&#34;&gt;参考链接（淘宝）&lt;/a&gt;&lt;br&gt;可以同时把之后要用的 3.0cm 一起买了&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;通模具&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小镜子&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;矩形、手掌大小&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;自己看下面&lt;br&gt;通模具的时候看阴道口在哪&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;浴巾&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;2 条&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不穿裤子下地时挡着下面&lt;br&gt;垫在床上&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;长尾夹或者发卡&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;如果用发卡也得是能夹的比较紧的，否则会掉&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;夹着围在身上的浴巾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;甜甜圈&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;电商平台搜索「痔疮垫」关键词购买，买女款&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;垫在屁股下面坐着用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;入院时护士也会告诉你需要带什么，但她们可能为了保险起见或者某种规范，会把东西说多，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;粗网灭菌凡士林纱布会告诉你必须 20 张，但往往 10 张真的够了。&lt;/li&gt;
+&lt;li&gt;内裤会让你多带几条，但往往 2 条也真的够了，毕竟垫了卫生巾。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;此外也不要太社恐，问问其他姐妹还需要买什么，说不定同时还能蹭到没用完的东西。&lt;/p&gt;
+&lt;h2 id=&#34;办理住院&#34;&gt;办理住院&lt;/h2&gt;
+&lt;p&gt;先前往整形外科门诊处向陈医生询问是否有自己的住院安排，或者直接找赵博确认能否住院。&lt;/p&gt;
+&lt;p&gt;确认能够住院后，在门诊处陈医生会检查你准备的诊断证明等纸质材料，检查无误后会给你一张待床证。&lt;/p&gt;
+&lt;p&gt;如果还要在外面逛，就先去外面，逛完后再拿着待床证去住院大楼缴费、登记住院即可。&lt;/p&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/srs-sh411/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    &lt;ul&gt;
+&lt;li&gt;可能会没有床位，需要蹲其他人出院。&lt;/li&gt;
+&lt;li&gt;请注意待床证有效期限（问医生）。&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;登记完成后，尽快电梯上 21 楼，直接到护士站说「我要办住院」，注意以下事项：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;手腕带要戴在右手上。&lt;/li&gt;
+&lt;li&gt;会问身高体重，请提前测一下记住。&lt;/li&gt;
+&lt;li&gt;会问你带了什么东西，请提前记录一下「附录 1」中的东西自己买了多少（不是照着这个附录买）。&lt;/li&gt;
+&lt;li&gt;会让你记住主治医生（重要，因为你后续需要去找主治医生，而医生办公室不只有一个人）、护士长和责任护士的名字，除非最强大脑否则请用软件记录或者录音。&lt;/li&gt;
+&lt;li&gt;会给你一把剪刀剪纱布，剪刀只有一把，所以到病房后请尽快剪完把剪刀还回去。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;center&gt;&lt;b&gt;附录 1：（MTF）入院准备&lt;/b&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;拖鞋&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;水杯&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小风扇&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;产褥垫&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;手机支架&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;毛巾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;脸盆&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;牙刷、牙膏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;饭和（应该是饭盒）筷子勺子&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;紧内裤（很紧的全棉内裤，备好换洗）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;姨妈巾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;避孕套 * 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;湿巾&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;抽纸&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;凡士林纱布（25*40）20 片&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;小镜子&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;毯子&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;个人生活用品（洗面奶，护肤品等）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;梳子&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;吹风机&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;住院后&#34;&gt;住院后&lt;/h2&gt;
+&lt;p&gt;花钱请护工阿姨之前饭要自己去拿，吃饭时间是 06:50，11:00 和 16:50，工作人员推饭车到走廊，自己去找她，说床号取饭；只有早饭需要自己拿饭盒。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;入院后当天会有护士告诉你抽血等检查事项，注意别跟我一样睡着了迷迷糊糊，导致把护士说的话忘个一干二净。&lt;/p&gt;
+&lt;p&gt;注意不要手贱去玩粪常规的样本盒，按上之后可能非常难打开。&lt;/p&gt;
+&lt;p&gt;关于检查的彩超，可能初次并不能知道具体时间，需要后续去问，所以这段时间吃饭请确认没有邻近的彩超检查安排，彩超时间确定后就可以放心了。&lt;/p&gt;
+&lt;p&gt;关于尿常规和粪常规，需要在 06:00~10:00 之间取样，尿液需要是中断尿（所以采样前多喝点水，别尿不出来）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;关于剪纱布，可以先折一个正方形，之后按照这个正方形的形状去卷几圈，再用剪刀一次性剪断两边——这样可以一次性获得多张剪好的纱布，节约时间。&lt;/p&gt;
+&lt;p&gt;关于拆解纱布，可以用右手轻轻捏住，左手捏住左上角的尖，然后左手往对角线外侧拉，多试几次就能掌握诀窍——一心一意拆的话两三小时即可完成。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;第二天主治医生会把你叫到医生办公室，给你讲解术式原理，给你看一个手术流程的视频，签字，补充过敏、家庭状况、激素使用时间等项目进入病例，再测量腿围付款 688 购买弹力袜。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;术前几天会有护士通知你手术时间，再次询问手术史、过敏、药物使用情况等，并告知术前注意事项。&lt;/p&gt;
+&lt;p&gt;再过一段时间又会有麻醉科医生通知麻醉注意事项，会问你是否使用止痛泵（必须用不然会疼死），签字同意全麻和同意阵痛。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;术前一天会有护士来给你刮毛毛；主治医生会叫你去医生办公室付款 1554 * 4 = 6216 元的止血材料，并告知你作用。&lt;/p&gt;
+&lt;p&gt;如果你的头发刚洗完后特别爆炸难以处理的话，可以考虑术前一天洗个头，不在手术当天洗。&lt;/p&gt;
+&lt;p&gt;下午护士站会叫你，给你讲大量的手术注意事项，建议录音。&lt;/p&gt;
+&lt;p&gt;关于舒泰清，注意以下事项：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 500ml 凉水冲开，之后去开水房接热水到指定容量，这样温度是合适的。（凉水需要自己用杯晾，所以喝第一杯之前两小时、喝完第 1、2 杯之后需要赶紧去晾水，为下一次做准备）。&lt;/li&gt;
+&lt;li&gt;加入开水后一定要再次搅拌，否则分布不均。&lt;/li&gt;
+&lt;li&gt;10 分钟之内很可能喝不完，不会造成太大影响；但最后一杯最好喝快一点，因为护士会在外面等你灌肠。&lt;/li&gt;
+&lt;li&gt;如果想吐就去厕所，吐了以后再喝就会稍微舒服点。&lt;/li&gt;
+&lt;li&gt;喝完第二杯的时间左右才会痛快排泄。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;晚上 19:30 左右护士来灌肠，之后输液；灌完肠后记得拉干净一点，否则之后一边输液一边上厕所可不太舒服。&lt;/p&gt;
+&lt;p&gt;此过程需要呼叫护士，按床上那个电话线挂着的按钮就可以呼叫了，只用按一次就会一直响直到护士响应。&lt;/p&gt;
+&lt;p&gt;这些过程完成后你大概不会想洗澡的，安心睡觉就好啦。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;手术当天清晨定一个 06:00 的闹钟就可以，起床后不久会有护士再来测血压和体温。&lt;/p&gt;
+&lt;p&gt;之后收拾一下东西，把纸巾、湿巾等都拿出来放到柜子里面，你觉得之后能用得上的所有东西都不要放在行李箱里，因为实在不好拿，阿姨可能也没耐心给你翻；桌子上因为术后要放监测仪，所以不要放任何东西。&lt;/p&gt;
+&lt;p&gt;06:30 左右阿姨会来给你用开塞露，憋一两分钟就行，之后去厕所拉肚子（很痛），拉完肚子后就可以放心的洗个澡了，洗完澡后换上新的病号服。&lt;/p&gt;
+&lt;p&gt;快到 8 点的时候，如果主治医生还没给你弹力袜，就去找他要，拿到手后让护工阿姨帮你穿上，自己穿可能会穿错。&lt;/p&gt;
+&lt;p&gt;08:15 左右护士就会叫你下去了，不用带皮筋，手术室头发是团在帽子里面的；自己的眼镜和拖鞋不用担心，护士会给你拿回病房。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;在手术室内打完留置针，戴上氧气面罩，努力睁眼看看四周，一会就没有意识了。&lt;/p&gt;
+&lt;h2 id=&#34;手术后&#34;&gt;手术后&lt;/h2&gt;
+&lt;p&gt;醒来后会感觉下面疼疼疼疼疼疼疼⊙﹏⊙∥，类似憋尿到极限的感觉，主要是尿管带来的不适，也不用自己尝试尿出去，尽量忍住，回到病房渐渐的就会好了。&lt;/p&gt;
+&lt;p&gt;被推回病房，躺在自己的床上后，记得向阿姨要一个塑料袋垫着，防止吐了（不吐也没关系，但万一吐在床上就很恶心）。继续昏睡一段时间，下午就可以短暂使用手机给重要的人报下平安了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;使用止痛泵的过程如果感到恶心，可以尝试让护工阿姨关掉止痛泵。&lt;/p&gt;
+&lt;p&gt;输液的时候注意：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是有输液报警器的，没有记得要，报警后请及时按铃呼叫护士。&lt;/li&gt;
+&lt;li&gt;自己要能拿到流量调节器，在滴壶里面的液体快流完的时候自己把流量调节器关了（虽然不关大概率也不会输进空气造成生命危险，但回流会加大痛苦）&lt;/li&gt;
+&lt;li&gt;有一袋绿色字小包装的药输的时候血管会痛（这种包装的药有两包，但只有一包会疼，可以问一下护士），输的时候记得拿好流量调节器，感觉疼了就赶紧关掉，再慢慢放开。&lt;/li&gt;
+&lt;li&gt;留置针的使用时长有限，护士看到针不太行了会主动给你换；如果就剩最后一天了，记得提醒护士可以换钢针（留置针比较贵）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果腿部实在太疼可以考虑换个姿势，比如把一条腿翘起来，不会有太大影响，但还是尽量别……&lt;/p&gt;
+&lt;p&gt;每隔 3 天就会换一次药，一共换 3 次，如果有特殊情况时间可能推迟，不用太担心，医生不会忘记给你换药的。&lt;/p&gt;
+&lt;p&gt;第一周禁食快结束的时候，可以稍微吃一点点东西解馋（比如一小袋饼干，千万别吃多了）；此外这个时间放屁可能带出大便，是正常情况（不是吃东西吃的），告诉阿姨给你擦一下就可以了。&lt;/p&gt;
+&lt;p&gt;这几天主要的不适感会来自：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;长时间输液&lt;/li&gt;
+&lt;li&gt;躺的屁股疼、腰疼、腿疼&lt;/li&gt;
+&lt;li&gt;晚上因为难受睡不着觉&lt;/li&gt;
+&lt;li&gt;手术区域持续性的疼痛，不是太疼，但一直疼也会让你很难集中精力做事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;刚开始吃饭之后，肚子会翻江倒海，你能感觉食物在肠胃里面流动，时不时顶一下肛门，会有强烈的憋大便的感觉，但其实并不能拉出东西来（一般而言吃饭第 3 天才会拉出东西来）。&lt;/p&gt;
+&lt;p&gt;吃饭第二天就没有憋大便的感觉了，变成憋小便的感觉（然而插着尿管怎么憋小便呢）。&lt;/p&gt;
+&lt;p&gt;不输液了之后一定记得多喝水。&lt;/p&gt;
+&lt;p&gt;术后理论第 12 天（手术当天为第 0 天，下同）拆包，可以自己看一看了。&lt;/p&gt;
+&lt;p&gt;拆包后过一两天才会尝试下地，下地可能会非常晕，丧失视觉和听觉，并且伴随恶心，可能会失去意识，受不了的话就躺回床上休息一下吧，不过要记得多次练习，尽快能下地行走为好。&lt;/p&gt;
+&lt;p&gt;尝试下地之后就可以开始夹管了，尿管上面有一个夹子，按下去之后过一两小时再放开就可以，我只练习了 3、4 次，似乎少了些，但也没有什么影响。&lt;/p&gt;
+&lt;p&gt;随着时间发展插着尿管会越来越难受，甚至疼到晚上叫的地步…… 术后大于等于 14 天如果医生还没有来给你拆线拔管的话，可以直奔医生办公室让他给你拔。拔完管后前几次上厕所会很刺激，第一次可能会带出血液是正常情况无需担心。&lt;/p&gt;
+&lt;p&gt;拔完尿管之后感觉身体就都是自己的了，如获新生。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;赵博准备让你出院的前一阵子才会给你通模具，之后阿姨可能还会再教你一次；润滑的话，医院是会提供普朗特凝胶伤口敷料的，无需自己购买。&lt;/p&gt;
+&lt;p&gt;给你开出院的诊断证明前，一定要向主治医生确认自己的诊断证明上的姓名、身份证号、住址和户口本（身份证）上的信息一字不差，避免造成不必要的麻烦；如果有类似「不适宜体育运动」的需求，也请提前和主治医生沟通。&lt;/p&gt;
+&lt;p&gt;出院前护工阿姨会告诉你公证处工作人员的电话，你需要先电话联系一下工作时间，也算作一种预约吧；工作人员会让你到了之后再打电话。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;可以考虑将没有用完的护理垫带回家，通模具的时候可以防止弄脏家里的床单。&lt;/p&gt;
+&lt;p&gt;出院当天护工阿姨就会帮你洗澡洗头了，之后收拾完东西阿姨也会帮你把东西带下去，送你上网约车。可以考虑直接去公证处，如果回家的车票不是当天（要住酒店），也可以打车去酒店，把大包小包的放下再去公证处。&lt;/p&gt;
+&lt;p&gt;如果想出院的时候拍几张照片留念，可以下楼后再打车；如果想尽快走，就在楼上打好。&lt;/p&gt;
+&lt;h2 id=&#34;出院后&#34;&gt;出院后&lt;/h2&gt;
+&lt;p&gt;打车去公证处后，打电话告诉公证员自己已经到了，公证人员就会让你去 X 号接待室等着，坐在门口公证人员就会去找你了。公证事项是那张《诊断证明书》的「影印件与原件相符，原件属实」（记住，会问你），阿姨建议要三分副本；公证处需要复印你的户口簿、身份证、出院的诊断证明、病历、三甲证明等；公证书建邮寄，我是办理公证后的第 6 天看到快递发出了，一般是顺丰，可以考虑装一个顺丰 App，有通知的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;回家的话建议以「坐的时间最少」为标准，但按照我的恢复情况持续坐 8 个小时也没有问题，不建议发生以下情况：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;为了坐卧铺车，而在候车室坐好几个小时。&lt;/li&gt;
+&lt;li&gt;软卧，和另外三个男的睡一晚上相当吓人。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;此外坐 5、6 小时的高铁二等座，是可以接受的（以自身恢复情况为准）。&lt;/p&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/srs-sh411/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    高峰期请注意提前买票。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;其他信息&#34;&gt;其他信息&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;送到医院的快递会放在门口门卫处，按楼层分在不同的格子里面；某些快递会放在单独的位置。&lt;/li&gt;
+&lt;li&gt;送到医院的外卖会放在门口西侧的外卖架子上，点外卖的话提醒快递员放在该架子上并拍照。&lt;/li&gt;
+&lt;li&gt;医院快递地址：上海 上海市 虹口区 四川北路街道东江湾路15号长海医院虹口院区住院部整形外科21楼XX床（现在是四一一医院了，可能有变化；记得写上楼层）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;br&gt;&lt;center&gt;&lt;b&gt;最后祝大家都能成功割尾巴~~&lt;/b&gt;&lt;/center&gt;&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/life/" term="life" label="life" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/trans/" term="Trans" label="Trans" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">邸晓兰处开证流程</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/" />
+            <id>https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/</id>
+            <updated>2023-07-14T00:00:00&#43;00:00</updated>
+            <published>2023-03-06T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">回顾自己在回龙观医院找邸晓兰医生开具诊断证明的过程，再看看 MtF Wiki 上面的信息，差的太多了，于是打算摆烂（提 Pr，保证信息正确等等太麻烦了），写在自己的 Blog 上。……</summary>
+            
+                <content type="html">&lt;p&gt;回顾自己在回龙观医院找邸晓兰医生开具诊断证明的过程，再看看 MtF Wiki 上面的信息，差的太多了，于是打算摆烂（提 Pr，保证信息正确等等太麻烦了），写在自己的 Blog 上。&lt;/p&gt;
+&lt;h2 id=&#34;初次面诊&#34;&gt;初次面诊&lt;/h2&gt;
+&lt;p&gt;询问内容较为详细，邸晓兰医生喜欢自说自话地讲很多事情，重点注意在面诊时提出自己的需求就行：比如最终目的是手术就一定要说，否则她看你意义不明可能顺手给你加上「为合理使用激素就诊于我院，暂不考虑变性手术」这种字样（但加上也没什么影响（毕竟手术的时候只要诊断证明，不要病例），就是看着别扭）。&lt;/p&gt;
+&lt;p&gt;花费价格在 1000 元以下，建议准备 1000 元备用即可。&lt;/p&gt;
+&lt;p&gt;此外家长是否陪诊需要视自己情况而定：比如家长在场，自己会不会紧张、语无伦次？是否需要医生劝说家长？而比较实际的情况是，只要家长不太反对，陪同前往就可以减少医生的顾虑。&lt;/p&gt;
+&lt;p&gt;初次面诊即可掉落病例，可用于国内的合规 HRT，但我想除非是用于劝家长，大部分人还是会自己买药吧。&lt;/p&gt;
+
+&lt;style&gt;
+    .notice {
+        border-radius: 5px 5px 5px 5px;
+        background-color: hsl(0, 0%, 80%);
+        color: #3f3f3f;
+        padding: 0px 0px;
+    }
+    .notice-title {
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 700;
+        background-color: hsl(0, 0%, 50%);
+        color: white;
+        height: 32px;
+        margin: -12px -20px 0 -20px;
+        padding: 3px 0 3px 20px;
+    }
+    .notice-body {
+        margin: 0px 16px;
+        padding-bottom: 16px;
+    }
+    .notice-body p {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .notice-body p:last-child {
+        margin-top: 12px;
+        margin-bottom: 0px;
+    }
+
+    .notice-icon {
+        display: inline-flex;
+        padding-right: 0.375em;
+    }
+
+    .notice-icon svg {
+        position: relative;
+        top: 0.1em;
+        width: 1em;
+        height: 1em;
+    }
+     
+    .notice-title.tip {
+        background-color: #79cf79;
+    }
+    .notice.tip {
+        background-color: #d8f0d8;
+    }
+     
+    .notice-title.note {
+        background-color: #58acf0;
+    }
+    .notice.note {
+        background-color: #e4f2ff;
+    }
+     
+    .notice-title.warning {
+        background-color: #f3c83a;
+    }
+    .notice.warning {
+        background-color: #f3eccf;
+    }
+     
+&lt;/style&gt;
+&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
+    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
+    &lt;/symbol&gt;
+    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
+        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
+    &lt;/symbol&gt;
+    
+&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    有没有合规 HRT 不影响最终开具诊断证明。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;第二次和第三次&#34;&gt;第二次和第三次&lt;/h2&gt;
+&lt;p&gt;邸晓兰会告知你需要找另一位医生做出相同诊断，方便（保险）起见最好找同院的牛雅娟或过斌，这可以放在第二次或第三次。&lt;/p&gt;
+&lt;p&gt;找另一位医生的话，会按照他们的方式进行判断：牛雅娟会把大量的机会留给你去自述，所以要在就诊前自己梳理好时间线，方便流畅的陈述自己的问题；也会开几张问卷，她确认问卷没有大问题，就会做出诊断。&lt;/p&gt;
+&lt;div class=&#34;notice note&#34;&gt;
+    &lt;p class=&#34;notice-title note&#34;&gt;
+        &lt;span class=&#34;notice-icon&#34;&gt;
+            &lt;svg&gt;
+                &lt;use href=&#34;https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
+            &lt;/svg&gt;
+        &lt;/span&gt;注意&lt;/p&gt;
+    &lt;div class=&#34;notice-body&#34;&gt;
+    所有的病例可以在获取诊断证明时全部复印（虽然没啥用）。
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;再找邸晓兰，就是简单的问一下近况，看你没啥问题就打发走了。&lt;/p&gt;
+&lt;h2 id=&#34;获取诊断证明&#34;&gt;获取诊断证明&lt;/h2&gt;
+&lt;p&gt;在我就诊时需要的材料如下（不具时效性）：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;其他医生的一次相同诊断（即前面两次中的一次）&lt;/li&gt;
+&lt;li&gt;自己的身份证复印，写明自己如何体验性别困扰，使用激素和女性化生活了多久，变性手术决心以及能够承担手术的不良后果。&lt;/li&gt;
+&lt;li&gt;父母的身份证复印，写明他们支持、同意手术，也能够承担手术的不良后果。&lt;/li&gt;
+&lt;li&gt;无犯罪记录证明（不管什么辖区范围）。&lt;/li&gt;
+&lt;li&gt;染色体检查结果（原件或复印件均可）。&lt;/li&gt;
+&lt;li&gt;如果你和你的父母三个人户口不在一起，需要证明亲属关系，可以去公安局开具亲属关系证明（别说自己有出生医学证明，否则可能不给开）；医院也可以凑活着认可出生医学证明复印件（毕竟有父母姓名和身份证号）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这些材料都备好，挂号找邸晓兰即可根据指导开具诊断证明。&lt;/p&gt;
+&lt;p&gt;开具的诊断证明在二楼分诊台盖章；想要病例的话，在分诊台开病历复印申请，之后去右边 3 号窗口提交，立等可取，不需要花钱，随后也可在分诊台盖章。&lt;/p&gt;
+&lt;h2 id=&#34;其他值得注意的东西&#34;&gt;其他值得注意的东西&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;我本人没有抑郁等精神问题，如有可能会造成影响。&lt;/li&gt;
+&lt;li&gt;时间要求：首次就诊后至少观察期 1 年；需要一共 4 次就诊，每次就诊间隔 1 个月以上。（不是必须间隔 3 个月）&lt;/li&gt;
+&lt;li&gt;进入诊室记得录音，录音记得备份。&lt;/li&gt;
+&lt;li&gt;邸晓兰可能不太会仔细看检查结果，这有可能造成「家长认为该医生不够权威」的问题，需要引起注意。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/life/" term="life" label="life" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/tags/trans/" term="Trans" label="Trans" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">河北工业大学在读学生集体户口迁出历程</title>
             <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/life/jitihukou-move-out/" />
@@ -1342,17 +2128,17 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">为什么「那一天」之前的我，能作为男生正常的生活，而在察觉到改变的机会后，就变了呢？ 不同于典型 mtf ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 mtf……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">为什么「那一天」之前的我，能作为男生正常的生活，而在察觉到改变的机会后，就变了呢？ 不同于典型 MtF ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 MtF……</summary>
             
                 <content type="html">&lt;blockquote&gt;
 &lt;p&gt;为什么「那一天」之前的我，能作为男生正常的生活，而在察觉到改变的机会后，就变了呢？&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;不同于典型 mtf ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 mtf 之前也没有厌恶过自己的生理特征，甚至连「希望自己是个女孩子」的想法都未曾有过，更从来没有怀疑过自己的性别。&lt;/p&gt;
+&lt;p&gt;不同于典型 MtF ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 MtF 之前也没有厌恶过自己的生理特征，甚至连「希望自己是个女孩子」的想法都未曾有过，更从来没有怀疑过自己的性别。&lt;/p&gt;
 &lt;p&gt;一点也不像跨性别吧，一点不像吧！然而却在「那一天」之后“翻车”了。&lt;/p&gt;
 &lt;p&gt;然而自己想做女孩子的愿望不会凭空产生，也不会凭空消失 &lt;del&gt;（大雾）&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;既然作为 mtf 的自己没有明显表现出 Gender Dysphoria 的“症状”，那这些“症状”一定是在某个地方被终止掉了。&lt;/p&gt;
+&lt;p&gt;既然作为 MtF 的自己没有明显表现出 Gender Dysphoria 的“症状”，那这些“症状”一定是在某个地方被终止掉了。&lt;/p&gt;
 &lt;h2 id=&#34;奇怪的趋同性&#34;&gt;奇怪的趋同性&lt;/h2&gt;
-&lt;p&gt;思考一下，为什么 mtf 群体的很多爱好（或特性）都是趋同的？&lt;/p&gt;
+&lt;p&gt;思考一下，为什么 MtF 群体的很多爱好（或特性）都是趋同的？&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;mtf-convergence.png&#34; alt=&#34;自己就占了个 计算机 MCer 轨道交通 INFP 吧&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这些爱好（或特性）&lt;/p&gt;
 &lt;ol&gt;
@@ -1368,20 +2154,20 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;p&gt;在这样的环境下，自己没有因为男性身份而被阻止做什么事情——从某种意义上来讲也阻止了焦虑的产生。&lt;/p&gt;
 &lt;h2 id=&#34;女孩子应该&#34;&gt;女孩子应该？&lt;/h2&gt;
 &lt;p&gt;这一点已经快被说烂了，女孩子不一定符合刻板印象中的女性形象。&lt;/p&gt;
-&lt;p&gt;所有女孩子喜欢穿裙子，并对裙子有执着——这简直就是无稽之谈，所以为什么要用穿女装来判断一个人是不是 mtf 呢？&lt;/p&gt;
-&lt;p&gt;mtf 就像是被当作男孩子来养的女孩子，都 2021 年了，不会还有人说女孩子不能玩男孩子的玩具吧，不会吧不会吧，男孩子的玩具就是有意思得多啊！&lt;/p&gt;
+&lt;p&gt;所有女孩子喜欢穿裙子，并对裙子有执着——这简直就是无稽之谈，所以为什么要用穿女装来判断一个人是不是 MtF 呢？&lt;/p&gt;
+&lt;p&gt;MtF 就像是被当作男孩子来养的女孩子，都 2021 年了，不会还有人说女孩子不能玩男孩子的玩具吧，不会吧不会吧，男孩子的玩具就是有意思得多啊！&lt;/p&gt;
 &lt;p&gt;在我看来，穿女装、玩女孩子的玩具——并不能作为一种可查觉的外在表现来看，这毫无意义。&lt;/p&gt;
 &lt;h2 id=&#34;不在意的生理特征与认命&#34;&gt;不在意的生理特征与认命&lt;/h2&gt;
-&lt;p&gt;说来很奇怪，但并不是每个人都很在意自己的第一性征的，当然这也包括 mtf.&lt;/p&gt;
-&lt;p&gt;不太敢说其他人，但就自己来讲，直到我认识到 mtf 之后，才发现自己一直在以女性身份带入来紫薇。但这并不影响我继续使用这个男性的生殖器官，毕竟无论它是什么样子的，并不影响它能给大脑带来兴奋的刺激——这就足够了。&lt;/p&gt;
-&lt;p&gt;如果这样讲，&lt;strong&gt;厌恶生殖器官就并不是 mtf 所必备的特点&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;说来很奇怪，但并不是每个人都很在意自己的第一性征的，当然这也包括 MtF.&lt;/p&gt;
+&lt;p&gt;不太敢说其他人，但就自己来讲，直到我认识到 MtF 之后，才发现自己一直在以女性身份带入来紫薇。但这并不影响我继续使用这个男性的生殖器官，毕竟无论它是什么样子的，并不影响它能给大脑带来兴奋的刺激——这就足够了。&lt;/p&gt;
+&lt;p&gt;如果这样讲，&lt;strong&gt;厌恶生殖器官就并不是 MtF 所必备的特点&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;没错，我讨厌变声，讨厌喉结，讨厌胡子，但仅仅是因为觉得：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;男性的声音不容易被听清&lt;/li&gt;
 &lt;li&gt;喉结容易受伤，因为是凸出来的&lt;/li&gt;
 &lt;li&gt;刮胡子很麻烦而且很难刮干净&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;在认识到 mtf 之前，我并没有意识到这些是可以改变的，心想：既然改变不了那就这样喽，并没有到影响日常生活的程度。&lt;/p&gt;
+&lt;p&gt;在认识到 MtF 之前，我并没有意识到这些是可以改变的，心想：既然改变不了那就这样喽，并没有到影响日常生活的程度。&lt;/p&gt;
 &lt;p&gt;不能否认，有的人就像我这样容易向命运屈服（或者叫认清事实，又或者叫无知），&lt;strong&gt;明知做不到的事情就会放弃思考&lt;/strong&gt;，毕竟还有那么多事情等着做 emm…&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;总之，我从前就是这样恰巧生活在一个不在意性别身份的环境中，恰巧的不在意第一性征，恰巧的“理性思考”第二性征而认命……&lt;/p&gt;
@@ -1391,12 +2177,12 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;li&gt;我不可能一直不在意第一性征，除非我一直紫薇，然而做直男的话大概率会找女朋友，然而和女朋友做，还带入女性身份——就离谱好吧&lt;/li&gt;
 &lt;li&gt;我不可能一直认命，改变的机会迟早会让我知道（现在就发生了）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;我现在成为 mtf ，从某种意义上，就是一种必然。&lt;/p&gt;
-&lt;p&gt;在我仔细思考了性别这个名词后，我成为 mtf 已然成为事实。&lt;/p&gt;
+&lt;p&gt;我现在成为 MtF ，从某种意义上，就是一种必然。&lt;/p&gt;
+&lt;p&gt;在我仔细思考了性别这个名词后，我成为 MtF 已然成为事实。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;我想说明的是，不需要因为自己不符合典型 mtf 的某些特点而怀疑自己是 mtf 的事实了。&lt;/p&gt;
+&lt;p&gt;我想说明的是，不需要因为自己不符合典型 MtF 的某些特点而怀疑自己是 MtF 的事实了。&lt;/p&gt;
 &lt;p&gt;内心的挣扎不一定有可察觉的外在表现，仔细思考了所有 cisgender 绝不会当回事的问题，就意味着自己不是 cisgender !&lt;/p&gt;
-&lt;p&gt;仅仅是看到了 mtf 姐妹的动态，看到了转变必须的经历就引发了 gd ，那内心的挣扎可能已经很严重了，只是被自己完全忽略了而已。&lt;/p&gt;
+&lt;p&gt;仅仅是看到了 MtF 姐妹的动态，看到了转变必须的经历就引发了 gd ，那内心的挣扎可能已经很严重了，只是被自己完全忽略了而已。&lt;/p&gt;
 </content>
             
             
@@ -1456,7 +2242,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/PreferenceScreen&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;/div&gt;&lt;ol&gt;
 &lt;li&gt;向 &lt;code&gt;PreferenceScreen&lt;/code&gt; 中添加具体的 &lt;code&gt;Preferences&lt;/code&gt; 对象，详细信息可以参照 &lt;a href=&#34;https://developer.android.com/reference/androidx/preference/CheckBoxPreference&#34;&gt;Android 官方文档&lt;/a&gt; ，添加完成后即可在设置界面找到已添加的设置项。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;在-java-中引用&#34;&gt;在 Java 中引用&lt;/h2&gt;
@@ -2349,7 +3135,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;li&gt;返回到「查看」页面，依次进入：classes.dex → Dex 编辑器 ++ → 搜索 → 发起新搜索；在查找内容里粘贴刚才复制的「 ID 」并进行搜索，随后点击 &lt;code&gt;const v5, 0xID&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;constv50xid.png&#34; alt=&#34;不同设备的 ID 可能不同&#34;&gt;&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
+&lt;ol&gt;
 &lt;li&gt;进入代码编辑界面后从所在行向上翻找，直到发现 &lt;code&gt;.method private showHDIcon(Z)V&lt;/code&gt; 为止。&lt;/li&gt;
 &lt;li&gt;向下逐行查阅代码，去寻找如下结构，并将遇到的第一个如下结构删除。&lt;/li&gt;
 &lt;/ol&gt;
