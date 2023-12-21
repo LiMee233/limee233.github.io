@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.115.4"><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.121.1"><meta name="theme-color" content="#fff" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -81,11 +81,11 @@
                 "@type": "ImageObject",
                 "url": "https://limee233.github.io/icons/apple-touch-icon.png"
             },
-            "url": "https://limee233.github.io/"
+            "url": "https://limee233.github.io"
         },
         "mainEntityOfPage": {
             "@type": "WebSite",
-            "@id": "https://limee233.github.io/"
+            "@id": "https://limee233.github.io"
         }
     }
 </script>
@@ -293,10 +293,10 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="n">SharedPreferences</span> <span class="n">sharedPreferences</span> <span class="o">=</span>
-</span></span><span class="line"><span class="cl">        <span class="n">PreferenceManager</span><span class="o">.</span><span class="na">getDefaultSharedPreferences</span><span class="o">(</span><span class="k">this</span> <span class="cm">/* Activity context */</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">String</span> <span class="n">name</span> <span class="o">=</span> <span class="n">sharedPreferences</span><span class="o">.</span><span class="na">getString</span><span class="o">(</span><span class="s">&#34;signature&#34;</span><span class="o">,</span> <span class="s">&#34;&#34;</span><span class="o">);</span>
-</span></span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="n">SharedPreferences</span><span class="w"> </span><span class="n">sharedPreferences</span><span class="w"> </span><span class="o">=</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">PreferenceManager</span><span class="p">.</span><span class="na">getDefaultSharedPreferences</span><span class="p">(</span><span class="k">this</span><span class="w"> </span><span class="cm">/* Activity context */</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sharedPreferences</span><span class="p">.</span><span class="na">getString</span><span class="p">(</span><span class="s">&#34;signature&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;&#34;</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></td></tr></table></div>
 </div>
 </div><p><strong>需要注意的是</strong>，并非所有的 <code>Preference</code> 对象都可用 <code>SharedPreferences.getString(String, String)</code> 获取值，比如对于 <code>SeekBarPreference</code> 需要使用 <code>SharedPreferences.getInt(String, Int)</code> 。</p>
 <p>详细信息可见 <a href="https://developer.android.google.cn/reference/android/content/SharedPreferences.html" target="_blank" rel="noopener">SharedPreference 的文档</a> ，里面介绍了可以用来获取 <code>Preference</code> 对象的值的方法。</p>

@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.115.4"><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.121.1"><meta name="theme-color" content="#fff" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -81,11 +81,11 @@
                 "@type": "ImageObject",
                 "url": "https://limee233.github.io/icons/apple-touch-icon.png"
             },
-            "url": "https://limee233.github.io/"
+            "url": "https://limee233.github.io"
         },
         "mainEntityOfPage": {
             "@type": "WebSite",
-            "@id": "https://limee233.github.io/"
+            "@id": "https://limee233.github.io"
         }
     }
 </script>
@@ -282,10 +282,10 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Intent</span> <span class="n">service</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Intent</span><span class="o">();</span>
-</span></span><span class="line"><span class="cl"><span class="n">service</span><span class="o">.</span><span class="na">setClassName</span><span class="o">(</span><span class="s">&#34;com.tencent.mm&#34;</span><span class="o">,</span> <span class="s">&#34;com.tencent.mm.booter.CoreService&#34;</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">context</span><span class="o">.</span><span class="na">startForegroundService</span><span class="o">(</span><span class="n">service</span><span class="o">);</span>
-</span></span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Intent</span><span class="w"> </span><span class="n">service</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Intent</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">service</span><span class="p">.</span><span class="na">setClassName</span><span class="p">(</span><span class="s">&#34;com.tencent.mm&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;com.tencent.mm.booter.CoreService&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">context</span><span class="p">.</span><span class="na">startForegroundService</span><span class="p">(</span><span class="n">service</span><span class="p">);</span><span class="w">
+</span></span></span></code></pre></td></tr></table></div>
 </div>
 </div><p>之后就可以常规的向系统设置内添加开关等，成为一项新的系统功能了。</p>
 
