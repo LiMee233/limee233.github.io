@@ -5,12 +5,14 @@
 
 
 
+    
+
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Li Mee 的小窝</title>
+        <title>遥遥的部落格</title>
         <link>https://limee233.github.io/</link>
         <description></description>
-        <generator>Hugo 0.121.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.124.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,1065 +25,10 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 22 Dec 2023 02:46:45 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 15 Apr 2024 22:43:12 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
-        
-            <item>
-                <title>2023 年度总结</title>
-                <link>https://limee233.github.io/posts/life/2023-summary/</link>
-                <guid isPermaLink="true">https://limee233.github.io/posts/life/2023-summary/</guid>
-                <pubDate>Thu, 21 Dec 2023 00:00:00 &#43;0000</pubDate>
-                
-                    <author>LiMee233@outlook.com (Li Mee)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;今年真是经历很丰富的一年呀&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;从年初开始，就一直在为 SRS 做准备了，算是经历了迷茫、恐惧，不过最后愿望还是得以实现了——这绝对是今年最重要的一件事。&lt;/p&gt;
-&lt;p&gt;其实现在回想起来感觉自己还挺厉害的，无论是出柜，是自己一个人跑医院，是一个人第一次去上海那么远的地方，甚至一个人办理住院手续去做手术…… 这对于很多人而言根本就是无法想象的吧。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我还在住院期间遇到了可爱的盐盐，她在我住院的那段时间真的给了我很多支撑，没有她我真的不知道要怎么撑下去……&lt;/p&gt;
-&lt;p&gt;最终是在上海火车站旁的一家华莱士分开的，我伤心了很久，掉了很多小珍珠，似乎以前从来没有因为分别产生过如此强烈的情感。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;yanyan.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;center&gt;和妈妈回家的盐盐，和她们的伞&lt;/center&gt;
-&lt;p&gt;一开始我还不知道，但后来我就渐渐感觉到——我对盐盐有了感情。&lt;del&gt;（是谁在关于界面写不谈恋爱来着？没事这次更新就改了）&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;后来盐盐又来天津找「我们」来玩了，分别的时候我掉了更多的小珍珠——还是在地铁上，啊啊啊啊啊啊啊啊真的是丢死人了，经历了一些波折，但最后总之是在 12 月 14 日互相表白了，好耶！&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;随着 SRS 的完成，我也不再纠结很多和性别相关的东西，这方面的认知也在向部分顺女靠拢。&lt;/p&gt;
-&lt;p&gt;比如我完全不在乎兄弟、哥、帅等词语了，在新班级里从未被怀疑过性别的我，自然无需担心她们的话有把我当男的的意味。&lt;/p&gt;
-&lt;p&gt;没错，我是不喜欢这辈子都和 MtF 等词语联系在一起的，我的目的从一开始就很明确：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;subanxia.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;center&gt;我啊，希望自己能做一个 &lt;b&gt;普通的女孩子&lt;/b&gt;&lt;/center&gt;
-&lt;p&gt;对于我所有的 MtF 朋友们，我也只是希望把你们当作女生来看待——人有很多更重要的特点，MtF 在其中无足轻重，就这样。&lt;/p&gt;
-&lt;p&gt;而改证后，进入厕所、宿舍等等地方都变得轻松了起来，也不用再担心些什么，突然有种长舒一口气的感觉；我还记得今年年初干小米客服的时候，排班表上的性别——我该怎样和同事打交道？上什么厕所？真是个灾难，永远不想再想起来的灾难。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;对对，还有我在新班级混的很好呀&lt;/p&gt;
-&lt;p&gt;完全没有被新同学们排斥，反而结识了几乎一个宿舍的可爱的人们~ 不仅有人陪我出去玩，而且吃饭也不再是形单影只了，简直是之前不敢想像的幸福。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;提到出去玩，就不得不提：自从去年年底所谓「防疫」，「封控」解除后，能出去玩的机会也越来越多了。&lt;/p&gt;
-&lt;p&gt;今年一整年就去了北京天坛、铁道博物馆、军事博物馆、天安门广场，石家庄，上海，天津国家会展中心、海洋博物馆等等这么多地方，比我高中毕业之后合计出去玩的次数都要多了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;但也不是所有事情都能如人所愿，刚开学的时候因为住宿和复学，我直接在导员办公室大发雷霆了。&lt;/p&gt;
-&lt;p&gt;其实让我再休学一年，或者各种理由「为了你好」不让我住女生宿舍，我都能忍，但拿出有男生去女厕所偷窥和我做对比是在搞什么，我最无法接受的就是&lt;strong&gt;我完全没从那段通话录音中，听出哪怕一点对我的尊重&lt;/strong&gt;，那我也没必要尊重你，没错吧。&lt;/p&gt;
-&lt;p&gt;不过后来我感觉她们到最后也没搞清楚我究竟为什么生气。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;因为没能如愿住女生宿舍，我只能去教师公寓租房，因为房租太贵，我寻求和星霞合租——居然成真了。&lt;/p&gt;
-&lt;p&gt;&lt;del&gt;然后我们就过上了互相艾草的奇葩生活，不不不这什么玩意，啊啊啊啊啊啊啊为什么呜呜呜（bushi&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;租期为 1 年，这段经历肯定也会对未来产生比较大的影响，让我们拭目以待。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;让我们再回到「技术」有关的部分&lt;/p&gt;
-&lt;p&gt;比较重要的一点是，我真的开始觉得国产系统比原生系统好用了，无论是 NFC，输入法，还是功能的稳定性都&lt;strong&gt;遥遥领先&lt;/strong&gt;，所以我也渐渐的不再研究 Android 系统的编译。&lt;/p&gt;
-&lt;p&gt;另一点，则是我对于操作系统的强迫行为越来越严重了，有时候重装系统或者刷个机，因为「感觉不干净」能连续好几天都在装系统——这玩意还毁了我整个十月一假期，让我十分痛苦。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Xiaomi_Physical_History.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;center&gt;小米运动健康的数据，所有完全没数据的日子，基本都困在了刷机中&lt;/center&gt;
-&lt;hr&gt;
-&lt;p&gt;差点忘了，我家今年还迎来了第四位家庭成员，一只笑眯眯！&lt;/p&gt;
-&lt;p&gt;天天在家里学猫叫的我，终于有猫了——「我们都会有猫的」，成真！猫猫好可爱，猫猫好可爱，猫猫好可爱！&lt;/p&gt;
-&lt;p&gt;她的母亲是被农村的老鼠药毒死的、我奶奶举家搬到城市后，狗狗送给了别人，猫却完全没管，就那样遗弃在了院里…… 猫猫好可怜，猫猫好可怜，猫猫好可怜！&lt;/p&gt;
-&lt;p&gt;我爸妈间隔差不多一个月后再回去，发现她还在家里等着家人回来，就这样，可怜的呜呜呜呜呜惨惨猫猫就被我妈妈抱回了我家，一开始还有点怕生，在屋里惨叫，熟悉起来之后就很好啦。&lt;/p&gt;
-&lt;p&gt;不行我必须发点猫片&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Cats.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;center&gt;刚回家的呜呜呜呜呜惨惨猫猫  ‧  好奇猫猫  ‧  暗藏玄猫  ‧  这可看不得呀&lt;/center&gt;
-&lt;hr&gt;
-&lt;p&gt;感觉还是把比较重要的事情罗列了一遍呀，感觉没啥水平，不过以我写文章的水平也就只能这样了&lt;/p&gt;
-&lt;p&gt;以上就是今年对我影响比较大，会对未来也产生较大偏移（？）的事件！&lt;/p&gt;
-&lt;p&gt;总之，虽然有一些不可避免的小插曲，但总体上今年是很快活、超开心、&lt;del&gt;根本无法想象&lt;/del&gt; 的一年，我很庆幸自己能拥有这样的生活，甚至都有点不敢相信自己的眼睛。现在，还有一个多星期今年也就要结束了，就让我在此提前祝福明年也会像今年一样幸福吧！&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/categories/life/">life</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">年度总结</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>上海四一一医院 SRS 流程</title>
-                <link>https://limee233.github.io/posts/life/srs-sh411/</link>
-                <guid isPermaLink="true">https://limee233.github.io/posts/life/srs-sh411/</guid>
-                <pubDate>Fri, 14 Jul 2023 00:00:00 &#43;0000</pubDate>
-                
-                    <author>LiMee233@outlook.com (Li Mee)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;有些「不太确定 100% 准确」或者「过于详细」的东西还是比较适合写在 Blog 里而不是 MtF Wiki 上面，所以在给 MtF Wiki 提供信息的同时，也在这里记录一下流程吧。&lt;/p&gt;
-&lt;h2 id=&#34;初次面诊&#34;&gt;初次面诊&lt;/h2&gt;
-&lt;p&gt;非常重要的一点：在赵博那里预约手术时间，是&lt;strong&gt;不需要诊断证明&lt;/strong&gt;的，&lt;strong&gt;可以拿着病历去&lt;/strong&gt;！不用跟我一样傻傻等那一年观察期！&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;如何能挂到赵博的号目前仍然是个谜，尤其是 2023 年 6 月底医院系统变更（又从上海长海医院（虹口院区）改成中国融通上海四一一医院了）以后，公众号挂号系统还给报废了……不过还是有一些信息可供参考：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;好大夫平台上可以找到赵烨德医生（赵博真名赵烨德），进行电话问诊、加号等，这个渠道目前是可以使用的。&lt;/li&gt;
-&lt;li&gt;想法与赵博取得联系（比如好大夫的电话问诊）后，可以尝试问他的微信号，方便日后沟通手术时间等事项。&lt;/li&gt;
-&lt;li&gt;礼节范围内，可以直接去医院住院部 21 楼主任办公室门口蹲他。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/srs-sh411/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    赵博不回微信是正常情况，别害怕，多戳戳他。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;p&gt;赵博的排期应该是有一个名单的，如果按照正常流程预约时间，请务必提醒赵博别把自己忘了，或让他把自己记录一下。&lt;/p&gt;
-&lt;p&gt;排期不是特别的严格和死板，如果你有着急变更学籍、刚高考完即将上大学等特殊情况必须在近期完成手术，可以请求让他排早一点。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;如果赵博告诉你类似「你 xx 时候再跟我微信联系一下，到时候我直接给你这边安排」的说法，那到时候很可能是&lt;strong&gt;直接安排住院手术&lt;/strong&gt;，请务必注意停糖时间。&lt;/p&gt;
-&lt;p&gt;停糖一个月的要求并不是很严格，如果停糖两周左右，或者使用针剂导致激素水平看起来很不正常，似乎也没有什么关系（目前有两个实例）。如果遇到这种情况，可以考虑忽略这些问题，先住院试试，万一没事呢……&lt;/p&gt;
-&lt;h2 id=&#34;材料准备&#34;&gt;材料准备&lt;/h2&gt;
-&lt;p&gt;为了住院，你需要准备这些材料：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;诊断证明原件&lt;/li&gt;
-&lt;li&gt;家长知情书&lt;/li&gt;
-&lt;li&gt;个人申请书（可选？）&lt;/li&gt;
-&lt;li&gt;无犯罪记录证明（可选，存在没有提交此材料已做完手术的实例；但有些地方开这个证明异常的简单，不如开一张不是吗）&lt;/li&gt;
-&lt;li&gt;大约 6W 元左右&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;家长知情书和个人申请书的模板可以参照 &lt;a href=&#34;https://zhuanlan.zhihu.com/p/464156579&#34;&gt;三院SRS手术全过程记录&lt;/a&gt; 的第一张图（院方似乎不在意固定格式），自己和家长的签名处需要留有电话。&lt;/p&gt;
-&lt;p&gt;虽然留了电话，但院方不一定会电话联系家长，可能结合资金来源以及年龄综合考虑。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;住院需要自己买很多东西，但也不用提前都买好用个大箱子搬到上海去，因为你在住院后几乎不可能马上手术，肯定是有时间网购或者线下购买的。&lt;/p&gt;
-&lt;p&gt;这里列一下我用到的物品清单：&lt;/p&gt;
-&lt;center&gt;&lt;b&gt;术前就需要使用 / 上交的&lt;/b&gt;&lt;/center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;数量&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;提示&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;粗网灭菌凡士林纱布 25×40cm&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;10 张&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://detail.tmall.com/item.htm?id=582921441062&#34;&gt;参考链接（淘宝）&lt;/a&gt;，看商品评价&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;术前上交给护士站，手术中使用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;塑料袋&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;虽然这东西一般不会缺，但我当时还真找不到（悲）&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;拆解的丝线需要装在里面给护士站&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;带吸管的饮水杯&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;既然都要晾凉水，那就买个杯吧&lt;br&gt;500ml 比较合适，建议玻璃材质&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;术前喝舒泰清晾凉水用&lt;br&gt;术后躺在床上喝水用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;插线板&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;根据需要充电设备数量决定&lt;br&gt;每个病床只有一个插座，位置比较高，而且两脚插孔可能松动，所以即使你只需要充一个手机也用得到&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;充电&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;吹风机&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;往往能借到，但还是带自己的舒服&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;洗头后用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;牙刷、牙膏、牙杯&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 套&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;自己刷牙用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;脸盆&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;洗头，洗衣服用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;毛巾&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 条&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;要求纯棉&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;擦脸、身体使用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;肥皂&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 块&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;住院后就穿病号服了，或许不用洗衣服可以不带？&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;洗衣服用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;碗，或者饭盒&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;医院早饭的粥需要自己带容器盛&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;勺子&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;医院的粥比较稠&lt;br&gt;躺着喝粥也是必须用的&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;筷子&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 双&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;可以考虑带一次性筷子，省的刷，50 双左右足够&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;吃饭用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;抽纸&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 提&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://item.jd.com/1291709.html&#34;&gt;参考（仅用于展示数量）&lt;/a&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;日用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;洗发水、沐浴露&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;参考住院时间自行决定用量，不建议带太大的包装（回家时尽量减轻负担）&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;日用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;拖鞋&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 双&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;往往有之前住院的人剩下的&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;日用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;小风扇&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;需要可充电&lt;br&gt;需要能放在桌子上吹到你&lt;br&gt;需要能放在两腿之间吹下面&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;你可能会觉得热&lt;br&gt;干燥阴部&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;个人生活用品&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;香皂、洗手液、洗面奶、护肤品等等&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;日常使用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;center&gt;&lt;b&gt;术后才需要使用的&lt;/b&gt;&lt;/center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;数量&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;提示&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;一次性护理垫 60×90cm&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;10 张&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;不要买成护理裤了，是护理垫&lt;br&gt;尺寸差不太多就行&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;防止术后渗液、换药时弄脏床单&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;无酒精湿巾&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 包 80 张左右&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;术后躺着大便后护工阿姨给你擦屁股用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;皮筋&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;4 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;术后护工阿姨给你梳麻花辫用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;梳子&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 把&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;术后护工阿姨给你梳麻花辫用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;牙杯&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;护工阿姨可能会有&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;床上漱口吐水用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;吸管&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;20 支&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;护工阿姨可能会有&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;床上漱口吸水用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;懒人手机支架&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;护工阿姨大概率会有&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;方便使用手机&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;布洛芬&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 盒&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;停止镇痛后自行止痛使用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;小坐垫&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;不是甜甜圈，不要买太薄的&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;术后躺的屁股疼，可以垫在腰上减轻屁股的压力&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;毛巾&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 条&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;术后 7 天解除禁食后才用得上&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;躺着吃饭拿来垫着用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;center&gt;&lt;b&gt;拆包下地后才需要使用的&lt;/b&gt;&lt;/center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;数量&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;提示&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;全棉紧内裤&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2 条&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;正常女性内裤就行，别松松垮垮的&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;包一下减轻水肿&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;日用卫生巾&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;20 片&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;245mm+&lt;br&gt;每天大概用 3~4 片，根据在上海的时间决定量&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;防止弄脏内裤&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;安全套&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;10 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;最普通的就行，别买某些看起来很刺激的&lt;br&gt;开始通模具后每天用两个，根据在上海的时间决定量&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;通模具&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;假阳具&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;直径 2.5cm，&lt;a href=&#34;https://m.tb.cn/h.5YdiLgN?tk=XVWtdGoQjrn&#34;&gt;参考链接（淘宝）&lt;/a&gt;&lt;br&gt;可以同时把之后要用的 3.0cm 一起买了&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;通模具&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;小镜子&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;矩形、手掌大小&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;自己看下面&lt;br&gt;通模具的时候看阴道口在哪&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;浴巾&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;2 条&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;-&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;不穿裤子下地时挡着下面&lt;br&gt;垫在床上&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;长尾夹或者发卡&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;如果用发卡也得是能夹的比较紧的，否则会掉&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;夹着围在身上的浴巾&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;甜甜圈&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;1 个&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;电商平台搜索「痔疮垫」关键词购买，买女款&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;垫在屁股下面坐着用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;p&gt;入院时护士也会告诉你需要带什么，但她们可能为了保险起见或者某种规范，会把东西说多，比如：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;粗网灭菌凡士林纱布会告诉你必须 20 张，但往往 10 张真的够了。&lt;/li&gt;
-&lt;li&gt;内裤会让你多带几条，但往往 2 条也真的够了，毕竟垫了卫生巾。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;此外也不要太社恐，问问其他姐妹还需要买什么，说不定同时还能蹭到没用完的东西。&lt;/p&gt;
-&lt;h2 id=&#34;办理住院&#34;&gt;办理住院&lt;/h2&gt;
-&lt;p&gt;先前往整形外科门诊处向陈医生询问是否有自己的住院安排，或者直接找赵博确认能否住院。&lt;/p&gt;
-&lt;p&gt;确认能够住院后，在门诊处陈医生会检查你准备的诊断证明等纸质材料，检查无误后会给你一张待床证。&lt;/p&gt;
-&lt;p&gt;如果还要在外面逛，就先去外面，逛完后再拿着待床证去住院大楼缴费、登记住院即可。&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/srs-sh411/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    &lt;ul&gt;
-&lt;li&gt;可能会没有床位，需要蹲其他人出院。&lt;/li&gt;
-&lt;li&gt;请注意待床证有效期限（问医生）。&lt;/li&gt;
-&lt;/ul&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;登记完成后，尽快电梯上 21 楼，直接到护士站说「我要办住院」，注意以下事项：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;手腕带要戴在右手上。&lt;/li&gt;
-&lt;li&gt;会问身高体重，请提前测一下记住。&lt;/li&gt;
-&lt;li&gt;会问你带了什么东西，请提前记录一下「附录 1」中的东西自己买了多少（不是照着这个附录买）。&lt;/li&gt;
-&lt;li&gt;会让你记住主治医生（重要，因为你后续需要去找主治医生，而医生办公室不只有一个人）、护士长和责任护士的名字，除非最强大脑否则请用软件记录或者录音。&lt;/li&gt;
-&lt;li&gt;会给你一把剪刀剪纱布，剪刀只有一把，所以到病房后请尽快剪完把剪刀还回去。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;br&gt;&lt;center&gt;&lt;b&gt;附录 1：（MTF）入院准备&lt;/b&gt;&lt;/center&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;物品&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;拖鞋&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;水杯&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;小风扇&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;产褥垫&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;手机支架&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;毛巾&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;脸盆&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;牙刷、牙膏&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;饭和（应该是饭盒）筷子勺子&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;紧内裤（很紧的全棉内裤，备好换洗）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;姨妈巾&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;避孕套 * 2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;湿巾&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;抽纸&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;凡士林纱布（25*40）20 片&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;小镜子&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;毯子&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;个人生活用品（洗面奶，护肤品等）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;梳子&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;吹风机&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;住院后&#34;&gt;住院后&lt;/h2&gt;
-&lt;p&gt;花钱请护工阿姨之前饭要自己去拿，吃饭时间是 06:50，11:00 和 16:50，工作人员推饭车到走廊，自己去找她，说床号取饭；只有早饭需要自己拿饭盒。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;入院后当天会有护士告诉你抽血等检查事项，注意别跟我一样睡着了迷迷糊糊，导致把护士说的话忘个一干二净。&lt;/p&gt;
-&lt;p&gt;注意不要手贱去玩粪常规的样本盒，按上之后可能非常难打开。&lt;/p&gt;
-&lt;p&gt;关于检查的彩超，可能初次并不能知道具体时间，需要后续去问，所以这段时间吃饭请确认没有邻近的彩超检查安排，彩超时间确定后就可以放心了。&lt;/p&gt;
-&lt;p&gt;关于尿常规和粪常规，需要在 06:00~10:00 之间取样，尿液需要是中断尿（所以采样前多喝点水，别尿不出来）&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;关于剪纱布，可以先折一个正方形，之后按照这个正方形的形状去卷几圈，再用剪刀一次性剪断两边——这样可以一次性获得多张剪好的纱布，节约时间。&lt;/p&gt;
-&lt;p&gt;关于拆解纱布，可以用右手轻轻捏住，左手捏住左上角的尖，然后左手往对角线外侧拉，多试几次就能掌握诀窍——一心一意拆的话两三小时即可完成。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;第二天主治医生会把你叫到医生办公室，给你讲解术式原理，给你看一个手术流程的视频，签字，补充过敏、家庭状况、激素使用时间等项目进入病例，再测量腿围付款 688 购买弹力袜。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;术前几天会有护士通知你手术时间，再次询问手术史、过敏、药物使用情况等，并告知术前注意事项。&lt;/p&gt;
-&lt;p&gt;再过一段时间又会有麻醉科医生通知麻醉注意事项，会问你是否使用止痛泵（必须用不然会疼死），签字同意全麻和同意阵痛。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;术前一天会有护士来给你刮毛毛；主治医生会叫你去医生办公室付款 1554 * 4 = 6216 元的止血材料，并告知你作用。&lt;/p&gt;
-&lt;p&gt;如果你的头发刚洗完后特别爆炸难以处理的话，可以考虑术前一天洗个头，不在手术当天洗。&lt;/p&gt;
-&lt;p&gt;下午护士站会叫你，给你讲大量的手术注意事项，建议录音。&lt;/p&gt;
-&lt;p&gt;关于舒泰清，注意以下事项：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;使用 500ml 凉水冲开，之后去开水房接热水到指定容量，这样温度是合适的。（凉水需要自己用杯晾，所以喝第一杯之前两小时、喝完第 1、2 杯之后需要赶紧去晾水，为下一次做准备）。&lt;/li&gt;
-&lt;li&gt;加入开水后一定要再次搅拌，否则分布不均。&lt;/li&gt;
-&lt;li&gt;10 分钟之内很可能喝不完，不会造成太大影响；但最后一杯最好喝快一点，因为护士会在外面等你灌肠。&lt;/li&gt;
-&lt;li&gt;如果想吐就去厕所，吐了以后再喝就会稍微舒服点。&lt;/li&gt;
-&lt;li&gt;喝完第二杯的时间左右才会痛快排泄。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;晚上 19:30 左右护士来灌肠，之后输液；灌完肠后记得拉干净一点，否则之后一边输液一边上厕所可不太舒服。&lt;/p&gt;
-&lt;p&gt;此过程需要呼叫护士，按床上那个电话线挂着的按钮就可以呼叫了，只用按一次就会一直响直到护士响应。&lt;/p&gt;
-&lt;p&gt;这些过程完成后你大概不会想洗澡的，安心睡觉就好啦。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;手术当天清晨定一个 06:00 的闹钟就可以，起床后不久会有护士再来测血压和体温。&lt;/p&gt;
-&lt;p&gt;之后收拾一下东西，把纸巾、湿巾等都拿出来放到柜子里面，你觉得之后能用得上的所有东西都不要放在行李箱里，因为实在不好拿，阿姨可能也没耐心给你翻；桌子上因为术后要放监测仪，所以不要放任何东西。&lt;/p&gt;
-&lt;p&gt;06:30 左右阿姨会来给你用开塞露，憋一两分钟就行，之后去厕所拉肚子（很痛），拉完肚子后就可以放心的洗个澡了，洗完澡后换上新的病号服。&lt;/p&gt;
-&lt;p&gt;快到 8 点的时候，如果主治医生还没给你弹力袜，就去找他要，拿到手后让护工阿姨帮你穿上，自己穿可能会穿错。&lt;/p&gt;
-&lt;p&gt;08:15 左右护士就会叫你下去了，不用带皮筋，手术室头发是团在帽子里面的；自己的眼镜和拖鞋不用担心，护士会给你拿回病房。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;在手术室内打完留置针，戴上氧气面罩，努力睁眼看看四周，一会就没有意识了。&lt;/p&gt;
-&lt;h2 id=&#34;手术后&#34;&gt;手术后&lt;/h2&gt;
-&lt;p&gt;醒来后会感觉下面疼疼疼疼疼疼疼⊙﹏⊙∥，类似憋尿到极限的感觉，主要是尿管带来的不适，也不用自己尝试尿出去，尽量忍住，回到病房渐渐的就会好了。&lt;/p&gt;
-&lt;p&gt;被推回病房，躺在自己的床上后，记得向阿姨要一个塑料袋垫着，防止吐了（不吐也没关系，但万一吐在床上就很恶心）。继续昏睡一段时间，下午就可以短暂使用手机给重要的人报下平安了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;使用止痛泵的过程如果感到恶心，可以尝试让护工阿姨关掉止痛泵。&lt;/p&gt;
-&lt;p&gt;输液的时候注意：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;是有输液报警器的，没有记得要，报警后请及时按铃呼叫护士。&lt;/li&gt;
-&lt;li&gt;自己要能拿到流量调节器，在滴壶里面的液体快流完的时候自己把流量调节器关了（虽然不关大概率也不会输进空气造成生命危险，但回流会加大痛苦）&lt;/li&gt;
-&lt;li&gt;有一袋绿色字小包装的药输的时候血管会痛（这种包装的药有两包，但只有一包会疼，可以问一下护士），输的时候记得拿好流量调节器，感觉疼了就赶紧关掉，再慢慢放开。&lt;/li&gt;
-&lt;li&gt;留置针的使用时长有限，护士看到针不太行了会主动给你换；如果就剩最后一天了，记得提醒护士可以换钢针（留置针比较贵）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果腿部实在太疼可以考虑换个姿势，比如把一条腿翘起来，不会有太大影响，但还是尽量别……&lt;/p&gt;
-&lt;p&gt;每隔 3 天就会换一次药，一共换 3 次，如果有特殊情况时间可能推迟，不用太担心，医生不会忘记给你换药的。&lt;/p&gt;
-&lt;p&gt;第一周禁食快结束的时候，可以稍微吃一点点东西解馋（比如一小袋饼干，千万别吃多了）；此外这个时间放屁可能带出大便，是正常情况（不是吃东西吃的），告诉阿姨给你擦一下就可以了。&lt;/p&gt;
-&lt;p&gt;这几天主要的不适感会来自：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;长时间输液&lt;/li&gt;
-&lt;li&gt;躺的屁股疼、腰疼、腿疼&lt;/li&gt;
-&lt;li&gt;晚上因为难受睡不着觉&lt;/li&gt;
-&lt;li&gt;手术区域持续性的疼痛，不是太疼，但一直疼也会让你很难集中精力做事&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;刚开始吃饭之后，肚子会翻江倒海，你能感觉食物在肠胃里面流动，时不时顶一下肛门，会有强烈的憋大便的感觉，但其实并不能拉出东西来（一般而言吃饭第 3 天才会拉出东西来）。&lt;/p&gt;
-&lt;p&gt;吃饭第二天就没有憋大便的感觉了，变成憋小便的感觉（然而插着尿管怎么憋小便呢）。&lt;/p&gt;
-&lt;p&gt;不输液了之后一定记得多喝水。&lt;/p&gt;
-&lt;p&gt;术后理论第 12 天（手术当天为第 0 天，下同）拆包，可以自己看一看了。&lt;/p&gt;
-&lt;p&gt;拆包后过一两天才会尝试下地，下地可能会非常晕，丧失视觉和听觉，并且伴随恶心，可能会失去意识，受不了的话就躺回床上休息一下吧，不过要记得多次练习，尽快能下地行走为好。&lt;/p&gt;
-&lt;p&gt;尝试下地之后就可以开始夹管了，尿管上面有一个夹子，按下去之后过一两小时再放开就可以，我只练习了 3、4 次，似乎少了些，但也没有什么影响。&lt;/p&gt;
-&lt;p&gt;随着时间发展插着尿管会越来越难受，甚至疼到晚上叫的地步…… 术后大于等于 14 天如果医生还没有来给你拆线拔管的话，可以直奔医生办公室让他给你拔。拔完管后前几次上厕所会很刺激，第一次可能会带出血液是正常情况无需担心。&lt;/p&gt;
-&lt;p&gt;拔完尿管之后感觉身体就都是自己的了，如获新生。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;赵博准备让你出院的前一阵子才会给你通模具，之后阿姨可能还会再教你一次；润滑的话，医院是会提供普朗特凝胶伤口敷料的，无需自己购买。&lt;/p&gt;
-&lt;p&gt;给你开出院的诊断证明前，一定要向主治医生确认自己的诊断证明上的姓名、身份证号、住址和户口本（身份证）上的信息一字不差，避免造成不必要的麻烦；如果有类似「不适宜体育运动」的需求，也请提前和主治医生沟通。&lt;/p&gt;
-&lt;p&gt;出院前护工阿姨会告诉你公证处工作人员的电话，你需要先电话联系一下工作时间，也算作一种预约吧；工作人员会让你到了之后再打电话。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;可以考虑将没有用完的护理垫带回家，通模具的时候可以防止弄脏家里的床单。&lt;/p&gt;
-&lt;p&gt;出院当天护工阿姨就会帮你洗澡洗头了，之后收拾完东西阿姨也会帮你把东西带下去，送你上网约车。可以考虑直接去公证处，如果回家的车票不是当天（要住酒店），也可以打车去酒店，把大包小包的放下再去公证处。&lt;/p&gt;
-&lt;p&gt;如果想出院的时候拍几张照片留念，可以下楼后再打车；如果想尽快走，就在楼上打好。&lt;/p&gt;
-&lt;h2 id=&#34;出院后&#34;&gt;出院后&lt;/h2&gt;
-&lt;p&gt;打车去公证处后，打电话告诉公证员自己已经到了，公证人员就会让你去 X 号接待室等着，坐在门口公证人员就会去找你了。公证事项是那张《诊断证明书》的「影印件与原件相符，原件属实」（记住，会问你），阿姨建议要三分副本；公证处需要复印你的户口簿、身份证、出院的诊断证明、病历、三甲证明等；公证书建邮寄，我是办理公证后的第 6 天看到快递发出了，一般是顺丰，可以考虑装一个顺丰 App，有通知的。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;回家的话建议以「坐的时间最少」为标准，但按照我的恢复情况持续坐 8 个小时也没有问题，不建议发生以下情况：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;为了坐卧铺车，而在候车室坐好几个小时。&lt;/li&gt;
-&lt;li&gt;软卧，和另外三个男的睡一晚上相当吓人。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;此外坐 5、6 小时的高铁二等座，是可以接受的（以自身恢复情况为准）。&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/srs-sh411/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    高峰期请注意提前买票。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;其他信息&#34;&gt;其他信息&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;送到医院的快递会放在门口门卫处，按楼层分在不同的格子里面；某些快递会放在单独的位置。&lt;/li&gt;
-&lt;li&gt;送到医院的外卖会放在门口西侧的外卖架子上，点外卖的话提醒快递员放在该架子上并拍照。&lt;/li&gt;
-&lt;li&gt;医院快递地址：上海 上海市 虹口区 四川北路街道东江湾路15号长海医院虹口院区住院部整形外科21楼XX床（现在是四一一医院了，可能有变化；记得写上楼层）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;br&gt;&lt;center&gt;&lt;b&gt;最后祝大家都能成功割尾巴~~&lt;/b&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/categories/life/">life</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/trans/">Trans</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>邸晓兰处开证流程</title>
-                <link>https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/</link>
-                <guid isPermaLink="true">https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/</guid>
-                <pubDate>Mon, 06 Mar 2023 00:00:00 &#43;0000</pubDate>
-                
-                    <author>LiMee233@outlook.com (Li Mee)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;回顾自己在回龙观医院找邸晓兰医生开具诊断证明的过程，再看看 MtF Wiki 上面的信息，差的太多了，于是打算摆烂（提 Pr，保证信息正确等等太麻烦了），写在自己的 Blog 上。&lt;/p&gt;
-&lt;h2 id=&#34;初次面诊&#34;&gt;初次面诊&lt;/h2&gt;
-&lt;p&gt;询问内容较为详细，邸晓兰医生喜欢自说自话地讲很多事情，重点注意在面诊时提出自己的需求就行：比如最终目的是手术就一定要说，否则她看你意义不明可能顺手给你加上「为合理使用激素就诊于我院，暂不考虑变性手术」这种字样（但加上也没什么影响（毕竟手术的时候只要诊断证明，不要病例），就是看着别扭）。&lt;/p&gt;
-&lt;p&gt;花费价格在 1000 元以下，建议准备 1000 元备用即可。&lt;/p&gt;
-&lt;p&gt;此外家长是否陪诊需要视自己情况而定：比如家长在场，自己会不会紧张、语无伦次？是否需要医生劝说家长？而比较实际的情况是，只要家长不太反对，陪同前往就可以减少医生的顾虑。&lt;/p&gt;
-&lt;p&gt;初次面诊即可掉落病例，可用于国内的合规 HRT，但我想除非是用于劝家长，大部分人还是会自己买药吧。&lt;/p&gt;
-
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    有没有合规 HRT 不影响最终开具诊断证明。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;第二次和第三次&#34;&gt;第二次和第三次&lt;/h2&gt;
-&lt;p&gt;邸晓兰会告知你需要找另一位医生做出相同诊断，方便（保险）起见最好找同院的牛雅娟或过斌，这可以放在第二次或第三次。&lt;/p&gt;
-&lt;p&gt;找另一位医生的话，会按照他们的方式进行判断：牛雅娟会把大量的机会留给你去自述，所以要在就诊前自己梳理好时间线，方便流畅的陈述自己的问题；也会开几张问卷，她确认问卷没有大问题，就会做出诊断。&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    所有的病例可以在获取诊断证明时全部复印（虽然没啥用）。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;再找邸晓兰，就是简单的问一下近况，看你没啥问题就打发走了。&lt;/p&gt;
-&lt;h2 id=&#34;获取诊断证明&#34;&gt;获取诊断证明&lt;/h2&gt;
-&lt;p&gt;在我就诊时需要的材料如下（不具时效性）：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;其他医生的一次相同诊断（即前面两次中的一次）&lt;/li&gt;
-&lt;li&gt;自己的身份证复印，写明自己如何体验性别困扰，使用激素和女性化生活了多久，变性手术决心以及能够承担手术的不良后果。&lt;/li&gt;
-&lt;li&gt;父母的身份证复印，写明他们支持、同意手术，也能够承担手术的不良后果。&lt;/li&gt;
-&lt;li&gt;无犯罪记录证明（不管什么辖区范围）。&lt;/li&gt;
-&lt;li&gt;染色体检查结果（原件或复印件均可）。&lt;/li&gt;
-&lt;li&gt;如果你和你的父母三个人户口不在一起，需要证明亲属关系，可以去公安局开具亲属关系证明（别说自己有出生医学证明，否则可能不给开）；医院也可以凑活着认可出生医学证明复印件（毕竟有父母姓名和身份证号）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这些材料都备好，挂号找邸晓兰即可根据指导开具诊断证明。&lt;/p&gt;
-&lt;p&gt;开具的诊断证明在二楼分诊台盖章；想要病例的话，在分诊台开病历复印申请，之后去右边 3 号窗口提交，立等可取，不需要花钱，随后也可在分诊台盖章。&lt;/p&gt;
-&lt;h2 id=&#34;其他值得注意的东西&#34;&gt;其他值得注意的东西&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;我本人没有抑郁等精神问题，如有可能会造成影响。&lt;/li&gt;
-&lt;li&gt;时间要求：首次就诊后至少观察期 1 年；需要一共 4 次就诊，每次就诊间隔 1 个月以上。（不是必须间隔 3 个月）&lt;/li&gt;
-&lt;li&gt;进入诊室记得录音，录音记得备份。&lt;/li&gt;
-&lt;li&gt;邸晓兰可能不太会仔细看检查结果，这有可能造成「家长认为该医生不够权威」的问题，需要引起注意。&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/categories/life/">life</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/trans/">Trans</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>河北工业大学在读学生集体户口迁出历程</title>
-                <link>https://limee233.github.io/posts/life/jitihukou-move-out/</link>
-                <guid isPermaLink="true">https://limee233.github.io/posts/life/jitihukou-move-out/</guid>
-                <pubDate>Wed, 24 Aug 2022 00:00:00 &#43;0000</pubDate>
-                
-                    <author>LiMee233@outlook.com (Li Mee)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;在上大学的时候脑子进水，可能由于包括但不限于讨厌河北省卷王学习氛围、防止成为家暴党被户口卡死等情况…… 但这些问题随着 &lt;del&gt;「我们是最后一代」&lt;/del&gt; 和「家长党」而解决了，我也从「犹豫 HRT」转变成了坚决要做手术的情况（大雾），集体户口无法修改身份证和户口本性别的问题渐渐浮出水面。&lt;/p&gt;
-&lt;p&gt;将学校集体户口转回原籍，或至少是转到任意不是集体户口的地方就成了当务之急。&lt;/p&gt;
-&lt;h2 id=&#34;学校政策&#34;&gt;学校政策&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;学校集体户口无法更改性别信息，详见 &lt;a href=&#34;https://baoweichu.hebut.edu.cn/fwzn/hjzl/29301.htm&#34;&gt;在校学生户籍信息不能变更的情况说明&lt;/a&gt;（虽然没有写性别，但肯定也不能改对吧）。&lt;/li&gt;
-&lt;li&gt;学校集体户口支持在就读时迁出，详见 &lt;a href=&#34;https://baoweichu.hebut.edu.cn/fwzn/hjzl/23dd55272d474ef08a44d0b896424eb6.htm&#34;&gt;在校学生如何办理户口迁出手续&lt;/a&gt;。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;流程&#34;&gt;流程&lt;/h2&gt;
-
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    流程仅供参考，具体请亲自咨询相关部门。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;p&gt;先在学校办理 &lt;strong&gt;本人户口页原件&lt;/strong&gt; 和 &lt;strong&gt;户主页的复印件&lt;/strong&gt; 的借出手续，使用学生证在体育中心西南角 A102 室即可办理，随后得到 本人户口本页 x1，户主页照片 x2（不要忘记同时拍摄正反面）。&lt;/p&gt;
-&lt;p&gt;回宿舍，用 PS 处理一下拍摄的户主页，正反两面放在一张 A4 大小的纸上，和复印的样子差不多即可，随后去打印至少 1 张。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;拿着原籍户主（大概率是你的家长）的户口本、身份证原件；你自己的户口页、集体户口户主页的复印件 和 你自己的身份证件，去原籍办理「准予迁入证明」。&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    如果说出「在读大学生集体户口迁回原籍」，原籍派出所很可能会直接否认，可以向原籍派出所强调学校只要拥有原籍出具的「准予迁入证明」就能同意 / 办理迁出，&lt;del&gt;你们给我开「准予迁入证明」就行别管那么多破事。&lt;/del&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;notice tip&#34;&gt;
-    &lt;p class=&#34;notice-title tip&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    准予迁入证明使用「父母与子女互相投靠」等简单理由就可以使用。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;notice tip&#34;&gt;
-    &lt;p class=&#34;notice-title tip&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/jitihukou-move-out/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    （包括以后的所有步骤）过期的身份证件也可以办理，无需在天津（双口镇派出所）事先更新身份证。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;办理好的准予迁入证明如图所示，有效期为 40 天&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;zhunxuqianruzhengming.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;拿到准予迁入证明后，复印 1 份（也可以 PS 处理后打印），拿着准予迁入证明原件和复印件、学生证、你自己的户口页、你自己的身份证去学校户籍科开具迁户证明。&lt;/p&gt;
-&lt;p&gt;办理好的迁户证明如图所示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;qianhuzhengming.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;随后，携带学校办好的迁户证明、你自己的户口页、学生证、身份证和原籍派出所办理的准予迁入证明，到天津市公安局北辰分局双口派出所办理「户口迁移证」。&lt;/p&gt;
-&lt;p&gt;办理好的户口迁移证如图所示，有效期为 30 天（但过期不一定会影响迁入地的手续办理）。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;hukouqianyizheng.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;最后就是携带「户口迁移证」和要迁入的户口本去迁入地派出所办理户口迁入，当场即可办结。&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/categories/life/">life</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/trans/">Trans</category>
-                                
-                            
-                        
-                    
-                
-            </item>
         
             <item>
                 <title>Xorg 分数缩放的相关问题</title>
@@ -1093,92 +40,7 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/xorg-fractional-scaling/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    基于 X11 的 Gnome
-    &lt;/div&gt;
-&lt;/div&gt;
+                    <description>&lt;p&gt;注：本文基于 X11 的 Gnome&lt;/p&gt;
 &lt;h2 id=&#34;启用分数缩放&#34;&gt;启用分数缩放&lt;/h2&gt;
 &lt;p&gt;首先进入 Gnome 的设置，将整数缩放调整为看起来偏大的值，比如 200%。&lt;/p&gt;
 &lt;p&gt;执行 &lt;code&gt;xrandr&lt;/code&gt; 查看当前显示器，大概可以通过分辨率和刷新率判断，如图所示显示器的名称为 eDP.&lt;/p&gt;
@@ -1188,7 +50,7 @@
 &lt;p&gt;需要缩放比例为 150%，整数缩放比例为 200%，那么分辨率需要缩放 200% / 150% = 1.33&lt;/p&gt;
 &lt;p&gt;现在缩放看起来就比较正常了。&lt;/p&gt;
 &lt;h2 id=&#34;开机自动应用分数缩放&#34;&gt;开机自动应用分数缩放&lt;/h2&gt;
-&lt;p&gt;执行 &lt;code&gt;gsettings set org.gnome.desktop.interface scaling-factor 2&lt;/code&gt; （2 为上 N 步选择的整数缩放比例），将整数缩放比例固化。&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;gsettings set org.gnome.desktop.interface scaling-factor 2&lt;/code&gt;（2 为上 N 步选择的整数缩放比例），将整数缩放比例固化。&lt;/p&gt;
 &lt;p&gt;创建文件 &lt;code&gt;~/.config/autostart/hidpi.sh&lt;/code&gt;，内容如下（应该知道 1.33 是什么）：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1218,20 +80,21 @@ X-GNOME-Autostart-enabled=true
 &lt;p&gt;现在重新启动系统，缩放比例应该可以自动设置了。&lt;/p&gt;
 &lt;h2 id=&#34;鼠标过慢&#34;&gt;鼠标过慢？&lt;/h2&gt;
 &lt;p&gt;如果你的鼠标 DPI 不高，那在使用虚拟分辨率后，即使调整设置中的鼠标速度，还是会感觉很慢或者有一种奇怪的感觉。&lt;/p&gt;
-&lt;p&gt;执行 &lt;code&gt;xinput list&lt;/code&gt; 查看当前的输入设备列表，如图所示 Logitech Wireless Mouse （罗技无线鼠标）就是我们需要的（请自行判断自己的设备名）&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;xinput list&lt;/code&gt; 查看当前的输入设备列表，如图所示 Logitech Wireless Mouse（罗技无线鼠标）就是我们需要的（请自行判断自己的设备名）&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;xinput-list.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;执行 &lt;code&gt;xinput list-props &amp;quot;Logitech Wireless Mouse&amp;quot;&lt;/code&gt; （自行替换设备名），查看此设备可调整的属性。&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;xinput list-props &amp;quot;Logitech Wireless Mouse&amp;quot;&lt;/code&gt;（自行替换设备名），查看此设备可调整的属性。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;xinput-list-props.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;属性中可见 Coordinate Transformation Matrix 即坐标变换矩阵，调整它即可调整鼠标真正的速度，而不是加速度。&lt;/p&gt;
 &lt;p&gt;可以接受的值为 9 个小数，默认值应为 &lt;code&gt;1 0 0 0 1 0 0 0 1&lt;/code&gt;，在此不研究它的原理，只需要知道第 1 和 5 个数，就是前两个 1 控制了鼠标移动的坐标变换。&lt;/p&gt;
-&lt;p&gt;只需要将前两个 1 调大，鼠标移动速度就可以变快，故 &lt;code&gt;xinput set-prop &amp;quot;Logitech Wireless Mouse&amp;quot; &amp;quot;Coordinate Transformation Matrix&amp;quot; 2 0 0 0 2 0 0 0 1&lt;/code&gt;（仍然是自己替换掉设备名）将 1 改为 2 ，鼠标速度得以恢复正常。&lt;/p&gt;
+&lt;p&gt;只需要将前两个 1 调大，鼠标移动速度就可以变快，故 &lt;code&gt;xinput set-prop &amp;quot;Logitech Wireless Mouse&amp;quot; &amp;quot;Coordinate Transformation Matrix&amp;quot; 2 0 0 0 2 0 0 0 1&lt;/code&gt;（仍然是自己替换掉设备名）将 1 改为 2，鼠标速度得以恢复正常。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;没错这个重启会失效。&lt;/p&gt;
-&lt;p&gt;拿出上 N 步那个 &lt;code&gt;~/.config/autostart/hidpi.sh&lt;/code&gt; ，把最终的 &lt;code&gt;xinput set-prop &amp;quot;Logitech Wireless Mouse&amp;quot; &amp;quot;Coordinate Transformation Matrix&amp;quot; 2 0 0 0 2 0 0 0 1&lt;/code&gt; 复制进去就可以了。&lt;/p&gt;
+&lt;p&gt;拿出上 N 步那个 &lt;code&gt;~/.config/autostart/hidpi.sh&lt;/code&gt;，把最终的 &lt;code&gt;xinput set-prop &amp;quot;Logitech Wireless Mouse&amp;quot; &amp;quot;Coordinate Transformation Matrix&amp;quot; 2 0 0 0 2 0 0 0 1&lt;/code&gt; 复制进去就可以了。&lt;/p&gt;
 &lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
 &lt;p&gt;又是一篇水文，但找到这些方法还是要花一段时间的，记录一下也无妨。&lt;/p&gt;
-&lt;p&gt;正是因为倔强的不使用「处处都是粗糙的边缘」的 KDE ， Gnome wayland 下分数缩放的模糊，才引发了这一堆破事，&lt;del&gt;如果没有强迫症该有多好。&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;主要就是依靠找到的这两个问答：&lt;/p&gt;
+&lt;p&gt;正是因为倔强的不使用「处处都是粗糙的边缘」的 KDE，Gnome wayland 下分数缩放的模糊，才引发了这一堆破事，&lt;del&gt;如果没有强迫症该有多好。&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/Fedora/comments/mlejm5/fixing_hidpi_fractional_scaling_on_gnome_xorg/&#34;&gt;Fixing HiDPI fractional scaling on Gnome + Xorg tearing and graphical glitches.&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://unix.stackexchange.com/questions/90572/how-can-i-set-mouse-sensitivity-not-just-mouse-acceleration&#34;&gt;How can I set mouse sensitivity, not just mouse acceleration?&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -1274,8 +137,8 @@ X-GNOME-Autostart-enabled=true
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;一直很好奇一个问题， Device Tree 里面的 proprietary-files.txt 、 setup-makefiles.sh 、 extract-files.sh 是怎么来的，怎么用的，毕竟删掉它们也不影响编译&lt;/p&gt;
-&lt;p&gt;直接给出结论吧，这三个文件都是为了生成 vendor 服务的，而 vendor 也就是所谓的 proprietary(vendor) blob. 如果一直从诸如 Pixel Experience 的 &lt;a href=&#34;https://gitlab.pixelexperience.org/android/vendor-blobs&#34;&gt;vendor blobs&lt;/a&gt; 中获取 vendor 树，则很容易 &lt;del&gt;像我一样&lt;/del&gt; 不清楚这些文件的作用，也不清楚 vendor 中的内容是如何生成的。&lt;/p&gt;
+                    <description>&lt;p&gt;一直很好奇一个问题，Device Tree 里面的 proprietary-files.txt、setup-makefiles.sh、extract-files.sh 是怎么来的，怎么用的，毕竟删掉它们也不影响编译&lt;/p&gt;
+&lt;p&gt;直接给出结论吧，这三个文件都是为了生成 vendor 服务的，而 vendor 也就是所谓的 proprietary(vendor) blob，如果一直从诸如 Pixel Experience 的 &lt;a href=&#34;https://gitlab.pixelexperience.org/android/vendor-blobs&#34;&gt;vendor blobs&lt;/a&gt; 中获取 vendor 树，则很容易不清楚这些文件的作用，也不清楚 vendor 中的内容是如何生成的。&lt;/p&gt;
 &lt;p&gt;恰巧，最近 alioth 多个设备树配套的 vendor 都无法开机，因此就来自己生成一个 vendor blob 吧&lt;/p&gt;
 &lt;h2 id=&#34;执行逻辑&#34;&gt;执行逻辑&lt;/h2&gt;
 &lt;p&gt;还是要先说一下基本的执行流程&lt;/p&gt;
@@ -1283,13 +146,13 @@ X-GNOME-Autostart-enabled=true
 &lt;p&gt;extract-files.sh 会寻找设备树目录下的 proprietary-files.txt 文件，并根据此文件内一行一行列出的文件，从 adb 连接的设备（或指定的文件夹）中提取它们，进行整合，最终把提取出的文件放入 &lt;code&gt;vendor/xiaomi/alioth&lt;/code&gt; 中，整个过程是全自动的，执行后即可生成 vendor 树。&lt;/p&gt;
 &lt;p&gt;而 setup-makefiles.sh 则是 extract-files.sh 执行过程中引用的一个「模块」。&lt;/p&gt;
 &lt;h2 id=&#34;准备材料&#34;&gt;准备材料&lt;/h2&gt;
-&lt;p&gt;vendor blob 一般是直接从手机中、或从 MIUI 官方发布的刷机包中提取。很明显，把主力机用来开发的我不可能每次提取都刷一遍最新的 MIUI （这会清除数据的啊喂），所以在此处选择从 MIUI 官方提供的线刷包中提取 vendor blob.&lt;/p&gt;
+&lt;p&gt;vendor blob 一般是直接从手机中，或从 MIUI 官方发布的刷机包中提取。很明显，把主力机用来开发的我不可能每次提取都刷一遍最新的 MIUI（这会清除数据的啊喂），所以在此处选择从 MIUI 官方提供的线刷包中提取 vendor blob.&lt;/p&gt;
 &lt;p&gt;那需要准备的材料就是一个线刷包，下载完成后把里面的 super.img 拉出来。&lt;/p&gt;
 &lt;h2 id=&#34;解包和挂载&#34;&gt;解包和挂载&lt;/h2&gt;
 &lt;p&gt;如果没有，先安装工具 &lt;code&gt;sudo apt install simg2img&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;执行 &lt;code&gt;simg2img super.img super.img_raw&lt;/code&gt; 将 Android sparse image 转换为 raw image&lt;/p&gt;
-&lt;p&gt;你需要编译过一次 Android 源码，在 &lt;code&gt;out/host/linux-x86/bin&lt;/code&gt; 中找到 &lt;code&gt;lpunpack&lt;/code&gt; ，在此目录执行 &lt;code&gt;./lpunpack super.img_raw ~/super&lt;/code&gt; 将 super.img 的 raw 格式解包到 ~/super 目录，应该能在该目录中发现 system.img product.img 等文件（ A/B 或 VAB 分区为 system_a.img product_a.img 等）。&lt;/p&gt;
-&lt;p&gt;以 VAB 分区为例，先挂载 system ，选一个空文件夹，比如挂载到 ~/super/system/ ，在 ~/super/ 目录下执行： &lt;code&gt;sudo mount -o ro system_a.img system/&lt;/code&gt; 完成挂载后应该能在 system 目录下看到 Android system 分区内的文件。&lt;/p&gt;
+&lt;p&gt;你需要编译过一次 Android 源码，在 &lt;code&gt;out/host/linux-x86/bin&lt;/code&gt; 中找到 &lt;code&gt;lpunpack&lt;/code&gt;，在此目录执行 &lt;code&gt;./lpunpack super.img_raw ~/super&lt;/code&gt; 将 super.img 的 raw 格式解包到 ~/super 目录，应该能在该目录中发现 system.img product.img 等文件（A/B 或 VAB 分区为 system_a.img product_a.img 等）。&lt;/p&gt;
+&lt;p&gt;以 VAB 分区为例，先挂载 system，选一个空文件夹，比如挂载到 ~/super/system/，在 ~/super/ 目录下执行： &lt;code&gt;sudo mount -o ro system_a.img system/&lt;/code&gt; 完成挂载后应该能在 system 目录下看到 Android system 分区内的文件。&lt;/p&gt;
 &lt;p&gt;以此类推，执行 &lt;code&gt;sudo mount -o ro vendor_a.img system/vendor/&lt;/code&gt; 等依次挂载所有分区直至完成。&lt;/p&gt;
 &lt;h2 id=&#34;开始生成&#34;&gt;开始生成&lt;/h2&gt;
 &lt;p&gt;cd 到设备树目录，执行 &lt;code&gt;./extract-files.sh ~/super/system/&lt;/code&gt; 即可从挂载的系统目录中提取 vendor blob 了。&lt;/p&gt;
@@ -1375,16 +238,17 @@ X-GNOME-Autostart-enabled=true
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/get-vendor-blob/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    如果找不到的文件太多，就要怀疑用的刷机包版本啊， proprietary-files 是否合适一类的&lt;br&gt;
+    如果找不到的文件太多，就要怀疑用的刷机包版本啊，proprietary-files 是否合适一类的&lt;br&gt;
 总之这不是很正常的现象
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;尚存在的问题&#34;&gt;尚存在的问题&lt;/h2&gt;
-&lt;p&gt;还是没有弄清楚 proprietary-files.txt 是如何生成的，难道是人一行一行手写的吗，好麻烦的样子 qwq.&lt;/p&gt;
+&lt;p&gt;还是没有弄清楚 proprietary-files.txt 是如何生成的，难道是人一行一行手写的吗？&lt;/p&gt;
 &lt;p&gt;还是不清楚为什么「别人制作的 vendor blob 」在 Pixel Experience 中不开机，而其它系统却可以开机。&lt;/p&gt;
-&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.jianshu.com/p/aa567960156c&#34;&gt;Android super.img 镜像解包&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://blog.csdn.net/u012045061/article/details/119383397&#34;&gt;Android super.img 镜像解包（你怎么和上面那个一模一样）&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://wiki.lineageos.org/proprietary_blobs&#34;&gt;Working with proprietary blobs&lt;/a&gt;&lt;br&gt;
@@ -1429,13 +293,11 @@ X-GNOME-Autostart-enabled=true
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;众所周知咱是坚定的原生党嘛，虽然最近把手机摔了换成 k40 ，但还是要在 sm8250-common 的 Device Tree 上进行开发，毕竟骁龙 870 就是 865 的 ++++ 版本。&lt;/p&gt;
-&lt;p&gt;最近 &lt;a href=&#34;https://github.com/xiaomi-sm8250-devs&#34;&gt;Xiaomi SM8250 development&lt;/a&gt; 将底包从 MIUI 12.5.x (Android 11) 升级到了 MIUI 13.x.x (Android 12) ，本来以为是顺利的升级过程，但未曾想到升级后重刷却出现了烦人已久的微信后台问题：&lt;/p&gt;
+                    <description>&lt;p&gt;最近 &lt;a href=&#34;https://github.com/xiaomi-sm8250-devs&#34;&gt;Xiaomi SM8250 development&lt;/a&gt; 将底包从 MIUI 12.5.x (Android 11) 升级到了 MIUI 13.x.x (Android 12)，本来以为是顺利的升级过程，但未曾想到升级后重刷却出现了烦人已久的微信后台问题：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;微信从后台划掉就会被杀，立刻点回去会看到很长的加载界面&lt;/li&gt;
-&lt;li&gt;被杀后可能永远起不来了，然后收不到消息，目前而言，嗯，后果严重（没错就是导致我大一错过形势与政策考试的那个）&lt;/li&gt;
+&lt;li&gt;被杀后可能永远起不来了，然后收不到消息，目前而言，嗯，后果严重&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;这根本没法用嘛，不说了，张小聋没🐎&lt;/p&gt;
 &lt;h2 id=&#34;分析&#34;&gt;分析&lt;/h2&gt;
 &lt;p&gt;介于升级底包前，微信是&lt;strong&gt;有一定几率&lt;/strong&gt;能够正常使用的（就是像流氓软件一样一直霸占后台，但至少可以用，不会丢消息），因此怀疑：&lt;/p&gt;
 &lt;ul&gt;
@@ -1447,12 +309,12 @@ X-GNOME-Autostart-enabled=true
 &lt;/ul&gt;
 &lt;p&gt;最终怀疑那个被破坏的系统功能实际上是调用了某个微信前台服务，去实现某种功能，顺便将微信保活了（不排除本身目的就是保活）。&lt;/p&gt;
 &lt;h2 id=&#34;初步尝试&#34;&gt;初步尝试&lt;/h2&gt;
-&lt;p&gt;将手机 root ，安装微信后&lt;strong&gt;先不要启动&lt;/strong&gt;，尝试通过 adb 启动微信自身的服务，个人印象深刻的 CoreService 自然是第一个选择。&lt;/p&gt;
+&lt;p&gt;将手机 root，安装微信后&lt;strong&gt;先不要启动&lt;/strong&gt;，尝试通过 adb 启动微信自身的服务，个人印象深刻的 CoreService 自然是第一个选择。&lt;/p&gt;
 &lt;p&gt;通过 MyAndroidTools 查看服务全称后，在 root 权限下执行 &lt;code&gt;am start-foreground-service -n com.tencent.mm/com.tencent.mm.booter.CoreService&lt;/code&gt; 启动 CoreService&lt;/p&gt;
 &lt;p&gt;执行成功后即可在正在运行的服务（或缓存）中看到微信。&lt;/p&gt;
 &lt;p&gt;此时我启动微信，惊喜的发现划掉后台时微信就不会被杀死了。&lt;/p&gt;
 &lt;h2 id=&#34;系统整合&#34;&gt;系统整合&lt;/h2&gt;
-&lt;p&gt;想到 sm8250-common 的设备树中有一个 XiaomiParts 中含有 BootCompletedReceiver ，开机后启动微信的 CoreService ，这是可行的，以下代码可在 Android 12 中编译并正常运行：&lt;/p&gt;
+&lt;p&gt;想到 sm8250-common 的设备树中有一个 XiaomiParts 中含有 BootCompletedReceiver，开机后启动微信的 CoreService，这是可行的，以下代码可在 Android 12 中编译并正常运行：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -1506,20 +368,20 @@ X-GNOME-Autostart-enabled=true
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;Google 官方推荐使用 Ubuntu 构建 AOSP ，但出于 Snap 、 Xorg 和 wayland 两座屎山、 &lt;del&gt;WSL 的 Ubuntu 图标太丑&lt;/del&gt; 、&lt;del&gt;对反补佳乐 LOGO 有执念&lt;/del&gt; 等各种原因我想逃离 Ubuntu ，此文章针对在 WSL2 中使用 Debian 11 (bullseye) 编译 Pixel Experience 12 的关键过程进行总结。&lt;/p&gt;
+                    <description>&lt;p&gt;Google 官方推荐使用 Ubuntu 构建 AOSP，但出于 Snap、Xorg 和 wayland 两座屎山、&lt;del&gt;WSL 的 Ubuntu 图标太丑&lt;/del&gt;等各种原因我想逃离 Ubuntu，此文章针对在 WSL2 中使用 Debian 11（bullseye）编译 Pixel Experience 12 的关键过程进行总结。&lt;/p&gt;
 &lt;h2 id=&#34;安装所需依赖&#34;&gt;安装所需依赖&lt;/h2&gt;
 &lt;p&gt;根据 &lt;a href=&#34;https://source.android.com/setup/build/initializing?hl=zh-cn&#34;&gt;搭建构建环境 | Android 开源项目&lt;/a&gt; 的步骤，安装以下软件包：&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 libncurses5 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig&lt;/code&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;repo init 时可能出现找不到 python 的问题，因此需要安装 &lt;code&gt;python-is-python2&lt;/code&gt; ，如果后期 repo 要求使用 python3 ，可以安装 &lt;code&gt;python-is-python3&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;后期编译可能提示找不到 openssl/?.h ，因此需要安装 &lt;code&gt;libssl-dev&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;后期编译可能提示找不到命令 rsync ，因此需要安装 &lt;code&gt;rsync&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;repo init 时可能出现找不到 python 的问题，因此需要安装 &lt;code&gt;python-is-python2&lt;/code&gt;，如果后期 repo 要求使用 python3，可以安装 &lt;code&gt;python-is-python3&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;后期编译可能提示找不到 openssl/?.h，因此需要安装 &lt;code&gt;libssl-dev&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;后期编译可能提示找不到命令 rsync，因此需要安装 &lt;code&gt;rsync&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;安装-repo&#34;&gt;安装 Repo&lt;/h2&gt;
-&lt;p&gt;在主目录执行 &lt;code&gt;curl https://storage.googleapis.com/git-repo-downloads/repo &amp;gt; ~/repo&lt;/code&gt; 下载 repo ，&lt;br&gt;
+&lt;p&gt;在主目录执行 &lt;code&gt;curl https://storage.googleapis.com/git-repo-downloads/repo &amp;gt; ~/repo&lt;/code&gt; 下载 repo，&lt;br&gt;
 执行 &lt;code&gt;mv ~/repo ~/.bin/repo&lt;/code&gt; 将 repo 移动到合适的目录，&lt;br&gt;
 &lt;code&gt;nano ~/.bashrc&lt;/code&gt; 在最后添加 &lt;code&gt;export PATH=~/.bin:$PATH&lt;/code&gt; 将 ~/.bin 添加到环境变量，再执行 &lt;code&gt;source ~/.bashrc&lt;/code&gt; 使更改生效，&lt;br&gt;
 执行 &lt;code&gt;sudo chmod +x ~/.bin/repo&lt;/code&gt; 赋予 repo 可执行权限。&lt;/p&gt;
-&lt;p&gt;可能需要重启终端， repo 就可以使用了。&lt;/p&gt;
+&lt;p&gt;可能需要重启终端，repo 就可以使用了。&lt;/p&gt;
 &lt;h2 id=&#34;修复一个编译-bug&#34;&gt;修复一个编译 bug&lt;/h2&gt;
 &lt;p&gt;后期编译可能遇到诸如 AssertionError: Failed to execute: out/soong/host/linux-x86/bin/resize2fs 的错误，只需要执行 &lt;code&gt;sudo ln -s /proc/self/mounts /etc/mtab&lt;/code&gt; 创建一个链接即可。&lt;/p&gt;
 &lt;h2 id=&#34;分离工作区&#34;&gt;分离工作区&lt;/h2&gt;
@@ -1605,12 +467,12 @@ X-GNOME-Autostart-enabled=true
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/debian11-build-pe12/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     不能直接在 Windows 所在磁盘分出单独的 ext4 格式分区，这在 WSL2 中无法挂载。
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;使用 Windows 自带的磁盘管理工具，创建一个符合需求大小（比如 300 GB ）的 vhdx 格式虚拟磁盘，创建完成后在磁盘管理中分离此虚拟磁盘（否则在挂载时会提示已占用）。&lt;/p&gt;
+&lt;p&gt;使用 Windows 自带的磁盘管理工具，创建一个符合需求大小（比如 300GB）的 vhdx 格式虚拟磁盘，创建完成后在磁盘管理中分离此虚拟磁盘（否则在挂载时会提示已占用）。&lt;/p&gt;
 &lt;p&gt;使用管理员执行 &lt;code&gt;wsl --mount --vhd &amp;quot;VHDX 文件绝对路径&amp;quot; --bare&lt;/code&gt; 附加虚拟磁盘而不装载它。&lt;/p&gt;
 &lt;p&gt;在 Linux 系统中，使用 &lt;code&gt;lsblk&lt;/code&gt; 参照磁盘大小和顺序确定虚拟磁盘位置，使用 &lt;code&gt;sudo mkfs -t ext4 /dev/sdx&lt;/code&gt; 将虚拟磁盘格式化为 ext4 格式；随后将格式化后的磁盘挂载（在此不赘述），使用 &lt;code&gt;sudo chown 用户名 挂载点&lt;/code&gt; 更改所有者（否则操作文件会有权限问题），挂载点文件夹即可当作普通文件夹使用了。&lt;/p&gt;
 &lt;hr&gt;
@@ -1666,10 +528,10 @@ X-GNOME-Autostart-enabled=true
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。&lt;/p&gt;
+                    <description>&lt;p&gt;虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。&lt;/p&gt;
 &lt;h2 id=&#34;在-vhdx-中安装系统&#34;&gt;在 VHDX 中安装系统&lt;/h2&gt;
 &lt;h3 id=&#34;创建虚拟磁盘&#34;&gt;创建虚拟磁盘&lt;/h3&gt;
-&lt;p&gt;打开磁盘管理 → 操作 → 创建 VHD ，选择位置、大小、格式选择 VHDX ，虚拟磁盘类型为「动态扩展」，完成创建。&lt;/p&gt;
+&lt;p&gt;打开磁盘管理 → 操作 → 创建 VHD，选择位置、大小、格式选择 VHDX，虚拟磁盘类型为「动态扩展」，完成创建。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;create-vhdx.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;创建完成后在磁盘管理中就可以看到新创建的虚拟磁盘，记住其为 &lt;code&gt;磁盘 n&lt;/code&gt; 随后关闭磁盘管理即可。&lt;/p&gt;
 
@@ -1753,30 +615,30 @@ X-GNOME-Autostart-enabled=true
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/vhdx-install-windows/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     教程后续都将默认虚拟磁盘位置为 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt;.
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;初始化虚拟磁盘&#34;&gt;初始化虚拟磁盘&lt;/h3&gt;
-&lt;p&gt;以管理员权限启动 Windows Powershell ，执行 &lt;code&gt;diskpart&lt;/code&gt; 进入 DiskPart 磁盘管理工具。&lt;/p&gt;
-&lt;p&gt;执行 &lt;code&gt;list disk&lt;/code&gt; ，查看 &lt;code&gt;磁盘 n&lt;/code&gt; 是否为刚创建的虚拟磁盘（可通过大小判断）；&lt;br&gt;
+&lt;p&gt;以管理员权限启动 Windows Powershell，执行 &lt;code&gt;diskpart&lt;/code&gt; 进入 DiskPart 磁盘管理工具。&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;list disk&lt;/code&gt;，查看 &lt;code&gt;磁盘 n&lt;/code&gt; 是否为刚创建的虚拟磁盘（可通过大小判断）；&lt;br&gt;
 &lt;code&gt;select disk n&lt;/code&gt; 选择刚创建的虚拟磁盘；&lt;br&gt;
 &lt;code&gt;create partition primary&lt;/code&gt; 为虚拟磁盘创建主分区；&lt;br&gt;
 &lt;code&gt;format quick&lt;/code&gt; 格式化刚创建的分区；&lt;br&gt;
-&lt;code&gt;assign letter=V&lt;/code&gt; 为刚才的分区分配盘符 V ， V 指 Virtual Disk 虚拟磁盘的意思，好记。&lt;/p&gt;
+&lt;code&gt;assign letter=V&lt;/code&gt; 为刚才的分区分配盘符 V（可以换成其他的）。&lt;/p&gt;
 &lt;h3 id=&#34;安装操作系统&#34;&gt;安装操作系统&lt;/h3&gt;
 &lt;p&gt;使用 Dism++ 还原系统的功能，选择一个镜像，安装位置选择刚才为虚拟磁盘分出的 V 盘，不要勾选添加引导、格式化等选项，直接确定即可。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;install-system.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;安装完后，可以在 Dism++ 中安装驱动，或者进行一些优化，当然这就是 Dism++ 的功能了，在此不赘述。&lt;/p&gt;
 &lt;h3 id=&#34;添加引导-gpt--uefi&#34;&gt;添加引导 (GPT + UEFI)&lt;/h3&gt;
 &lt;p&gt;如果你将 VHDX 放在了没有引导分区的磁盘内（比如只有一个分区的移动硬盘），需要先创建一个 efi 分区，参考一些装系统的教程即可。&lt;/p&gt;
-&lt;p&gt;拥有 efi 引导分区后，可以用一些分区工具或 diskpart 为 efi 引导分区分配一个盘符，比如 S ， S 指 System ，系统分区。&lt;/p&gt;
-&lt;p&gt;以管理员身份运行 PowerShell ，执行：&lt;br&gt;
+&lt;p&gt;拥有 efi 引导分区后，可以用一些分区工具或 diskpart 为 efi 引导分区分配一个盘符，比如 S，S 指 System，系统分区。&lt;/p&gt;
+&lt;p&gt;以管理员身份运行 PowerShell，执行：&lt;br&gt;
 &lt;code&gt;cd V:\Windows\System32&lt;/code&gt; 跳转到虚拟磁盘内系统的 System32 文件夹；
 &lt;code&gt;bcdboot V:\Windows /s S: /f UEFI&lt;/code&gt;&lt;br&gt;
 即可成功添加 UEFI 的引导。&lt;/p&gt;
-&lt;p&gt;如果使用 BIOS 方式，需要参考 BIOS 方式安装系统的分区，参考 &lt;a href=&#34;https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/boot-to-vhd--native-boot--add-a-virtual-hard-disk-to-the-boot-menu?view=windows-11#step-4-add-a-boot-entry&#34;&gt;这里&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;如果使用 BIOS 方式，需要参考 BIOS 方式安装系统的分区，参考 &lt;a href=&#34;https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/boot-to-vhd--native-boot--add-a-virtual-hard-disk-to-the-boot-menu?view=windows-11#step-4-add-a-boot-entry&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;现在，重启电脑进入启动项选择界面，应该就能看到新安装的系统了：&lt;/p&gt;
 &lt;div class=&#34;notice tip&#34;&gt;
     &lt;p class=&#34;notice-title tip&#34;&gt;
@@ -1784,18 +646,18 @@ X-GNOME-Autostart-enabled=true
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/vhdx-install-windows/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    装在当前系统之外硬盘，可能会在 BIOS 中多一个启动磁盘；装在一个硬盘中，效果未知（ Li Mee 的电脑主硬盘有 BitLocker 无法测试）。
+    装在当前系统之外硬盘，可能会在 BIOS 中多一个启动磁盘；装在一个硬盘中，效果未知（我的电脑主硬盘有 BitLocker 无法测试）。
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;实现备份和还原&#34;&gt;实现备份和还原&lt;/h2&gt;
-&lt;p&gt;先来理解一个概念，在安装系统创建引导的时候，引导永远指向 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt; ，无论这个文件如何被替换，系统都会尝试引导这个文件。&lt;/p&gt;
-&lt;p&gt;我们先把 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt; 重命名为 &lt;code&gt;D:\Windows0.vhdx&lt;/code&gt; ，接着以管理员身份启动 PowerShell ：&lt;/p&gt;
+&lt;p&gt;先来理解一个概念，在安装系统创建引导的时候，引导永远指向 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt;，无论这个文件如何被替换，系统都会尝试引导这个文件。&lt;/p&gt;
+&lt;p&gt;我们先把 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt; 重命名为 &lt;code&gt;D:\Windows0.vhdx&lt;/code&gt;，接着以管理员身份启动 PowerShell ：&lt;/p&gt;
 &lt;p&gt;执行 &lt;code&gt;create vdisk file=&amp;quot;D:\Windows.vhdx&amp;quot; parent=&amp;quot;D:\Windows0.vhdx&amp;quot;&lt;/code&gt; 创建名为 &lt;code&gt;D:\Windows.vhdx&lt;/code&gt; 的差分镜像。&lt;/p&gt;
 &lt;p&gt;现在：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Windows.vhdx 指向 Windows0.vhdx ，包含 Windows0.vhdx 中的所有文件。&lt;/li&gt;
+&lt;li&gt;Windows.vhdx 指向 Windows0.vhdx，包含 Windows0.vhdx 中的所有文件。&lt;/li&gt;
 &lt;li&gt;Windows0.vhdx 的文件已经被永久固定，日后所有对文件的修改（包括删除）都仅仅是对 Windows.vhdx 的修改。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;这就意味着，我们可以随时通过：&lt;/p&gt;
@@ -1812,9 +674,9 @@ X-GNOME-Autostart-enabled=true
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/vhdx-install-windows/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;警告&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    &lt;p&gt;一旦一个镜像有其子镜像（如上的 Windows0.vhdx 拥有子镜像 Windows.vhdx ），这个父镜像不应以任何形式修改，&lt;strong&gt;双击打开也叫做修改&lt;/strong&gt;，一旦父镜像修改，依附于其的子镜像&lt;strong&gt;都会失效&lt;/strong&gt;。&lt;/p&gt;
+    &lt;p&gt;一旦一个镜像有其子镜像（如上的 Windows0.vhdx 拥有子镜像 Windows.vhdx），这个父镜像不应以任何形式修改，&lt;strong&gt;双击打开也叫做修改&lt;/strong&gt;，一旦父镜像修改，依附于其的子镜像&lt;strong&gt;都会失效&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;我们可以通过给父镜像设置只读属性来防止意外修改，但在需要修改时（比如合并子镜像和父镜像）记得撤销只读权限。&lt;/p&gt;
 
     &lt;/div&gt;
@@ -1826,7 +688,7 @@ X-GNOME-Autostart-enabled=true
 &lt;/ul&gt;
 &lt;h2 id=&#34;一些实用信息&#34;&gt;一些实用信息&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;如果对一个差分子镜像的修改满意，可以将其合并到父镜像，参考 &lt;a href=&#34;https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/merge-vdisk&#34;&gt;这里&lt;/a&gt; （记得取消父镜像只读）。合并后子镜像仍存在但无法打开，可以手动删除。&lt;/li&gt;
+&lt;li&gt;如果对一个差分子镜像的修改满意，可以将其合并到父镜像，参考 &lt;a href=&#34;https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/merge-vdisk&#34;&gt;这里&lt;/a&gt;（记得取消父镜像只读）。合并后子镜像仍存在但无法打开，可以手动删除。&lt;/li&gt;
 &lt;li&gt;虚拟系统会自动扩展磁盘空间到最大，可以参考 &lt;a href=&#34;http://liray.github.io/2013/04/18/prevent-the-vhd-from-expanding-to-its-full-size/&#34;&gt;这里&lt;/a&gt; 解决，重启即可生效。&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -1869,11 +731,7 @@ X-GNOME-Autostart-enabled=true
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;blockquote&gt;
-&lt;p&gt;从 GitHub 上面搬了别人的 commit 而不署名作者是称为 kang 的不文明的行为哦！&lt;br&gt;
-学习如何为 commit 标记作者是非常重要的！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;作者和提交者&#34;&gt;作者和提交者？&lt;/h2&gt;
+                    <description>&lt;h2 id=&#34;作者和提交者&#34;&gt;作者和提交者？&lt;/h2&gt;
 &lt;p&gt;在 Github 上显示 &lt;strong&gt;A&lt;/strong&gt; authored and &lt;strong&gt;B&lt;/strong&gt; committed... 的，就是“作者”和“提交者”不同的情况。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;DifferentCommittersAndAuthors.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;想达到这样的效果，只需要在提交的时候使用 &lt;code&gt;git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot;&lt;/code&gt; 就可以了。&lt;/p&gt;
@@ -1886,9 +744,8 @@ git config --global user.email &amp;#34;在此处替换成你的邮箱&amp;#34;
 &lt;p&gt;在 Github 上还可以见到诸如 X people commited... 的具有多个作者的情况。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;CoAuthoredCommit.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;想要达到这样的效果，需要在提交信息的尾行 &lt;strike&gt;（其实也可以不是尾行，但应尽量靠后，不要写在前面）&lt;/strike&gt; 加入 &lt;code&gt;Co-authored-by: user.name &amp;lt;user.email&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;CoAuthoredCommitDetails.png&#34; alt=&#34;再举个栗子，照着这个抄就可以&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;CoAuthoredCommitDetails.png&#34; alt=&#34;再举个例子，照着这个抄就可以&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;获得作者的用户名和邮箱地址&#34;&gt;获得作者的用户名和邮箱地址&lt;/h2&gt;
-&lt;p&gt;主要分为 3 种方法，分别进行讲解。&lt;/p&gt;
 &lt;h3 id=&#34;直接在-github-用户界面查看&#34;&gt;直接在 Github 用户界面查看&lt;/h3&gt;
 &lt;p&gt;比较简单，在提交页面点击作者的头像即可进入作者的 Github 界面，左侧即可看到相应的信息，摘取所需的部分即可。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;GithubUserPage.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -1973,13 +830,13 @@ git config --global user.email &amp;#34;在此处替换成你的邮箱&amp;#34;
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/git-commit-author/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     比较粗大的是昵称，下面相对小一点的灰色字才是用户名。&lt;br&gt;
-比如上图中 &lt;code&gt;Utsav Balar&lt;/code&gt; 是昵称， &lt;code&gt;UtsavBalar1231&lt;/code&gt; 才是我们需要的用户名。
+比如上图中 &lt;code&gt;Utsav Balar&lt;/code&gt; 是昵称，&lt;code&gt;UtsavBalar1231&lt;/code&gt; 才是用户名。
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;这种情况有一些局限性，比如作者不愿意在 Github 上公开自己的电子邮件信息的时候就比较难办 &lt;strike&gt;（也不是完全不行）&lt;/strike&gt; ，此时可以使用剩下的两种方法。&lt;/p&gt;
+&lt;p&gt;这种情况有一些局限性，比如作者不愿意在 Github 上公开自己的电子邮件信息的时候就比较难办 &lt;strike&gt;（也不是完全不行）&lt;/strike&gt;，此时可以使用剩下的两种方法。&lt;/p&gt;
 &lt;h3 id=&#34;使用-cherry-pick-摘取提交&#34;&gt;使用 cherry-pick 摘取提交&lt;/h3&gt;
 &lt;div class=&#34;notice note&#34;&gt;
     &lt;p class=&#34;notice-title note&#34;&gt;
@@ -1987,7 +844,7 @@ git config --global user.email &amp;#34;在此处替换成你的邮箱&amp;#34;
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/git-commit-author/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     使用此方法，最好是在两个项目出自“同源”的时候，差异很大的项目不建议使用。
     &lt;/div&gt;
@@ -2010,10 +867,10 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;h3 id=&#34;clone-到本地查询&#34;&gt;Clone 到本地查询&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;将项目 Clone 到本地， cd 到项目文件夹中。&lt;/p&gt;
+&lt;p&gt;将项目 Clone 到本地，cd 到项目文件夹中。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;使用 &lt;code&gt;git log COMMITCODE -1&lt;/code&gt; 查询指定提交的信息，其中即可包括作者的信息， &lt;code&gt;COMMITCODE&lt;/code&gt; 同上。&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;git log COMMITCODE -1&lt;/code&gt; 查询指定提交的信息，其中即可包括作者的信息，&lt;code&gt;COMMITCODE&lt;/code&gt; 同上。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;CloneToLocal.png&#34; alt=&#34;全过程示例&#34;&gt;&lt;/p&gt;
@@ -2048,7 +905,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             </item>
         
             <item>
-                <title>重装 Windows 后恢复 WSL2</title>
+                <title>重装 Windows 后恢复 WSL2 数据</title>
                 <link>https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/</link>
                 <guid isPermaLink="true">https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/</guid>
                 <pubDate>Sat, 11 Dec 2021 00:00:00 &#43;0000</pubDate>
@@ -2059,7 +916,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                     <description>&lt;h2 id=&#34;为新的-windows-系统安装-wsl2&#34;&gt;为新的 Windows 系统安装 WSL2&lt;/h2&gt;
 &lt;p&gt;既然都需要恢复了，安装一个新的自然不费力。&lt;/p&gt;
-&lt;p&gt;去 Windows 功能 中安装 &lt;code&gt;虚拟机平台&lt;/code&gt; ，在商店安装 &lt;code&gt;Windows Sub System for Linux Preview&lt;/code&gt; 和 &lt;code&gt;需要恢复的 Linux 发行版&lt;/code&gt; 。&lt;/p&gt;
+&lt;p&gt;去 Windows 功能 中安装 &lt;code&gt;虚拟机平台&lt;/code&gt;，在商店安装 &lt;code&gt;Windows Sub System for Linux Preview&lt;/code&gt; 和 &lt;code&gt;需要恢复的 Linux 发行版&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;启动新安装的 Linux 发行版并进行配置即可。&lt;/p&gt;
 
 &lt;style&gt;
@@ -2142,9 +999,9 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    &lt;p&gt;最好让 Windows 计算机名与重装前一致，毕竟重装系统也没有必要换计算机名，如果一直用重装系统默认分配的那个还是换掉吧 ww.&lt;/p&gt;
+    &lt;p&gt;最好让 Windows 计算机名与重装前一致，毕竟重装系统也没有必要换计算机名，如果一直用重装系统默认分配的那个还是换掉吧。&lt;/p&gt;
 &lt;p&gt;最好在配置 Linux 系统时，使用和之前 Linux 系统相同的用户名。&lt;/p&gt;
 
     &lt;/div&gt;
@@ -2153,7 +1010,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;p&gt;先执行 &lt;code&gt;wsl --shutdown&lt;/code&gt; 关闭正在运行的 WSL 实例。&lt;/p&gt;
 &lt;p&gt;根据所安装的 Linux 发行版，导航到虚拟存盘的存放位置，比如 Ubuntu 的存放位置是 &lt;code&gt;C:\Users\%UserName%\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;将里面的 &lt;code&gt;ext4.vhdx&lt;/code&gt; 用先前安装的 WSL 的虚拟磁盘文件替换。&lt;/p&gt;
-&lt;p&gt;再次启动 WSL ，可以发现数据都回来了， enjoy!&lt;/p&gt;
+&lt;p&gt;再次启动 WSL，可以发现数据都回来了，enjoy!&lt;/p&gt;
 </description>
                 
                 
@@ -2191,99 +1048,6 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             </item>
         
             <item>
-                <title>Gender Dysphoria 一定会被察觉吗？</title>
-                <link>https://limee233.github.io/posts/life/will-gd-be-detected/</link>
-                <guid isPermaLink="true">https://limee233.github.io/posts/life/will-gd-be-detected/</guid>
-                <pubDate>Sun, 28 Nov 2021 00:00:00 &#43;0000</pubDate>
-                
-                    <author>LiMee233@outlook.com (Li Mee)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;blockquote&gt;
-&lt;p&gt;为什么「那一天」之前的我，能作为男生正常的生活，而在察觉到改变的机会后，就变了呢？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;不同于典型 MtF ，我并没有小时候偏好女装、喜欢女孩子的玩具的经历，在知道 MtF 之前也没有厌恶过自己的生理特征，甚至连「希望自己是个女孩子」的想法都未曾有过，更从来没有怀疑过自己的性别。&lt;/p&gt;
-&lt;p&gt;一点也不像跨性别吧，一点不像吧！然而却在「那一天」之后“翻车”了。&lt;/p&gt;
-&lt;p&gt;然而自己想做女孩子的愿望不会凭空产生，也不会凭空消失 &lt;del&gt;（大雾）&lt;/del&gt;&lt;/p&gt;
-&lt;p&gt;既然作为 MtF 的自己没有明显表现出 Gender Dysphoria 的“症状”，那这些“症状”一定是在某个地方被终止掉了。&lt;/p&gt;
-&lt;h2 id=&#34;奇怪的趋同性&#34;&gt;奇怪的趋同性&lt;/h2&gt;
-&lt;p&gt;思考一下，为什么 MtF 群体的很多爱好（或特性）都是趋同的？&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;mtf-convergence.png&#34; alt=&#34;自己就占了个 计算机 MCer 轨道交通 INFP 吧&#34;&gt;&lt;/p&gt;
-&lt;p&gt;这些爱好（或特性）&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;没有明显的性别差异，不容易引发 gd&lt;/li&gt;
-&lt;li&gt;大量消耗时间&lt;/li&gt;
-&lt;li&gt;形成小圈子，难以有大量人群进入&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;一个很明显的事实是，这样的爱好（或特性），可以让我&lt;strong&gt;忘记自己是男性&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;与现实社会、大众讨论脱节，性别在我这里只是一个毫无意义的身份证上的东西；觉得没有意义的东西，自然就不会产生焦虑。&lt;/p&gt;
-&lt;h2 id=&#34;家庭环境&#34;&gt;家庭环境&lt;/h2&gt;
-&lt;p&gt;完全属于自己的猜测，或许可以弄一个「家庭环境与认识到自己跨性别身份年龄」的调查问卷来解决，但我社恐。&lt;/p&gt;
-&lt;p&gt;就拿自己的经历来讲——我的父母就是那种不怎么在意性别的人。从来没有人会认为某些事情是只有女孩子 / 男孩子 才能做的。在我的家庭环境中，并听不到有人强调应该有阳刚之气（即使我“觉醒”前并不是多么阳刚的人）。&lt;/p&gt;
-&lt;p&gt;在这样的环境下，自己没有因为男性身份而被阻止做什么事情——从某种意义上来讲也阻止了焦虑的产生。&lt;/p&gt;
-&lt;h2 id=&#34;女孩子应该&#34;&gt;女孩子应该？&lt;/h2&gt;
-&lt;p&gt;这一点已经快被说烂了，女孩子不一定符合刻板印象中的女性形象。&lt;/p&gt;
-&lt;p&gt;所有女孩子喜欢穿裙子，并对裙子有执着——这简直就是无稽之谈，所以为什么要用穿女装来判断一个人是不是 MtF 呢？&lt;/p&gt;
-&lt;p&gt;MtF 就像是被当作男孩子来养的女孩子，都 2021 年了，不会还有人说女孩子不能玩男孩子的玩具吧，不会吧不会吧，男孩子的玩具就是有意思得多啊！&lt;/p&gt;
-&lt;p&gt;在我看来，穿女装、玩女孩子的玩具——并不能作为一种可查觉的外在表现来看，这毫无意义。&lt;/p&gt;
-&lt;h2 id=&#34;不在意的生理特征与认命&#34;&gt;不在意的生理特征与认命&lt;/h2&gt;
-&lt;p&gt;说来很奇怪，但并不是每个人都很在意自己的第一性征的，当然这也包括 MtF.&lt;/p&gt;
-&lt;p&gt;不太敢说其他人，但就自己来讲，直到我认识到 MtF 之后，才发现自己一直在以女性身份带入来紫薇。但这并不影响我继续使用这个男性的生殖器官，毕竟无论它是什么样子的，并不影响它能给大脑带来兴奋的刺激——这就足够了。&lt;/p&gt;
-&lt;p&gt;如果这样讲，&lt;strong&gt;厌恶生殖器官就并不是 MtF 所必备的特点&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;没错，我讨厌变声，讨厌喉结，讨厌胡子，但仅仅是因为觉得：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;男性的声音不容易被听清&lt;/li&gt;
-&lt;li&gt;喉结容易受伤，因为是凸出来的&lt;/li&gt;
-&lt;li&gt;刮胡子很麻烦而且很难刮干净&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;在认识到 MtF 之前，我并没有意识到这些是可以改变的，心想：既然改变不了那就这样喽，并没有到影响日常生活的程度。&lt;/p&gt;
-&lt;p&gt;不能否认，有的人就像我这样容易向命运屈服（或者叫认清事实，又或者叫无知），&lt;strong&gt;明知做不到的事情就会放弃思考&lt;/strong&gt;，毕竟还有那么多事情等着做 emm…&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;总之，我从前就是这样恰巧生活在一个不在意性别身份的环境中，恰巧的不在意第一性征，恰巧的“理性思考”第二性征而认命……&lt;/p&gt;
-&lt;p&gt;但这样的生活一定不会持续下去：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;我不可能一直生活在不在意性别身份的环境中，想想舍友说的话：「你一个男的洗什么澡」「你是个男人！不要发出这种声音（指我学的猫叫）」&lt;/li&gt;
-&lt;li&gt;我不可能一直不在意第一性征，除非我一直紫薇，然而做直男的话大概率会找女朋友，然而和女朋友做，还带入女性身份——就离谱好吧&lt;/li&gt;
-&lt;li&gt;我不可能一直认命，改变的机会迟早会让我知道（现在就发生了）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;我现在成为 MtF ，从某种意义上，就是一种必然。&lt;/p&gt;
-&lt;p&gt;在我仔细思考了性别这个名词后，我成为 MtF 已然成为事实。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我想说明的是，不需要因为自己不符合典型 MtF 的某些特点而怀疑自己是 MtF 的事实了。&lt;/p&gt;
-&lt;p&gt;内心的挣扎不一定有可察觉的外在表现，仔细思考了所有 cisgender 绝不会当回事的问题，就意味着自己不是 cisgender !&lt;/p&gt;
-&lt;p&gt;仅仅是看到了 MtF 姐妹的动态，看到了转变必须的经历就引发了 gd ，那内心的挣扎可能已经很严重了，只是被自己完全忽略了而已。&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/categories/life/">life</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/trans/">Trans</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
                 <title>使用 Android Preference</title>
                 <link>https://limee233.github.io/posts/tech/android-preference/</link>
                 <guid isPermaLink="true">https://limee233.github.io/posts/tech/android-preference/</guid>
@@ -2310,10 +1074,10 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ol&gt;
-&lt;li&gt;向 &lt;code&gt;PreferenceScreen&lt;/code&gt; 中添加具体的 &lt;code&gt;Preferences&lt;/code&gt; 对象，详细信息可以参照 &lt;a href=&#34;https://developer.android.com/reference/androidx/preference/CheckBoxPreference&#34;&gt;Android 官方文档&lt;/a&gt; ，添加完成后即可在设置界面找到已添加的设置项。&lt;/li&gt;
+&lt;li&gt;向 &lt;code&gt;PreferenceScreen&lt;/code&gt; 中添加具体的 &lt;code&gt;Preferences&lt;/code&gt; 对象，详细信息可以参照 &lt;a href=&#34;https://developer.android.com/reference/androidx/preference/CheckBoxPreference&#34;&gt;Android 官方文档&lt;/a&gt;，添加完成后即可在设置界面找到已添加的设置项。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;在-java-中引用&#34;&gt;在 Java 中引用&lt;/h2&gt;
-&lt;p&gt;可以在项目的任意位置中引用 &lt;code&gt;Preference&lt;/code&gt; （存疑）。&lt;/p&gt;
+&lt;p&gt;可以在项目的任意位置中引用 &lt;code&gt;Preference&lt;/code&gt;（存疑）。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;例： EditTextPreference&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -2340,8 +1104,8 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sharedPreferences&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;getString&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;signature&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;，并非所有的 &lt;code&gt;Preference&lt;/code&gt; 对象都可用 &lt;code&gt;SharedPreferences.getString(String, String)&lt;/code&gt; 获取值，比如对于 &lt;code&gt;SeekBarPreference&lt;/code&gt; 需要使用 &lt;code&gt;SharedPreferences.getInt(String, Int)&lt;/code&gt; 。&lt;/p&gt;
-&lt;p&gt;详细信息可见 &lt;a href=&#34;https://developer.android.google.cn/reference/android/content/SharedPreferences.html&#34;&gt;SharedPreference 的文档&lt;/a&gt; ，里面介绍了可以用来获取 &lt;code&gt;Preference&lt;/code&gt; 对象的值的方法。&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;需要注意的是&lt;/strong&gt;，并非所有的 &lt;code&gt;Preference&lt;/code&gt; 对象都可用 &lt;code&gt;SharedPreferences.getString(String, String)&lt;/code&gt; 获取值，比如对于 &lt;code&gt;SeekBarPreference&lt;/code&gt; 需要使用 &lt;code&gt;SharedPreferences.getInt(String, Int)&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;详细信息可见 &lt;a href=&#34;https://developer.android.google.cn/reference/android/content/SharedPreferences.html&#34;&gt;SharedPreference 的文档&lt;/a&gt;，里面介绍了可以用来获取 &lt;code&gt;Preference&lt;/code&gt; 对象的值的方法。&lt;/p&gt;
 </description>
                 
                 
@@ -2388,15 +1152,15 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 gnome 40 ，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。&lt;/p&gt;
+                    <description>&lt;p&gt;因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 Gnome 40，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。&lt;/p&gt;
 &lt;h2 id=&#34;解决过程记录&#34;&gt;解决过程记录&lt;/h2&gt;
 &lt;h3 id=&#34;系统安装&#34;&gt;系统安装&lt;/h3&gt;
-&lt;p&gt;会提醒「需要 rtw88/rtw8822c_fw.bin 和 rtw8822c_wow_fw.bin 」， Li Mee 尝试将这两个文件放在移动硬盘和安装 U 盘里，均无法加载，尝试失败（或许有第二个 U 盘就能成功？），于是在无网络环境下安装 Debian.&lt;/p&gt;
+&lt;p&gt;会提醒「需要 rtw88/rtw8822c_fw.bin 和 rtw8822c_wow_fw.bin 」，尝试将这两个文件放在移动硬盘和安装 U 盘里，均无法加载，尝试失败（或许有第二个 U 盘就能成功？），于是在无网络环境下安装 Debian.&lt;/p&gt;
 &lt;h3 id=&#34;安装网卡驱动&#34;&gt;安装网卡驱动&lt;/h3&gt;
 &lt;p&gt;从网络上下载此软件包： &lt;a href=&#34;https://pkgs.org/download/firmware-realtek&#34;&gt;firmware-realtek&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;将 &lt;code&gt;firmware-realtek_xxxxxxxx.deb&lt;/code&gt; 复制到 U 盘，回到 Debian.&lt;/p&gt;
-&lt;p&gt;使用 su 权限，执行 &lt;code&gt;mkdir /mnt/usb &amp;amp;&amp;amp; mount /dev/sdb1 /mnt/usb&lt;/code&gt; 挂载 U 盘（ sdb1 自行调整）。&lt;/p&gt;
-&lt;p&gt;执行 &lt;code&gt;dpkg -i &amp;quot;firmware-realtek_xxxxxxxx.deb 所在位置&amp;quot;&lt;/code&gt; ，安装驱动。&lt;/p&gt;
+&lt;p&gt;使用 su 权限，执行 &lt;code&gt;mkdir /mnt/usb &amp;amp;&amp;amp; mount /dev/sdb1 /mnt/usb&lt;/code&gt; 挂载 U 盘（sdb1 自行调整）。&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;dpkg -i &amp;quot;firmware-realtek_xxxxxxxx.deb 所在位置&amp;quot;&lt;/code&gt;，安装驱动。&lt;/p&gt;
 &lt;p&gt;此时出现错误： ‘ldconfig’ not found in PATH or not executable&lt;/p&gt;
 &lt;p&gt;执行 &lt;code&gt;vi /root/.bashrc&lt;/code&gt; 修改其中内容，添加 &lt;code&gt;export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin&lt;/code&gt; 后保存，再执行 &lt;code&gt;source /root/.bashrc&lt;/code&gt; 即可解决问题。再次执行 &lt;code&gt;dpkg -i xxx.deb&lt;/code&gt; 命令安装，驱动安装成功。&lt;/p&gt;
 &lt;h3 id=&#34;连接网络&#34;&gt;连接网络&lt;/h3&gt;
@@ -2484,7 +1248,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/debian-realtek8822ce/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     如果缺失依赖，可自行从上方所述网站中搜索依赖名称，选择对应的版本进行下载。
     &lt;/div&gt;
@@ -2505,7 +1269,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;检测网络连接状态&#34;&gt;检测网络连接状态&lt;/h3&gt;
-&lt;p&gt;执行命令 &lt;code&gt;nmcli dev&lt;/code&gt; ，如果网络连接成功，可以看到绿色 connected 样提示。&lt;/p&gt;
+&lt;p&gt;执行命令 &lt;code&gt;nmcli dev&lt;/code&gt;，如果网络连接成功，可以看到绿色 connected 样提示。&lt;/p&gt;
 </description>
                 
                 
@@ -2546,12 +1310,12 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;Li Mee 在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。&lt;/p&gt;
+                    <description>&lt;p&gt;在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。&lt;/p&gt;
 &lt;p&gt;显然，选择退回到更改 FOD 方式之前版本的内核可以解决问题，&lt;strong&gt;然而问题并没有解决&lt;/strong&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;其实是缓存捣的鬼&#34;&gt;其实是缓存捣的鬼&lt;/h2&gt;
-&lt;p&gt;因为 FOD 方式是由内核适配的，其中 DTBO 分区非常重要，因此必须清除编译内核以及 DTBO 、 DTB 分区的缓存，它们均存在于目录 &lt;code&gt;out/target/product/[product_name]/obj&lt;/code&gt; 中。&lt;/p&gt;
+&lt;p&gt;因为 FOD 方式是由内核适配的，其中 DTBO 分区非常重要，因此必须清除编译内核以及 DTBO、DTB 分区的缓存，它们均存在于目录 &lt;code&gt;out/target/product/[product_name]/obj&lt;/code&gt; 中。&lt;/p&gt;
 &lt;p&gt;分别是 &lt;code&gt;DTB_OBJ&lt;/code&gt;, &lt;code&gt;DTBO_OBJ&lt;/code&gt; 和 &lt;code&gt;KERNEL_OBJ&lt;/code&gt; 文件夹，只要将其删除即可清除缓存。&lt;/p&gt;
-&lt;p&gt;之后再执行 &lt;code&gt;lunch aosp_[product_name]-userdebug&lt;/code&gt; &lt;code&gt;mka bacon -jx&lt;/code&gt; （&lt;code&gt;x&lt;/code&gt; 为处理器核心数量）编译即可解决问题。&lt;/p&gt;
+&lt;p&gt;之后再执行 &lt;code&gt;lunch aosp_[product_name]-userdebug&lt;/code&gt; &lt;code&gt;mka bacon -jx&lt;/code&gt;（&lt;code&gt;x&lt;/code&gt; 为处理器核心数量）编译即可解决问题。&lt;/p&gt;
 </description>
                 
                 
@@ -2583,214 +1347,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             </item>
         
             <item>
-                <title>河北工业大学军训记录</title>
-                <link>https://limee233.github.io/posts/life/hebut-militarytraining-records/</link>
-                <guid isPermaLink="true">https://limee233.github.io/posts/life/hebut-militarytraining-records/</guid>
-                <pubDate>Sat, 04 Sep 2021 00:00:00 &#43;0000</pubDate>
-                
-                    <author>LiMee233@outlook.com (Li Mee)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;blockquote&gt;
-&lt;p&gt;本文仅记录了 2020 级机械工程学院五排（原七排）的信息，不保证可套用至其他年级。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;本人机械工程学院，测控技术与仪器专业 &lt;del&gt;（为了学校妥协了专业，后悔至今）&lt;/del&gt; ，2020 级学生。&lt;/p&gt;
-&lt;p&gt;大学军训本应在大一进行，但由于疫情原因，推迟到了大二。&lt;/p&gt;
-
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    已知 2021 级军训没有推迟。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;时间：&lt;/strong&gt; 2020/08/22 - 2020/09/04 ，共14天（实际 13 天 + 2 小时的检阅）&lt;br&gt;
-&lt;strong&gt;每日时间安排：&lt;/strong&gt; 08:00-11:30 ; 14:00-17:30 ，需要提前 10 分钟到场；结束时间准时，不会加训；上下午各分为 4 节课，每节课平均 45 分钟，中间休息 3 次，平均时间 10 分钟多一点点。&lt;br&gt;
-&lt;strong&gt;地点：&lt;/strong&gt; 体育中心或其西边的操场，我们在体育中心。&lt;br&gt;
-&lt;strong&gt;内务检查：&lt;/strong&gt; 不用叠豆腐块，可挂床帘，可放床上桌，且仅在下雨的时候才检查内务（基本等于不用收拾）。&lt;br&gt;
-&lt;strong&gt;着装要求：&lt;/strong&gt; 鞋子、袜子、&lt;del&gt;内衣&lt;/del&gt; 都是自己的，发的服装全套都要穿（意味着大热天穿长袖，同时防晒可以少涂一点）。&lt;/p&gt;
-&lt;h2 id=&#34;日常篇&#34;&gt;日常篇&lt;/h2&gt;
-&lt;h3 id=&#34;前奏&#34;&gt;前奏&lt;/h3&gt;
-&lt;p&gt;军训前一段时间，辅导员会开会叙述军训的相关事项，但不能全信（比如我们辅导员说军训 7-10 天，其实是 14 天）。&lt;/p&gt;
-&lt;p&gt;军训前一天的下午去大学生活动中心（北辰）北边的一片树荫下面 &lt;del&gt;领取&lt;/del&gt; 购买军训服装，价格 65 元，包含：帽子、上衣T恤、上衣褂子、腰带、裤带（和腰带不一样，可选，不要的话省 5 元）、裤子各一个，可以自费多买T恤（似乎是 5 元）等其他东西。&lt;/p&gt;
-&lt;p&gt;第二天早晨直接穿好全套服装，携带马扎参加开幕式。建议先研究一下那衣服怎么穿，以及起早点，不然可能没饭吃/没车骑。&lt;/p&gt;
-&lt;h3 id=&#34;开幕式&#34;&gt;开幕式&lt;/h3&gt;
-&lt;p&gt;早晨 07:40 班级先在场地外集合，简单整顿后带到场地内坐下。&lt;/p&gt;
-&lt;p&gt;听领导的一堆废话日常，其中可能告诉你军训的天数，诸如「在我们为期 XX 天的军训中，我们可以……」这种；开幕式完毕后军训随即开始。&lt;/p&gt;
-&lt;h3 id=&#34;基本项目&#34;&gt;基本项目&lt;/h3&gt;
-&lt;p&gt;包括军姿、稍息、转体、整理着装、敬礼、蹲下起立、齐步、正步等，没什么好说的，就是重复练习，重复再重复那种——实在没什么意思。&lt;/p&gt;
-&lt;p&gt;但好在时间过得也挺快的，一天往往是转眼即逝。&lt;/p&gt;
-&lt;p&gt;而训练的强度决定于教官，有松有紧：一部分教官是「学生教官团」，我们的教官有一位是同届的，另一个是大三的，管理算是相当轻松，划水摸鱼是常事。&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    之所以有两个教官，是因为教官本来就比方队要多，应该多 1.5~2 倍，中途教官可能莫名消失或出现（薛定谔的教官）。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;另一部分教官是「武警教官」，我们教官说他们管的挺松，但 Li Mee 并不清楚具体情况，只知道在一起的同学经常嘲笑他们正步走的太差了。&lt;/p&gt;
-&lt;h3 id=&#34;拉歌比赛&#34;&gt;拉歌比赛&lt;/h3&gt;
-&lt;p&gt;军训应该少不了这个，拉歌比赛的内容是一首军歌，不过看教官的意思，去年应该不一样（比如有 工学并举薪火长 那个校歌 &lt;del&gt;话说校歌真能很大声唱出来？qwq&lt;/del&gt;）&lt;/p&gt;
-&lt;p&gt;正式比赛的占用时间为一小时左右 &lt;del&gt;（太短了）&lt;/del&gt; ，我们安排在了某天训练的 16:40 以后。是一个难得的划水时刻，毕竟别的方队唱歌的时候就坐着放松了嘛~&lt;/p&gt;
-&lt;p&gt;比赛第一名的方队有奖品，是个「宿舍神灯」，&lt;del&gt;听同学说一大箱 9 块 9 ，实际上一个 5 元&lt;/del&gt;，实际使用体验只能说能用，至少能发光，不是吗？😂&lt;/p&gt;
-&lt;p&gt;而且只有拉歌之前经常唱歌，之后就很少唱了，对保护嗓子有好处。&lt;/p&gt;
-&lt;h3 id=&#34;难度提升&#34;&gt;难度提升&lt;/h3&gt;
-&lt;p&gt;这个阶段可能会有「哨子哥」监督各个方队的训练情况，摸鱼的困难程度会上升；不建议摸太多，教官不高兴了可能不让休息qwq&lt;/p&gt;
-&lt;p&gt;训练项目会基本集中于齐步正步上，时不时会被教官定动作，或者一趟一趟的来回走——毕竟这是在检阅时要拿出来的动作。&lt;/p&gt;
-&lt;p&gt;在这个阶段会选出「队伍最前面的几个人」（Li Mee 不知道那叫什么qwq）以及标兵（不一定每队都有）。已知队伍前面那几个人很累，除非想要高学分，否则不建议去。&lt;/p&gt;
-&lt;h3 id=&#34;擒敌拳&#34;&gt;擒敌拳&lt;/h3&gt;
-&lt;p&gt;又称「摸鱼拳」，是军训期间最轻松的项目，就emm…瞎打就行了，不会也没关系。&lt;/p&gt;
-&lt;p&gt;为期2天，完成后「哨子哥」会从每个方队中选择几个打的比较好的人，加入擒敌拳/应急棍的训练方队，这两个方队是需要上台表演的（甚至还要在2021级开幕式上表演，太惨了）。&lt;/p&gt;
-&lt;p&gt;这几个打的比较好的人，是教官提前选择的。我们的教官直接就问“谁想过去打棍？”，之后就培养想打棍的人了，算是比较自由。&lt;/p&gt;
-&lt;div class=&#34;notice warning&#34;&gt;
-    &lt;p class=&#34;notice-title warning&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/life/hebut-militarytraining-records/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;警告&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    教官可能会说应急棍/军体拳很轻松，千万别信。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;准备检阅&#34;&gt;准备检阅&lt;/h3&gt;
-&lt;p&gt;主要就是练习正步、正换齐、齐换正，加上了口号，向右看等内容。教官会弄个大喇叭来放走队列的音乐，需要学习踏着音乐的节拍走路。&lt;/p&gt;
-&lt;p&gt;此外会有排练，一个学院的几个方队不断地进行「齐步——正步——口号——齐步」的练习，由于是多个方队同时进行，休息时间不会太多。每个上下午的最后一节课教官会放水，让我们多休息。&lt;/p&gt;
-&lt;p&gt;倒数第三天有一个计分的排练，就…认真点行了，也没什么。&lt;/p&gt;
-&lt;p&gt;倒数第二天比较轻松，只需要正式排练几次，全部的方队都会到体育中心处集合，队伍带到外面去之后会等待好长时间才入场（不知道他们在体育中心里面做什么事），也就意味着有很长一段时间可以坐着休息。&lt;/p&gt;
-&lt;h3 id=&#34;检阅当天&#34;&gt;检阅当天&lt;/h3&gt;
-&lt;p&gt;我们原定时间是 08:00 开始，但因为下雨推迟到了 16:00 ，为期大概 2 小时左右。入场后踢正步——颁奖——各种人讲话，最后队伍内拍照合影等（此时已解散，可跑路）。&lt;/p&gt;
-&lt;p&gt;领导讲话的时候有不少人玩手机，可以说从踢完正步跑步带回、升旗后，就已经彻底没什么人管了。&lt;/p&gt;
-&lt;p&gt;结束后，就去享受没有军训的生活吧！&lt;/p&gt;
-&lt;h2 id=&#34;mtf-姐妹们关注的问题&#34;&gt;MtF 姐妹们关注的问题&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;队伍严格按照生理性别分组。&lt;/li&gt;
-&lt;li&gt;不会强制剪头：我 20cm 左右的头发被要求扎起来了，不长不短那种可能要求剪短一点，但查得不严。&lt;/li&gt;
-&lt;li&gt;队伍里没有太多引起 gd 、挑拨同学关系、为了集体必须如何如何的情况，当然这主要看教官。&lt;/li&gt;
-&lt;li&gt;军训在校内，晚上无活动洗澡时间充足。浴室环境较差，有帘子（大概能遮到大腿处），但总有人洗澡不拉帘子之后被我吓一跳。更衣室很恶臭，不喜欢见到一群裸男的话可以带一个袋子，在浴室内拉帘子后再脱衣服放到袋子里，之后把袋子放在喷头上（要高一点，不然够不到（明明想变矮啊qwq））。&lt;/li&gt;
-&lt;li&gt;军训后期，由于大部分人都不洗衣服，最后可能&lt;strong&gt;整个队伍都臭了&lt;/strong&gt;，或许可以试着申请戴口罩。&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/categories/life/">life</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/hebut/">HEBUT</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/trans/">Trans</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>记更改 WD 硬盘休眠时间的历程</title>
+                <title>更改 WD 硬盘休眠时间</title>
                 <link>https://limee233.github.io/posts/tech/wd-apmtimer/</link>
                 <guid isPermaLink="true">https://limee233.github.io/posts/tech/wd-apmtimer/</guid>
                 <pubDate>Tue, 20 Jul 2021 00:00:00 &#43;0000</pubDate>
@@ -2799,112 +1356,20 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;是 Li Mee 高考完的那个暑假， emm… 看了看日记哈，是 2020 年的 8 月 7 日， Li Mee 得到了「亲戚」送来的一台笔记本电脑，型号是联想昭阳的（记不太清了），里面有一块 WD10SPCX 硬盘，因为种种原因——这硬盘变成了 Li Mee 的移动硬盘。&lt;/p&gt;
-&lt;h2 id=&#34;硬伤&#34;&gt;硬伤&lt;/h2&gt;
-&lt;p&gt;自从把这个硬盘当作移动硬盘使用后， Li Mee 就发现这硬盘只要十几秒没有读写操作，硬盘就会停转，再次访问硬盘中数据的时候就会产生明显的延迟感（没错，打开回收站会访问硬盘数据）。&lt;/p&gt;
-&lt;p&gt;哪怕半小时都行啊，几秒不动就停了，这叫什么使用体验？&lt;/p&gt;
-&lt;h2 id=&#34;尝试解决&#34;&gt;尝试解决&lt;/h2&gt;
-&lt;h3 id=&#34;硬盘盒的自动休眠&#34;&gt;硬盘盒的自动休眠&lt;/h3&gt;
-&lt;p&gt;一开始 Li Mee 认为是硬盘盒的自动休眠功能导致此问题的发生，从网上一看，这硬盘盒果然有自动休眠的功能，并且还提供了一个软件修改硬盘盒的自动休眠时间。&lt;/p&gt;
-&lt;p&gt;于是 Li Mee 就下载了那一套修改休眠时间的工具（包含多种硬盘盒型号），准备给硬盘盒刷固件。但由于硬盘盒本身并没有标明型号，包装盒也不在身边， &lt;strong&gt;Li Mee 只好从淘宝上随便找了个买家的晒图确定了型号&lt;/strong&gt;，结果 Li Mee 忘记了那家店卖几乎所有型号的硬盘盒…刷完之后，噗，就废了&lt;/p&gt;
-&lt;p&gt;后来又买了个新的 ww…&lt;/p&gt;
-&lt;p&gt;不过令人失望的是，即使我成功修改了硬盘盒的自动休眠时间，硬盘自动停转的问题仍然没有解决。&lt;/p&gt;
-&lt;h3 id=&#34;crystal-disk-info&#34;&gt;Crystal Disk Info&lt;/h3&gt;
-&lt;p&gt;后来， Li Mee 发现在 Crystal Disk Info 中禁用高级电源管理（APM），硬盘就不会停转了。&lt;/p&gt;
-&lt;p&gt;但每次插上硬盘，都打开一次 Crystal Disk Info （这东西启动需要好几秒），体验实在不能算是太好。&lt;/p&gt;
-&lt;h3 id=&#34;wdidle3&#34;&gt;WDIDLE3&lt;/h3&gt;
-&lt;p&gt;Li Mee 察觉到了 WDIDLE3 和西数硬盘的 C1 门，在今年（ 2021 年）的五一假期， Li Mee 回家准备用家里的台式机修改这块硬盘的相关信息，修改的过程相当顺利，不过&lt;strong&gt;还是没用&lt;/strong&gt;。&lt;/p&gt;
-&lt;h3 id=&#34;apmtimer&#34;&gt;apmtimer&lt;/h3&gt;
-&lt;p&gt;Li Mee 没什么事情做，于是又来研究这个问题了。&lt;/p&gt;
-&lt;p&gt;在 Bing 上搜索「 WD10SPCX C1 」后，有一个 &lt;a href=&#34;https://www.bilibili.com/read/cv10232535&#34;&gt;哔哩哔哩专栏&lt;/a&gt; 吸引了 Li Mee 的注意，打开后就引导到了一个 &lt;a href=&#34;http://lxf.me/?p=428&#34;&gt;手搓代码的大佬&lt;/a&gt; 的地方，下面有这样的一则评论：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Comment.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;So ，装 Ubuntu ，运行 apmtimer 一气呵成，关机后再将硬盘插入硬盘盒，连上笔记本电脑，这问题总算是彻底解决了！&lt;/p&gt;
-
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/wd-apmtimer/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    apmtimer 的使用见 &lt;a href=&#34;http://apmtimer.sourceforge.net/&#34;&gt;apmtimer.sourceforge.net&lt;/a&gt; 的 Syntax 部分。
-    &lt;/div&gt;
-&lt;/div&gt;
+                    <description>&lt;p&gt;在使用西数机械硬盘作为移动硬盘使用时，硬盘经常会在很短时间内进入休眠状态，导致使用过程中经常需要等待硬盘启动，使用体验较差。&lt;/p&gt;
+&lt;p&gt;本文尝试修改西数硬盘的休眠时间，来解决此问题。&lt;/p&gt;
+&lt;h2 id=&#34;crystal-disk-info&#34;&gt;Crystal Disk Info&lt;/h2&gt;
+&lt;p&gt;下载并启动 Crystal Disk Info 软件——功能——高级设置——AAM/APM 控制，点击「高级电源管理（APM）」下面的禁用即可。&lt;/p&gt;
+&lt;p&gt;但此种方法每次开机都需要重复操作，有没有什么办法可以一劳永逸呢？&lt;/p&gt;
+&lt;h2 id=&#34;apmtimer&#34;&gt;APMtimer&lt;/h2&gt;
+&lt;p&gt;需要一个 Linux 系统，Linux 的基本安装和使用在此不赘述，可以自行查询搜索引擎或者 ChatGPT.&lt;/p&gt;
+&lt;p&gt;使用 &lt;a href=&#34;https://apmtimer.sourceforge.net/&#34;&gt;此软件&lt;/a&gt; 即可解决，这是一个 Linux 下的软件。&lt;/p&gt;
+&lt;p&gt;关于软件的下载、编译和使用方法，重点查阅上述网站中「Quick links」、「Compilation / Installation」和「Syntax」部分。&lt;/p&gt;
+&lt;p&gt;关于 Linux 的安装和使用，请自行查阅搜索引擎或者 ChatGPT，在此不再赘述。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv10232535&#34;&gt;https://www.bilibili.com/read/cv10232535&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://lxf.me/?p=428&#34;&gt;http://lxf.me/?p=428&lt;/a&gt;&lt;/p&gt;
 </description>
                 
                 
@@ -2945,18 +1410,17 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;从 2020 年末的某次 Office 更新之后， Li Mee 发现使用触摸板或鼠标滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，体验不跟手，帧率低。&lt;/p&gt;
-&lt;p&gt;2021 年 6 月 24 日， Li Mee 做了一个 PPT ，发现 PPT 幻灯片列表的滚动居然也是卡顿的，因此将标题修改为「解决 Office &lt;del&gt;Word&lt;/del&gt; 滚动卡顿」。&lt;/p&gt;
+                    <description>&lt;p&gt;从 2020 年末的某次 Office 更新之后，滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，此现象在 PowerPoint 等软件中也可能存在。&lt;/p&gt;
 &lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 &lt;h3 id=&#34;手动方法&#34;&gt;手动方法&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;定位到注册表项： &lt;code&gt;HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;选择需要修复卡顿的软件。&lt;/li&gt;
-&lt;li&gt;新建字符串值，名称分别为： &lt;code&gt;Microsoft.Office.AirSpace.UseWincompInArm64&lt;/code&gt; 和 &lt;code&gt;Microsoft.Office.AirSpace.UseWinCompInWin32&lt;/code&gt; ，值均为 &lt;code&gt;false&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;新建字符串值，名称分别为： &lt;code&gt;Microsoft.Office.AirSpace.UseWincompInArm64&lt;/code&gt; 和 &lt;code&gt;Microsoft.Office.AirSpace.UseWinCompInWin32&lt;/code&gt;，值均为 &lt;code&gt;false&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;edit-reg.png&#34; alt=&#34;如图所示&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;省事的方法&#34;&gt;省事的方法&lt;/h3&gt;
-&lt;p&gt;下载此注册表 （ reg ）文件，双击导入即可修复 Office 365 所有套件可能存在的卡顿。&lt;/p&gt;
+&lt;p&gt;下载此注册表（reg）文件，双击导入即可修复 Office 365 所有套件可能存在的卡顿。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wwa.lanzoui.com/iICeMrhbmif&#34;&gt;点击下载&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 
@@ -3040,9 +1504,9 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/fix-office-scrolling-lag/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
-    在 Windows 11 时代 Office 365 升级新外观后，此操作会导致 Office 应用的 Mica 效果、工具栏下方阴影缺失等问题。
+    在 Office 365 升级新外观后，此操作会导致 Office 应用的 Mica 效果、工具栏下方阴影缺失等问题。
     &lt;/div&gt;
 &lt;/div&gt;
 </description>
@@ -3085,7 +1549,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;部分原生系统在编译时，未考虑到会出现高清通知的问题 &lt;del&gt;或者认为这不是问题&lt;/del&gt; ，就没有在源码部分进行修改（比如 &lt;a href=&#34;https://github.com/LiMeea/device_xiaomi_sm8250-common/commit/4a3c21d2c017a2806348ae1df3f96536b07500c0&#34;&gt;这里&lt;/a&gt; ）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。&lt;/p&gt;
+                    <description>&lt;p&gt;部分原生系统在编译时，未考虑到会出现高清通知的问题，就没有在源码部分进行修改（比如 &lt;a href=&#34;https://github.com/LiMeea/device_xiaomi_sm8250-common/commit/4a3c21d2c017a2806348ae1df3f96536b07500c0&#34;&gt;这里&lt;/a&gt;）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;hd-notification.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 &lt;p&gt;如果作为用户，已经无法对系统编译前的 Device Tree 进行修改了，所以只能修改编译好的应用程序，这里从通知的产生者—— ims.apk 入手。&lt;/p&gt;
@@ -3170,23 +1634,23 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
             &lt;svg&gt;
                 &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-warning&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
             &lt;/svg&gt;
-        &lt;/span&gt;警告&lt;/p&gt;
+        &lt;/span&gt;&lt;/p&gt;
     &lt;div class=&#34;notice-body&#34;&gt;
     进行任何操作前，请注意对重要数据进行备份！
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;提取产生通知的应用&#34;&gt;提取产生通知的应用&lt;/h3&gt;
-&lt;p&gt;使用可获取 Root 权限的文件管理器，将 &lt;code&gt;/system/product/priv-app/ims/ims.apk&lt;/code&gt; 复制到用户目录内（如 &lt;code&gt;/data/media/0&lt;/code&gt; ）。&lt;/p&gt;
+&lt;p&gt;使用可获取 Root 权限的文件管理器，将 &lt;code&gt;/system/product/priv-app/ims/ims.apk&lt;/code&gt; 复制到用户目录内（如 &lt;code&gt;/data/media/0&lt;/code&gt;）。&lt;/p&gt;
 &lt;h3 id=&#34;修改应用&#34;&gt;修改应用&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;使用「 MT 管理器」打开复制的 &lt;code&gt;ims.apk&lt;/code&gt; ，依次进入：查看 → resources.arsc → Arsc编辑器 → org.codeaurora.ims → string → string-zh-rCN.
+&lt;li&gt;使用「 MT 管理器」打开复制的 &lt;code&gt;ims.apk&lt;/code&gt;，依次进入：查看 → resources.arsc → Arsc编辑器 → org.codeaurora.ims → string → string-zh-rCN.
 在其中找到类似于「 SIM %s 支持高清 」的项目，长按并复制 ID.&lt;/li&gt;
-&lt;li&gt;返回到「查看」页面，依次进入：classes.dex → Dex 编辑器 ++ → 搜索 → 发起新搜索；在查找内容里粘贴刚才复制的「 ID 」并进行搜索，随后点击 &lt;code&gt;const v5, 0xID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;返回到「查看」页面，依次进入：classes.dex → Dex 编辑器 ++ → 搜索 → 发起新搜索；在查找内容里粘贴刚才复制的「 ID 」并进行搜索，随后点击 &lt;code&gt;const v5, 0xID&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;constv50xid.png&#34; alt=&#34;不同设备的 ID 可能不同&#34;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;进入代码编辑界面后从所在行向上翻找，直到发现 &lt;code&gt;.method private showHDIcon(Z)V&lt;/code&gt; 为止。&lt;/li&gt;
-&lt;li&gt;向下逐行查阅代码，去寻找如下结构，并将遇到的第一个如下结构删除。&lt;/li&gt;
+&lt;li&gt;向下逐行查阅代码，去寻找如下结构，并将遇到的第一个如下结构删除（注意删除的时候需要将整行删除，不要只删掉文字，也不要删多了空行。）。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -3199,32 +1663,10 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;img src=&#34;deletecode.png&#34; alt=&#34;结构如图所示&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    删除的时候需要将整行删除，不要只删掉文字，也不要删多了空行。
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;修改完成后保存所做的一切修改，直到获取修改完的应用程序安装包。&lt;/p&gt;
-&lt;div class=&#34;notice note&#34;&gt;
-    &lt;p class=&#34;notice-title note&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/remove-hdicon/#notice-icon-note&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;注意&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    修改完的应用程序不需要重新签名。
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;修改完成后保存所做的一切修改，直到获取修改完的应用程序安装包，不需要重新签名。&lt;/p&gt;
 &lt;h2 id=&#34;替换还原&#34;&gt;替换还原&lt;/h2&gt;
 &lt;h3 id=&#34;方法一直接替换&#34;&gt;方法一：直接替换&lt;/h3&gt;
-&lt;p&gt;直接将修改完的应用移回 &lt;code&gt;/system/product/priv-app/ims/ims.apk&lt;/code&gt; ，需要注意保持文件权限不变。&lt;/p&gt;
+&lt;p&gt;直接将修改完的应用移回 &lt;code&gt;/system/product/priv-app/ims/ims.apk&lt;/code&gt;，需要注意保持文件权限不变。&lt;/p&gt;
 &lt;p&gt;这样做可以让系统尽量&lt;strong&gt;保持一个完整的状态而不分散&lt;/strong&gt;，个人感觉有利于系统稳定性。&lt;/p&gt;
 &lt;h3 id=&#34;方法二制作模块&#34;&gt;方法二：制作模块&lt;/h3&gt;
 &lt;p&gt;不推荐使用这种方法，因为制作模块的目的就是为了避免系统升级后反复修改，但谁能保证升级后的系统没有对模块内文件做修改呢？这可能导致一些莫名其妙的问题。&lt;/p&gt;
@@ -3269,101 +1711,19 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;在 Li Mee 用 AMD 核心显卡电脑使用 Visual Studio 2017/2019 编写 基于.NET Framework 的 WPF 应用程序时，都遇到了 XAML 设计器花屏，无法正常使用的问题：&lt;/p&gt;
+                    <description>&lt;p&gt;如果电脑使用的是 AMD 核心显卡，那么在使用 Visual Studio 2017/2019 编写基于 .NET Framework 的 WPF 应用程序时，可能会遇到 XAML 设计器花屏的问题：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;XAML-bug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
 &lt;p&gt;在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」（可在任务管理器中找到并定位）为游戏，并且调节「抗锯齿」为「覆盖应用程序设置」，抗锯齿级别为任意项即可（此处推荐2X）。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;adjust-AMD-Software.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-
-&lt;style&gt;
-    .notice {
-        border-radius: 5px 5px 5px 5px;
-        background-color: hsl(0, 0%, 80%);
-        color: #3f3f3f;
-        padding: 0px 0px;
-    }
-    .notice-title {
-        border-radius: 5px 5px 0px 0px;
-        font-weight: 700;
-        background-color: hsl(0, 0%, 50%);
-        color: white;
-        height: 32px;
-        margin: -12px -20px 0 -20px;
-        padding: 3px 0 3px 20px;
-    }
-    .notice-body {
-        margin: 0px 16px;
-        padding-bottom: 16px;
-    }
-    .notice-body p {
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-    .notice-body p:last-child {
-        margin-top: 12px;
-        margin-bottom: 0px;
-    }
-
-    .notice-icon {
-        display: inline-flex;
-        padding-right: 0.375em;
-    }
-
-    .notice-icon svg {
-        position: relative;
-        top: 0.1em;
-        width: 1em;
-        height: 1em;
-    }
-     
-    .notice-title.tip {
-        background-color: #79cf79;
-    }
-    .notice.tip {
-        background-color: #d8f0d8;
-    }
-     
-    .notice-title.note {
-        background-color: #58acf0;
-    }
-    .notice.note {
-        background-color: #e4f2ff;
-    }
-     
-    .notice-title.warning {
-        background-color: #f3c83a;
-    }
-    .notice.warning {
-        background-color: #f3eccf;
-    }
-     
-&lt;/style&gt;
-&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34;&gt;
-    &lt;symbol id=&#34;notice-icon-tip&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 185.34961 82.21875 A 7.4235093 7.4235093 0 0 1 190.59766 84.392578 L 201.91211 95.707031 A 7.4235093 7.4235093 0 0 1 201.91211 106.20312 L 128.37305 179.74219 L 117.05859 191.05664 A 7.4235093 7.4235093 0 0 1 106.56055 191.05664 L 95.25 179.74219 L 55.650391 140.14453 A 7.4235093 7.4235093 0 0 1 55.650391 129.64844 L 66.964844 118.33398 A 7.4235093 7.4235093 0 0 1 77.460938 118.33398 L 111.81055 152.68164 L 180.10156 84.392578 A 7.4235093 7.4235093 0 0 1 185.34961 82.21875 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-note&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 8 A 120 120 0 0 0 8 128 A 120 120 0 0 0 128 248 A 120 120 0 0 0 248 128 A 120 120 0 0 0 128 8 z M 119.0918 50 L 136.9082 50 C 143.60755 50 149 55.392452 149 62.091797 L 149 133.9082 C 149 140.60755 143.60755 146 136.9082 146 L 119.0918 146 C 112.39245 146 107 140.60755 107 133.9082 L 107 62.091797 C 107 55.392452 112.39245 50 119.0918 50 z M 120.08203 164 L 135.91797 164 C 143.16561 164 149 169.83439 149 177.08203 L 149 192.91797 C 149 200.16561 143.16561 206 135.91797 206 L 120.08203 206 C 112.83439 206 107 200.16561 107 192.91797 L 107 177.08203 C 107 169.83439 112.83439 164 120.08203 164 z &#34;/&gt;
-    &lt;/symbol&gt;
-    &lt;symbol id=&#34;notice-icon-warning&#34; viewbox=&#34;0 0 256 256&#34;&gt;
-        &lt;path d=&#34;M 128 17.607422 C 118.8203 17.607113 109.81578 22.841798 105.22461 30.847656 A 5.4723479 5.5114233 0 0 0 105.22461 30.849609 L 55.332031 117.88281 L 5.4394531 204.91406 C 0.8515622 212.92126 0.85351354 223.39432 5.4433594 231.40039 C 10.033206 239.40646 19.035619 244.64307 28.214844 244.64453 A 5.4723479 5.5114233 0 0 0 28.216797 244.64453 L 128 244.64453 L 227.78516 244.64453 A 5.4723479 5.5114233 0 0 0 227.78711 244.64453 C 236.96599 244.64233 245.96729 239.40634 250.55664 231.40039 C 255.146 223.39444 255.14827 212.92096 250.56055 204.91406 L 200.66992 117.88281 L 150.77734 30.849609 A 5.4723479 5.5114233 0 0 0 150.77734 30.847656 C 146.18618 22.841798 137.1797 17.607114 128 17.607422 z M 118.38086 75 L 137.61914 75 C 143.92453 75 149 80.075466 149 86.380859 L 149 153.61914 C 149 159.92453 143.92453 165 137.61914 165 L 118.38086 165 C 112.07547 165 107 159.92453 107 153.61914 L 107 86.380859 C 107 80.075466 112.07547 75 118.38086 75 z M 116.89648 180 L 139.10352 180 C 144.58647 180 149 184.41353 149 189.89648 L 149 212.10352 C 149 217.58647 144.58647 222 139.10352 222 L 116.89648 222 C 111.41353 222 107 217.58647 107 212.10352 L 107 189.89648 C 107 184.41353 111.41353 180 116.89648 180 z &#34;/&gt;
-    &lt;/symbol&gt;
-    
-&lt;/svg&gt;&lt;div class=&#34;notice tip&#34;&gt;
-    &lt;p class=&#34;notice-title tip&#34;&gt;
-        &lt;span class=&#34;notice-icon&#34;&gt;
-            &lt;svg&gt;
-                &lt;use href=&#34;https://limee233.github.io/posts/tech/amd-xamldesinger-displaybug/#notice-icon-tip&#34; fill=&#34;white&#34;&gt;&lt;/use&gt;
-            &lt;/svg&gt;
-        &lt;/span&gt;提示&lt;/p&gt;
-    &lt;div class=&#34;notice-body&#34;&gt;
-    &lt;ol&gt;
-&lt;li&gt;仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用。&lt;/li&gt;
-&lt;li&gt;如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ ，测试正常后再重新调为 2X.&lt;/li&gt;
-&lt;/ol&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;仍然出现的偶现花屏，只需将窗口向下还原，再最大化即可，大多数情况下不影响使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果抗锯齿级别为 2X 不生效，可以调整为 2X EQ，测试正常后再重新调为 2X.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
                 
                 
@@ -3404,25 +1764,27 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;西元 2021 年 年初， Li Mee 在安装完 Windows 10 并登陆微软账户后，经常发现系统的语言自动会变成「中文（新加坡）」，这导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，使用起来实在是很难受。&lt;/p&gt;
-&lt;p&gt;关键是，系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，毕竟都是中文嘛，所以……&lt;/p&gt;
+                    <description>&lt;p&gt;安装完 Windows 10 并登陆微软账户后，有时会出现系统的语言自动会变成「中文（新加坡）」的问题，导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，看起来令人十分难受。&lt;/p&gt;
+&lt;p&gt;关键在于，本质上新加坡的中文也是中文，因此系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，这看起来成为了一个死局。&lt;/p&gt;
+&lt;p&gt;不过事实上，还是有解决办法的。&lt;/p&gt;
 &lt;h2 id=&#34;本地解决方案&#34;&gt;本地解决方案&lt;/h2&gt;
 &lt;h3 id=&#34;强制删除中文新加坡&#34;&gt;强制删除「中文（新加坡）」&lt;/h3&gt;
-&lt;p&gt;使用管理员模式打开 Windows Powershell，输入命令： &lt;code&gt;Get-WinUserLanguageList&lt;/code&gt; ，观察所得信息中是否包含 &lt;code&gt;LanguageTag : zh-Hans-SG&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;使用管理员模式打开 Windows Powershell，输入命令： &lt;code&gt;Get-WinUserLanguageList&lt;/code&gt;，观察所得信息中是否包含 &lt;code&gt;LanguageTag : zh-Hans-SG&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;若存在如上内容，接下来仅需要依次（一次一行）输入并执行以下命令，即可删除「中文（新加坡）」：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$LangList = Get-WinUserLanguageList
 $MarkedLang = $LangList | where LanguageTag -eq &amp;#34;zh-Hans-SG&amp;#34;
 $LangList.Remove($MarkedLang)
 Set-WinUserLanguageList $LangList -Force
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;添加中文中华人民共和国&#34;&gt;添加「中文（中华人民共和国）」&lt;/h3&gt;
-&lt;p&gt;打开设置——时间和语言——语言——添加语言——搜索Chinese，选择「中文（中华人民共和国）」即可。&lt;/p&gt;
+&lt;p&gt;打开设置——时间和语言——语言——添加语言——搜索 Chinese，选择「中文（中华人民共和国）」即可。&lt;/p&gt;
 &lt;h2 id=&#34;清除云端故障&#34;&gt;清除云端故障&lt;/h2&gt;
 &lt;p&gt;导致这种问题出现的原因，是微软的设置同步服务器出现了差错，将设备的语言自动同步为「中文（新加坡）」，因此只需要清除云端同步数据即可。&lt;/p&gt;
-&lt;p&gt;打开 &lt;a href=&#34;https://account.microsoft.com/devices&#34;&gt;微软账户设备管理页面&lt;/a&gt; ，清除云同步设置（可能需要科学上网）：&lt;/p&gt;
+&lt;p&gt;打开 &lt;a href=&#34;https://account.microsoft.com/devices&#34;&gt;微软账户设备管理页面&lt;/a&gt;，清除云同步设置：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;cloud-sync-settings.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;其他&#34;&gt;其他&lt;/h2&gt;
 &lt;p&gt;由于出现问题的原理是同步服务器出错，所以任何设置出错都不足为奇，比如鼠标左右键莫名对调等。&lt;/p&gt;
-&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.sysgeek.cn/windows-10-force-remove-language-pack&#34;&gt;https://www.sysgeek.cn/windows-10-force-remove-language-pack&lt;/a&gt;&lt;/p&gt;
 </description>
                 

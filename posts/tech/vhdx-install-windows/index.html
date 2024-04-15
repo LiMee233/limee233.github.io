@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.121.1"><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.124.1"><meta name="theme-color" content="#fff" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -15,14 +15,16 @@
     
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <title>使用 VHDX 硬盘映像安装 Windows | Li Mee 的小窝</title>
+    <title>使用 VHDX 硬盘映像安装 Windows | 遥遥的部落格</title>
 
-    <link rel="stylesheet" href="/css/meme.min.8954082af7e32d7e749163ea5143a908c38f36fc4012d644f75d3003419237f9.css"/>
+    <link rel="stylesheet" href="/css/meme.min.7d71d44572485449f3b525eb9fba3bf8ea5aac219261fef90ca3f5ccc59e9e24.css"/>
 
     
     
-        <script src="/js/meme.min.fe253b2983f4d6110ea9b2a3a1aa805ef1ba1e642080fece6717eded7479b51f.js"></script>
+        
+            <script src="/js/meme.min.b4328e6bb260d64f0c62971ae21ac7cc5f2db6d6bab9eaf2a604923acd5fd462.js"></script>
 
+        
     
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,16 +32,16 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,500;0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB&#43;Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,500;0,700;1,400;1,700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="Li Mee" /><meta name="description" content="虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。 在 VHDX 中安装系统……" />
+    <meta name="author" content="Li Mee" /><meta name="description" content="虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。 在 VHDX 中安装系统……" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Li Mee 的小窝" />
+    <meta name="apple-mobile-web-app-title" content="遥遥的部落格" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="application-name" content="Li Mee 的小窝" />
+    <meta name="application-name" content="遥遥的部落格" />
     <meta name="msapplication-starturl" content="../../../" />
     <meta name="msapplication-TileColor" content="#fff" />
     <meta name="msapplication-TileImage" content="../../../icons/mstile-150x150.png" />
@@ -49,7 +51,7 @@
     
 
     
-    <link rel="canonical" href="https://limee233.github.io/posts/tech/vhdx-install-windows/" />
+        <link rel="canonical" href="https://limee233.github.io/posts/tech/vhdx-install-windows/" />
     
 
 <script type="application/ld+json">
@@ -57,13 +59,13 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2022-03-16T00:00:00+00:00",
-        "dateModified": "2022-03-16T00:00:00+00:00",
+        "dateModified": "2024-04-15T00:00:00+00:00",
         "url": "https://limee233.github.io/posts/tech/vhdx-install-windows/",
         "headline": "使用 VHDX 硬盘映像安装 Windows",
-        "description": "虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。 在 VHDX 中安装系统……",
+        "description": "虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。 在 VHDX 中安装系统……",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  1221 ,
+        "wordCount":  1291 ,
         "image": ["https://limee233.github.io/create-vhdx.png","https://limee233.github.io/install-system.png","https://limee233.github.io/split-vhd.png"],
         "author": {
             "@type": "Person",
@@ -76,16 +78,16 @@
         "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
         "publisher": {
             "@type": "Organization",
-            "name": "Li Mee 的小窝",
+            "name": "遥遥的部落格",
             "logo": {
                 "@type": "ImageObject",
                 "url": "https://limee233.github.io/icons/apple-touch-icon.png"
             },
-            "url": "https://limee233.github.io"
+            "url": "https://limee233.github.io/"
         },
         "mainEntityOfPage": {
             "@type": "WebSite",
-            "@id": "https://limee233.github.io"
+            "@id": "https://limee233.github.io/"
         }
     }
 </script>
@@ -103,13 +105,13 @@
 
 
 <meta property="og:title" content="使用 VHDX 硬盘映像安装 Windows" />
-<meta property="og:description" content="虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。 在 VHDX 中安装系统……" />
+<meta property="og:description" content="虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。 在 VHDX 中安装系统……" />
 <meta property="og:url" content="https://limee233.github.io/posts/tech/vhdx-install-windows/" />
-<meta property="og:site_name" content="Li Mee 的小窝" />
-<meta property="og:locale" content="zh" /><meta property="og:image" content="https://limee233.github.io/create-vhdx.png" />
+<meta property="og:site_name" content="遥遥的部落格" />
+<meta property="og:locale" content="zh-cn" /><meta property="og:image" content="https://limee233.github.io/create-vhdx.png" />
 <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2022-03-16T00:00:00&#43;00:00" />
-    <meta property="article:modified_time" content="2022-03-16T00:00:00&#43;00:00" />
+    <meta property="article:modified_time" content="2024-04-15T00:00:00&#43;00:00" />
     
     <meta property="article:section" content="posts" />
 
@@ -131,20 +133,17 @@
                     
     <div class="site-brand">
         
-            <a href="/" class="brand">Li Mee 的小窝</a>
+            <a href="/" class="brand">遥遥的部落格</a>
         
     </div>
 
                     <nav class="nav">
     <ul class="menu" id="menu">
         
-            
-        
-        
-        
+
         
             
-                <li class="menu-item active"><a href="/posts/"><span class="menu-item-name">文章</span></a>
+                <li class="menu-item"><a href="/posts/"><span class="menu-item-name">文章</span></a>
                 </li>
             
         
@@ -224,7 +223,7 @@
     
     
         
-        <time datetime="2022-03-16T00:00:00&#43;00:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2022/3/16</time>
+        <time datetime="2024-04-15T00:00:00&#43;00:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2024/4/15</time>
     
     
     
@@ -242,7 +241,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1221</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;1291</span>
     
     
     
@@ -252,10 +251,10 @@
             
 
             <div class="post-body e-content">
-                <p>虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些痛点。</p>
+                <p>虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。</p>
 <h2 id="在-vhdx-中安装系统">在 VHDX 中安装系统</h2>
 <h3 id="创建虚拟磁盘">创建虚拟磁盘</h3>
-<p>打开磁盘管理 → 操作 → 创建 VHD ，选择位置、大小、格式选择 VHDX ，虚拟磁盘类型为「动态扩展」，完成创建。</p>
+<p>打开磁盘管理 → 操作 → 创建 VHD，选择位置、大小、格式选择 VHDX，虚拟磁盘类型为「动态扩展」，完成创建。</p>
 <p><img src="create-vhdx.png" alt=""></p>
 <p>创建完成后在磁盘管理中就可以看到新创建的虚拟磁盘，记住其为 <code>磁盘 n</code> 随后关闭磁盘管理即可。</p>
 
@@ -339,30 +338,30 @@
             <svg>
                 <use href="#notice-icon-tip" fill="white"></use>
             </svg>
-        </span>提示</p>
+        </span></p>
     <div class="notice-body">
     教程后续都将默认虚拟磁盘位置为 <code>D:\Windows.vhdx</code>.
     </div>
 </div>
 <h3 id="初始化虚拟磁盘">初始化虚拟磁盘</h3>
-<p>以管理员权限启动 Windows Powershell ，执行 <code>diskpart</code> 进入 DiskPart 磁盘管理工具。</p>
-<p>执行 <code>list disk</code> ，查看 <code>磁盘 n</code> 是否为刚创建的虚拟磁盘（可通过大小判断）；<br>
+<p>以管理员权限启动 Windows Powershell，执行 <code>diskpart</code> 进入 DiskPart 磁盘管理工具。</p>
+<p>执行 <code>list disk</code>，查看 <code>磁盘 n</code> 是否为刚创建的虚拟磁盘（可通过大小判断）；<br>
 <code>select disk n</code> 选择刚创建的虚拟磁盘；<br>
 <code>create partition primary</code> 为虚拟磁盘创建主分区；<br>
 <code>format quick</code> 格式化刚创建的分区；<br>
-<code>assign letter=V</code> 为刚才的分区分配盘符 V ， V 指 Virtual Disk 虚拟磁盘的意思，好记。</p>
+<code>assign letter=V</code> 为刚才的分区分配盘符 V（可以换成其他的）。</p>
 <h3 id="安装操作系统">安装操作系统</h3>
 <p>使用 Dism++ 还原系统的功能，选择一个镜像，安装位置选择刚才为虚拟磁盘分出的 V 盘，不要勾选添加引导、格式化等选项，直接确定即可。</p>
 <p><img src="install-system.png" alt=""></p>
 <p>安装完后，可以在 Dism++ 中安装驱动，或者进行一些优化，当然这就是 Dism++ 的功能了，在此不赘述。</p>
 <h3 id="添加引导-gpt--uefi">添加引导 (GPT + UEFI)</h3>
 <p>如果你将 VHDX 放在了没有引导分区的磁盘内（比如只有一个分区的移动硬盘），需要先创建一个 efi 分区，参考一些装系统的教程即可。</p>
-<p>拥有 efi 引导分区后，可以用一些分区工具或 diskpart 为 efi 引导分区分配一个盘符，比如 S ， S 指 System ，系统分区。</p>
-<p>以管理员身份运行 PowerShell ，执行：<br>
+<p>拥有 efi 引导分区后，可以用一些分区工具或 diskpart 为 efi 引导分区分配一个盘符，比如 S，S 指 System，系统分区。</p>
+<p>以管理员身份运行 PowerShell，执行：<br>
 <code>cd V:\Windows\System32</code> 跳转到虚拟磁盘内系统的 System32 文件夹；
 <code>bcdboot V:\Windows /s S: /f UEFI</code><br>
 即可成功添加 UEFI 的引导。</p>
-<p>如果使用 BIOS 方式，需要参考 BIOS 方式安装系统的分区，参考 <a href="https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/boot-to-vhd--native-boot--add-a-virtual-hard-disk-to-the-boot-menu?view=windows-11#step-4-add-a-boot-entry" target="_blank" rel="noopener">这里</a> 。</p>
+<p>如果使用 BIOS 方式，需要参考 BIOS 方式安装系统的分区，参考 <a href="https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/boot-to-vhd--native-boot--add-a-virtual-hard-disk-to-the-boot-menu?view=windows-11#step-4-add-a-boot-entry" target="_blank" rel="noopener">这里</a>。</p>
 <p>现在，重启电脑进入启动项选择界面，应该就能看到新安装的系统了：</p>
 <div class="notice tip">
     <p class="notice-title tip">
@@ -370,18 +369,18 @@
             <svg>
                 <use href="#notice-icon-tip" fill="white"></use>
             </svg>
-        </span>提示</p>
+        </span></p>
     <div class="notice-body">
-    装在当前系统之外硬盘，可能会在 BIOS 中多一个启动磁盘；装在一个硬盘中，效果未知（ Li Mee 的电脑主硬盘有 BitLocker 无法测试）。
+    装在当前系统之外硬盘，可能会在 BIOS 中多一个启动磁盘；装在一个硬盘中，效果未知（我的电脑主硬盘有 BitLocker 无法测试）。
     </div>
 </div>
 <h2 id="实现备份和还原">实现备份和还原</h2>
-<p>先来理解一个概念，在安装系统创建引导的时候，引导永远指向 <code>D:\Windows.vhdx</code> ，无论这个文件如何被替换，系统都会尝试引导这个文件。</p>
-<p>我们先把 <code>D:\Windows.vhdx</code> 重命名为 <code>D:\Windows0.vhdx</code> ，接着以管理员身份启动 PowerShell ：</p>
+<p>先来理解一个概念，在安装系统创建引导的时候，引导永远指向 <code>D:\Windows.vhdx</code>，无论这个文件如何被替换，系统都会尝试引导这个文件。</p>
+<p>我们先把 <code>D:\Windows.vhdx</code> 重命名为 <code>D:\Windows0.vhdx</code>，接着以管理员身份启动 PowerShell ：</p>
 <p>执行 <code>create vdisk file=&quot;D:\Windows.vhdx&quot; parent=&quot;D:\Windows0.vhdx&quot;</code> 创建名为 <code>D:\Windows.vhdx</code> 的差分镜像。</p>
 <p>现在：</p>
 <ol>
-<li>Windows.vhdx 指向 Windows0.vhdx ，包含 Windows0.vhdx 中的所有文件。</li>
+<li>Windows.vhdx 指向 Windows0.vhdx，包含 Windows0.vhdx 中的所有文件。</li>
 <li>Windows0.vhdx 的文件已经被永久固定，日后所有对文件的修改（包括删除）都仅仅是对 Windows.vhdx 的修改。</li>
 </ol>
 <p>这就意味着，我们可以随时通过：</p>
@@ -398,9 +397,9 @@
             <svg>
                 <use href="#notice-icon-warning" fill="white"></use>
             </svg>
-        </span>警告</p>
+        </span></p>
     <div class="notice-body">
-    <p>一旦一个镜像有其子镜像（如上的 Windows0.vhdx 拥有子镜像 Windows.vhdx ），这个父镜像不应以任何形式修改，<strong>双击打开也叫做修改</strong>，一旦父镜像修改，依附于其的子镜像<strong>都会失效</strong>。</p>
+    <p>一旦一个镜像有其子镜像（如上的 Windows0.vhdx 拥有子镜像 Windows.vhdx），这个父镜像不应以任何形式修改，<strong>双击打开也叫做修改</strong>，一旦父镜像修改，依附于其的子镜像<strong>都会失效</strong>。</p>
 <p>我们可以通过给父镜像设置只读属性来防止意外修改，但在需要修改时（比如合并子镜像和父镜像）记得撤销只读权限。</p>
 
     </div>
@@ -412,7 +411,7 @@
 </ul>
 <h2 id="一些实用信息">一些实用信息</h2>
 <ul>
-<li>如果对一个差分子镜像的修改满意，可以将其合并到父镜像，参考 <a href="https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/merge-vdisk" target="_blank" rel="noopener">这里</a> （记得取消父镜像只读）。合并后子镜像仍存在但无法打开，可以手动删除。</li>
+<li>如果对一个差分子镜像的修改满意，可以将其合并到父镜像，参考 <a href="https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/merge-vdisk" target="_blank" rel="noopener">这里</a>（记得取消父镜像只读）。合并后子镜像仍存在但无法打开，可以手动删除。</li>
 <li>虚拟系统会自动扩展磁盘空间到最大，可以参考 <a href="http://liray.github.io/2013/04/18/prevent-the-vhd-from-expanding-to-its-full-size/" target="_blank" rel="noopener">这里</a> 解决，重启即可生效。</li>
 </ul>
 
@@ -454,53 +453,42 @@
         <div class="share-items">
 
             
-                <div class="share-item twitter">
-                    
-                    <a href="https://twitter.com/share?url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;text=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;hashtags=Windows,&amp;via=LiMee233" title="分享到「Twitter」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
-                </div>
             
-
+                
+                    <div class="share-item telegram">
+                        
+                        <a href="https://t.me/share/url?url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;text=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                    </div>
+                
             
-
+                
+                    <div class="share-item weibo">
+                        
+                        <a href="https://service.weibo.com/share/share.php?&amp;url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;title=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;pic=https://limee233.github.io/create-vhdx.png&amp;searchPic=false" title="分享到「新浪微博」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon weibo-icon"><path d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7-22 4.8-28.8-28.1-7.1-32.8 50.1-10.9 92.3 37.1 76.5 84.8-6.8 21.2-38.8 10.8-32-10.3zM214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6 79.5-33.6 140.5-16.8 114 51.4-3.7 9.4 1.1 10.9 8.3 13.1 135.7 42.3 34.8 215.2-169.7 215.2zm143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116zM347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3 72.3-15.2 134.8 52.8 111.7 124-7.4 24.2 29.1 37 37.4 12 31.9-99.8-55.1-195.9-157.4-174.3zm-78.5 311c-17.1 38.8-66.8 60-109.1 46.3-40.8-13.1-58-53.4-40.3-89.7 17.7-35.4 63.1-55.4 103.4-45.1 42 10.8 63.1 50.2 46 88.5zm-86.3-30c-12.9-5.4-30 .3-38 12.9-8.3 12.9-4.3 28 8.6 34 13.1 6 30.8.3 39.1-12.9 8-13.1 3.7-28.3-9.7-34zm32.6-13.4c-5.1-1.7-11.4.6-14.3 5.4-2.9 5.1-1.4 10.6 3.7 12.9 5.1 2 11.7-.3 14.6-5.4 2.8-5.2 1.1-10.9-4-12.9z"/></svg></a>
+                    </div>
+                
             
-
+                
+                    <div class="share-item douban">
+                        
+                        <a href="https://www.douban.com/share/service?href=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;name=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;text=%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%97%a0%e6%b3%95%e8%b0%83%e7%94%a8%e6%98%be%e5%8d%a1%e3%80%81%e8%80%8c%e4%b8%94%e9%83%a8%e5%88%86%e8%bd%af%e4%bb%b6%e5%af%b9%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%9c%89%e6%a3%80%e6%b5%8b%ef%bc%9b%e5%8d%95%e7%ba%af%e7%9a%84%e5%8f%8c%e7%b3%bb%e7%bb%9f%e6%97%a0%e6%b3%95%e6%96%b9%e4%be%bf%e5%a4%87%e4%bb%bd%ef%bc%8c%e8%80%8c%e4%b8%94%e4%b8%93%e9%97%a8%e5%88%86%e5%8c%ba%e6%80%bb%e8%a7%89%e5%be%97%e6%b5%aa%e8%b4%b9%ef%bc%8c%e8%80%8c%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows%20%e5%8f%af%e4%bb%a5%e8%a7%a3%e5%86%b3%e8%bf%99%e4%ba%9b%e9%97%ae%e9%a2%98%e3%80%82%20%e5%9c%a8%20VHDX%20%e4%b8%ad%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f%e2%80%a6%e2%80%a6" title="分享到「豆瓣」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
+                    </div>
+                
             
-                <div class="share-item telegram">
-                    
-                    <a href="https://t.me/share/url?url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;text=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows" title="分享到「Telegram」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
-                </div>
+                
+                    <div class="share-item qq">
+                        
+                        <a href="https://connect.qq.com/widget/shareqq/index.html?url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;title=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;summary=%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%97%a0%e6%b3%95%e8%b0%83%e7%94%a8%e6%98%be%e5%8d%a1%e3%80%81%e8%80%8c%e4%b8%94%e9%83%a8%e5%88%86%e8%bd%af%e4%bb%b6%e5%af%b9%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%9c%89%e6%a3%80%e6%b5%8b%ef%bc%9b%e5%8d%95%e7%ba%af%e7%9a%84%e5%8f%8c%e7%b3%bb%e7%bb%9f%e6%97%a0%e6%b3%95%e6%96%b9%e4%be%bf%e5%a4%87%e4%bb%bd%ef%bc%8c%e8%80%8c%e4%b8%94%e4%b8%93%e9%97%a8%e5%88%86%e5%8c%ba%e6%80%bb%e8%a7%89%e5%be%97%e6%b5%aa%e8%b4%b9%ef%bc%8c%e8%80%8c%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows%20%e5%8f%af%e4%bb%a5%e8%a7%a3%e5%86%b3%e8%bf%99%e4%ba%9b%e9%97%ae%e9%a2%98%e3%80%82%20%e5%9c%a8%20VHDX%20%e4%b8%ad%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f%e2%80%a6%e2%80%a6&amp;pics=https://limee233.github.io/create-vhdx.png&amp;site=%e9%81%a5%e9%81%a5%e7%9a%84%e9%83%a8%e8%90%bd%e6%a0%bc" title="分享到「QQ」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qq-icon"><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"/></svg></a>
+                    </div>
+                
             
-
+                
+                    <div class="share-item qzone">
+                        
+                        <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;title=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;summary=%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%97%a0%e6%b3%95%e8%b0%83%e7%94%a8%e6%98%be%e5%8d%a1%e3%80%81%e8%80%8c%e4%b8%94%e9%83%a8%e5%88%86%e8%bd%af%e4%bb%b6%e5%af%b9%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%9c%89%e6%a3%80%e6%b5%8b%ef%bc%9b%e5%8d%95%e7%ba%af%e7%9a%84%e5%8f%8c%e7%b3%bb%e7%bb%9f%e6%97%a0%e6%b3%95%e6%96%b9%e4%be%bf%e5%a4%87%e4%bb%bd%ef%bc%8c%e8%80%8c%e4%b8%94%e4%b8%93%e9%97%a8%e5%88%86%e5%8c%ba%e6%80%bb%e8%a7%89%e5%be%97%e6%b5%aa%e8%b4%b9%ef%bc%8c%e8%80%8c%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows%20%e5%8f%af%e4%bb%a5%e8%a7%a3%e5%86%b3%e8%bf%99%e4%ba%9b%e9%97%ae%e9%a2%98%e3%80%82%20%e5%9c%a8%20VHDX%20%e4%b8%ad%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f%e2%80%a6%e2%80%a6&amp;pics=https://limee233.github.io/create-vhdx.png&amp;site=%e9%81%a5%e9%81%a5%e7%9a%84%e9%83%a8%e8%90%bd%e6%a0%bc" title="分享到「QQ 空间」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon qzone-icon"><path d="M23.985 9.202c-.032-.099-.127-.223-.334-.258-.207-.036-7.351-1.406-7.351-1.406s-.105-.022-.198-.07c-.092-.047-.127-.167-.127-.167S12.447.956 12.349.77C12.25.583 12.104.532 12 .532c-.104 0-.251.051-.349.238-.098.186-3.626 6.531-3.626 6.531s-.035.12-.128.167c-.092.047-.197.07-.197.07S.556 8.908.348 8.943c-.208.036-.302.16-.333.258a.477.477 0 0 0 .125.449l5.362 5.49s.072.08.119.172c.016.104.005.21.005.21s-1.189 7.242-1.22 7.45.075.369.159.43c.083.062.233.106.421.013.189-.093 6.812-3.261 6.812-3.261s.098-.044.201-.061c.103-.017.201.061.201.061s6.623 3.168 6.812 3.261c.188.094.338.049.421-.013a.463.463 0 0 0 .159-.43c-.021-.14-.93-5.677-.93-5.677.876-.54 1.425-1.039 1.849-1.747-2.594.969-6.006 1.717-9.415 1.866-.915.041-2.41.097-3.473-.015-.678-.071-1.17-.144-1.243-.438-.053-.215.054-.46.545-.831a2640.5 2640.5 0 0 1 2.861-2.155c1.285-.968 3.559-2.47 3.559-2.731 0-.285-2.144-.781-4.037-.781-1.945 0-2.275.132-2.811.168-.488.034-.769.005-.804-.138-.06-.248.183-.389.588-.568.709-.314 1.86-.594 1.984-.626.194-.052 3.082-.805 5.618-.535 1.318.14 3.244.668 3.244 1.276 0 .342-1.721 1.494-3.225 2.597-1.149.843-2.217 1.561-2.217 1.688 0 .342 3.533 1.241 6.689 1.01l.003-.022c.048-.092.119-.172.119-.172l5.362-5.49a.477.477 0 0 0 .127-.449z"/></svg></a>
+                    </div>
+                
             
-                <div class="share-item weibo">
-                    
-                    <a href="https://service.weibo.com/share/share.php?&amp;url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;title=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;pic=https://limee233.github.io/create-vhdx.png&amp;searchPic=false" title="分享到「新浪微博」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon weibo-icon"><path d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7-22 4.8-28.8-28.1-7.1-32.8 50.1-10.9 92.3 37.1 76.5 84.8-6.8 21.2-38.8 10.8-32-10.3zM214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6 79.5-33.6 140.5-16.8 114 51.4-3.7 9.4 1.1 10.9 8.3 13.1 135.7 42.3 34.8 215.2-169.7 215.2zm143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116zM347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3 72.3-15.2 134.8 52.8 111.7 124-7.4 24.2 29.1 37 37.4 12 31.9-99.8-55.1-195.9-157.4-174.3zm-78.5 311c-17.1 38.8-66.8 60-109.1 46.3-40.8-13.1-58-53.4-40.3-89.7 17.7-35.4 63.1-55.4 103.4-45.1 42 10.8 63.1 50.2 46 88.5zm-86.3-30c-12.9-5.4-30 .3-38 12.9-8.3 12.9-4.3 28 8.6 34 13.1 6 30.8.3 39.1-12.9 8-13.1 3.7-28.3-9.7-34zm32.6-13.4c-5.1-1.7-11.4.6-14.3 5.4-2.9 5.1-1.4 10.6 3.7 12.9 5.1 2 11.7-.3 14.6-5.4 2.8-5.2 1.1-10.9-4-12.9z"/></svg></a>
-                </div>
-            
-
-            
-                <div class="share-item douban">
-                    
-                    <a href="https://www.douban.com/share/service?href=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;name=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;text=%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%97%a0%e6%b3%95%e8%b0%83%e7%94%a8%e6%98%be%e5%8d%a1%e3%80%81%e8%80%8c%e4%b8%94%e9%83%a8%e5%88%86%e8%bd%af%e4%bb%b6%e5%af%b9%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%9c%89%e6%a3%80%e6%b5%8b%ef%bc%9b%e5%8d%95%e7%ba%af%e7%9a%84%e5%8f%8c%e7%b3%bb%e7%bb%9f%e6%97%a0%e6%b3%95%e6%96%b9%e4%be%bf%e5%a4%87%e4%bb%bd%ef%bc%8c%e8%80%8c%e4%b8%94%e4%b8%93%e9%97%a8%e5%88%86%e5%8c%ba%e6%80%bb%e8%a7%89%e5%be%97%e6%b5%aa%e8%b4%b9%ef%bc%8c%e8%80%8c%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows%20%e5%8f%af%e4%bb%a5%e8%a7%a3%e5%86%b3%e8%bf%99%e4%ba%9b%e7%97%9b%e7%82%b9%e3%80%82%20%e5%9c%a8%20VHDX%20%e4%b8%ad%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f%e2%80%a6%e2%80%a6" title="分享到「豆瓣」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
-                </div>
-            
-
-            
-                <div class="share-item qq">
-                    
-                    <a href="https://connect.qq.com/widget/shareqq/index.html?url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;title=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;summary=%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%97%a0%e6%b3%95%e8%b0%83%e7%94%a8%e6%98%be%e5%8d%a1%e3%80%81%e8%80%8c%e4%b8%94%e9%83%a8%e5%88%86%e8%bd%af%e4%bb%b6%e5%af%b9%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%9c%89%e6%a3%80%e6%b5%8b%ef%bc%9b%e5%8d%95%e7%ba%af%e7%9a%84%e5%8f%8c%e7%b3%bb%e7%bb%9f%e6%97%a0%e6%b3%95%e6%96%b9%e4%be%bf%e5%a4%87%e4%bb%bd%ef%bc%8c%e8%80%8c%e4%b8%94%e4%b8%93%e9%97%a8%e5%88%86%e5%8c%ba%e6%80%bb%e8%a7%89%e5%be%97%e6%b5%aa%e8%b4%b9%ef%bc%8c%e8%80%8c%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows%20%e5%8f%af%e4%bb%a5%e8%a7%a3%e5%86%b3%e8%bf%99%e4%ba%9b%e7%97%9b%e7%82%b9%e3%80%82%20%e5%9c%a8%20VHDX%20%e4%b8%ad%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f%e2%80%a6%e2%80%a6&amp;pics=https://limee233.github.io/create-vhdx.png&amp;site=Li%20Mee%20%e7%9a%84%e5%b0%8f%e7%aa%9d" title="分享到「QQ」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qq-icon"><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"/></svg></a>
-                </div>
-            
-
-            
-                <div class="share-item qzone">
-                    
-                    <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://limee233.github.io/posts/tech/vhdx-install-windows/&amp;title=%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows&amp;summary=%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%97%a0%e6%b3%95%e8%b0%83%e7%94%a8%e6%98%be%e5%8d%a1%e3%80%81%e8%80%8c%e4%b8%94%e9%83%a8%e5%88%86%e8%bd%af%e4%bb%b6%e5%af%b9%e8%99%9a%e6%8b%9f%e6%9c%ba%e6%9c%89%e6%a3%80%e6%b5%8b%ef%bc%9b%e5%8d%95%e7%ba%af%e7%9a%84%e5%8f%8c%e7%b3%bb%e7%bb%9f%e6%97%a0%e6%b3%95%e6%96%b9%e4%be%bf%e5%a4%87%e4%bb%bd%ef%bc%8c%e8%80%8c%e4%b8%94%e4%b8%93%e9%97%a8%e5%88%86%e5%8c%ba%e6%80%bb%e8%a7%89%e5%be%97%e6%b5%aa%e8%b4%b9%ef%bc%8c%e8%80%8c%e4%bd%bf%e7%94%a8%20VHDX%20%e7%a1%ac%e7%9b%98%e6%98%a0%e5%83%8f%e5%ae%89%e8%a3%85%20Windows%20%e5%8f%af%e4%bb%a5%e8%a7%a3%e5%86%b3%e8%bf%99%e4%ba%9b%e7%97%9b%e7%82%b9%e3%80%82%20%e5%9c%a8%20VHDX%20%e4%b8%ad%e5%ae%89%e8%a3%85%e7%b3%bb%e7%bb%9f%e2%80%a6%e2%80%a6&amp;pics=https://limee233.github.io/create-vhdx.png&amp;site=Li%20Mee%20%e7%9a%84%e5%b0%8f%e7%aa%9d" title="分享到「QQ 空间」" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon qzone-icon"><path d="M23.985 9.202c-.032-.099-.127-.223-.334-.258-.207-.036-7.351-1.406-7.351-1.406s-.105-.022-.198-.07c-.092-.047-.127-.167-.127-.167S12.447.956 12.349.77C12.25.583 12.104.532 12 .532c-.104 0-.251.051-.349.238-.098.186-3.626 6.531-3.626 6.531s-.035.12-.128.167c-.092.047-.197.07-.197.07S.556 8.908.348 8.943c-.208.036-.302.16-.333.258a.477.477 0 0 0 .125.449l5.362 5.49s.072.08.119.172c.016.104.005.21.005.21s-1.189 7.242-1.22 7.45.075.369.159.43c.083.062.233.106.421.013.189-.093 6.812-3.261 6.812-3.261s.098-.044.201-.061c.103-.017.201.061.201.061s6.623 3.168 6.812 3.261c.188.094.338.049.421-.013a.463.463 0 0 0 .159-.43c-.021-.14-.93-5.677-.93-5.677.876-.54 1.425-1.039 1.849-1.747-2.594.969-6.006 1.717-9.415 1.866-.915.041-2.41.097-3.473-.015-.678-.071-1.17-.144-1.243-.438-.053-.215.054-.46.545-.831a2640.5 2640.5 0 0 1 2.861-2.155c1.285-.968 3.559-2.47 3.559-2.731 0-.285-2.144-.781-4.037-.781-1.945 0-2.275.132-2.811.168-.488.034-.769.005-.804-.138-.06-.248.183-.389.588-.568.709-.314 1.86-.594 1.984-.626.194-.052 3.082-.805 5.618-.535 1.318.14 3.244.668 3.244 1.276 0 .342-1.721 1.494-3.225 2.597-1.149.843-2.217 1.561-2.217 1.688 0 .342 3.533 1.241 6.689 1.01l.003-.022c.048-.092.119-.172.119-.172l5.362-5.49a.477.477 0 0 0 .127-.449z"/></svg></a>
-                </div>
-            
-
-            
-
         </div>
 
     </div>
@@ -516,7 +504,7 @@
             <ul class="related-list">
                 
                     <li class="related-item">
-                        <a href="/posts/tech/restore-wsl2-after-reinstall-windows/" class="related-link">重装 Windows 后恢复 WSL2</a>
+                        <a href="/posts/tech/restore-wsl2-after-reinstall-windows/" class="related-link">重装 Windows 后恢复 WSL2 数据</a>
                     </li>
                 
                     <li class="related-item">
@@ -572,6 +560,8 @@
     
     
     
+    
+    
         <ul class="post-nav">
             
                 <li class="post-nav-prev">
@@ -604,7 +594,7 @@
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">2021–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Li Mee</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="custom-footer">我们是最后一代</div>
+            <div class="site-info">2021–2024&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Li Mee</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="custom-footer">我们是最后一代</div>
 
             
 
