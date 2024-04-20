@@ -2,19 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://limee233.github.io/posts/life/2023-summary/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://limee233.github.io/categories/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/posts/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/tags/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/categories/tech/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/tags/windows/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/posts/tech/use-proxy-during-windows-oobe/</loc>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/posts/life/2023-summary/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/life/will-gd-be-detected/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/categories/life/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/posts/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/</loc>
@@ -27,9 +42,6 @@
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/life/srs-sh411/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/archived/2023-summary/</loc>
@@ -53,12 +65,6 @@
     <loc>https://limee233.github.io/tags/linux/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://limee233.github.io/tags/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/categories/tech/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://limee233.github.io/posts/tech/xorg-fractional-scaling/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -72,9 +78,6 @@
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/tech/debian11-build-pe12/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/tags/windows/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/tech/vhdx-install-windows/</loc>

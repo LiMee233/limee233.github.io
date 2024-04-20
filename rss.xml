@@ -12,7 +12,7 @@
         <title>遥遥的部落格</title>
         <link>https://limee233.github.io/</link>
         <description></description>
-        <generator>Hugo 0.124.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.125.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -25,10 +25,78 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 15 Apr 2024 22:43:12 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 20 Apr 2024 16:01:46 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
+        
+            <item>
+                <title>在 Windows OOBE 阶段使用代理服务器</title>
+                <link>https://limee233.github.io/posts/tech/use-proxy-during-windows-oobe/</link>
+                <guid isPermaLink="true">https://limee233.github.io/posts/tech/use-proxy-during-windows-oobe/</guid>
+                <pubDate>Sat, 20 Apr 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>LiMee233@outlook.com (Li Mee)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;中国移动的大内网安装 Windows 简直是折磨，账号登不上，驱动不下载，甚至收不到 Windows 更新，无法在微软商店下载应用，受不了一点。&lt;/p&gt;
+&lt;h2 id=&#34;配置服务器&#34;&gt;配置服务器&lt;/h2&gt;
+&lt;p&gt;首先需要一个能在局域网内提供代理服务器功能的软件，v2RayN、Quantumult X 之类的都可以，以 Quantumult X 为例：&lt;/p&gt;
+&lt;p&gt;点击右下角小风车 → 划到最下面点击其他设置 → 开启「HTTP 代理服务器」功能；此功能右侧的说明可以看到服务器地址，比如 192.168.1.102:8899（下面均依此举例，请自行替换）。&lt;/p&gt;
+&lt;p&gt;如果使用其他软件，需要先想办法把 IP 查出来，可以从路由器界面看，加上代理软件内设定的端口即可。&lt;/p&gt;
+&lt;p&gt;建议开启全局代理模式。&lt;/p&gt;
+&lt;h2 id=&#34;在-oobe-阶段启用代理&#34;&gt;在 OOBE 阶段启用代理&lt;/h2&gt;
+&lt;p&gt;进入 OOBE 的网络连接界面后，先不要连接网络，按下 Shift + F10 打开命令提示符，输入如下 3 条命令执行&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;reg&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ProxyEnable&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;REG_DWORD&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;reg&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;HKCU\Software\Microsoft\Windows\CurrentVersion\Internet Settings&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ProxyServer&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;192.168.0.102:8899&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;f&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;netsh&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;winhttp&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;set &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;proxy&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;192.168&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;102&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;8899&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;随后在电脑上连接网络，可以同时在代理软件上查看日志，判断是否成功连接。&lt;/p&gt;
+&lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
+&lt;p&gt;如上设置可以维持到 OOBE 结束前，进入桌面后需要重新设置。&lt;/p&gt;
+&lt;p&gt;建议进入桌面后立刻重新设置代理服务器，毕竟它连 Windows 更新都连不上，真的是&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/ilqgffvramusm2864/article/details/108105129&#34;&gt;CMD设置代理 注册表设置IE代理&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/shadowsocks/shadowsocks-windows/issues/1741#issuecomment-374812288&#34;&gt;怎么设置win10自动更新走SS？&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/categories/tech/">tech</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/tags/windows/">Windows</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Xorg 分数缩放的相关问题</title>
