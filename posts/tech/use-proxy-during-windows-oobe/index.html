@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.125.1"><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.128.0"><meta name="theme-color" content="#fff" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -65,7 +65,7 @@
         "description": "中国移动的大内网安装 Windows 简直是折磨，账号登不上，驱动不下载，甚至收不到 Windows 更新，无法在微软商店下载应用，受不了一点。 配置服务器 首先需要一个能在局域网内提供代……",
         "inLanguage" : "zh-CN",
         "articleSection": "posts",
-        "wordCount":  477 ,
+        "wordCount":  512 ,
         "image": "https://limee233.github.io/icons/apple-touch-icon.png",
         "author": {
             "@type": "Person",
@@ -96,8 +96,6 @@
 
 <meta name="twitter:card" content="summary" />
 
-<meta name="twitter:site" content="@LiMee233" />
-<meta name="twitter:creator" content="@LiMee233" />
 
     
 
@@ -240,7 +238,7 @@
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;477</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;512</span>
     
     
     
@@ -272,8 +270,8 @@
 </div>
 </div><p>随后在电脑上连接网络，可以同时在代理软件上查看日志，判断是否成功连接。</p>
 <h2 id="后记">后记</h2>
-<p>如上设置可以维持到 OOBE 结束前，进入桌面后需要重新设置。</p>
-<p>建议进入桌面后立刻重新设置代理服务器，毕竟它连 Windows 更新都连不上，真的是</p>
+<p>注册表的设置可以维持到 OOBE 结束前，进入桌面后需要重新设置；winhttp 的设置会始终生效，如果后期不使用代理或者地址发生变化，需要重新设置，否则部分应用会无法联网。</p>
+<p>取消 winhttp 代理：<code>netsh winhttp reset proxy</code></p>
 <hr>
 <p>参考</p>
 <p><a href="https://blog.csdn.net/ilqgffvramusm2864/article/details/108105129" target="_blank" rel="noopener">CMD设置代理 注册表设置IE代理</a><br>
@@ -368,6 +366,14 @@
             <ul class="related-list">
                 
                     <li class="related-item">
+                        <a href="/posts/tech/disappeared-beam/" class="related-link">找回消失的鼠标指针</a>
+                    </li>
+                
+                    <li class="related-item">
+                        <a href="/posts/tech/fix-globalization-name-of-rss-folder/" class="related-link">修正 Outlook 邮箱中「RSS 源」文件夹的语言</a>
+                    </li>
+                
+                    <li class="related-item">
                         <a href="/posts/tech/vhdx-install-windows/" class="related-link">使用 VHDX 硬盘映像安装 Windows</a>
                     </li>
                 
@@ -377,14 +383,6 @@
                 
                     <li class="related-item">
                         <a href="/posts/tech/fix-office-scrolling-lag/" class="related-link">解决 Office 滚动卡顿</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/tech/amd-xamldesinger-displaybug/" class="related-link">AMD 集显运行 XAML 设计器花屏</a>
-                    </li>
-                
-                    <li class="related-item">
-                        <a href="/posts/tech/windows-language-to-singapore/" class="related-link">Windows 语言变成「中文（新加坡）」</a>
                     </li>
                 
             </ul>
@@ -425,6 +423,15 @@
     
     
     
+    
+        <ul class="post-nav">
+            
+                <li class="post-nav-prev">
+                    <a href="/posts/tech/fix-globalization-name-of-rss-folder/" rel="prev">&lt; 修正 Outlook 邮箱中「RSS 源」文件夹的语言</a>
+                </li>
+            
+            
+        </ul>
     
 
 

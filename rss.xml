@@ -12,7 +12,7 @@
         <title>遥遥的部落格</title>
         <link>https://limee233.github.io/</link>
         <description></description>
-        <generator>Hugo 0.125.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.128.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -25,10 +25,136 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sat, 20 Apr 2024 16:01:46 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 30 Jun 2024 20:30:30 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
+        
+            <item>
+                <title>找回消失的鼠标指针</title>
+                <link>https://limee233.github.io/posts/tech/disappeared-beam/</link>
+                <guid isPermaLink="true">https://limee233.github.io/posts/tech/disappeared-beam/</guid>
+                <pubDate>Sun, 30 Jun 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>LiMee233@outlook.com (Li Mee)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;不知道哪次 Windows 更新，又把 Chrome、Chromium 内核浏览器、electron 应用的文本框中的鼠标指针给弄没了，移动进文本框后显示为白色，几乎不可见，有几秒的延迟才会变成黑色，非常影响使用。&lt;/p&gt;
+&lt;p&gt;就是这个指针：&lt;br&gt;
+&lt;img src=&#34;beam.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;解决方案也很简单，换个第三方鼠标指针就行了。&lt;/p&gt;
+&lt;p&gt;这里提供一款鼠标指针，和默认的效果比较像：&lt;a href=&#34;https://wwo.lanzout.com/ixv3W2359dmf&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;下载完成后，去设置——个性化——主题中找到鼠标指针，更换「Text Select」的指针即可。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.deviantart.com/jepricreations/art/Windows-11-Cursors-Concept-HDPI-v2-2-890672103&#34;&gt;Windows 11 Cursors Concept HDPI v2.2&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/categories/tech/">tech</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/tags/windows/">Windows</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>修正 Outlook 邮箱中「RSS 源」文件夹的语言</title>
+                <link>https://limee233.github.io/posts/tech/fix-globalization-name-of-rss-folder/</link>
+                <guid isPermaLink="true">https://limee233.github.io/posts/tech/fix-globalization-name-of-rss-folder/</guid>
+                <pubDate>Sat, 29 Jun 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>LiMee233@outlook.com (Li Mee)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;如果之前使用中文操作系统，切换成英文系统后，在 Outlook 邮箱内可能会有一个顽固的「RSS 源」文件夹，别的都是英文只有它是中文，看起来十分碍眼。&lt;/p&gt;
+&lt;h2 id=&#34;准备材料&#34;&gt;准备材料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Outlook 软件（Win32 版 Office 套件的一部分），需要是想更改的语言的版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;操作步骤&#34;&gt;操作步骤&lt;/h2&gt;
+&lt;p&gt;在 Win32 版 Outlook 中登录账户，可见格格不入的「RSS 源」文件夹&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;RSS_Feeds_in_Chinese.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;关闭 Outlook，在命令行中带如下参数执行 Outlook 程序（找到文件所在位置，打开 Powershell，方法不再赘述）：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;outlook&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resetfolders&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 执行后 Outlook 会自动打开，关闭它再执行下一条&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;outlook&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;exe&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;resetfoldernames&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Outlook 自动启动后等待一小会，就可以发现有「RSS 源」和「RSS Feeds」两个文件夹了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;RSS_Feeds_in_English.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;此时原有的「RSS 源」文件夹即可重命名或删除。&lt;/p&gt;
+&lt;h2 id=&#34;注&#34;&gt;注&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;删除后需要多等一段时间让各设备客户端同步。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果删除之后在其他客户端仍能见到此文件夹，但 Win32 版 Outlook 软件中已经没有了，可以在 &lt;code&gt;C:\Users\%USERNAME%\AppData\Local\Microsoft\Outlook&lt;/code&gt; 中删除账户对应的 Outlook Data File，重新打开 Win32 版 Outlook，文件夹就会重新出现，再手动删除即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果手动删除多次无效，也可以先移动到其他文件夹内，再删除。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://answers.microsoft.com/en-us/outlook_com/forum/all/change-name-of-outlook-rss-feeds-folder/740a3bdd-c9ff-41a5-a2c1-5f4bcffe4569&#34;&gt;Change Name of Outlook RSS Feeds Folder&lt;/a&gt;&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/categories/tech/">tech</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/tags/windows/">Windows</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>在 Windows OOBE 阶段使用代理服务器</title>
@@ -62,8 +188,8 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;随后在电脑上连接网络，可以同时在代理软件上查看日志，判断是否成功连接。&lt;/p&gt;
 &lt;h2 id=&#34;后记&#34;&gt;后记&lt;/h2&gt;
-&lt;p&gt;如上设置可以维持到 OOBE 结束前，进入桌面后需要重新设置。&lt;/p&gt;
-&lt;p&gt;建议进入桌面后立刻重新设置代理服务器，毕竟它连 Windows 更新都连不上，真的是&lt;/p&gt;
+&lt;p&gt;注册表的设置可以维持到 OOBE 结束前，进入桌面后需要重新设置；winhttp 的设置会始终生效，如果后期不使用代理或者地址发生变化，需要重新设置，否则部分应用会无法联网。&lt;/p&gt;
+&lt;p&gt;取消 winhttp 代理：&lt;code&gt;netsh winhttp reset proxy&lt;/code&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;参考&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/ilqgffvramusm2864/article/details/108105129&#34;&gt;CMD设置代理 注册表设置IE代理&lt;/a&gt;&lt;br&gt;
