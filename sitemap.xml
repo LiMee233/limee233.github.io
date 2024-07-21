@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://limee233.github.io/categories/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/categories/life/</loc>
+    <lastmod>2024-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/posts/life/cyber-mysophobia/</loc>
+    <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://limee233.github.io/</loc>
+    <lastmod>2024-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/tags/</loc>
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
@@ -15,9 +24,6 @@
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/tags/windows/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/</loc>
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/tech/disappeared-beam/</loc>
@@ -30,42 +36,18 @@
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/life/2023-summary/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://limee233.github.io/posts/life/will-gd-be-detected/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/categories/life/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/posts/life/hebut-militarytraining-records/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/posts/life/jitihukou-move-out/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+    <loc>https://limee233.github.io/categories/hidden/</loc>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/posts/life/srs-sh411/</loc>
-    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/archived/2023-summary/</loc>
-    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/categories/archived/</loc>
-    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/archived/</loc>
-    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://limee233.github.io/archived/srs-sh411/</loc>
     <lastmod>2023-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://limee233.github.io/archived/obtain-certification-from-dixiaolan/</loc>
+    <loc>https://limee233.github.io/posts/life/obtain-certification-from-dixiaolan/</loc>
     <lastmod>2023-07-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://limee233.github.io/archived/jitihukou-move-out/</loc>
+    <loc>https://limee233.github.io/posts/life/jitihukou-move-out/</loc>
     <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/tags/linux/</loc>
@@ -101,7 +83,7 @@
     <loc>https://limee233.github.io/posts/tech/restore-wsl2-after-reinstall-windows/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://limee233.github.io/archived/will-gd-be-detected/</loc>
+    <loc>https://limee233.github.io/posts/life/will-gd-be-detected/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/tags/aosp-%E7%BC%96%E8%AF%91/</loc>
@@ -116,7 +98,7 @@
     <loc>https://limee233.github.io/posts/tech/android-kernel-rebuild-clean-cache/</loc>
     <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://limee233.github.io/archived/hebut-militarytraining-records/</loc>
+    <loc>https://limee233.github.io/posts/life/hebut-militarytraining-records/</loc>
     <lastmod>2022-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://limee233.github.io/about/</loc>

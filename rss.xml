@@ -12,7 +12,7 @@
         <title>遥遥的部落格</title>
         <link>https://limee233.github.io/</link>
         <description></description>
-        <generator>Hugo 0.128.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.129.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -25,10 +25,101 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 30 Jun 2024 20:30:30 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jul 2024 16:28:49 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
+        
+            <item>
+                <title>赛博洁癖</title>
+                <link>https://limee233.github.io/posts/life/cyber-mysophobia/</link>
+                <guid isPermaLink="true">https://limee233.github.io/posts/life/cyber-mysophobia/</guid>
+                <pubDate>Sun, 21 Jul 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>LiMee233@outlook.com (Li Mee)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;自从大学以来，自己长期遭受所谓「赛博洁癖」的困扰；正巧，在 V2EX 上看到关于 &lt;a href=&#34;https://s.v2ex.com/t/1032425&#34;&gt;赛博洁癖的文章&lt;/a&gt;，想写一篇文章挂在博客上公开处刑，顺便探讨可能可以解决赛博洁癖的方案。&lt;/p&gt;
+&lt;h2 id=&#34;哦我可能患上了赛博洁癖&#34;&gt;哦，我可能患上了「赛博洁癖」&lt;/h2&gt;
+&lt;p&gt;可以说，在电脑、手机及其操作系统角度上的洁癖，就是「赛博洁癖」&lt;/p&gt;
+&lt;p&gt;可以列举出很多症状：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;装了软件，但用了几分钟感觉不好用，卸载了，&lt;strong&gt;但总感觉觉得这个软件卸载不干净，会对操作系统产生不好的影响，心里十分难受，就会想重装&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;安装和配置 Windows 系统时，如果出现诸如 OOBE 提示无法连接网络、Windows 更新失败、UWP 应用程序启动相较平常慢、打开了自己用不上的自带软件而不是直接卸载掉、在没有切换成双拼输入之前用输入法打了字…… 等情况，&lt;strong&gt;就会感觉系统中出现了我用不上的功能，从而觉得系统有垃圾、不干净了，心里十分难受，就会想重装&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;进行 MIUI 的开机引导时，如果出现卡 2 比卡 1 先激活（有激活通知，可以通过通知顺序查看）、没有一键登录、指纹录入失败、WiFi 密码输入错误等情况，&lt;strong&gt;就会感觉这次开机引导配置没有完美进行，不能满足我的要求，心里十分难受，就会重新刷机&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;MIUI 开机引导结束后需要关闭系统广告，如果我在设置中关广告之前先打开了程序，让广告显示出来了、或者我误触了用不上的应用程序、或者我发现系统自带的百度输入法是 130 多 MB 而不是 110 多 MB，&lt;strong&gt;都会让我感觉系统里存在难以清理的垃圾，心里十分难受，于是就会重新刷机&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：MIUI 系统引导结束后，有时候百度输入法小米版会正在运行，有 20MB 的用户数据；有时候就不会运行，没有这些数据。这就是 130MB 和 110MB 的差距来源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;安装 Visual Studio、Google Chrome 等需要联网下载安装程序的软件时，如果网络环境不佳，弹出错误提示，&lt;strong&gt;于是觉得这次安装是失败的，可能导致组件安装不完全，日后使用此软件可能会出现莫名其妙的错误，心里十分难受，就会想重装&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;安装原神等游戏时，如果下载过程中 WiFi 中断，&lt;strong&gt;就会感觉这次下载中途出现了异常，日后玩游戏可能导致数据错误，心里十分难受，就会想重装&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在刚装完新系统的配置阶段，如果出现突然断电（或者电池供电）、或者设备在暴风雨等恶劣天气、火车上等网络不稳定环境下，&lt;strong&gt;就会感觉外界不稳定的环境会对网络、硬件造成影响，从而感觉配置过程是不可靠的，从而想重装&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;「赛博洁癖」带来的影响也是很大的，仍然采用列举的方式：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;会浪费大量的时间：&lt;/strong&gt; 根据我的个人经验，在执着于赛博洁癖的时候，我经常会装系统 / 刷机熬夜到凌晨 5 点、或者早晨 5:30 起来装操作系统（因为宿舍 5:30 来电）、最有甚时，可能会连续 5 天都在安装操作系统，什么事情都不做，把自己搞得精神憔悴。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;会丢失珍贵的数据：&lt;/strong&gt; 重新安装操作系统需要对现有数据进行备份，但备份如何保证 100% 完备呢，我就丢失过放在 &lt;code&gt;C:\Users\%USERNAME%\AppData\Local&lt;/code&gt; 那堆屎山里面的游戏存档（太多了找不全）、OneNote 笔记（因为写了但没同步）、原神截图（放在 Program Files 里面相当容易忘）等等，这些数据丢掉了就再也找不回来了。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;会耽误自己的社交：&lt;/strong&gt; 虽然社交算不上很多，但如果和朋友有约，但在约定时间前还在刷机，往往就会遇到在外面想玩原神但是没下载完呢、想开导航一看地图没装、付款码还没开通等等情况，十分影响出去玩的心情。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;相信看到这里，正常人可能会觉得 「What？」，这简直是难以置信；不过我相信大部分人应该都能对所谓「赛博洁癖」的症状和影响有一个基本的了解了。&lt;/p&gt;
+&lt;h2 id=&#34;赛博洁癖是一种强迫症应该得到足够的重视&#34;&gt;「赛博洁癖」是一种强迫症，应该得到足够的重视&lt;/h2&gt;
+&lt;p&gt;洁癖是一种强迫症，这无需多言，但为什么在这里需要强调「赛博洁癖」也是一种强迫症呢，主要还是觉得这种症状&lt;strong&gt;应该得到重视和理解&lt;/strong&gt;，而不是加上「赛博」之后，颇有一种开玩笑的意味。&lt;/p&gt;
+&lt;p&gt;强迫症的症状被大众所知，普遍上就是重复的洗手、锁门、系鞋带，这无疑是一种对强迫症的误解，类似「赛博洁癖」这类行为特殊的强迫症，往往就会被忽视，有更高的几率被别人认为是没事找事。&lt;/p&gt;
+&lt;p&gt;那为什么说「赛博洁癖」也是一种强迫症呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;首先，赛博洁癖拥有「强迫观念」&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;强迫观念（obsession）是指尽管强迫症患者努力去忽视或者面对，但还是以刻板形式反复出现、不断侵入患者思想的想法和观念（intrusive thought）。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;显然，即使我努力去忽视系统和设备的不完美，我深知系统有点垃圾完全不影响使用，我深知区区几十 MB 的垃圾文件在我 256GB 的手机存储空间里根本不值一提，我深知指纹第一次没录上再录一次就好了……&lt;strong&gt;但&lt;/strong&gt;，这种认为系统不干净 / 不完美的想法仍然在持续侵入我的大脑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其次，赛博洁癖拥有「强迫行为」&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;强迫症患者做出强迫性的仪式性行为是因为他们莫名地觉得他们不得不这么做，也有一些患者这么做则是为了缓解因为特定的强迫观念而带来的焦虑感。他们会认为做这些动作可以从一定程度上防止可怕的事情发生或是把这些行为动作从他们想法里剔除掉。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;显然，重装操作系统 / 刷机，甚至把造成强迫观念的设备卖掉换成其他品牌等等，都属于强迫行为，这样做就是为了缓解认为系统不完美 / 不干净造成的焦虑感。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最后，赛博洁癖给患者自身带来了极大的痛苦&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在任何案例中，强迫症患者的逻辑都是非常奇怪或歪曲的，这常常会给予他们或是他们身边的人很大的痛苦。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;显然，在重装系统的过程中，我只感受到自己的无力，面对自己完全不能控制的程序，纯纯的碰运气去追求那种「完美」的结果，事实上又没有给我带来任何益处，这无疑是一种极大的痛苦。&lt;/p&gt;
+&lt;p&gt;在所有的强迫行为中，我感觉以「MIUI 开机引导后，先激活的是哪一张卡」最为抽象——SIM 卡的激活顺序完全不能由用户决定，而且显然对手机使用是完全没有任何影响的，每次过完开机引导都像是在开盲盒，一旦发现卡 2 比卡 1 先激活，就会直接格式化重新来，一来就是 20 分钟，大片大片的时间就完全这样消耗掉了。&lt;/p&gt;
+&lt;p&gt;每重装一次就会让我身心俱疲，不知道自己究竟在干什么，开始怀疑自己，咒骂自己，真的是有病。&lt;/p&gt;
+&lt;h2 id=&#34;如何尝试解决赛博洁癖&#34;&gt;如何尝试解决赛博洁癖&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;尝试将数据、时间看得比干净整洁更重要&lt;/strong&gt;&lt;br&gt;
+写一个便签，记录下来自己因为重装系统和刷机丢失了多少东西：丢失的文件、消耗的时间都记下来，用于警醒自己。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;尝试了解深层次的系统、网络原理&lt;/strong&gt;&lt;br&gt;
+理解深层原理，让自己能够明白，一些看似可能会造成错误的行为，实际上并不会对系统 / 程序稳定性带来影响。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;明确责任在谁&lt;/strong&gt;&lt;br&gt;
+不断提醒自己，保持程序的健壮性，清理程序的缓存是开发者的责任，既然程序不是自己写的，那能用就不要去管他，如果能贡献代码再去贡献；用某种严苛且固定的方式使用程序对自己和开发者都没有好处。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;找点事做&lt;/strong&gt;&lt;br&gt;
+从更多维度找事，比如把好多年都没看完的小说看完、去尝试线下的剧本杀、或者把自己缺的衣服鞋子什么的都买一买等等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;感觉也没写什么有价值的东西 &lt;del&gt;（但我的核心目的之一不是写一篇文章在博客上公开处刑吗，至少这个目的达到了）&lt;/del&gt;，我也正在抵抗「赛博洁癖」的路上艰难前行，总之还是希望有一天能真正克服「赛博洁癖」，把时间用在其他更有意义的事情上。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/categories/life/">life</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>找回消失的鼠标指针</title>
