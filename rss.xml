@@ -25,7 +25,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 21 Jul 2024 16:51:34 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jul 2024 23:35:26 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
@@ -116,55 +116,6 @@
                             
                         
                     
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>找回消失的鼠标指针</title>
-                <link>https://limee233.github.io/posts/tech/disappeared-beam/</link>
-                <guid isPermaLink="true">https://limee233.github.io/posts/tech/disappeared-beam/</guid>
-                <pubDate>Sun, 30 Jun 2024 00:00:00 &#43;0000</pubDate>
-                
-                    <author>LiMee233@outlook.com (Li Mee)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;p&gt;不知道哪次 Windows 更新，又把 Chrome、Chromium 内核浏览器、electron 应用的文本框中的鼠标指针给弄没了，移动进文本框后显示为白色，几乎不可见，有几秒的延迟才会变成黑色，非常影响使用。&lt;/p&gt;
-&lt;p&gt;就是这个指针：&lt;br&gt;
-&lt;img src=&#34;beam.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;解决方案也很简单，换个第三方鼠标指针就行了。&lt;/p&gt;
-&lt;p&gt;这里提供一款鼠标指针，和默认的效果比较像：&lt;a href=&#34;https://wwo.lanzout.com/ixv3W2359dmf&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;下载完成后，去设置——个性化——主题中找到鼠标指针，更换「Text Select」的指针即可。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;参考&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.deviantart.com/jepricreations/art/Windows-11-Cursors-Concept-HDPI-v2-2-890672103&#34;&gt;Windows 11 Cursors Concept HDPI v2.2&lt;/a&gt;&lt;/p&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/categories/tech/">tech</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://limee233.github.io/tags/windows/">Windows</category>
-                                
-                            
                         
                     
                 
