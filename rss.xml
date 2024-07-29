@@ -25,10 +25,112 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 25 Jul 2024 23:35:26 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jul 2024 23:00:41 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
+        
+            <item>
+                <title>在 iOS 照片应用中，移除「导入项目」内的照片</title>
+                <link>https://limee233.github.io/posts/tech/remove-imports-from-ios-photos-app/</link>
+                <guid isPermaLink="true">https://limee233.github.io/posts/tech/remove-imports-from-ios-photos-app/</guid>
+                <pubDate>Mon, 29 Jul 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>LiMee233@outlook.com (Li Mee)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;前段时间给我的 iPhone 全新刷机，其他数据都可以重新来，但是照片得备份，思来想去选择使用隔空投送在 iPad 和 iPhone 之间相互倒，实现照片的单独备份，但这有一些问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;照片 → 相簿 → 导入项目中，会一直存在从另一个设备（即 iPad）导入的记录，但这些照片明明就是手机拍的呀，怎么能叫导入项目呢，就很奇怪。&lt;/li&gt;
+&lt;li&gt;从相机、选择壁纸的页面等处查找照片，会以「创建时间」而不是「拍摄时间」为基准，导致照片的顺序是乱的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文所述的方法用以解决这两个问题。&lt;/p&gt;
+&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
+&lt;p&gt;方法其实非常简单，在照片 → 图库 选择所有照片，之后从第一个拉到最后一个全选，复制，再把原有项目都删掉即可。&lt;/p&gt;
+&lt;p&gt;有一些技巧：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在所有照片页面缩放到一行 5 张照片，原有项目会分别以 3，2，3…… 的顺序出现（如下表所示），了解此规律可以加快选择速度。
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;第一列&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;第二列&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;第三列&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;第四列&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;第五列&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;复制后可以在「导入项目」页面直接选择删除。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意事项：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;别忘了「已隐藏」。&lt;/li&gt;
+&lt;li&gt;即使是刷机后拍摄的照片（即不在「导入项目」里的照片）也应当进行处理，目的是为了保证所有照片的创建时间顺序。&lt;/li&gt;
+&lt;li&gt;会丢失相簿和自动生成的回忆等数据。&lt;/li&gt;
+&lt;li&gt;照片的来源无法恢复（比如“保存自微信”这种数据）。&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/categories/tech/">tech</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/tags/ios/">iOS</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>赛博洁癖</title>
