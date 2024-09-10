@@ -12,7 +12,7 @@
         <title>遥遥的部落格</title>
         <link>https://limee233.github.io/</link>
         <description></description>
-        <generator>Hugo 0.129.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.134.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -25,10 +25,61 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 29 Jul 2024 23:00:41 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 10 Sep 2024 12:15:24 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://limee233.github.io/rss.xml" />
         
+        
+            <item>
+                <title>短视频</title>
+                <link>https://limee233.github.io/posts/life/cn-short-video/</link>
+                <guid isPermaLink="true">https://limee233.github.io/posts/life/cn-short-video/</guid>
+                <pubDate>Tue, 10 Sep 2024 00:00:00 &#43;0000</pubDate>
+                
+                    <author>LiMee233@outlook.com (Li Mee)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;这段时间感觉短视频带来的影响真的不是一个「普通人类」能够抵御的，如果只是说抖音和快手那种平台，那确实可以不下载也不使用；不过在国内，各大厂商为了让用户停留在自己的 App 内尽可能多的时间来赚取利益，方法可谓无所不用其极，其中就包括在各大程序中都给你塞一个短视频模块（这也是作为「国产 App 都喜欢做的大而全的一种，马斯克认为的“优势”」，想想也真是可笑），而这对于我们普通用户自己的身心健康而言，无疑是灾难性的。&lt;/p&gt;
+&lt;p&gt;在这其中，我感觉最 &lt;strong&gt;可怕&lt;/strong&gt; 的，当属淘宝、小红书和 B 站，它们都有这样一个共同的特性：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;短视频的内容会出现在首页的信息流之中，或实际有用的信息和短视频是同一入口&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当你在浏览商品的时候，当你在看别人烫头发的经验的时候，当你浏览 B 站首页的时候，小视频们用它们博人眼球的标题吸引你打开，然后用&lt;strong&gt;猴子都能学会的上滑手势&lt;/strong&gt;让你不断地看下一个视频：看到原来猫砂还能这样用、有人花 29 买了个扫地机、爆笑工作室又在随机给人脸上糊蛋糕、农村的小孩又变身电摇小子、浙江一女子 xxx……&lt;/p&gt;
+&lt;p&gt;然后当你意识到自己太累的时候，殊不知已经过去了多少个小时；而你两眼酸痛，因为躺床上不动时间太久，脑子都嗡嗡的；最关键的问题是，你在这段时间内其实相当于什么都没有做。&lt;/p&gt;
+&lt;p&gt;这无非是把人类几千年来的进化，拉回了猴子。&lt;/p&gt;
+&lt;h2 id=&#34;技术对抗&#34;&gt;技术对抗&lt;/h2&gt;
+&lt;p&gt;尝试通过 iOS 上面的 QX 对短视频的地址进行封禁，其他软件都还算顺利，淘宝却始终无法做到封禁，它似乎始终都能通过各种奇奇怪怪的域名和 CDN 把短视频给你加载出来。&lt;/p&gt;
+&lt;p&gt;此外，对于 B 站和小红书这类需要看长视频或者视频教程的软件，屏蔽的方式可谓弊大于利，实际上几乎无法操作。&lt;/p&gt;
+&lt;h2 id=&#34;渗透&#34;&gt;渗透&lt;/h2&gt;
+&lt;p&gt;我尝试卸载掉手机上所有拥有短视频功能的软件，其中包括使用 YouTube 代替 B 站，结果却发现 YouTube 上也有一个 Short 的标签…… 不过还好它不会你刷着刷着首页自己就点进去，而是有一个明确的分区。&lt;/p&gt;
+&lt;p&gt;只能说明这种发明已经渗透到了国外，不过外国公司好歹还是有一点良心。&lt;/p&gt;
+&lt;h2 id=&#34;尝试解决&#34;&gt;尝试解决？&lt;/h2&gt;
+&lt;p&gt;既然技术路线行不通，那：&lt;/p&gt;
+&lt;p&gt;目前打算先使用 iOS 的屏幕使用时间，管控所有含短视频功能的国内软件的使用时间，或者安排 5min / 次的提醒，让自己及时从短视频的奶头乐中解脱出去。&lt;/p&gt;
+&lt;p&gt;又或者可以写一个快捷指令自动化，检测到在有短视频功能的国内软件中停留时长超过 5min，就自动返回桌面息屏；这样基本上能做到在不影响正常功能的情况下强制退出短视频。&lt;/p&gt;
+&lt;p&gt;此外应该找一点其他事情来填补被短视频侵占的时间，比如读书不是吗？&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://limee233.github.io/categories/life/">life</category>
+                                
+                            
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>在 iOS 照片应用中，移除「导入项目」内的照片</title>
@@ -52,45 +103,45 @@
 &lt;ul&gt;
 &lt;li&gt;在所有照片页面缩放到一行 5 张照片，原有项目会分别以 3，2，3…… 的顺序出现（如下表所示），了解此规律可以加快选择速度。
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第一列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第二列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第三列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第四列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第五列&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第一列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第二列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第三列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第四列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第五列&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/li&gt;
 &lt;li&gt;复制后可以在「导入项目」页面直接选择删除。&lt;/li&gt;

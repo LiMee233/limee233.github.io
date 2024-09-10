@@ -6,7 +6,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">遥遥的部落格</title>
     <subtitle type="html"></subtitle>
-    <updated>2024-07-29T23:00:41&#43;08:00</updated>
+    <updated>2024-09-10T12:15:24&#43;08:00</updated>
     <id>https://limee233.github.io/</id>
     <link rel="alternate" type="text/html" href="https://limee233.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://limee233.github.io/atom.xml" />
@@ -17,7 +17,61 @@
                 <email>LiMee233@outlook.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.129.0">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.134.1">Hugo</generator>
+        <entry>
+            <title type="text">短视频</title>
+            <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/life/cn-short-video/" />
+            <id>https://limee233.github.io/posts/life/cn-short-video/</id>
+            <updated>2024-09-10T00:00:00&#43;00:00</updated>
+            <published>2024-09-10T00:00:00&#43;00:00</published>
+            <author>
+                    <name>Li Mee</name>
+                    <uri>https://limee233.github.io/</uri>
+                    <email>LiMee233@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;这段时间感觉短视频带来的影响真的不是一个「普通人类」能够抵御的，如果只是说抖音和快手那种平台，那确实可以不下载也不使用；不过在国内，各大厂商为了让用户停留在自己的 App 内尽可能多的时间来赚取利益，方法可谓无所不用其极，其中就包括在各大程序中都给你塞一个短视频模块（这也是作为「国产 App 都喜欢做的大而全的一种，马斯克认为的“优势”」，想想也真是可笑），而这对于我们普通用户自己的身心健康而言，无疑是灾难性的。&lt;/p&gt;……</summary>
+            
+                <content type="html">&lt;p&gt;这段时间感觉短视频带来的影响真的不是一个「普通人类」能够抵御的，如果只是说抖音和快手那种平台，那确实可以不下载也不使用；不过在国内，各大厂商为了让用户停留在自己的 App 内尽可能多的时间来赚取利益，方法可谓无所不用其极，其中就包括在各大程序中都给你塞一个短视频模块（这也是作为「国产 App 都喜欢做的大而全的一种，马斯克认为的“优势”」，想想也真是可笑），而这对于我们普通用户自己的身心健康而言，无疑是灾难性的。&lt;/p&gt;
+&lt;p&gt;在这其中，我感觉最 &lt;strong&gt;可怕&lt;/strong&gt; 的，当属淘宝、小红书和 B 站，它们都有这样一个共同的特性：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;短视频的内容会出现在首页的信息流之中，或实际有用的信息和短视频是同一入口&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当你在浏览商品的时候，当你在看别人烫头发的经验的时候，当你浏览 B 站首页的时候，小视频们用它们博人眼球的标题吸引你打开，然后用&lt;strong&gt;猴子都能学会的上滑手势&lt;/strong&gt;让你不断地看下一个视频：看到原来猫砂还能这样用、有人花 29 买了个扫地机、爆笑工作室又在随机给人脸上糊蛋糕、农村的小孩又变身电摇小子、浙江一女子 xxx……&lt;/p&gt;
+&lt;p&gt;然后当你意识到自己太累的时候，殊不知已经过去了多少个小时；而你两眼酸痛，因为躺床上不动时间太久，脑子都嗡嗡的；最关键的问题是，你在这段时间内其实相当于什么都没有做。&lt;/p&gt;
+&lt;p&gt;这无非是把人类几千年来的进化，拉回了猴子。&lt;/p&gt;
+&lt;h2 id=&#34;技术对抗&#34;&gt;技术对抗&lt;/h2&gt;
+&lt;p&gt;尝试通过 iOS 上面的 QX 对短视频的地址进行封禁，其他软件都还算顺利，淘宝却始终无法做到封禁，它似乎始终都能通过各种奇奇怪怪的域名和 CDN 把短视频给你加载出来。&lt;/p&gt;
+&lt;p&gt;此外，对于 B 站和小红书这类需要看长视频或者视频教程的软件，屏蔽的方式可谓弊大于利，实际上几乎无法操作。&lt;/p&gt;
+&lt;h2 id=&#34;渗透&#34;&gt;渗透&lt;/h2&gt;
+&lt;p&gt;我尝试卸载掉手机上所有拥有短视频功能的软件，其中包括使用 YouTube 代替 B 站，结果却发现 YouTube 上也有一个 Short 的标签…… 不过还好它不会你刷着刷着首页自己就点进去，而是有一个明确的分区。&lt;/p&gt;
+&lt;p&gt;只能说明这种发明已经渗透到了国外，不过外国公司好歹还是有一点良心。&lt;/p&gt;
+&lt;h2 id=&#34;尝试解决&#34;&gt;尝试解决？&lt;/h2&gt;
+&lt;p&gt;既然技术路线行不通，那：&lt;/p&gt;
+&lt;p&gt;目前打算先使用 iOS 的屏幕使用时间，管控所有含短视频功能的国内软件的使用时间，或者安排 5min / 次的提醒，让自己及时从短视频的奶头乐中解脱出去。&lt;/p&gt;
+&lt;p&gt;又或者可以写一个快捷指令自动化，检测到在有短视频功能的国内软件中停留时长超过 5min，就自动返回桌面息屏；这样基本上能做到在不影响正常功能的情况下强制退出短视频。&lt;/p&gt;
+&lt;p&gt;此外应该找一点其他事情来填补被短视频侵占的时间，比如读书不是吗？&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://limee233.github.io/categories/life/" term="life" label="life" />
+                            
+                        
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">在 iOS 照片应用中，移除「导入项目」内的照片</title>
             <link rel="alternate" type="text/html" href="https://limee233.github.io/posts/tech/remove-imports-from-ios-photos-app/" />
@@ -29,7 +83,12 @@
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">前段时间给我的 iPhone 全新刷机，其他数据都可以重新来，但是照片得备份，思来想去选择使用隔空投送在 iPad 和 iPhone 之间相互倒，实现照片的单独备份，但这有一些问题： 照片 → 相……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;前段时间给我的 iPhone 全新刷机，其他数据都可以重新来，但是照片得备份，思来想去选择使用隔空投送在 iPad 和 iPhone 之间相互倒，实现照片的单独备份，但这有一些问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;照片 → 相簿 → 导入项目中，会一直存在从另一个设备（即 iPad）导入的记录，但这些照片明明就是手机拍的呀，怎么能叫导入项目呢，就很奇怪。&lt;/li&gt;
+&lt;li&gt;从相机、选择壁纸的页面等处查找照片，会以「创建时间」而不是「拍摄时间」为基准，导致照片的顺序是乱的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文所述的方法用以解决这两个问题。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;前段时间给我的 iPhone 全新刷机，其他数据都可以重新来，但是照片得备份，思来想去选择使用隔空投送在 iPad 和 iPhone 之间相互倒，实现照片的单独备份，但这有一些问题：&lt;/p&gt;
 &lt;ul&gt;
@@ -43,45 +102,45 @@
 &lt;ul&gt;
 &lt;li&gt;在所有照片页面缩放到一行 5 张照片，原有项目会分别以 3，2，3…… 的顺序出现（如下表所示），了解此规律可以加快选择速度。
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第一列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第二列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第三列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第四列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;第五列&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;✓&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第一列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第二列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第三列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第四列&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;第五列&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;✓&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;/li&gt;
 &lt;li&gt;复制后可以在「导入项目」页面直接选择删除。&lt;/li&gt;
@@ -134,7 +193,7 @@
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">自从大学以来，自己长期遭受所谓「赛博洁癖」的困扰；正巧，在 V2EX 上看到关于 赛博洁癖的文章，想写一篇文章挂在博客上公开处刑，顺便探讨可能可以解决赛博洁癖的方案……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;自从大学以来，自己长期遭受所谓「赛博洁癖」的困扰；正巧，在 V2EX 上看到关于 &lt;a href=&#34;https://s.v2ex.com/t/1032425&#34;&gt;赛博洁癖的文章&lt;/a&gt;，想写一篇文章挂在博客上公开处刑，顺便探讨可能可以解决赛博洁癖的方案。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;自从大学以来，自己长期遭受所谓「赛博洁癖」的困扰；正巧，在 V2EX 上看到关于 &lt;a href=&#34;https://s.v2ex.com/t/1032425&#34;&gt;赛博洁癖的文章&lt;/a&gt;，想写一篇文章挂在博客上公开处刑，顺便探讨可能可以解决赛博洁癖的方案。&lt;/p&gt;
 &lt;h2 id=&#34;哦我可能患上了赛博洁癖&#34;&gt;哦，我可能患上了「赛博洁癖」&lt;/h2&gt;
@@ -228,7 +287,13 @@
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">如果之前使用中文操作系统，切换成英文系统后，在 Outlook 邮箱内可能会有一个顽固的「RSS 源」文件夹，别的都是英文只有它是中文，看起来十分碍眼。 准备材料 Outlook 软件（W……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;如果之前使用中文操作系统，切换成英文系统后，在 Outlook 邮箱内可能会有一个顽固的「RSS 源」文件夹，别的都是英文只有它是中文，看起来十分碍眼。&lt;/p&gt;
+&lt;h2 id=&#34;准备材料&#34;&gt;准备材料&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Outlook 软件（Win32 版 Office 套件的一部分），需要是想更改的语言的版本。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;操作步骤&#34;&gt;操作步骤&lt;/h2&gt;
+&lt;p&gt;在 Win32 版 Outlook 中登录账户，可见格格不入的「RSS 源」文件夹&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;如果之前使用中文操作系统，切换成英文系统后，在 Outlook 邮箱内可能会有一个顽固的「RSS 源」文件夹，别的都是英文只有它是中文，看起来十分碍眼。&lt;/p&gt;
 &lt;h2 id=&#34;准备材料&#34;&gt;准备材料&lt;/h2&gt;
@@ -308,7 +373,9 @@
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">中国移动的大内网安装 Windows 简直是折磨，账号登不上，驱动不下载，甚至收不到 Windows 更新，无法在微软商店下载应用，受不了一点。 配置服务器 首先需要一个能在局域网内提供代……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;中国移动的大内网安装 Windows 简直是折磨，账号登不上，驱动不下载，甚至收不到 Windows 更新，无法在微软商店下载应用，受不了一点。&lt;/p&gt;
+&lt;h2 id=&#34;配置服务器&#34;&gt;配置服务器&lt;/h2&gt;
+&lt;p&gt;首先需要一个能在局域网内提供代理服务器功能的软件，v2RayN、Quantumult X 之类的都可以，以 Quantumult X 为例：&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;中国移动的大内网安装 Windows 简直是折磨，账号登不上，驱动不下载，甚至收不到 Windows 更新，无法在微软商店下载应用，受不了一点。&lt;/p&gt;
 &lt;h2 id=&#34;配置服务器&#34;&gt;配置服务器&lt;/h2&gt;
@@ -379,7 +446,10 @@
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">注：本文基于 X11 的 Gnome 启用分数缩放 首先进入 Gnome 的设置，将整数缩放调整为看起来偏大的值，比如 200%。 执行 xrandr 查看当前显示器，大概可以通过分辨率和刷新率判断，如图……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;注：本文基于 X11 的 Gnome&lt;/p&gt;
+&lt;h2 id=&#34;启用分数缩放&#34;&gt;启用分数缩放&lt;/h2&gt;
+&lt;p&gt;首先进入 Gnome 的设置，将整数缩放调整为看起来偏大的值，比如 200%。&lt;/p&gt;
+&lt;p&gt;执行 &lt;code&gt;xrandr&lt;/code&gt; 查看当前显示器，大概可以通过分辨率和刷新率判断，如图所示显示器的名称为 eDP.&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;注：本文基于 X11 的 Gnome&lt;/p&gt;
 &lt;h2 id=&#34;启用分数缩放&#34;&gt;启用分数缩放&lt;/h2&gt;
@@ -479,7 +549,7 @@ X-GNOME-Autostart-enabled=true
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一直很好奇一个问题，Device Tree 里面的 proprietary-files.txt、setup-makefiles.sh、extract-files.s……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;一直很好奇一个问题，Device Tree 里面的 proprietary-files.txt、setup-makefiles.sh、extract-files.sh 是怎么来的，怎么用的，毕竟删掉它们也不影响编译&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;一直很好奇一个问题，Device Tree 里面的 proprietary-files.txt、setup-makefiles.sh、extract-files.sh 是怎么来的，怎么用的，毕竟删掉它们也不影响编译&lt;/p&gt;
 &lt;p&gt;直接给出结论吧，这三个文件都是为了生成 vendor 服务的，而 vendor 也就是所谓的 proprietary(vendor) blob，如果一直从诸如 Pixel Experience 的 &lt;a href=&#34;https://gitlab.pixelexperience.org/android/vendor-blobs&#34;&gt;vendor blobs&lt;/a&gt; 中获取 vendor 树，则很容易不清楚这些文件的作用，也不清楚 vendor 中的内容是如何生成的。&lt;/p&gt;
@@ -638,7 +708,13 @@ X-GNOME-Autostart-enabled=true
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">最近 Xiaomi SM8250 development 将底包从 MIUI 12.5.x (Android 11) 升级到了 MIUI 13.x.x (Android 12)，本来以为是顺利的升级过程，但未曾想到升级后重刷却出现了烦人已久的微信后台问题： 微信从后台划掉就会被杀，立……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;最近 &lt;a href=&#34;https://github.com/xiaomi-sm8250-devs&#34;&gt;Xiaomi SM8250 development&lt;/a&gt; 将底包从 MIUI 12.5.x (Android 11) 升级到了 MIUI 13.x.x (Android 12)，本来以为是顺利的升级过程，但未曾想到升级后重刷却出现了烦人已久的微信后台问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;微信从后台划掉就会被杀，立刻点回去会看到很长的加载界面&lt;/li&gt;
+&lt;li&gt;被杀后可能永远起不来了，然后收不到消息，目前而言，嗯，后果严重&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;分析&#34;&gt;分析&lt;/h2&gt;
+&lt;p&gt;介于升级底包前，微信是&lt;strong&gt;有一定几率&lt;/strong&gt;能够正常使用的（就是像流氓软件一样一直霸占后台，但至少可以用，不会丢消息），因此怀疑：&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;最近 &lt;a href=&#34;https://github.com/xiaomi-sm8250-devs&#34;&gt;Xiaomi SM8250 development&lt;/a&gt; 将底包从 MIUI 12.5.x (Android 11) 升级到了 MIUI 13.x.x (Android 12)，本来以为是顺利的升级过程，但未曾想到升级后重刷却出现了烦人已久的微信后台问题：&lt;/p&gt;
 &lt;ul&gt;
@@ -716,7 +792,7 @@ X-GNOME-Autostart-enabled=true
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Google 官方推荐使用 Ubuntu 构建 AOSP，但出于 Snap、Xorg 和 wayland 两座屎山、WSL 的 Ubuntu 图标太丑等各种原因我想逃离 Ubuntu，此文章针对在 WSL2 中使用 Debian 11（bul……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;Google 官方推荐使用 Ubuntu 构建 AOSP，但出于 Snap、Xorg 和 wayland 两座屎山、&lt;del&gt;WSL 的 Ubuntu 图标太丑&lt;/del&gt;等各种原因我想逃离 Ubuntu，此文章针对在 WSL2 中使用 Debian 11（bullseye）编译 Pixel Experience 12 的关键过程进行总结。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;Google 官方推荐使用 Ubuntu 构建 AOSP，但出于 Snap、Xorg 和 wayland 两座屎山、&lt;del&gt;WSL 的 Ubuntu 图标太丑&lt;/del&gt;等各种原因我想逃离 Ubuntu，此文章针对在 WSL2 中使用 Debian 11（bullseye）编译 Pixel Experience 12 的关键过程进行总结。&lt;/p&gt;
 &lt;h2 id=&#34;安装所需依赖&#34;&gt;安装所需依赖&lt;/h2&gt;
@@ -879,7 +955,10 @@ X-GNOME-Autostart-enabled=true
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。 在 VHDX 中安装系统……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。&lt;/p&gt;
+&lt;h2 id=&#34;在-vhdx-中安装系统&#34;&gt;在 VHDX 中安装系统&lt;/h2&gt;
+&lt;h3 id=&#34;创建虚拟磁盘&#34;&gt;创建虚拟磁盘&lt;/h3&gt;
+&lt;p&gt;打开磁盘管理 → 操作 → 创建 VHD，选择位置、大小、格式选择 VHDX，虚拟磁盘类型为「动态扩展」，完成创建。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;虚拟机无法调用显卡、而且部分软件对虚拟机有检测；单纯的双系统无法方便备份，而且专门分区总觉得浪费，而使用 VHDX 硬盘映像安装 Windows 可以解决这些问题。&lt;/p&gt;
 &lt;h2 id=&#34;在-vhdx-中安装系统&#34;&gt;在 VHDX 中安装系统&lt;/h2&gt;
@@ -1085,7 +1164,10 @@ X-GNOME-Autostart-enabled=true
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">作者和提交者？ 在 Github 上显示 A authored and B committed... 的，就是“作者”和“提交者”不同的情况。 想达到这样的效果，只需要在提交的时候使用 git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot; 就可以了。 还记得使用 Git 时配置……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;作者和提交者&#34;&gt;作者和提交者？&lt;/h2&gt;
+&lt;p&gt;在 Github 上显示 &lt;strong&gt;A&lt;/strong&gt; authored and &lt;strong&gt;B&lt;/strong&gt; committed... 的，就是“作者”和“提交者”不同的情况。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;DifferentCommittersAndAuthors.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;想达到这样的效果，只需要在提交的时候使用 &lt;code&gt;git commit --author &amp;quot;user.name &amp;lt;user.email&amp;gt;&amp;quot;&lt;/code&gt; 就可以了。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;h2 id=&#34;作者和提交者&#34;&gt;作者和提交者？&lt;/h2&gt;
 &lt;p&gt;在 Github 上显示 &lt;strong&gt;A&lt;/strong&gt; authored and &lt;strong&gt;B&lt;/strong&gt; committed... 的，就是“作者”和“提交者”不同的情况。&lt;/p&gt;
@@ -1271,7 +1353,9 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">为新的 Windows 系统安装 WSL2 既然都需要恢复了，安装一个新的自然不费力。 去 Windows 功能 中安装 虚拟机平台，在商店安装 Windows Sub System for Linux Preview 和 需要恢复的 Linux 发行版。 启动新安装的 Linux 发行版并……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;为新的-windows-系统安装-wsl2&#34;&gt;为新的 Windows 系统安装 WSL2&lt;/h2&gt;
+&lt;p&gt;既然都需要恢复了，安装一个新的自然不费力。&lt;/p&gt;
+&lt;p&gt;去 Windows 功能 中安装 &lt;code&gt;虚拟机平台&lt;/code&gt;，在商店安装 &lt;code&gt;Windows Sub System for Linux Preview&lt;/code&gt; 和 &lt;code&gt;需要恢复的 Linux 发行版&lt;/code&gt;。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;h2 id=&#34;为新的-windows-系统安装-wsl2&#34;&gt;为新的 Windows 系统安装 WSL2&lt;/h2&gt;
 &lt;p&gt;既然都需要恢复了，安装一个新的自然不费力。&lt;/p&gt;
@@ -1417,7 +1501,16 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">在 XML 中构建 Preference 在 /res/xml 中添加一个 xml 文件，名称任意，向其中添加以下代码以构建 PreferenceScreen. 1 2 3 &amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt; &amp;lt;PreferenceScreen xmlns:android=&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&amp;gt; &amp;lt;/PreferenceScreen&amp;gt; 向 PreferenceScreen 中添加具体的 Preferences 对象，详细信息可以参照 Android 官方文档，添加完成后即……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;h2 id=&#34;在-xml-中构建-preference&#34;&gt;在 XML 中构建 Preference&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在 &lt;code&gt;/res/xml&lt;/code&gt; 中添加一个 xml 文件，名称任意，向其中添加以下代码以构建 &lt;code&gt;PreferenceScreen&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pr……</summary>
             
                 <content type="html">&lt;h2 id=&#34;在-xml-中构建-preference&#34;&gt;在 XML 中构建 Preference&lt;/h2&gt;
 &lt;ol&gt;
@@ -1515,7 +1608,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 Gnome 40，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。 解决过程……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 Gnome 40，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;因为想折腾，于是打算把 Ubuntu 换掉，装个 Debian 玩玩，又因为想装 Gnome 40，就打算从命令行的 Debian 自己安装图形界面了。结果发现 Realtek 8822CE 这张无线网卡驱动并不能被成功加载。&lt;/p&gt;
 &lt;h2 id=&#34;解决过程记录&#34;&gt;解决过程记录&lt;/h2&gt;
@@ -1676,7 +1769,8 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。 显然，选择退回到更改 FOD 方式之前版本的……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。&lt;/p&gt;
+&lt;p&gt;显然，选择退回到更改 FOD 方式之前版本的内核可以解决问题，&lt;strong&gt;然而问题并没有解决&lt;/strong&gt;。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;在编译 lmi 的 Pixel Experience 系统时使用的是 Quantic 内核，这个内核在 2021 年的 7 月左右对 Demon000 OSS based FOD 进行了适配，然而这并不适配我使用的 displayfeature based FOD。&lt;/p&gt;
 &lt;p&gt;显然，选择退回到更改 FOD 方式之前版本的内核可以解决问题，&lt;strong&gt;然而问题并没有解决&lt;/strong&gt;。&lt;/p&gt;
@@ -1725,7 +1819,8 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">在使用西数机械硬盘作为移动硬盘使用时，硬盘经常会在很短时间内进入休眠状态，导致使用过程中经常需要等待硬盘启动，使用体验较差。 本文尝试修改西数硬盘的休眠时……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;在使用西数机械硬盘作为移动硬盘使用时，硬盘经常会在很短时间内进入休眠状态，导致使用过程中经常需要等待硬盘启动，使用体验较差。&lt;/p&gt;
+&lt;p&gt;本文尝试修改西数硬盘的休眠时间，来解决此问题。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;在使用西数机械硬盘作为移动硬盘使用时，硬盘经常会在很短时间内进入休眠状态，导致使用过程中经常需要等待硬盘启动，使用体验较差。&lt;/p&gt;
 &lt;p&gt;本文尝试修改西数硬盘的休眠时间，来解决此问题。&lt;/p&gt;
@@ -1782,7 +1877,15 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">从 2020 年末的某次 Office 更新之后，滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，此现象在 PowerPoint 等软件中也可能存在。 解决方案 手动方法 定位到注册表项……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;从 2020 年末的某次 Office 更新之后，滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，此现象在 PowerPoint 等软件中也可能存在。&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;h3 id=&#34;手动方法&#34;&gt;手动方法&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;定位到注册表项： &lt;code&gt;HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\16.0\Common\ExperimentConfigs\ExternalFeatureOverrides&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;选择需要修复卡顿的软件。&lt;/li&gt;
+&lt;li&gt;新建字符串值，名称分别为： &lt;code&gt;Microsoft.Office.AirSpace.UseWincompInArm64&lt;/code&gt; 和 &lt;code&gt;Microsoft.Office.AirSpace.UseWinCompInWin32&lt;/code&gt;，值均为 &lt;code&gt;false&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;edit-reg.png&#34; alt=&#34;如图所示&#34;&gt;&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;从 2020 年末的某次 Office 更新之后，滚动 Word 中的文档（或者用触摸板的缩放手势缩放文档）会发生明显的卡顿，此现象在 PowerPoint 等软件中也可能存在。&lt;/p&gt;
 &lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
@@ -1924,7 +2027,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">部分原生系统在编译时，未考虑到会出现高清通知的问题，就没有在源码部分进行修改（比如 这里）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;部分原生系统在编译时，未考虑到会出现高清通知的问题，就没有在源码部分进行修改（比如 &lt;a href=&#34;https://github.com/LiMeea/device_xiaomi_sm8250-common/commit/4a3c21d2c017a2806348ae1df3f96536b07500c0&#34;&gt;这里&lt;/a&gt;）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;部分原生系统在编译时，未考虑到会出现高清通知的问题，就没有在源码部分进行修改（比如 &lt;a href=&#34;https://github.com/LiMeea/device_xiaomi_sm8250-common/commit/4a3c21d2c017a2806348ae1df3f96536b07500c0&#34;&gt;这里&lt;/a&gt;）。因此在手机插入 SIM 卡，且启用 Volte 功能（此功能默认开启）后，会在通知栏显示一条或多条（如果你插了很多 SIM 卡）「 SIM n 支持高清 」的通知，这条通知无法被用户彻底隐藏。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;hd-notification.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -2089,7 +2192,10 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">如果电脑使用的是 AMD 核心显卡，那么在使用 Visual Studio 2017/2019 编写基于 .NET Framework 的 WPF 应用程序时，可能会遇到 XAML 设计器花屏的问题： 解决方案 在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」（可在任……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;如果电脑使用的是 AMD 核心显卡，那么在使用 Visual Studio 2017/2019 编写基于 .NET Framework 的 WPF 应用程序时，可能会遇到 XAML 设计器花屏的问题：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;XAML-bug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;解决方案&#34;&gt;解决方案&lt;/h2&gt;
+&lt;p&gt;在「 AMD Radeon Software 」中，添加「 Microsoft Visual Studio XAML Designer 」（可在任务管理器中找到并定位）为游戏，并且调节「抗锯齿」为「覆盖应用程序设置」，抗锯齿级别为任意项即可（此处推荐2X）。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;如果电脑使用的是 AMD 核心显卡，那么在使用 Visual Studio 2017/2019 编写基于 .NET Framework 的 WPF 应用程序时，可能会遇到 XAML 设计器花屏的问题：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;XAML-bug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -2145,7 +2251,7 @@ REMOTEURL 可以从 Github 获取，在项目页面绿色的 Code 点击就可�
                     <uri>https://limee233.github.io/</uri>
                     <email>LiMee233@outlook.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">安装完 Windows 10 并登陆微软账户后，有时会出现系统的语言自动会变成「中文（新加坡）」的问题，导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，看……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">&lt;p&gt;安装完 Windows 10 并登陆微软账户后，有时会出现系统的语言自动会变成「中文（新加坡）」的问题，导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，看起来令人十分难受。&lt;/p&gt;……</summary>
             
                 <content type="html">&lt;p&gt;安装完 Windows 10 并登陆微软账户后，有时会出现系统的语言自动会变成「中文（新加坡）」的问题，导致系统默认的时间格式和「中文（中华人民共和国）」的时间格式不同，看起来令人十分难受。&lt;/p&gt;
 &lt;p&gt;关键在于，本质上新加坡的中文也是中文，因此系统设置并不能直接从「中文（新加坡）」改成「中文（中华人民共和国）」，这看起来成为了一个死局。&lt;/p&gt;
