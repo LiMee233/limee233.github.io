@@ -6,7 +6,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">遥遥的部落格</title>
     <subtitle type="html"></subtitle>
-    <updated>2024-09-10T12:15:24&#43;08:00</updated>
+    <updated>2024-09-23T01:02:26&#43;08:00</updated>
     <id>https://limee233.github.io/</id>
     <link rel="alternate" type="text/html" href="https://limee233.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://limee233.github.io/atom.xml" />
@@ -47,9 +47,10 @@
 &lt;p&gt;只能说明这种发明已经渗透到了国外，不过外国公司好歹还是有一点良心。&lt;/p&gt;
 &lt;h2 id=&#34;尝试解决&#34;&gt;尝试解决？&lt;/h2&gt;
 &lt;p&gt;既然技术路线行不通，那：&lt;/p&gt;
-&lt;p&gt;目前打算先使用 iOS 的屏幕使用时间，管控所有含短视频功能的国内软件的使用时间，或者安排 5min / 次的提醒，让自己及时从短视频的奶头乐中解脱出去。&lt;/p&gt;
-&lt;p&gt;又或者可以写一个快捷指令自动化，检测到在有短视频功能的国内软件中停留时长超过 5min，就自动返回桌面息屏；这样基本上能做到在不影响正常功能的情况下强制退出短视频。&lt;/p&gt;
-&lt;p&gt;此外应该找一点其他事情来填补被短视频侵占的时间，比如读书不是吗？&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;目前打算先使用 iOS 的屏幕使用时间，管控所有含短视频功能的国内软件的使用时间，或者安排 5min / 次的提醒，让自己及时从短视频的奶头乐中解脱出去。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;又或者可以写一个快捷指令自动化，检测到在有短视频功能的国内软件中停留时长超过 5min，就自动返回桌面息屏；这样基本上能做到在不影响正常功能的情况下强制退出短视频。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;一个行之有效的解决方案是：&lt;strong&gt;尽可能关闭各种软件的个性化推荐功能&lt;/strong&gt;。实测这样只要一打开相关应用，就会铺面而来一堆不感兴趣的东西 &lt;del&gt;（比如某个黑猴子）&lt;/del&gt;，扒拉两下就关掉了，效果可谓十分的显著。&lt;/p&gt;
+&lt;p&gt;此外应该找一点其他事情来填补被短视频侵占的时间，可以看书，又或者打游戏，再不济看长视频都是可以的呀。&lt;/p&gt;
 </content>
             
             

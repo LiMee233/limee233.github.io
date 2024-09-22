@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+
+    <meta name="generator" content="Hugo 0.134.1"><meta name="theme-color" content="#fff" />
+    <meta name="color-scheme" content="light dark">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>数学公式 | 遥遥的部落格</title>
+
+    <link rel="stylesheet" href="/css/meme.min.8bc62945d71402dc9d879c608be0db703b7dd98bda417fa5afb0e8aa0e8e2b29.css"/>
+
+    
+    
+        
+            <script src="/js/meme.min.b4328e6bb260d64f0c62971ae21ac7cc5f2db6d6bab9eaf2a604923acd5fd462.js"></script>
+
+        
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW&#43;WenKai&#43;TC&amp;family=Noto&#43;Sans&#43;SC:wght@100..900&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW&#43;WenKai&#43;TC&amp;family=Noto&#43;Sans&#43;SC:wght@100..900&amp;display=swap" /></noscript>
+
+    <meta name="author" content="Li Mee" /><meta name="description" content="泰勒公式（用于计算极限） $\sin x$$$\sin x = x - \frac{x^3}{3!} &#43; o(x^3)$$$\arcsin x$$$\arcsin x = x &#43; \frac{x^3}{3!} &#43; o(x^3)$$$\cos x$$$\cos x = 1 - \frac{x^2}{2!} &#43; \frac{x^4}{4!} &#43; o(x^4)$$$\tan x$$$\tan x = x &#43; \frac{x^3}{3} &#43; o(x^3)$$$\arctan x$$$\arctan x = x - \frac{x^3}{3} &#43; o(x^3)$$$\ln(1&#43;x)$$$\ln(1&#43;x) = x - \frac{x^2}{2} &#43; \frac{x^3}{3} &#43; o(x^3)$$$e^x$$$e^x = 1 &#43; x &#43; \frac{x^2}{2!} &#43; \frac{x^3}{3!} &#43; o(x^3)$$$(1&#43;x)^\alpha$$$(1&#43;x)^\alpha = 1 &#43; \alpha x &#43; \frac{\alpha(\alpha - 1)}{2!} x^2 &#43; o(x^2)$$基本求导公式 $(log_{a}x)&#39;$$$(log_{a}x)&#39; = \frac{1}{x \ln{a}} (a&gt;0, a \ne 1)$$$(\ln{\left|x\right|})&#39;$$$(\ln{\left|x\right|})&#39; = \frac{1}{x}$$$(arcsin x)&#39;$$$(arcsin x)&#39; = \frac{1}{\sqrt{1-x^2}}$$$(arccos x)&#39;$$$(arccos x)&#39; = - \frac{1}{\sqrt{1-x^2}}$$$(tan x)&#39;$$$(tan x)&#39; = sec^2 x$$$(cot x)&#39;$$$(cot x)&#39; = -csc^2 x$$$(arctan x)&#39;$$$(arctan x)&#39; =\frac{1}{1 &#43; x^2}$$$(arccot x)&#39;$$$(arccot x)&#39; = - \frac{1}{1 &#43; x^2}$$$(sec x)&#39;$$$(sec x)&#39; = sec x tan x$$$(csc x)&#39;$$$(csc x)&#39; = -csc x cot x$$$[\ln(x &#43; \sqrt{x^2 \pm 1})]&#39;$$$[\ln(x &#43; \sqrt{x^2 \pm 1})]&#39; = \frac{1}{\sqrt{x^2 \pm 1}}$$基本积分公式 积分计算的「三角换元」 华里士公式 没有初等函数形式的原函数的函数（二重积分交换积分次序的条件） $\int \frac{sin x}{x}\, {\rm d}x$$\int \frac{cos x}{x}\, {\rm d}x$$\int \frac{tan x}{x}\, {\rm d}x$$\int \frac{e^x}{x}\, {\rm d}x$
+$\int sin x^2\, {\rm d}x$$\int cos x^2\, {\rm d}x$$\int tan x^2\, {\rm d}x$$\int \frac{e^{a x^2 &#43; b x &#43; c}}{x}\, {\rm d}x (a \ne 0)$
+$\int \frac{1}{sin x}\, {\rm d}x$$\int \frac{1}{cos x}\, {\rm d}x$
+$\int \frac{1}{\ln x}\, {\rm d}x$$\int \frac{\ln(1&#43;x)}{x}\, {\rm d}x$泰勒展开式（用于计算高阶导数） $y=f(x)$$$y=f(x) = \sum_{n=0}^\infty \frac{f^{(n)} (x_0)}{n!} (x-x_0)^n$$莱布尼茨公式（用于计算高阶导数） $(uv)^{(n)}$$$(uv)^{(n)} = \sum_{k=0}^n C^k_n u^{(n-k)} v^{(k)} = \sum_{k=0}^n C^k_n u^{(k)} v^{(n-k)}$$举个例子，因为 $C^2_6$ 和 $C^4_6$ 结果是一样的，所以可以互换。" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="遥遥的部落格" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="遥遥的部落格" />
+    <meta name="msapplication-starturl" content="../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+        <link rel="canonical" href="https://limee233.github.io/math/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "datePublished": "2021-08-20T00:00:00+00:00",
+        "dateModified": "2023-07-27T00:00:00+00:00",
+        "url": "https://limee233.github.io/math/",
+        "name": "数学公式",
+        "description": "泰勒公式（用于计算极限） $\\sin x$\r$$\\sin x = x - \\frac{x^3}{3!} + o(x^3)$$\r$\\arcsin x$\r$$\\arcsin x = x + \\frac{x^3}{3!} + o(x^3)$$\r$\\cos x$\r$$\\cos x = 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} + o(x^4)$$\r$\\tan x$\r$$\\tan x = x + \\frac{x^3}{3} + o(x^3)$$\r$\\arctan x$\r$$\\arctan x = x - \\frac{x^3}{3} + o(x^3)$$\r$\\ln(1+x)$\r$$\\ln(1+x) = x - \\frac{x^2}{2} + \\frac{x^3}{3} + o(x^3)$$\r$e^x$\r$$e^x = 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + o(x^3)$$\r$(1+x)^\\alpha$\r$$(1+x)^\\alpha = 1 + \\alpha x + \\frac{\\alpha(\\alpha - 1)}{2!} x^2 + o(x^2)$$\r基本求导公式 $(log_{a}x)'$\r$$(log_{a}x)' = \\frac{1}{x \\ln{a}} (a\u003e0, a \\ne 1)$$\r$(\\ln{\\left|x\\right|})'$\r$$(\\ln{\\left|x\\right|})' = \\frac{1}{x}$$\r$(arcsin x)'$\r$$(arcsin x)' = \\frac{1}{\\sqrt{1-x^2}}$$\r$(arccos x)'$\r$$(arccos x)' = - \\frac{1}{\\sqrt{1-x^2}}$$\r$(tan x)'$\r$$(tan x)' = sec^2 x$$\r$(cot x)'$\r$$(cot x)' = -csc^2 x$$\r$(arctan x)'$\r$$(arctan x)' =\\frac{1}{1 + x^2}$$\r$(arccot x)'$\r$$(arccot x)' = - \\frac{1}{1 + x^2}$$\r$(sec x)'$\r$$(sec x)' = sec x tan x$$\r$(csc x)'$\r$$(csc x)' = -csc x cot x$$\r$[\\ln(x + \\sqrt{x^2 \\pm 1})]'$\r$$[\\ln(x + \\sqrt{x^2 \\pm 1})]' = \\frac{1}{\\sqrt{x^2 \\pm 1}}$$\r基本积分公式 积分计算的「三角换元」 华里士公式 没有初等函数形式的原函数的函数（二重积分交换积分次序的条件） $\\int \\frac{sin x}{x}\\, {\\rm d}x$$\\int \\frac{cos x}{x}\\, {\\rm d}x$$\\int \\frac{tan x}{x}\\, {\\rm d}x$$\\int \\frac{e^x}{x}\\, {\\rm d}x$\n$\\int sin x^2\\, {\\rm d}x$$\\int cos x^2\\, {\\rm d}x$$\\int tan x^2\\, {\\rm d}x$$\\int \\frac{e^{a x^2 + b x + c}}{x}\\, {\\rm d}x (a \\ne 0)$\n$\\int \\frac{1}{sin x}\\, {\\rm d}x$$\\int \\frac{1}{cos x}\\, {\\rm d}x$\n$\\int \\frac{1}{\\ln x}\\, {\\rm d}x$$\\int \\frac{\\ln(1+x)}{x}\\, {\\rm d}x$\r泰勒展开式（用于计算高阶导数） $y=f(x)$\r$$y=f(x) = \\sum_{n=0}^\\infty \\frac{f^{(n)} (x_0)}{n!} (x-x_0)^n$$\r莱布尼茨公式（用于计算高阶导数） $(uv)^{(n)}$\r$$(uv)^{(n)} = \\sum_{k=0}^n C^k_n u^{(n-k)} v^{(k)} = \\sum_{k=0}^n C^k_n u^{(k)} v^{(n-k)}$$\r举个例子，因为 $C^2_6$ 和 $C^4_6$ 结果是一样的，所以可以互换。\r",
+        "image": "https://limee233.github.io/icons/apple-touch-icon.png",
+        "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)",
+        "publisher": {
+            "@type": "Organization",
+            "name": "遥遥的部落格",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://limee233.github.io/icons/apple-touch-icon.png"
+            },
+            "url": "https://limee233.github.io/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://limee233.github.io/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+
+    
+
+
+
+<meta property="og:title" content="数学公式" />
+<meta property="og:description" content="泰勒公式（用于计算极限） $\sin x$$$\sin x = x - \frac{x^3}{3!} &#43; o(x^3)$$$\arcsin x$$$\arcsin x = x &#43; \frac{x^3}{3!} &#43; o(x^3)$$$\cos x$$$\cos x = 1 - \frac{x^2}{2!} &#43; \frac{x^4}{4!} &#43; o(x^4)$$$\tan x$$$\tan x = x &#43; \frac{x^3}{3} &#43; o(x^3)$$$\arctan x$$$\arctan x = x - \frac{x^3}{3} &#43; o(x^3)$$$\ln(1&#43;x)$$$\ln(1&#43;x) = x - \frac{x^2}{2} &#43; \frac{x^3}{3} &#43; o(x^3)$$$e^x$$$e^x = 1 &#43; x &#43; \frac{x^2}{2!} &#43; \frac{x^3}{3!} &#43; o(x^3)$$$(1&#43;x)^\alpha$$$(1&#43;x)^\alpha = 1 &#43; \alpha x &#43; \frac{\alpha(\alpha - 1)}{2!} x^2 &#43; o(x^2)$$基本求导公式 $(log_{a}x)&#39;$$$(log_{a}x)&#39; = \frac{1}{x \ln{a}} (a&gt;0, a \ne 1)$$$(\ln{\left|x\right|})&#39;$$$(\ln{\left|x\right|})&#39; = \frac{1}{x}$$$(arcsin x)&#39;$$$(arcsin x)&#39; = \frac{1}{\sqrt{1-x^2}}$$$(arccos x)&#39;$$$(arccos x)&#39; = - \frac{1}{\sqrt{1-x^2}}$$$(tan x)&#39;$$$(tan x)&#39; = sec^2 x$$$(cot x)&#39;$$$(cot x)&#39; = -csc^2 x$$$(arctan x)&#39;$$$(arctan x)&#39; =\frac{1}{1 &#43; x^2}$$$(arccot x)&#39;$$$(arccot x)&#39; = - \frac{1}{1 &#43; x^2}$$$(sec x)&#39;$$$(sec x)&#39; = sec x tan x$$$(csc x)&#39;$$$(csc x)&#39; = -csc x cot x$$$[\ln(x &#43; \sqrt{x^2 \pm 1})]&#39;$$$[\ln(x &#43; \sqrt{x^2 \pm 1})]&#39; = \frac{1}{\sqrt{x^2 \pm 1}}$$基本积分公式 积分计算的「三角换元」 华里士公式 没有初等函数形式的原函数的函数（二重积分交换积分次序的条件） $\int \frac{sin x}{x}\, {\rm d}x$$\int \frac{cos x}{x}\, {\rm d}x$$\int \frac{tan x}{x}\, {\rm d}x$$\int \frac{e^x}{x}\, {\rm d}x$
+$\int sin x^2\, {\rm d}x$$\int cos x^2\, {\rm d}x$$\int tan x^2\, {\rm d}x$$\int \frac{e^{a x^2 &#43; b x &#43; c}}{x}\, {\rm d}x (a \ne 0)$
+$\int \frac{1}{sin x}\, {\rm d}x$$\int \frac{1}{cos x}\, {\rm d}x$
+$\int \frac{1}{\ln x}\, {\rm d}x$$\int \frac{\ln(1&#43;x)}{x}\, {\rm d}x$泰勒展开式（用于计算高阶导数） $y=f(x)$$$y=f(x) = \sum_{n=0}^\infty \frac{f^{(n)} (x_0)}{n!} (x-x_0)^n$$莱布尼茨公式（用于计算高阶导数） $(uv)^{(n)}$$$(uv)^{(n)} = \sum_{k=0}^n C^k_n u^{(n-k)} v^{(k)} = \sum_{k=0}^n C^k_n u^{(k)} v^{(n-k)}$$举个例子，因为 $C^2_6$ 和 $C^4_6$ 结果是一样的，所以可以互换。" />
+<meta property="og:url" content="https://limee233.github.io/math/" />
+<meta property="og:site_name" content="遥遥的部落格" />
+<meta property="og:locale" content="zh-cn" /><meta property="og:image" content="https://limee233.github.io/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+
+
+    
+    
+
+    
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">遥遥的部落格</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+
+        
+            
+                <li class="menu-item"><a href="/posts/"><span class="menu-item-name">文章</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/categories/life/"><span class="menu-item-name">生活</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/categories/tech/"><span class="menu-item-name">技术</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/tags/"><span class="menu-item-name">标签</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/"><span class="menu-item-name">关于</span></a>
+                </li>
+            
+        
+            
+                
+                    
+                    
+                
+            
+        
+            
+                
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+        <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="justify" data-type="math" data-toc-num="true">
+
+            <h1 class="post-title p-name">数学公式</h1>
+
+            
+
+            
+                
+            
+
+            
+
+            <div class="post-body e-content">
+                <h2 id="泰勒公式用于计算极限">泰勒公式（用于计算极限）</h2>
+<details>
+<summary>$\sin x$</summary>
+<div>$$\sin x = x - \frac{x^3}{3!} + o(x^3)$$</div>
+</details>
+<details>
+<summary>$\arcsin x$</summary>
+<div>$$\arcsin x = x + \frac{x^3}{3!} + o(x^3)$$</div>
+</details>
+<details>
+<summary>$\cos x$</summary>
+<div>$$\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} + o(x^4)$$</div>
+</details>
+<details>
+<summary>$\tan x$</summary>
+<div>$$\tan x = x + \frac{x^3}{3} + o(x^3)$$</div>
+</details>
+<details>
+<summary>$\arctan x$</summary>
+<div>$$\arctan x = x - \frac{x^3}{3} + o(x^3)$$</div>
+</details>
+<details>
+<summary>$\ln(1+x)$</summary>
+<div>$$\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} + o(x^3)$$</div>
+</details>
+<details>
+<summary>$e^x$</summary>
+<div>$$e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + o(x^3)$$</div>
+</details>
+<details>
+<summary>$(1+x)^\alpha$</summary>
+<div>$$(1+x)^\alpha = 1 + \alpha x + \frac{\alpha(\alpha - 1)}{2!} x^2 + o(x^2)$$</div>
+</details>
+<h2 id="基本求导公式">基本求导公式</h2>
+<details>
+<summary>$(log_{a}x)'$</summary>
+<div>$$(log_{a}x)' = \frac{1}{x \ln{a}} (a>0, a \ne 1)$$</div>
+</details>
+<details>
+<summary>$(\ln{\left|x\right|})'$</summary>
+<div>$$(\ln{\left|x\right|})' = \frac{1}{x}$$</div>
+</details>
+<details>
+<summary>$(arcsin x)'$</summary>
+<div>$$(arcsin x)' = \frac{1}{\sqrt{1-x^2}}$$</div>
+</details>
+<details>
+<summary>$(arccos x)'$</summary>
+<div>$$(arccos x)' = - \frac{1}{\sqrt{1-x^2}}$$</div>
+</details>
+<details>
+<summary>$(tan x)'$</summary>
+<div>$$(tan x)' = sec^2 x$$</div>
+</details>
+<details>
+<summary>$(cot x)'$</summary>
+<div>$$(cot x)' = -csc^2 x$$</div>
+</details>
+<details>
+<summary>$(arctan x)'$</summary>
+<div>$$(arctan x)' =\frac{1}{1 + x^2}$$</div>
+</details>
+<details>
+<summary>$(arccot x)'$</summary>
+<div>$$(arccot x)' = - \frac{1}{1 + x^2}$$</div>
+</details>
+<details>
+<summary>$(sec x)'$</summary>
+<div>$$(sec x)' = sec x tan x$$</div>
+</details>
+<details>
+<summary>$(csc x)'$</summary>
+<div>$$(csc x)' = -csc x cot x$$</div>
+</details>
+<details>
+<summary>$[\ln(x + \sqrt{x^2 \pm 1})]'$</summary>
+<div>$$[\ln(x + \sqrt{x^2 \pm 1})]' = \frac{1}{\sqrt{x^2 \pm 1}}$$</div>
+</details>
+<h2 id="基本积分公式">基本积分公式</h2>
+<h2 id="积分计算的三角换元">积分计算的「三角换元」</h2>
+<h2 id="华里士公式">华里士公式</h2>
+<h2 id="没有初等函数形式的原函数的函数二重积分交换积分次序的条件">没有初等函数形式的原函数的函数（二重积分交换积分次序的条件）</h2>
+<details>
+<div>$\int \frac{sin x}{x}\, {\rm d}x$$\int \frac{cos x}{x}\, {\rm d}x$$\int \frac{tan x}{x}\, {\rm d}x$$\int \frac{e^x}{x}\, {\rm d}x$</div><br>
+<div>$\int sin x^2\, {\rm d}x$$\int cos x^2\, {\rm d}x$$\int tan x^2\, {\rm d}x$$\int \frac{e^{a x^2 + b x + c}}{x}\, {\rm d}x (a \ne 0)$</div><br>
+<div>$\int \frac{1}{sin x}\, {\rm d}x$$\int \frac{1}{cos x}\, {\rm d}x$</div><br>
+<div>$\int \frac{1}{\ln x}\, {\rm d}x$$\int \frac{\ln(1+x)}{x}\, {\rm d}x$</div>
+</details>
+<h2 id="泰勒展开式用于计算高阶导数">泰勒展开式（用于计算高阶导数）</h2>
+<details>
+<summary>$y=f(x)$</summary>
+<div>$$y=f(x) = \sum_{n=0}^\infty \frac{f^{(n)} (x_0)}{n!} (x-x_0)^n$$</div>
+</details>
+<h2 id="莱布尼茨公式用于计算高阶导数">莱布尼茨公式（用于计算高阶导数）</h2>
+<details>
+<summary>$(uv)^{(n)}$</summary>
+<div>$$(uv)^{(n)} = \sum_{k=0}^n C^k_n u^{(n-k)} v^{(k)} = \sum_{k=0}^n C^k_n u^{(k)} v^{(n-k)}$$</div>
+<div>举个例子，因为 $C^2_6$ 和 $C^4_6$ 结果是一样的，所以可以互换。</div>
+</details>
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    
+
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+    </div>
+</main>
+
+    
+
+            
+    <div id="back-to-top" class="back-to-top">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon arrow-up"><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg></a>
+    </div>
+
+
+            
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="site-info">2021–2024&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Li Mee</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="custom-footer">我们是最后一代</div>
+
+            
+
+
+            
+        </div>
+    </footer>
+
+
+        </div>
+        
+
+        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css">
+<script>
+    if (typeof renderMathInElement === 'undefined') {
+        const getScript = (options) => {
+            const script = document.createElement('script');
+            script.defer = true;
+            script.crossOrigin = 'anonymous';
+            Object.keys(options).forEach((key) => {
+                script[key] = options[key];
+            });
+            document.body.appendChild(script);
+        };
+        getScript({
+            src: 'https:\/\/cdn.jsdelivr.net\/npm\/katex@0.13.0\/dist\/katex.min.js',
+            onload: () => {
+                getScript({
+                    src: 'https:\/\/cdn.jsdelivr.net\/npm\/katex@0.13.0\/dist\/contrib\/mhchem.min.js',
+                    onload: () => {
+                        getScript({
+                            src: 'https:\/\/cdn.jsdelivr.net\/npm\/katex@0.13.0\/dist\/contrib\/auto-render.min.js',
+                            onload: () => {
+                                renderKaTex();
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    } else {
+        renderKaTex();
+    }
+    function renderKaTex() {
+        renderMathInElement(
+            document.body,
+            {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "\\[", right: "\\]", display: true},
+                    {left: "$", right: "$", display: false},
+                    {left: "\\(", right: "\\)", display: false}
+                ]
+            }
+        );
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    let imgNodes = document.querySelectorAll('div.post-body img');
+    imgNodes = Array.from(imgNodes).filter(node => node.parentNode.tagName !== "A");
+
+    mediumZoom(imgNodes, {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/instant.page@5.1.0/instantpage.min.js" type="module" defer></script>
+
+
+
+
+
+
+    </body>
+</html>
